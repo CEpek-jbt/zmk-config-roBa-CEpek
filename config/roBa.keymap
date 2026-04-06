@@ -81,7 +81,7 @@
         default_layer {
             bindings = <
 &kp Q                &kp W                  &kp E                     &kp R                       &kp T                                                                   &kp Y      &kp U  &lt 5 I    &kp O    &kp P
-&kp A                &kp S                  &kp D                     &kp F                       &kp G                   &kp K_SELECT                       &mkp MB1     &kp H      &kp J  &kp K      &kp L    &kp MINUS
+&kp A                &kp S                  &kp D                     &kp F                       &kp G                   &kp K_POWER                        &kt L        &kp H      &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z     &kp X                  &kp C                     &kp V                       &kp B                   &kp MINUS                          &lt 2 EQUAL  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SEMICOLON
 &mt LEFT_GUI K_COPY  &mt RIGHT_GUI K_PASTE  &mt LEFT_SHIFT SEMICOLON  &mt RIGHT_SHIFT INT_HENKAN  &mt LEFT_CONTROL SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp DELETE   &kp ENTER                             &kp DEL
             >;
