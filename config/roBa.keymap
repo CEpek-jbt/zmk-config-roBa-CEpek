@@ -155,7 +155,7 @@
             bindings = <
 &kp Q         &kp W          &kp E         &kp R                          &kp T                                                                         &kp Y        &kp U  &lt 5 I    &kp O    &mm_p_final
 &kp A         &kp S          &kp D         &kp F                          &kp G                   &mkp MB1                               &kp EQUAL      &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&kp Z         &kp X          &kp C         &kp V                          &mm_b_final             &mt LEFT_SHIFT MINUS                   &parenthesis   &kp N        &kp M  &kp COMMA  &kp DOT  &kp SEMICOLON
+&kp Z         &kp X          &kp C         &kp V                          &mm_b_final             &mt LEFT_SHIFT MINUS                   &lt 2 EQUAL    &kp N        &kp M  &kp COMMA  &kp DOT  &kp SEMICOLON
 &kp LEFT_GUI  &kp RIGHT_GUI  &kp LEFT_ALT  &mt RIGHT_ALT INTERNATIONAL_2  &mt LEFT_CONTROL SPACE  &mt RIGHT_CONTROL INTERNATIONAL_4      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
         };
