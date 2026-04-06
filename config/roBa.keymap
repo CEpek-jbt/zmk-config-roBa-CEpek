@@ -194,12 +194,12 @@
             bindings = <&kp P>, <&m_ipa_phi>;
             mods = <(MOD_LALT)>;
         };
+
         mm_ipa_p_final: mm_ipa_p_final {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&mm_ipa_p>, <&m_ipa_p_phi>;
-            mods = <MOD_LCMD|MOD_RALT>; // ← 括弧を外してスペースを詰めました
-        };
+            mods = <MOD_LCMD|MOD_RALT>;  // ← ( ) を消し、スペースも入れない
         };
 
         mm_ipa_b_lalt: mm_ipa_b_lalt {
@@ -224,7 +224,8 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&mm_ipa_b_rcnt>, <&m_ipa_b_beta>;
-            mods = <MOD_LCMD|MOD_RALT>; // ← ここも同様に修正
+            mods = <MOD_LCMD|MOD_RALT>;  // ← ここも ( ) を消して直接つなぐ
+        };
         };
         };
         mm_ipa_b_flap: mm_ipa_b_flap {
