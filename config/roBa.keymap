@@ -229,7 +229,7 @@
         // --- Hold-Tap 定義 ---
         lt_p: lt_p {
             compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <1>; // レイヤー番号のみ引数にとる
+            #binding-cells = <2>; // 仕様に従い2に変更
             tapping-term-ms = <200>;
             flavor = "hold-preferred";
             bindings = <&mo &mm_p_final>;
@@ -263,7 +263,7 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W          &kp E          &kp R              &kp T                                                                                               &kp Y        &kp U  &lt 5 I    &kp O    &lt_p 5
+&kp Q               &kp W          &kp E          &kp R              &kp T                                                                                               &kp Y        &kp U  &lt 5 I    &kp O    &lt_p 5 0
 &kp A               &kp S          &kp D          &kp F              &kp G         &mkp MB1                                                               &lt_NUM 6 EQUAL     &kp H        &kp J  &kp K    &kp L   &kp ASTRK
 &kp Z  &kp X           &kp C          &kp V              &mm_b_final &mt LEFT_SHIFT TAB                                                                  &lt_implo 7 0  &lt_nasal 8 N        &kp M  &kp COMMA  &kp DOT  &kp SEMICOLON
 &mt LEFT_WIN K_COPY        &mt RIGHT_WIN K_PASTE  &mt LEFT_ALT K_UNDO  &mt RIGHT_ALT INTERNATIONAL_4  &mt LEFT_CONTROL SPACE  &mt RIGHT_CONTROL INTERNATIONAL_2                        &kp BACKSPACE  &mt RIGHT_SHIFT ENTER                               &kp DEL
