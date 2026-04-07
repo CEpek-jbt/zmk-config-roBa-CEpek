@@ -396,7 +396,7 @@
 
         IMPLO {
             bindings = <
-&trans  &trans  &trans  &trans  &trans               &trans  &trans  &trans  &trans  &kp m_ipa_click
+&trans  &trans  &trans  &trans  &trans               &trans  &trans  &trans  &trans  &m_ipa_click
 &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &kp m_ipa_implo  &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans                  &trans
