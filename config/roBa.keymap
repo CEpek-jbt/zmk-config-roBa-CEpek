@@ -1,4 +1,4 @@
-#include <behaviors.dtsi>
+&kp#include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
@@ -261,10 +261,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R             &kp T                                                               &kp Y        &kp U  &lt 5 I    &kp O    &lt_p 5 0
-&kp A             &kp S         &kp D         &kp F             &kp G        &kp ESCAPE                               &kp EQUAL      &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &mm_ipa_b_flap &kp TAB                                &parenthesis   &kp N        &kp L  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 6 LANG_HANJA  &lt 2 SPACE  &lt 3 LANG_HANGEUL                       &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp Q             &kp W         &kp E         &kp R             &kp T                                                               &kp Y        &kp U  &lt 5 I    &kp O    &lt_p 5 P
+&kp A             &kp S         &kp D         &kp F             &kp G        &mkp MB1                               &kp LAYER 6       &kp H        &kp J  &kp K    &kp L   &kp ASTRK
+&kp Z  &kp X         &kp C         &kp V             &mm_ipa_b_flap &mt LEFT_SHIFT TAB                                &mt NUM EQUAL   &kp N        &kpM  &kp COMMA  &kp DOT  &kp SEMICOLON
+&mt LEFT_WIN K_COPY        &mt RIGHT_WIN K_PASTE  &mt LEFT_ALT K_UNDO  &mt RIGHT_ALT INTERNATIONAL_4  &mt LEFT_CONTROL SPACE  &mt RIGHT_CONTROL INTERNATIONAL_2                       &kp BACKSPACE  &mt RIGHT_SHIFT ENTER                             &kp DEL
             >;
             sensor-bindings = <&scroll_up_down>;
         };
