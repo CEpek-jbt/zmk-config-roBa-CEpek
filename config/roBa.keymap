@@ -9,7 +9,7 @@
 
 #define MOUSE 4
 #define SCROLL 5
-#define NUM 6
+#define NUM 
 #define IMPLO 7
 #define NASAL 8
 #define PLOSIVE 9
@@ -398,16 +398,16 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans               &trans  &trans  &trans  &trans  &m_ipa_click
 &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &kp m_ipa_implo  &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &m_ipa_implo  &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans                  &trans
             >;
         };
 
         NASAL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans               &trans  &trans  &trans  &trans  &kp m_ipa_m_vl
+&trans  &trans  &trans  &trans  &trans               &trans  &trans  &trans  &trans  &m_ipa_m_vl
 &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &kp m_ipa_m  &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &m_ipa_m  &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans                  &trans
             >;
         };
