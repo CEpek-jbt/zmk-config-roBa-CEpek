@@ -199,8 +199,7 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&mm_ipa_p>, <&m_ipa_p_phi>;
-            mods = <MOD_LCMD MOD_RALT>; // ← パイプと括弧を消してスペースだけに！
-        };
+            mods = <MOD_LCMD MOD_RALT>;
         };
 
         mm_ipa_b_lalt: mm_ipa_b_lalt {
@@ -209,28 +208,28 @@
             bindings = <&kp B>, <&m_ipa_beta>;
             mods = <(MOD_LALT)>;
         };
+
         mm_ipa_b_ralt: mm_ipa_b_ralt {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&mm_ipa_b_lalt>, <&m_ipa_beta_app>;
             mods = <(MOD_RALT)>;
         };
+
         mm_ipa_b_rcnt: mm_ipa_b_rcnt {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&mm_ipa_b_ralt>, <&m_ipa_b_trill>;
             mods = <(MOD_RCTL)>;
         };
+
         mm_ipa_b_final: mm_ipa_b_final {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&mm_ipa_b_rcnt>, <&m_ipa_b_beta>;
-            mods = <MOD_LCMD MOD_RALT>; // ← ここも同様にスペースだけに！
+            mods = <MOD_LCMD MOD_RALT>;
         };
-        };
-        };
-        };
-        };
+
         mm_ipa_b_flap: mm_ipa_b_flap {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
@@ -247,7 +246,6 @@
             bindings = <&mo>, <&mm_ipa_p_final>;
         };
 
-        // レイヤー5 + マクロ m_ipa_implo 用のカスタム挙動
         lt_implo: layer_tap_implo {
             compatible = "zmk,behavior-hold-tap";
             label = "LT_IMPLO";
@@ -316,6 +314,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                 &trans  &trans                                       &trans
             >;
         };
+
         layer_6 {
             bindings = <
 &trans  &trans        &trans        &trans        &trans                                     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
