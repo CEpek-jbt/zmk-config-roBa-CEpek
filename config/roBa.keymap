@@ -4,8 +4,8 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #undef ZMK_POINTING_DEFAULT_SCRL_VAL
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 #define MOUSE 4
 #define SCROLL 5
 #define NUM 6
@@ -40,30 +40,76 @@
     combos {
         compatible = "zmk,combos";
 
-        BT0 { bindings = <&bt BT_SEL 0>; key-positions = <28>; };
-        BT1 { bindings = <&bt BT_SEL 1>; key-positions = <28 23>; };
-        BT2 { bindings = <&bt BT_SEL 2>; key-positions = <28 24>; };
+        BT0 {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <28>;
+        };
+
+        BT1 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <28 23>;
+        };
+
+        BT2 {
+            bindings = <&bt BT_SEL 2>;
+            key-positions = <28 24>;
+        };
 
         // 判定時間を50msに設定
-        combo_nsaffricate { timeout-ms = <50>; key-positions = <34 36>; bindings = <&ipa_sw NSAFFRICATE 0>; };
-        combo_saffricate { timeout-ms = <50>; key-positions = <34 35>; bindings = <&ipa_sw SAFFRICATE 0>; };
-        combo_lfricative { timeout-ms = <50>; key-positions = <35 41>; bindings = <&ipa_sw LFRICATIVE 0>; };
-        combo_laffricate { timeout-ms = <50>; key-positions = <34 35 41>; bindings = <&ipa_sw LAFFRICATE 0>; };
-        combo_lapproximant { timeout-ms = <50>; key-positions = <37 41>; bindings = <&ipa_sw LAPPROXIMANT 0>; };
-        combo_ltap { timeout-ms = <50>; key-positions = <38 41>; bindings = <&ipa_sw LTAP 0>; };
+
+        combo_nsaffricate {
+            timeout-ms = <50>;
+            key-positions = <34 36>;
+            bindings = <&ipa_sw 10 0>;
+        };
+
+        combo_saffricate {
+            timeout-ms = <50>;
+            key-positions = <34 35>;
+            bindings = <&ipa_sw 12 0>;
+        };
+
+        combo_lfricative {
+            timeout-ms = <50>;
+            key-positions = <35 41>;
+            bindings = <&ipa_sw 13 0>;
+        };
+
+        combo_laffricate {
+            timeout-ms = <50>;
+            key-positions = <34 35 41>;
+            bindings = <&ipa_sw 14 0>;
+        };
+
+        combo_lapproximant {
+            timeout-ms = <50>;
+            key-positions = <37 41>;
+            bindings = <&ipa_sw 16 0>;
+        };
+
+        combo_ltap {
+            timeout-ms = <50>;
+            key-positions = <38 41>;
+            bindings = <&ipa_sw 18 0>;
+        };
     };
 
     macros {
         // IME切り替え(LC(SPACE))を削除し、純粋なレイヤーホールドのみに簡略化
+
         ipa_sw: ipa_sw {
             compatible = "zmk,behavior-macro-two-param";
             #binding-cells = <2>;
-            wait-ms = <0>; 
+            wait-ms = <0>;
             tap-ms = <1>;
-            bindings 
-                = <&macro_param_1to1 &macro_press &mo MACRO_PLACEHOLDER>
-                , <&macro_pause_for_release>
-                , <&macro_param_1to1 &macro_release &mo MACRO_PLACEHOLDER>;
+            bindings =
+                <&macro_param_1to1>,
+                <&macro_press>,
+                <&mo MACRO_PLACEHOLDER>,
+                <&macro_pause_for_release>,
+                <&macro_param_1to1>,
+                <&macro_release>,
+                <&mo MACRO_PLACEHOLDER>;
         };
 
         to_layer_0: to_layer_0 {
@@ -75,7 +121,14 @@
         mkp_exit_AML: mkp_exit_AML {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&macro_press>, <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>, <&macro_pause_for_release>, <&macro_release>, <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>, <&macro_tap>, <&sl 4>;
+            bindings =
+                <&macro_press>,
+                <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
+                <&macro_tap>,
+                <&sl 4>;
         };
 
         parenthesis: parenthesis {
@@ -85,36 +138,199 @@
         };
 
         // IPAマクロ
-        m_ipa_phi: m_ipa_phi { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N2 &kp N7 &kp N8>, <&macro_release &kp LALT>; };
-        m_ipa_beta: m_ipa_beta { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N3 &kp B &kp N2>, <&macro_release &kp LALT>; };
-        m_ipa_p_phi: m_ipa_p_phi { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N0 &kp N7 &kp N0 &kp N0 &kp N3 &kp N6 &kp N1 &kp N0 &kp N2 &kp N7 &kp N8>, <&macro_release &kp LALT>; };
-        
-        // 修正箇所: 最初の4文字を 006D(m) から 0062(b) に変更して b͡β を出力するように修正
-        m_ipa_b_beta: m_ipa_b_beta { 
-            compatible = "zmk,behavior-macro"; 
-            #binding-cells = <0>; 
-            wait-ms = <1>; 
-            tap-ms = <1>; 
-            bindings = <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N0 &kp N6 &kp N2 &kp N0 &kp N3 &kp N6 &kp N1 &kp N0 &kp N3 &kp B &kp N2>, <&macro_release &kp LALT>; 
+
+        m_ipa_phi: m_ipa_phi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp N0 &kp N2 &kp N7 &kp N8>,
+                <&macro_release>,
+                <&kp LALT>;
         };
 
-        m_ipa_b_trill_vl: m_ipa_b_trill_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N2 &kp N9 &kp N9 &kp N0 &kp N3 &kp N2 &kp N5>, <&macro_release &kp LALT>; };
-        m_ipa_b_trill: m_ipa_b_trill { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N2 &kp N9 &kp N9>, <&macro_release &kp LALT>; };
-        m_ipa_m_vl: m_ipa_m_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N0 &kp N6 &kp D &kp N0 &kp N3 &kp N2 &kp N5>, <&macro_release &kp LALT>; };
-        m_ipa_m: m_ipa_m { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N0 &kp N6 &kp D>, <&macro_release &kp LALT>; };
-        m_ipa_click: m_ipa_click { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <5>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N2 &kp N9 &kp N8>, <&macro_release &kp LALT>; };
-m_ipa_implo: m_ipa_implo { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <5>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N2 &kp N5 &kp N3>, <&macro_release &kp LALT>; };
-        m_ipa_beta_appr: m_ipa_beta_appr { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N3 &kp B &kp N2 &kp N0 &kp N3 &kp N1 &kp E>, <&macro_release &kp LALT>; };
-        m_ipa_v_tap: m_ipa_v_tap { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N2 &kp C &kp N7 &kp N1 &kp N0 &kp N3 &kp N1 &kp F>, <&macro_release &kp LALT>; };
+        m_ipa_beta: m_ipa_beta {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp N0 &kp N3 &kp B &kp N2>,
+                <&macro_release>,
+                <&kp LALT>;
+        };
+
+        m_ipa_p_phi: m_ipa_p_phi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp N0 &kp N0 &kp N7 &kp N0 &kp N0 &kp N3 &kp N6 &kp N1 &kp N0 &kp N2 &kp N7 &kp N8>,
+                <&macro_release>,
+                <&kp LALT>;
+        };
+
+        // 修正箇所: 最初の4文字を 006D(m) から 0062(b) に変更して b͡β を出力するように修正
+
+        m_ipa_b_beta: m_ipa_b_beta {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp N0 &kp N0 &kp N6 &kp N2 &kp N0 &kp N3 &kp N6 &kp N1 &kp N0 &kp N3 &kp B &kp N2>,
+                <&macro_release>,
+                <&kp LALT>;
+        };
+
+        m_ipa_b_trill_vl: m_ipa_b_trill_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp N0 &kp N2 &kp N9 &kp N9 &kp N0 &kp N3 &kp N2 &kp N5>,
+                <&macro_release>,
+                <&kp LALT>;
+        };
+
+        m_ipa_b_trill: m_ipa_b_trill {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp N0 &kp N2 &kp N9 &kp N9>,
+                <&macro_release>,
+                <&kp LALT>;
+        };
+
+        m_ipa_m_vl: m_ipa_m_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp N0 &kp N0 &kp N6 &kp D &kp N0 &kp N3 &kp N2 &kp N5>,
+                <&macro_release>,
+                <&kp LALT>;
+        };
+
+        m_ipa_m: m_ipa_m {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp N0 &kp N0 &kp N6 &kp D>,
+                <&macro_release>,
+                <&kp LALT>;
+        };
+
+        m_ipa_click: m_ipa_click {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <5>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp N0 &kp N2 &kp N9 &kp N8>,
+                <&macro_release>,
+                <&kp LALT>;
+        };
+
+        m_ipa_implo: m_ipa_implo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <5>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp N0 &kp N2 &kp N5 &kp N3>,
+                <&macro_release>,
+                <&kp LALT>;
+        };
+
+        m_ipa_beta_appr: m_ipa_beta_appr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp N0 &kp N3 &kp B &kp N2 &kp N0 &kp N3 &kp N1 &kp E>,
+                <&macro_release>,
+                <&kp LALT>;
+        };
+
+        m_ipa_v_tap: m_ipa_v_tap {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp N2 &kp C &kp N7 &kp N1 &kp N0 &kp N3 &kp N1 &kp F>,
+                <&macro_release>,
+                <&kp LALT>;
+        };
     };
 
     behaviors {
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
-            compatible = "zmk,behavior-sensor-rotate"; #sensor-binding-cells = <0>; bindings = <&msc SCRL_DOWN &msc SCRL_UP>; tap-ms = <20>;
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_DOWN &msc SCRL_UP>;
+            tap-ms = <20>;
         };
 
-        mm_p_final: mm_p_final { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp P &m_ipa_phi>; mods = <(MOD_LALT)>; };
-        mm_b_final: mm_b_final { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp B &m_ipa_beta>; mods = <(MOD_LALT)>; };
+        mm_p_final: mm_p_final {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp P &m_ipa_phi>;
+            mods = <(MOD_LALT)>;
+        };
+
+        mm_b_final: mm_b_final {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp B &m_ipa_beta>;
+            mods = <(MOD_LALT)>;
+        };
 
         lt_ipa: lt_ipa {
             compatible = "zmk,behavior-hold-tap";
@@ -124,7 +340,12 @@ m_ipa_implo: m_ipa_implo { compatible = "zmk,behavior-macro"; #binding-cells = <
             bindings = <&ipa_sw>, <&kp>;
         };
 
-        lt_NUM: lt_NUM { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <200>; bindings = <&mo>, <&kp>; };
+        lt_NUM: lt_NUM {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            bindings = <&mo>, <&kp>;
+        };
     };
 
     keymap {
@@ -132,91 +353,195 @@ m_ipa_implo: m_ipa_implo { compatible = "zmk,behavior-macro"; #binding-cells = <
 
         default_layer {
             bindings = <
-&kp Q                   &kp W          &kp E          &kp R              &kp T                                                                                      &kp Y        &kp U  &kp I    &kp O    &mm_p_final
-&kp A                   &kp S          &kp D          &kp F              &kp G         &mkp MB1                                                                     &lt_NUM 6 EQUAL     &kp H        &kp J  &kp K    &kp L   &lt 5 ASTRK
-&kp Z  &kp X            &kp C          &kp V              &mm_b_final &mt LEFT_SHIFT TAB                                                                        &lt_ipa IMPLO BSLH  &lt_ipa NASAL N        &lt_ipa IMPLO M  &kp COMMA  &kp DOT  &kp SEMICOLON
-&lt_ipa PLOSIVE K_COPY  &lt_ipa SFRICATIVE K_PASTE &lt_ipa NSFRICATIVE K_UNDO &lt_ipa APPROXIMANT LANG2 &lt_ipa TAP SPACE &lt_ipa TRILL LANG1                         &kp BACKSPACE  &mt RIGHT_SHIFT ENTER &kp DEL
+&kp Q             &kp W               &kp E             &kp R             &kp T                                                      &kp Y                  &kp U         &kp I      &kp O    &mm_p_final
+&kp A             &kp S               &kp D             &kp F             &kp G             &mkp MB1                &lt_NUM 6 EQUAL  &kp H                  &kp J         &kp K      &kp L    &lt 5 ASTRK
+&kp Z             &kp X               &kp C             &kp V             &mm_b_final       &mt LEFT_SHIFT TAB      &lt_ipa 20 BSLH  &lt_ipa 7 N            &lt_ipa 20 M  &kp COMMA  &kp DOT  &kp SEMICOLON
+&lt_ipa 8 K_COPY  &lt_ipa 11 K_PASTE  &lt_ipa 9 K_UNDO  &lt_ipa 15 LANG2  &lt_ipa 17 SPACE  &lt_ipa 19 LANG1        &kp BACKSPACE    &mt RIGHT_SHIFT ENTER                                    &kp DEL
             >;
+
             sensor-bindings = <&scroll_up_down>;
         };
 
         SYMBOLS {
             bindings = <
-&kp ESCAPE  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                                              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans          &trans             &trans
-&kp TILDE   &kp DOLLAR       &kp PERCENT   &kp CARET              &trans                   &trans                                         &trans     &kp LEFT_BRACE         &kp RIGHT_BRACE        &kp SEMICOLON  &kp SINGLE_QUOTE   &kp BACKSLASH
-&kp GRAVE   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH               &trans                   &trans                                         &trans     &kp LEFT_BRACKET       &kp RIGHT_BRACKET      &kp COLON      &kp DOUBLE_QUOTES  &kp PIPE
-&trans      &trans           &trans        &trans                 &trans                   &trans                                         &trans     &trans                                                                          &trans
+&kp ESCAPE  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans             &trans
+&kp TILDE   &kp DOLLAR       &kp PERCENT   &kp CARET             &trans                 &trans      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON  &kp SINGLE_QUOTE   &kp BACKSLASH
+&kp GRAVE   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &trans                 &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp DOUBLE_QUOTES  &kp PIPE
+&trans      &trans           &trans        &trans                &trans                 &trans      &trans  &trans                                                                         &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                                   &trans      &kp F7  &kp F8  &kp F9  &kp F10
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))                         &trans      &trans      &kp F4  &kp F5  &kp F6  &kp F11
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                                          &trans      &kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F12
-&trans                      &trans           &trans           &trans           &trans        &trans                                             &trans      &trans                              &kp F13
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                           &trans      &kp F7  &kp F8  &kp F9  &kp F10
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &trans      &kp F4  &kp F5  &kp F6  &kp F11
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans  &kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F12
+&trans                      &trans           &trans           &trans           &trans        &trans                       &trans  &trans                              &kp F13
             >;
         };
 
         ARROW {
             bindings = <
-&kp LG(LEFT_ARROW)  &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &kp LG(RIGHT_ARROW)                                                                &kp LG(LEFT_ARROW)  &kp LS(LC(TAB))         &kp UP_ARROW    &kp LC(TAB)              &kp LG(RIGHT_ARROW)
-&kp HOME            &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END               &trans                                         &trans         &kp HOME            &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END
-&kp LEFT_SHIFT      &kp LG(LC(LEFT_ARROW))  &trans          &kp LG(LC(RIGHT_ARROW))  &trans                &trans                                         &trans         &trans              &kp LC(LG(LEFT_ARROW))  &trans          &kp LC(LG(RIGHT_ARROW))  &trans
-&trans              &trans                  &trans          &trans                   &trans                &trans                                         &trans         &trans                                                                              &trans
+&kp LG(LEFT_ARROW)  &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &kp LG(RIGHT_ARROW)                      &kp LG(LEFT_ARROW)  &kp LS(LC(TAB))         &kp UP_ARROW    &kp LC(TAB)              &kp LG(RIGHT_ARROW)
+&kp HOME            &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END              &trans      &trans  &kp HOME            &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END
+&kp LEFT_SHIFT      &kp LG(LC(LEFT_ARROW))  &trans          &kp LG(LC(RIGHT_ARROW))  &trans               &trans      &trans  &trans              &kp LC(LG(LEFT_ARROW))  &trans          &kp LC(LG(RIGHT_ARROW))  &trans
+&trans              &trans                  &trans          &trans                   &trans               &trans      &trans  &trans                                                                               &trans
             >;
+
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         MOUSE {
             bindings = <
-&to_layer_0 0  &to_layer_0 0  &to_layer_0 0  &to_layer_0 0              &to_layer_0 0                                                                          &to_layer_0 0    &to_layer_0 0      &kp LC(T)          &to_layer_0 0      &m_ipa_m_vl
-&to_layer_0 0  &to_layer_0 0  &to_layer_0 0  &to_layer_0 0              &to_layer_0 0  &trans                                           &kp LC(V)  &kp LC(LS(TAB))  &mkp_exit_AML MB1  &mkp_exit_AML MB3  &mkp_exit_AML MB2  &kp LC(TAB)
-&to_layer_0 0  &to_layer_0 0  &to_layer_0 0  &to_layer_0 0              &m_ipa_m       &trans                                           &kp LC(C)  &to_layer_0 0    &mkp MB4            &kp LC(W)          &mkp MB5           &trans
-&trans         &trans         &trans         &to_layer_0 0              &trans         &to_layer_0 0                                    &trans     &trans                                                                     &trans
+&to_layer_0 0  &to_layer_0 0  &to_layer_0 0  &to_layer_0 0  &to_layer_0 0                                &to_layer_0 0    &to_layer_0 0      &kp LC(T)          &to_layer_0 0      &m_ipa_m_vl
+&to_layer_0 0  &to_layer_0 0  &to_layer_0 0  &to_layer_0 0  &to_layer_0 0  &trans             &kp LC(V)  &kp LC(LS(TAB))  &mkp_exit_AML MB1  &mkp_exit_AML MB3  &mkp_exit_AML MB2  &kp LC(TAB)
+&to_layer_0 0  &to_layer_0 0  &to_layer_0 0  &to_layer_0 0  &m_ipa_m       &trans             &kp LC(C)  &to_layer_0 0    &mkp MB4           &kp LC(W)          &mkp MB5           &trans
+&trans         &trans         &trans         &to_layer_0 0  &trans         &to_layer_0 0      &trans     &trans                                                                    &trans
             >;
         };
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                  &trans  &trans                &trans  &trans  &m_ipa_click
-&trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans  &mkp_exit_AML MB1   &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &lt_ipa IMPLO 0  &trans                 &trans  &trans  &trans                &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans                                        &trans
+&trans  &trans  &trans  &trans  &trans                            &trans  &trans             &trans  &trans  &m_ipa_click
+&trans  &trans  &trans  &trans  &trans        &trans      &trans  &trans  &mkp_exit_AML MB1  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &lt_ipa 20 0  &trans      &trans  &trans  &trans             &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans        &trans      &trans  &trans                                     &trans
             >;
         };
 
         layer_6 {
             bindings = <
-&trans  &trans        &trans        &trans        &trans                                                        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans        &trans        &trans        &trans  &trans                                  &trans         &trans        &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans                                  &bootloader   &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans  &trans        &trans        &trans        &trans  &trans                                  &trans         &trans                                                  &bt BT_CLR_ALL
+&trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
+&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
+            >;
+        };
+
+        NASAL {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans  &m_ipa_m_vl
+&trans  &trans  &trans  &trans  &trans    &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &m_ipa_m  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans      &trans  &trans
+            >;
+        };
+
+        PLOSIVE {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &kp P
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &kp B   &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans
+            >;
+        };
+
+        NSFRICATIVE {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                           &trans  &trans  &trans  &trans  &m_ipa_phi
+&trans  &trans  &trans  &trans  &trans       &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &m_ipa_beta  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans       &trans      &trans  &trans
+            >;
+        };
+
+        NSAFFRICATE {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                             &trans  &trans  &trans  &trans  &m_ipa_p_phi
+&trans  &trans  &trans  &trans  &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &m_ipa_b_beta  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans         &trans      &trans  &trans
+            >;
+        };
+
+        SFRICATIVE {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans
+            >;
+        };
+
+        SAFFRICATE {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans
+            >;
+        };
+
+        LFRICATIVE {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans
+            >;
+        };
+
+        LAFFRICATE {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans
+            >;
+        };
+
+        APPROXIMANT {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                                &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &m_ipa_beta_appr  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans      &trans  &trans
+            >;
+        };
+
+        LAPPROXIMANT {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans
+            >;
+        };
+
+        TAP {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                            &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans        &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &m_ipa_v_tap  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans        &trans      &trans  &trans
+            >;
+        };
+
+        LTAP {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans
+            >;
+        };
+
+        TRILL {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                              &trans  &trans  &trans  &trans  &m_ipa_b_trill_vl
+&trans  &trans  &trans  &trans  &trans          &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &m_ipa_b_trill  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans      &trans  &trans
             >;
         };
 
         IMPLO {
-    bindings = <
-        &trans &trans &trans &trans &trans  &trans &trans &trans &trans &m_ipa_click     // 9番目に click
-        &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans 
-        &trans &trans &trans &trans &m_ipa_implo &trans                                  // 25番目に implo
-        &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
-        NASAL { bindings = < &trans &trans &trans &trans &trans  &trans &trans &trans &trans &m_ipa_m_vl &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &m_ipa_m &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >; };
-        PLOSIVE { bindings = < &trans &trans &trans &trans &trans  &trans &trans &trans &trans &kp P &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp B &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >; };
-        NSFRICATIVE { bindings = < &trans &trans &trans &trans &trans  &trans &trans &trans &trans &m_ipa_phi &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &m_ipa_beta &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >; };
-        
-        NSAFFRICATE { bindings = < &trans &trans &trans &trans &trans  &trans &trans &trans &trans &m_ipa_p_phi &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &m_ipa_b_beta &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >; };
-        
-        SFRICATIVE { bindings = < &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >; };
-        SAFFRICATE { bindings = < &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >; };
-        LFRICATIVE { bindings = < &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >; };
-        LAFFRICATE { bindings = < &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >; };
-        APPROXIMANT { bindings = < &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &m_ipa_beta_appr &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >; };
-        LAPPROXIMANT { bindings = < &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >; };
-        TAP { bindings = < &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &m_ipa_v_tap &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >; };
-        LTAP { bindings = < &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >; };
-        TRILL { bindings = < &trans &trans &trans &trans &trans  &trans &trans &trans &trans &m_ipa_b_trill_vl &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &m_ipa_b_trill &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >; };
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                            &trans  &trans  &trans  &trans  &m_ipa_click
+&trans  &trans  &trans  &trans  &trans        &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &m_ipa_implo  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans        &trans
+            >;
+        };
     };
 };
