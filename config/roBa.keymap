@@ -9,20 +9,20 @@
 #define MOUSE 4
 #define SCROLL 5
 #define NUM 6
-#define IMPLO 7
-#define NASAL 8
-#define PLOSIVE 9
-#define NSFRICATIVE 10
-#define NSAFFRICATE 11
-#define SFRICATIVE 12
-#define SAFFRICATE 13
-#define LFRICATIVE 14
-#define LAFFRICATE 15
-#define APPROXIMANT 16
-#define LAPPROXIMANT 17
-#define TAP 18
-#define LTAP 19
-#define TRILL 20
+#define NASAL 7
+#define PLOSIVE 8
+#define NSFRICATIVE 9
+#define NSAFFRICATE 10
+#define SFRICATIVE 11
+#define SAFFRICATE 12
+#define LFRICATIVE 13
+#define LAFFRICATE 14
+#define APPROXIMANT 15
+#define LAPPROXIMANT 16
+#define TAP 17
+#define LTAP 18
+#define TRILL 19
+#define IMPLO 20
 
 &mt {
     flavor = "hold-preferred";
