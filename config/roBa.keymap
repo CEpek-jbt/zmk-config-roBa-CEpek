@@ -102,8 +102,8 @@
         m_ipa_b_trill: m_ipa_b_trill { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N2 &kp N9 &kp N9>, <&macro_release &kp LALT>; };
         m_ipa_m_vl: m_ipa_m_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N0 &kp N6 &kp D &kp N0 &kp N3 &kp N2 &kp N5>, <&macro_release &kp LALT>; };
         m_ipa_m: m_ipa_m { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N0 &kp N6 &kp D>, <&macro_release &kp LALT>; };
-        m_ipa_implo: m_ipa_implo { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N2 &kp N5 &kp N3>, <&macro_release &kp LALT>; };
-        m_ipa_click: m_ipa_click { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N2 &kp N9 &kp N8>, <&macro_release &kp LALT>; };
+        m_ipa_click: m_ipa_click { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <5>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N2 &kp N9 &kp N8>, <&macro_release &kp LALT>; };
+m_ipa_implo: m_ipa_implo { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <5>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N2 &kp N5 &kp N3>, <&macro_release &kp LALT>; };
         m_ipa_beta_appr: m_ipa_beta_appr { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N0 &kp N3 &kp B &kp N2 &kp N0 &kp N3 &kp N1 &kp E>, <&macro_release &kp LALT>; };
         m_ipa_v_tap: m_ipa_v_tap { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_press &kp LALT>, <&macro_tap &kp N2 &kp C &kp N7 &kp N1 &kp N0 &kp N3 &kp N1 &kp F>, <&macro_release &kp LALT>; };
     };
