@@ -134,7 +134,7 @@
             bindings = <
 &kp Q                   &kp W          &kp E          &kp R              &kp T                                                                                      &kp Y        &kp U  &kp I    &kp O    &mm_p_final
 &kp A                   &kp S          &kp D          &kp F              &kp G         &mkp MB1                                                                     &lt_NUM 6 EQUAL     &kp H        &kp J  &kp K    &kp L   &lt 5 ASTRK
-&kp Z  &kp X            &kp C          &kp V              &mm_b_final &mt LEFT_SHIFT TAB                                                                        &lt_ipa IMPLO 0  &lt_ipa NASAL N        &kp M  &kp COMMA  &kp DOT  &kp SEMICOLON
+&kp Z  &kp X            &kp C          &kp V              &mm_b_final &mt LEFT_SHIFT TAB                                                                        &lt_ipa IMPLO BSLH  &lt_ipa NASAL N        &kp M  &kp COMMA  &kp DOT  &kp SEMICOLON
 &lt_ipa PLOSIVE K_COPY  &lt_ipa SFRICATIVE K_PASTE &lt_ipa NSFRICATIVE K_UNDO &lt_ipa APPROXIMANT LANG2 &lt_ipa TAP SPACE &lt_ipa TRILL LANG1                         &kp BACKSPACE  &mt RIGHT_SHIFT ENTER &kp DEL
             >;
             sensor-bindings = <&scroll_up_down>;
