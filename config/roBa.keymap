@@ -803,7 +803,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp D &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp D &kp RET>;
         };
 
         mac_ipa_0329: mac_ipa_0329 {
@@ -811,7 +811,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N9 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N9 &kp RET>;
         };
 
         mac_ipa_0311: mac_ipa_0311 {
@@ -819,7 +819,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp N1 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp N1 &kp RET>;
         };
 
         mac_ipa_032F: mac_ipa_032F {
@@ -827,7 +827,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp F &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp F &kp RET>;
         };
 
         mac_ipa_02B0: mac_ipa_02B0 {
@@ -835,7 +835,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp B &kp N0 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp B &kp N0 &kp RET>;
         };
 
         mac_ipa_02B1: mac_ipa_02B1 {
@@ -843,7 +843,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp B &kp N1 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp B &kp N1 &kp RET>;
         };
 
         mac_ipa_1D4D: mac_ipa_1D4D {
@@ -851,7 +851,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N1 &kp D &kp N4 &kp D &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N1 &kp D &kp N4 &kp D &kp RET>;
         };
 
         mac_ipa_207F: mac_ipa_207F {
@@ -859,7 +859,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N2 &kp N0 &kp N7 &kp F &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N2 &kp N0 &kp N7 &kp F &kp RET>;
         };
 
         mac_ipa_1DAF: mac_ipa_1DAF {
@@ -867,7 +867,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N1 &kp D &kp A &kp F &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N1 &kp D &kp A &kp F &kp RET>;
         };
 
         mac_ipa_1DAE: mac_ipa_1DAE {
@@ -875,7 +875,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N1 &kp D &kp A &kp E &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N1 &kp D &kp A &kp E &kp RET>;
         };
 
         mac_ipa_1D51: mac_ipa_1D51 {
@@ -883,7 +883,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N1 &kp D &kp N5 &kp N1 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N1 &kp D &kp N5 &kp N1 &kp RET>;
         };
 
         mac_ipa_02E1: mac_ipa_02E1 {
@@ -891,7 +891,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N1 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp E &kp N1 &kp RET>;
         };
 
         mac_ipa_1D4A: mac_ipa_1D4A {
@@ -899,7 +899,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N1 &kp D &kp N4 &kp A &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N1 &kp D &kp N4 &kp A &kp RET>;
         };
 
         mac_ipa_1DBF: mac_ipa_1DBF {
@@ -907,7 +907,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N1 &kp D &kp B &kp F &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N1 &kp D &kp B &kp F &kp RET>;
         };
 
         mac_ipa_02E3: mac_ipa_02E3 {
@@ -915,7 +915,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N3 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp E &kp N3 &kp RET>;
         };
 
         mac_ipa_031A: mac_ipa_031A {
@@ -923,7 +923,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp A &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp A &kp RET>;
         };
 
         mac_ipa_030A: mac_ipa_030A {
@@ -931,7 +931,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
         };
 
         mac_ipa_0325: mac_ipa_0325 {
@@ -939,7 +939,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
         };
 
         mac_ipa_032C: mac_ipa_032C {
@@ -947,7 +947,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp C &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp C &kp RET>;
         };
 
         mac_ipa_0308: mac_ipa_0308 {
@@ -955,7 +955,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N8 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp N8 &kp RET>;
         };
 
         mac_ipa_0324: mac_ipa_0324 {
@@ -963,7 +963,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N4 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N4 &kp RET>;
         };
 
         mac_ipa_0303: mac_ipa_0303 {
@@ -971,7 +971,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N3 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp N3 &kp RET>;
         };
 
         mac_ipa_0330: mac_ipa_0330 {
@@ -979,7 +979,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp N0 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N3 &kp N0 &kp RET>;
         };
 
         mac_ipa_032A: mac_ipa_032A {
@@ -987,7 +987,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
         };
 
         mac_ipa_033A: mac_ipa_033A {
@@ -995,7 +995,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp A &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N3 &kp A &kp RET>;
         };
 
         mac_ipa_031F: mac_ipa_031F {
@@ -1003,7 +1003,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp F &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp F &kp RET>;
         };
 
         mac_ipa_0320: mac_ipa_0320 {
@@ -1011,7 +1011,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>;
         };
 
         mac_ipa_031D: mac_ipa_031D {
@@ -1019,7 +1019,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
         };
 
         mac_ipa_031E: mac_ipa_031E {
@@ -1027,7 +1027,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
         };
 
         mac_ipa_033B: mac_ipa_033B {
@@ -1035,7 +1035,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp B &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N3 &kp B &kp RET>;
         };
 
         mac_ipa_033C: mac_ipa_033C {
@@ -1043,7 +1043,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp C &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N3 &kp C &kp RET>;
         };
 
         mac_ipa_033D: mac_ipa_033D {
@@ -1051,7 +1051,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp D &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N3 &kp D &kp RET>;
         };
 
         mac_ipa_0357: mac_ipa_0357 {
@@ -1059,7 +1059,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N5 &kp N7 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N5 &kp N7 &kp RET>;
         };
 
         mac_ipa_0339: mac_ipa_0339 {
@@ -1067,7 +1067,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp N9 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N3 &kp N9 &kp RET>;
         };
 
         mac_ipa_0351: mac_ipa_0351 {
@@ -1075,7 +1075,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N5 &kp N1 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N5 &kp N1 &kp RET>;
         };
 
         mac_ipa_031C: mac_ipa_031C {
@@ -1083,7 +1083,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp C &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp C &kp RET>;
         };
 
         mac_ipa_02B7: mac_ipa_02B7 {
@@ -1091,7 +1091,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp B &kp N7 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp B &kp N7 &kp RET>;
         };
 
         mac_ipa_02E0: mac_ipa_02E0 {
@@ -1099,7 +1099,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N0 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp E &kp N0 &kp RET>;
         };
 
         mac_ipa_02E4: mac_ipa_02E4 {
@@ -1107,7 +1107,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N4 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp E &kp N4 &kp RET>;
         };
 
         mac_ipa_02C0: mac_ipa_02C0 {
@@ -1115,7 +1115,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp C &kp N0 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp C &kp N0 &kp RET>;
         };
 
         mac_ipa_0318: mac_ipa_0318 {
@@ -1123,7 +1123,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp N8 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp N8 &kp RET>;
         };
 
         mac_ipa_0319: mac_ipa_0319 {
@@ -1131,7 +1131,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp N9 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp N9 &kp RET>;
         };
 
         mac_ipa_02B2: mac_ipa_02B2 {
@@ -1139,7 +1139,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp B &kp N2 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp B &kp N2 &kp RET>;
         };
 
         mac_ipa_026B: mac_ipa_026B {
@@ -1147,7 +1147,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp B &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp B &kp RET>;
         };
 
         mac_ipa_02DE: mac_ipa_02DE {
@@ -1155,7 +1155,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp D &kp E &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp D &kp E &kp RET>;
         };
 
         mac_ipa_0361: mac_ipa_0361 {
@@ -1163,7 +1163,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET>;
         };
 
         mac_ipa_035C: mac_ipa_035C {
@@ -1171,7 +1171,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N5 &kp C &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N5 &kp C &kp RET>;
         };
 
         mac_ipa_02C8: mac_ipa_02C8 {
@@ -1179,7 +1179,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp C &kp N8 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp C &kp N8 &kp RET>;
         };
 
         mac_ipa_02CC: mac_ipa_02CC {
@@ -1187,7 +1187,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp C &kp C &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp C &kp C &kp RET>;
         };
 
         mac_ipa_02D0: mac_ipa_02D0 {
@@ -1195,7 +1195,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp D &kp N0 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp D &kp N0 &kp RET>;
         };
 
         mac_ipa_02D1: mac_ipa_02D1 {
@@ -1203,7 +1203,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp D &kp N1 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp D &kp N1 &kp RET>;
         };
 
         mac_ipa_0306: mac_ipa_0306 {
@@ -1211,7 +1211,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N6 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp N6 &kp RET>;
         };
 
         mac_ipa_032E: mac_ipa_032E {
@@ -1219,7 +1219,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp E &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp E &kp RET>;
         };
 
         mac_ipa_203F: mac_ipa_203F {
@@ -1227,7 +1227,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N2 &kp N0 &kp N3 &kp F &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N2 &kp N0 &kp N3 &kp F &kp RET>;
         };
 
         mac_ipa_007C: mac_ipa_007C {
@@ -1235,7 +1235,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N0 &kp N7 &kp C &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N7 &kp C &kp RET>;
         };
 
         mac_ipa_2016: mac_ipa_2016 {
@@ -1243,7 +1243,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N2 &kp N0 &kp N1 &kp N6 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N2 &kp N0 &kp N1 &kp N6 &kp RET>;
         };
 
         mac_ipa_2197: mac_ipa_2197 {
@@ -1251,7 +1251,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N2 &kp N1 &kp N9 &kp N7 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N2 &kp N1 &kp N9 &kp N7 &kp RET>;
         };
 
         mac_ipa_2198: mac_ipa_2198 {
@@ -1259,7 +1259,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N2 &kp N1 &kp N9 &kp N8 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N2 &kp N1 &kp N9 &kp N8 &kp RET>;
         };
 
         mac_ipa_A71B: mac_ipa_A71B {
@@ -1267,7 +1267,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp A &kp N7 &kp N1 &kp B &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp A &kp N7 &kp N1 &kp B &kp RET>;
         };
 
         mac_ipa_A71C: mac_ipa_A71C {
@@ -1275,7 +1275,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp A &kp N7 &kp N1 &kp C &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp A &kp N7 &kp N1 &kp C &kp RET>;
         };
 
         mac_ipa_0301: mac_ipa_0301 {
@@ -1283,7 +1283,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N1 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp N1 &kp RET>;
         };
 
         mac_ipa_030B: mac_ipa_030B {
@@ -1291,7 +1291,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp B &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp B &kp RET>;
         };
 
         mac_ipa_0300: mac_ipa_0300 {
@@ -1299,7 +1299,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N0 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp N0 &kp RET>;
         };
 
         mac_ipa_030F: mac_ipa_030F {
@@ -1307,7 +1307,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp F &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp F &kp RET>;
         };
 
         mac_ipa_02E9: mac_ipa_02E9 {
@@ -1315,7 +1315,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N9 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp E &kp N9 &kp RET>;
         };
 
         mac_ipa_02E8: mac_ipa_02E8 {
@@ -1323,7 +1323,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N8 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp E &kp N8 &kp RET>;
         };
 
         mac_ipa_02E7: mac_ipa_02E7 {
@@ -1331,7 +1331,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N7 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp E &kp N7 &kp RET>;
         };
 
         mac_ipa_02E6: mac_ipa_02E6 {
@@ -1339,7 +1339,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N6 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp E &kp N6 &kp RET>;
         };
 
         mac_ipa_02E5: mac_ipa_02E5 {
@@ -1347,7 +1347,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N5 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp E &kp N5 &kp RET>;
         };
 
         mac_ipa_0304: mac_ipa_0304 {
@@ -1355,7 +1355,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N4 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp N4 &kp RET>;
         };
 
         mac_ipa_0331: mac_ipa_0331 {
@@ -1363,7 +1363,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp N1 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N3 &kp N1 &kp RET>;
         };
 
         mac_ipa_0302: mac_ipa_0302 {
@@ -1371,7 +1371,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N2 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp N2 &kp RET>;
         };
 
         mac_ipa_032D: mac_ipa_032D {
@@ -1379,7 +1379,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp D &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp D &kp RET>;
         };
 
         mac_ipa_030C: mac_ipa_030C {
@@ -1387,7 +1387,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp C &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp C &kp RET>;
         };
 
         mac_ipa_0327: mac_ipa_0327 {
@@ -1395,7 +1395,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N7 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N7 &kp RET>;
         };
 
         mac_ipa_02BB: mac_ipa_02BB {
@@ -1403,7 +1403,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp B &kp B &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp B &kp B &kp RET>;
         };
 
         mac_ipa_0326: mac_ipa_0326 {
@@ -1411,7 +1411,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N6 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N6 &kp RET>;
         };
 
         mac_ipa_0307: mac_ipa_0307 {
@@ -1419,7 +1419,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N7 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp N7 &kp RET>;
         };
 
         mac_ipa_0323: mac_ipa_0323 {
@@ -1427,7 +1427,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N3 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N3 &kp RET>;
         };
 
         mac_ipa_0309: mac_ipa_0309 {
@@ -1435,7 +1435,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N9 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp N9 &kp RET>;
         };
 
         mac_ipa_031B: mac_ipa_031B {
@@ -1443,7 +1443,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp B &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp B &kp RET>;
         };
 
         mac_ipa_0328: mac_ipa_0328 {
@@ -1451,7 +1451,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N8 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N8 &kp RET>;
         };
 
         mac_ipa_0335: mac_ipa_0335 {
@@ -1459,7 +1459,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp N5 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N3 &kp N5 &kp RET>;
         };
 
         mac_ipa_309B: mac_ipa_309B {
@@ -1467,7 +1467,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N3 &kp N0 &kp N9 &kp B &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N3 &kp N0 &kp N9 &kp B &kp RET>;
         };
 
         mac_ipa_309C: mac_ipa_309C {
@@ -1475,7 +1475,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N3 &kp N0 &kp N9 &kp C &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N3 &kp N0 &kp N9 &kp C &kp RET>;
         };
 
         mac_ipa_02BC: mac_ipa_02BC {
@@ -1483,7 +1483,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp B &kp C &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp B &kp C &kp RET>;
         };
 
         // --- 複合Unicode文字（複数のコードを連続入力） ---
@@ -1493,7 +1493,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N6 &kp D &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N6 &kp D &kp RET>;
         };
 
         mac_ipa_0273_0361_006D: m_nr_m {
@@ -1501,7 +1501,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N3 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N6 &kp D &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N3 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N6 &kp D &kp RET>;
         };
 
         mac_ipa_014B_0361_006D: m_ng_m {
@@ -1509,7 +1509,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N6 &kp D &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N1 &kp N4 &kp B &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N6 &kp D &kp RET>;
         };
 
         mac_ipa_0074_0361_0070: m_t_p {
@@ -1517,7 +1517,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N0 &kp N7 &kp N4 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N7 &kp N0 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N7 &kp N4 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N7 &kp N0 &kp RET>;
         };
 
         mac_ipa_0064_0361_0062: m_d_b {
@@ -1525,7 +1525,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp N4 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N6 &kp N2 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N6 &kp N4 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N6 &kp N2 &kp RET>;
         };
 
         mac_ipa_0288_0361_0070: m_tr_p {
@@ -1533,7 +1533,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp N8 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N7 &kp N0 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N8 &kp N8 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N7 &kp N0 &kp RET>;
         };
 
         mac_ipa_0256_0361_0062: m_dr_b {
@@ -1541,7 +1541,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp N6 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N6 &kp N2 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N5 &kp N6 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N6 &kp N2 &kp RET>;
         };
 
         mac_ipa_006B_0361_0070: m_k_p {
@@ -1549,7 +1549,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp B &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N7 &kp N0 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N6 &kp B &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N7 &kp N0 &kp RET>;
         };
 
         mac_ipa_0067_0361_0062: m_g_b {
@@ -1557,7 +1557,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp N7 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N6 &kp N2 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N6 &kp N7 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N6 &kp N2 &kp RET>;
         };
 
         mac_ipa_0071_0361_02A1: m_q_a {
@@ -1565,7 +1565,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N0 &kp N7 &kp N1 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp A &kp N1 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N7 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp A &kp N1 &kp RET>;
         };
 
         mac_ipa_0071_0361_0070: m_q_p {
@@ -1573,7 +1573,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N0 &kp N7 &kp N1 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N7 &kp N0 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N7 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N7 &kp N0 &kp RET>;
         };
 
         mac_ipa_0265_030A: m_h_ring {
@@ -1581,7 +1581,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N5 &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp N5 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
         };
 
         mac_ipa_0265: mac_ipa_0265 {
@@ -1589,7 +1589,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N5 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp N5 &kp RET>;
         };
 
         mac_ipa_028D: mac_ipa_028D {
@@ -1597,7 +1597,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp D &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N8 &kp D &kp RET>;
         };
 
         mac_ipa_0267: mac_ipa_0267 {
@@ -1605,7 +1605,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N7 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp N7 &kp RET>;
         };
 
         mac_ipa_0260_030A_035C_0253_0325: m_complex1 {
@@ -1613,7 +1613,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET &kp U &kp N0 &kp N3 &kp N5 &kp C &kp RET &kp U &kp N0 &kp N2 &kp N5 &kp N3 &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp N0 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp A &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N5 &kp C &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N5 &kp N3 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
         };
 
         mac_ipa_0260_0361_0253: m_complex2 {
@@ -1621,7 +1621,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N5 &kp N3 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp N0 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N5 &kp N3 &kp RET>;
         };
 
         // --- Layer 7: Nasal (鼻音) ---
@@ -1631,126 +1631,126 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp D &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N6 &kp D &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
         }; // m̥
         m_nas_bil_vd: m_nas_bil_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp D &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N6 &kp D &kp RET>;
         }; // m
         m_nas_lab_vl: m_nas_lab_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N1 &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
         }; // ɱ̊
         m_nas_lab_vd: m_nas_lab_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N1 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N1 &kp RET>;
         }; // ɱ
         m_nas_den_vl: m_nas_den_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp A &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
         }; // n̪̊
         m_nas_den_vd: m_nas_den_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
         }; // n̪
         m_nas_alv_vl: m_nas_alv_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
         }; // n̥
         m_nas_alv_vd: m_nas_alv_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N6 &kp E &kp RET>;
         }; // n
         m_nas_palv_vl: m_nas_palv_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
         }; // n̠̊
         m_nas_palv_vd: m_nas_palv_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>;
         }; // n̠
         m_nas_ret_vl: m_nas_ret_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N3 &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N3 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
         }; // ɳ̊
         m_nas_ret_vd: m_nas_ret_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N3 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N3 &kp RET>;
         }; // ɳ
         m_nas_pala_vl: m_nas_pala_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N2 &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N2 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
         }; // ɲ̊
         m_nas_pala_vd: m_nas_pala_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N2 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N2 &kp RET>;
         }; // ɲ
         m_nas_vel_vl: m_nas_vel_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N1 &kp N4 &kp B &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
         }; // ŋ̊
         m_nas_vel_vd: m_nas_vel_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N1 &kp N4 &kp B &kp RET>;
         }; // ŋ
         m_nas_uv_vl: m_nas_uv_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N4 &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N4 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
         }; // ɴ̥
         m_nas_uv_vd: m_nas_uv_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N4 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N4 &kp RET>;
         }; // ɴ
         // --- Layer 8: Plosive (破裂音) ---
 
@@ -1819,14 +1819,14 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp N8 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N8 &kp N8 &kp RET>;
         }; // ʈ
         m_p_ret_vd: m_p_ret_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp N6 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N5 &kp N6 &kp RET>;
         }; // ɖ
         m_p_pala_vl: m_p_pala_vl {
             compatible = "zmk,behavior-macro";
@@ -1841,7 +1841,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp F &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N5 &kp F &kp RET>;
         }; // ɟ
         m_p_vel_vl: m_p_vel_vl {
             compatible = "zmk,behavior-macro";
@@ -1872,21 +1872,21 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N2 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp N2 &kp RET>;
         }; // ɢ
         m_p_epi_vl: m_p_epi_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp A &kp N1 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp A &kp N1 &kp RET>;
         }; // ʡ
         m_p_glo_vl: m_p_glo_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N9 &kp N4 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N9 &kp N4 &kp RET>;
         }; // ʔ
         // --- Layer 9: Non-sibilant Fricative (非歯擦音摩擦音) ---
 
@@ -1895,14 +1895,14 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N8 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N8 &kp RET>;
         }; // ɸ
         m_nsf_bil_vd: m_nsf_bil_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N3 &kp B &kp N2 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp B &kp N2 &kp RET>;
         }; // β
         m_nsf_lab_vl: m_nsf_lab_vl {
             compatible = "zmk,behavior-macro";
@@ -1925,70 +1925,70 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N3 &kp B &kp N8 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp B &kp N8 &kp RET>;
         }; // θ
         m_nsf_den_vd: m_nsf_den_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp F &kp N0 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp F &kp N0 &kp RET>;
         }; // ð
         m_nsf_alv_vl: m_nsf_alv_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N3 &kp B &kp N8 &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp B &kp N8 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>;
         }; // θ̠
         m_nsf_alv_vd: m_nsf_alv_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp F &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp F &kp N0 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>;
         }; // ð̠
         m_nsf_palv_vl: m_nsf_palv_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N9 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp D &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
         }; // ɹ̠̊˔
         m_nsf_palv_vd: m_nsf_palv_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N9 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
         }; // ɹ̠˔
         m_nsf_ret_vl: m_nsf_ret_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp B &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp B &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp A &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
         }; // ɻ̊˔
         m_nsf_ret_vd: m_nsf_ret_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp B &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp B &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
         }; // ɻ̝
         m_nsf_pala_vl: m_nsf_pala_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp E &kp N7 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp E &kp N7 &kp RET>;
         }; // ç
         m_nsf_pala_vd: m_nsf_pala_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N9 &kp D &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N9 &kp D &kp RET>;
         }; // ʝ
         m_nsf_vel_vl: m_nsf_vel_vl {
             compatible = "zmk,behavior-macro";
@@ -2003,35 +2003,35 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N3 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp N3 &kp RET>;
         }; // ɣ
         m_nsf_uv_vl: m_nsf_uv_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N3 &kp C &kp N7 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp C &kp N7 &kp RET>;
         }; // χ
         m_nsf_uv_vd: m_nsf_uv_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp N1 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N8 &kp N1 &kp RET>;
         }; // ʁ
         m_nsf_epi_vl: m_nsf_epi_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N1 &kp N2 &kp N7 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N1 &kp N2 &kp N7 &kp RET>;
         }; // ħ
         m_nsf_epi_vd: m_nsf_epi_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N9 &kp N5 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N9 &kp N5 &kp RET>;
         }; // ʕ
         m_nsf_glo_vl: m_nsf_glo_vl {
             compatible = "zmk,behavior-macro";
@@ -2046,7 +2046,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N6 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp N6 &kp RET>;
         }; // ɦ
         // --- Layer 10: Non-sibilant Affricate (非歯擦音破擦音) ---
 
@@ -2055,126 +2055,126 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp P &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N7 &kp N8 &kp RET>;
+            bindings = <&kp P &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N8 &kp RET>;
         }; // p͡ɸ
         m_nsa_bil_vd: m_nsa_bil_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp B &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N3 &kp B &kp N2 &kp RET>;
+            bindings = <&kp B &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp B &kp N2 &kp RET>;
         }; // b͡β
         m_nsa_lab_vl: m_nsa_lab_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp P &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp F>;
+            bindings = <&kp P &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp A &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp F>;
         }; // p̪͡f
         m_nsa_lab_vd: m_nsa_lab_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp B &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp V>;
+            bindings = <&kp B &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp A &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp V>;
         }; // b̪͡v
         m_nsa_den_vl: m_nsa_den_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp T &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N3 &kp B &kp N8 &kp RET>;
+            bindings = <&kp T &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp A &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp B &kp N8 &kp RET>;
         }; // t̪͡θ
         m_nsa_den_vd: m_nsa_den_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp D &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp F &kp N0 &kp RET>;
+            bindings = <&kp D &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp A &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp F &kp N0 &kp RET>;
         }; // d̪͡ð
         m_nsa_alv_vl: m_nsa_alv_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp T &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+            bindings = <&kp T &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N9 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp D &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
         }; // t͡ɹ̝̊
         m_nsa_alv_vd: m_nsa_alv_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp D &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+            bindings = <&kp D &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N9 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
         }; // d͡ɹ̝
         m_nsa_palv_vl: m_nsa_palv_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp T &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+            bindings = <&kp T &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N9 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp D &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
         }; // t̠͡ɹ̠̊˔
         m_nsa_palv_vd: m_nsa_palv_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp D &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+            bindings = <&kp D &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N9 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
         }; // d̠͡ɹ̠˔
         m_nsa_ret_vl: m_nsa_ret_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp N8 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N7 &kp B &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N8 &kp N8 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp B &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp D &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
         }; // ʈ͡ɻ̊˔
         m_nsa_ret_vd: m_nsa_ret_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp N6 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N7 &kp B &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N5 &kp N6 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp B &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
         }; // ɖ͡ɻ̝
         m_nsa_pala_vl: m_nsa_pala_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp C &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp E &kp N7 &kp RET>;
+            bindings = <&kp C &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp E &kp N7 &kp RET>;
         }; // c͡ç
         m_nsa_pala_vd: m_nsa_pala_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp F &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N9 &kp D &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N5 &kp F &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N9 &kp D &kp RET>;
         }; // ɟ͡ʝ
         m_nsa_vel_vl: m_nsa_vel_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp K &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET>;
+            bindings = <&kp K &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET>;
         }; // k͡x
         m_nsa_vel_vd: m_nsa_vel_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp G &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N6 &kp N3 &kp RET>;
+            bindings = <&kp G &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp N3 &kp RET>;
         }; // g͡ɣ
         m_nsa_uv_vl: m_nsa_uv_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp Q &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N3 &kp C &kp N7 &kp RET>;
+            bindings = <&kp Q &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp C &kp N7 &kp RET>;
         }; // q͡χ
         m_nsa_uv_vd: m_nsa_uv_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N2 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N8 &kp N1 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp N2 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N8 &kp N1 &kp RET>;
         }; // ɢ͡ʁ
         m_nsa_epi_vl: m_nsa_epi_vl {
             compatible = "zmk,behavior-macro";
@@ -2204,14 +2204,14 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp S &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
+            bindings = <&kp S &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
         }; // s̪
         m_sf_den_vd: m_sf_den_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp Z &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
+            bindings = <&kp Z &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
         }; // z̪
         m_sf_alv_vl: m_sf_alv_vl {
             compatible = "zmk,behavior-macro";
@@ -2232,42 +2232,42 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp N3 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N8 &kp N3 &kp RET>;
         }; // ʃ
         m_sf_palv_vd: m_sf_palv_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N9 &kp N2 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N9 &kp N2 &kp RET>;
         }; // ʒ
         m_sf_ret_vl: m_sf_ret_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp N2 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N8 &kp N2 &kp RET>;
         }; // ʂ
         m_sf_ret_vd: m_sf_ret_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N9 &kp N0 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N9 &kp N0 &kp RET>;
         }; // ʐ
         m_sf_pala_vl: m_sf_pala_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp N5 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N5 &kp N5 &kp RET>;
         }; // ɕ
         m_sf_pala_vd: m_sf_pala_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N9 &kp N1 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N9 &kp N1 &kp RET>;
         }; // ʑ
         // --- Layer 12: Sibilant Affricate ---
 
@@ -2276,7 +2276,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp T &kp U &kp N0 &kp N3 &kp N2 &kp A &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp S &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
+            bindings = <&kp T &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp A &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp S &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
         };
 
         m_sa_den_vd: m_sa_den_vd {
@@ -2284,7 +2284,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp D &kp U &kp N0 &kp N3 &kp N2 &kp A &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp Z &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
+            bindings = <&kp D &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp A &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp Z &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
         };
 
         m_sa_alv_vl: m_sa_alv_vl {
@@ -2292,7 +2292,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp T &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp S &kp RET>;
+            bindings = <&kp T &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp S &kp RET>;
         };
 
         m_sa_alv_vd: m_sa_alv_vd {
@@ -2300,7 +2300,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp D &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp Z &kp RET>;
+            bindings = <&kp D &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp Z &kp RET>;
         };
 
         m_sa_palv_vl: m_sa_palv_vl {
@@ -2308,7 +2308,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp T &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N8 &kp N3 &kp RET>;
+            bindings = <&kp T &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N8 &kp N3 &kp RET>;
         };
 
         m_sa_palv_vd: m_sa_palv_vd {
@@ -2316,7 +2316,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp D &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N9 &kp N2 &kp RET>;
+            bindings = <&kp D &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N9 &kp N2 &kp RET>;
         };
 
         m_sa_pala_vl: m_sa_pala_vl {
@@ -2324,21 +2324,21 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N0 &kp N7 &kp N4 &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N5 &kp N5 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N7 &kp N4 &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N5 &kp N5 &kp RET>;
         }; // t͡ɕ
         m_sa_pala_vd: m_sa_pala_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp N4 &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N9 &kp N1 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp N6 &kp N4 &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N9 &kp N1 &kp RET>;
         }; // d͡ʑ
         m_sa_ret_vl: m_sa_ret_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp N8 &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N8 &kp N2 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N8 &kp N8 &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N8 &kp N2 &kp RET>;
         };
 
         m_sa_ret_vd: m_sa_ret_vd {
@@ -2346,7 +2346,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp N6 &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N9 &kp N0 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N5 &kp N6 &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N9 &kp N0 &kp RET>;
         };
 
         // Layer 13: Lateral Fricative
@@ -2356,56 +2356,56 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp C &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp C &kp RET>;
         }; // ɬ̪
         m_lf_den_vd: m_lf_den_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp E &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp E &kp RET>;
         }; // ɮ̪
         m_lf_alv_vl: m_lf_alv_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp C &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp C &kp RET>;
         }; // ɬ
         m_lf_alv_vd: m_lf_alv_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp E &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp E &kp RET>;
         }; // ɮ
         m_lf_ret_vl: m_lf_ret_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp D &kp U &kp N0 &kp N3 &kp N1 &kp D &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp D &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp D &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
         }; // ɭ̝̊
         m_lf_ret_vd: m_lf_ret_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp D &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp D &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
         }; // ɭ̝
         m_lf_pala_vl: m_lf_pala_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp E &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N8 &kp E &kp RET>;
         }; // ʎ̝̊
         m_lf_pala_vd: m_lf_pala_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp E &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N8 &kp E &kp RET>;
         };
 
         m_lf_vel_vl: m_lf_vel_vl {
@@ -2413,14 +2413,14 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N9 &kp F &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N9 &kp F &kp RET>;
         }; // ʟ̝̊
         m_lf_vel_vd: m_lf_vel_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N9 &kp F &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N9 &kp F &kp RET>;
         };
 
         // --- Layer 14: Lateral Affricate (側面破擦音) ---
@@ -2430,7 +2430,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp T &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N6 &kp C &kp RET>;
+            bindings = <&kp T &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp C &kp RET>;
         };
 
         m_la_alv_vd: m_la_alv_vd {
@@ -2438,7 +2438,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp D &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N9 &kp E &kp RET>;
+            bindings = <&kp D &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N9 &kp E &kp RET>;
         };
 
         m_la_ret_vl: m_la_ret_vl {
@@ -2446,7 +2446,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp N8 &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N6 &kp D &kp U &kp N0 &kp N3 &kp N1 &kp D &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N8 &kp N8 &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp D &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp D &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
         };
 
         m_la_ret_vd: m_la_ret_vd {
@@ -2454,7 +2454,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp N6 &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N6 &kp D &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N5 &kp N6 &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N6 &kp D &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
         };
 
         m_la_pala_vl: m_la_pala_vl {
@@ -2462,28 +2462,28 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp C &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N8 &kp E &kp U &kp N0 &kp N3 &kp N1 &kp D &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+            bindings = <&kp C &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N8 &kp E &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp D &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
         }; // c͡ʎ̝̊
         m_la_pala_vd: m_la_pala_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp F &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N8 &kp E &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N5 &kp F &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N8 &kp E &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
         }; // ɟ͡ʎ̝
         m_la_vel_vl: m_la_vel_vl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp K &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N9 &kp F &kp U &kp N0 &kp N3 &kp N1 &kp D &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+            bindings = <&kp K &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N9 &kp F &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp D &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
         }; // k͡ʟ̝̊
         m_la_vel_vd: m_la_vel_vd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp G &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N9 &kp F &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+            bindings = <&kp G &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N6 &kp N1 &kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N9 &kp F &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
         }; // g͡ʟ̝
         // --- Layer 15: Approximant (接近音) ---
 
@@ -2492,7 +2492,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N3 &kp B &kp N2 &kp U &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp B &kp N2 &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
         };
 
         m_ap_lab_vd: m_ap_lab_vd {
@@ -2500,7 +2500,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp B &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N8 &kp B &kp RET>;
         };
 
         m_ap_den_vd: m_ap_den_vd {
@@ -2508,7 +2508,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N0 &kp F &kp N0 &kp U &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N0 &kp F &kp N0 &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
         };
 
         m_ap_alv_vd: m_ap_alv_vd {
@@ -2516,7 +2516,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N9 &kp RET>;
         };
 
         m_ap_palv_vd: m_ap_palv_vd {
@@ -2524,7 +2524,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N9 &kp LC(LCMD(LALT(U))) &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>;
         };
 
         m_ap_ret_vd: m_ap_ret_vd {
@@ -2532,7 +2532,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp B &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp B &kp RET>;
         };
 
         m_ap_pala_vd: m_ap_pala_vd {
@@ -2548,7 +2548,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N0 &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp N0 &kp N2 &kp N7 &kp N0 &kp RET>;
         };
 
         // --- Layer 16: Lateral Approximant (側面接近音) ---
@@ -2943,7 +2943,7 @@
             #binding-cells = <0>;
             wait-ms = <1>;
             tap-ms = <1>;
-            bindings = <&kp U &kp RET>;
+            bindings = <&kp LC(LCMD(LALT(U))) &kp RET>;
         }; // u
         // --- Layer 11: Near-close (広めの狭母音) ---
 
