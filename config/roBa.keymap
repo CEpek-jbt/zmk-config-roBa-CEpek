@@ -25,9 +25,6 @@
 #define IMPLO 20
 #define LAT_IMPLO 21  // 追加: Lateral implosive layer
 
-// 視認性とメンテナンス向上のためのエイリアス
-#define TR &trans
-
 &mt {
     flavor = "hold-preferred";
     quick-tap-ms = <0>;
@@ -826,136 +823,136 @@
 
         NASAL {
             bindings = <
-&m_nas_uv_vl  TR  TR  &m_nas_uv_vd  &m_nas_den_vl                    &m_nas_pala_vd  TR            TR  TR            &m_nas_bil_vl
-TR  &m_nas_alv_vl  &m_nas_den_vd  &m_nas_lab_vl  &m_nas_vel_vd  TR        TR  TR  &m_nas_palv_vd &m_nas_vel_vl  TR  TR
-&m_nas_alv_vd  &m_nas_palv_vl  &m_nas_pala_vl  &m_nas_lab_vd  &m_nas_bil_vd  TR      TR  &m_nas_uv_vl  &m_nas_uv_vd  &m_nas_ret_vl  &m_nas_ret_vd  TR
-TR  TR  TR  TR  TR  TR                                  TR  TR            TR
+&m_nas_uv_vl  &trans  &trans  &m_nas_uv_vd  &m_nas_den_vl                    &m_nas_pala_vd  &trans            &trans  &trans            &m_nas_bil_vl
+&trans  &m_nas_alv_vl  &m_nas_den_vd  &m_nas_lab_vl  &m_nas_vel_vd  &trans        &trans  &trans  &m_nas_palv_vd &m_nas_vel_vl  &trans  &trans
+&m_nas_alv_vd  &m_nas_palv_vl  &m_nas_pala_vl  &m_nas_lab_vd  &m_nas_bil_vd  &trans      &trans  &m_nas_uv_vl  &m_nas_uv_vd  &m_nas_ret_vl  &m_nas_ret_vd  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
             >;
         };
 
         PLOSIVE {
             bindings = <
-&m_p_uv_vl  &v_cl_ce_ro  &v_cl_ba_un  &m_p_uv_vd  &m_p_den_vl                    &v_cl_fr_ro     &v_cl_ba_ro      &v_cl_fr_un          TR            &m_p_bil_vl
-&v_cl_ce_un    &m_p_alv_vl  &m_p_den_vd  &m_p_lab_vl  &m_p_vel_vd  TR         TR  TR  &m_p_pala_vd  &m_p_vel_vl  TR  &m_p_glo_vl
-&m_p_alv_vd  TR            &m_p_pala_vl  &m_p_lab_vd  &m_p_bil_vd  TR       TR  &m_p_epi_vl  TR  &m_p_ret_vl  &m_p_ret_vd  TR
-TR  TR  TR  TR  TR  TR                                  TR  TR            TR
+&m_p_uv_vl  &v_cl_ce_ro  &v_cl_ba_un  &m_p_uv_vd  &m_p_den_vl                    &v_cl_fr_ro     &v_cl_ba_ro      &v_cl_fr_un          &trans            &m_p_bil_vl
+&v_cl_ce_un    &m_p_alv_vl  &m_p_den_vd  &m_p_lab_vl  &m_p_vel_vd  &trans         &trans  &trans  &m_p_pala_vd  &m_p_vel_vl  &trans  &m_p_glo_vl
+&m_p_alv_vd  &trans            &m_p_pala_vl  &m_p_lab_vd  &m_p_bil_vd  &trans       &trans  &m_p_epi_vl  &trans  &m_p_ret_vl  &m_p_ret_vd  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
             >;
         };
 
         NSFRICATIVE {
             bindings = <
-&m_nsf_uv_vl &v_cm_ce_ro  &v_cm_ba_un  &m_nsf_uv_vd &m_nsf_den_vl                &v_cm_fr_ro     &v_cm_ba_ro      &v_cm_fr_un          TR            &m_nsf_bil_vl
-&v_cm_ce_un      &m_nsf_alv_vl &m_nsf_den_vd &m_nsf_lab_vl  &m_nsf_vel_vd TR     TR  TR  &m_nsf_palv_vd &m_nsf_vel_vl TR  &m_nsf_glo_vd
-&m_nsf_alv_vd &m_nsf_palv_vl &m_nsf_pala_vl &m_nsf_lab_vd &m_nsf_bil_vd TR      TR  &m_nsf_epi_vl &m_nsf_epi_vd &m_nsf_ret_vl &m_nsf_ret_vd TR
-TR  TR  TR  TR  TR  TR                                  TR  TR            TR
+&m_nsf_uv_vl &v_cm_ce_ro  &v_cm_ba_un  &m_nsf_uv_vd &m_nsf_den_vl                &v_cm_fr_ro     &v_cm_ba_ro      &v_cm_fr_un          &trans            &m_nsf_bil_vl
+&v_cm_ce_un      &m_nsf_alv_vl &m_nsf_den_vd &m_nsf_lab_vl  &m_nsf_vel_vd &trans     &trans  &trans  &m_nsf_palv_vd &m_nsf_vel_vl &trans  &m_nsf_glo_vd
+&m_nsf_alv_vd &m_nsf_palv_vl &m_nsf_pala_vl &m_nsf_lab_vd &m_nsf_bil_vd &trans      &trans  &m_nsf_epi_vl &m_nsf_epi_vd &m_nsf_ret_vl &m_nsf_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
             >;
         };
 
         NSAFFRICATE {
             bindings = <
-&m_nsa_uv_vl TR  TR  &m_nsa_uv_vd &m_nsa_den_vl                &m_nsa_pala_vd TR            TR  TR            &m_nsa_bil_vl
-TR  &m_nsa_alv_vl &m_nsa_den_vd &m_nsa_lab_vl  &m_nsa_vel_vd TR     TR  TR  &m_nsa_palv_vd &m_nsa_vel_vl TR  &m_nsa_glo_vl
-&m_nsa_alv_vd &m_nsa_palv_vl &m_nsa_pala_vl &m_nsa_lab_vd &m_nsa_bil_vd TR      TR  &m_nsa_epi_vl &m_nsa_epi_vd &m_nsa_ret_vl &m_nsa_ret_vd TR
-TR  TR  TR  TR  TR  TR                                  TR  TR            TR
+&m_nsa_uv_vl &trans  &trans  &m_nsa_uv_vd &m_nsa_den_vl                &m_nsa_pala_vd &trans            &trans  &trans            &m_nsa_bil_vl
+&trans  &m_nsa_alv_vl &m_nsa_den_vd &m_nsa_lab_vl  &m_nsa_vel_vd &trans     &trans  &trans  &m_nsa_palv_vd &m_nsa_vel_vl &trans  &m_nsa_glo_vl
+&m_nsa_alv_vd &m_nsa_palv_vl &m_nsa_pala_vl &m_nsa_lab_vd &m_nsa_bil_vd &trans      &trans  &m_nsa_epi_vl &m_nsa_epi_vd &m_nsa_ret_vl &m_nsa_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
             >;
         };
 
         SFRICATIVE {
             bindings = <
-TR            &v_nc_ce_ro  &v_nc_ba_un  TR  &m_sf_den_vl                          &v_nc_fr_ro    &v_nc_ba_ro      &v_nc_fr_un      TR            TR
-&v_nc_ce_un    &m_sf_alv_vl  &m_sf_den_vd  TR  TR  TR                TR  TR  &m_sf_palv_vd TR            TR  TR
-&m_sf_alv_vd  &m_sf_palv_vl  &m_sf_pala_vl  TR  TR  TR  TR  TR  TR                &m_sf_ret_vl &m_sf_ret_vd TR
-TR  TR  TR  TR  TR  TR                                  TR  TR            TR
+&trans            &v_nc_ce_ro  &v_nc_ba_un  &trans  &m_sf_den_vl                          &v_nc_fr_ro    &v_nc_ba_ro      &v_nc_fr_un      &trans            &trans
+&v_nc_ce_un    &m_sf_alv_vl  &m_sf_den_vd  &trans  &trans  &trans                &trans  &trans  &m_sf_palv_vd &trans            &trans  &trans
+&m_sf_alv_vd  &m_sf_palv_vl  &m_sf_pala_vl  &trans  &trans  &trans  &trans  &trans  &trans                &m_sf_ret_vl &m_sf_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
             >;
         };
 
         SAFFRICATE {
             bindings = <
-&m_sa_uv_vl TR  TR  &m_sa_uv_vd &m_sa_den_vl                &m_sa_pala_vd TR            TR  TR            TR
-TR  &m_sa_alv_vl  &m_sa_den_vd  TR  &m_sa_vel_vd TR       TR  TR  &m_sa_palv_vd &m_sa_vel_vl TR &m_sa_glo_vl
-&m_sa_alv_vd  &m_sa_palv_vl  &m_sa_pala_vl  TR  TR  TR  TR  &m_sa_epi_vl &m_sa_epi_vd &m_sa_ret_vl &m_sa_ret_vd TR
-TR  TR  TR  TR  TR  TR                                  TR  TR            TR
+&m_sa_uv_vl &trans  &trans  &m_sa_uv_vd &m_sa_den_vl                &m_sa_pala_vd &trans            &trans  &trans            &trans
+&trans  &m_sa_alv_vl  &m_sa_den_vd  &trans  &m_sa_vel_vd &trans       &trans  &trans  &m_sa_palv_vd &m_sa_vel_vl &trans &m_sa_glo_vl
+&m_sa_alv_vd  &m_sa_palv_vl  &m_sa_pala_vl  &trans  &trans  &trans  &trans  &m_sa_epi_vl &m_sa_epi_vd &m_sa_ret_vl &m_sa_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
             >;
         };
 
         LFRICATIVE {
             bindings = <
-TR  TR  TR  TR  &m_lf_den_vl                                 &m_lf_pala_vd TR            TR  TR            TR
-TR  &m_lf_alv_vl  &m_lf_den_vd  TR  &m_lf_vel_vd TR       TR  TR  TR                &m_lf_vel_vl TR  TR
-&m_lf_alv_vd  TR            &m_lf_pala_vl  TR  TR  TR     TR  TR  TR                &m_lf_ret_vl &m_lf_ret_vd TR
-TR  TR  TR  TR  TR  TR                                  TR  TR            TR
+&trans  &trans  &trans  &trans  &m_lf_den_vl                                 &m_lf_pala_vd &trans            &trans  &trans            &trans
+&trans  &m_lf_alv_vl  &m_lf_den_vd  &trans  &m_lf_vel_vd &trans       &trans  &trans  &trans                &m_lf_vel_vl &trans  &trans
+&m_lf_alv_vd  &trans            &m_lf_pala_vl  &trans  &trans  &trans     &trans  &trans  &trans                &m_lf_ret_vl &m_lf_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
             >;
         };
 
         LAFFRICATE {
             bindings = <
-TR  TR  TR  TR  TR                                               &m_la_pala_vd TR            TR  TR            TR
-TR  &m_la_alv_vl  TR  TR  &m_la_vel_vd TR                 TR  TR  TR                &m_la_vel_vl TR  TR
-&m_la_alv_vd  TR            &m_la_pala_vl  TR  TR  TR     TR  TR  TR                &m_la_ret_vl &m_la_ret_vd TR
-TR  TR  TR  TR  TR  TR                                  TR  TR            TR
+&trans  &trans  &trans  &trans  &trans                                               &m_la_pala_vd &trans            &trans  &trans            &trans
+&trans  &m_la_alv_vl  &trans  &trans  &m_la_vel_vd &trans                 &trans  &trans  &trans                &m_la_vel_vl &trans  &trans
+&m_la_alv_vd  &trans            &m_la_pala_vl  &trans  &trans  &trans     &trans  &trans  &trans                &m_la_ret_vl &m_la_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
             >;
         };
 
         APPROXIMANT {
             bindings = <
-TR            &v_mi_ce_ro  &v_mi_ba_un  TR  TR                                    &v_mi_fr_ro    &v_mi_ba_ro      &v_mi_fr_un      TR            TR
-&v_mi_ce_un    TR  &m_ap_den_vd  TR  &m_ap_vel_vd TR                 TR  TR  &m_ap_palv_vd TR            TR  TR
-&m_ap_alv_vd  TR            TR  &m_ap_lab_vd  &m_ap_bil_vd  TR               TR  TR  TR                TR            &m_ap_ret_vd TR
-TR  TR  TR  TR  TR  TR                                  TR  TR            TR
+&trans            &v_mi_ce_ro  &v_mi_ba_un  &trans  &trans                                    &v_mi_fr_ro    &v_mi_ba_ro      &v_mi_fr_un      &trans            &trans
+&v_mi_ce_un    &trans  &m_ap_den_vd  &trans  &m_ap_vel_vd &trans                 &trans  &trans  &m_ap_palv_vd &trans            &trans  &trans
+&m_ap_alv_vd  &trans            &trans  &m_ap_lab_vd  &m_ap_bil_vd  &trans               &trans  &trans  &trans                &trans            &m_ap_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
             >;
         };
 
         LAPPROXIMANT {
             bindings = <
-TR  TR  TR  TR  &m_lap_den_vd                                    &m_lap_pala_vd TR            TR  TR            TR
-TR  &m_lap_alv_vd &m_lap_den_vd TR  &m_lap_vel_vd TR     TR  TR  TR                &m_lap_vel_vl TR  TR
-TR  TR            &m_lap_pala_vl TR  TR  TR               TR  TR  &m_lap_uv_vd &m_lap_ret_vl &m_lap_ret_vd TR
-TR  TR  TR  TR  TR  TR                                  TR  TR            TR
+&trans  &trans  &trans  &trans  &m_lap_den_vd                                    &m_lap_pala_vd &trans            &trans  &trans            &trans
+&trans  &m_lap_alv_vd &m_lap_den_vd &trans  &m_lap_vel_vd &trans     &trans  &trans  &trans                &m_lap_vel_vl &trans  &trans
+&trans  &trans            &m_lap_pala_vl &trans  &trans  &trans               &trans  &trans  &m_lap_uv_vd &m_lap_ret_vl &m_lap_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
             >;
         };
 
         TAP {
             bindings = <
-TR            &v_om_ce_ro  &v_om_ba_un  &m_tap_uv_vd TR                          &v_om_fr_ro    &v_om_ba_ro      &v_om_fr_un      TR            TR
-&v_om_ce_un    &m_tap_alv_vl TR  TR  TR  TR                                 TR  TR  TR                TR            TR  TR
-&m_tap_alv_vd TR            TR  &m_tap_lab_vd  &m_tap_bil_vd  TR                  TR  &m_tap_epi_vd TR          &m_tap_ret_vl &m_tap_ret_vd TR
-TR  TR  TR  TR  TR  TR                                  TR  TR            TR
+&trans            &v_om_ce_ro  &v_om_ba_un  &m_tap_uv_vd &trans                          &v_om_fr_ro    &v_om_ba_ro      &v_om_fr_un      &trans            &trans
+&v_om_ce_un    &m_tap_alv_vl &trans  &trans  &trans  &trans                                 &trans  &trans  &trans                &trans            &trans  &trans
+&m_tap_alv_vd &trans            &trans  &m_tap_lab_vd  &m_tap_bil_vd  &trans                  &trans  &m_tap_epi_vd &trans          &m_tap_ret_vl &m_tap_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
             >;
         };
 
         LTAP {
             bindings = <
-TR  TR  TR  TR  TR                                               &m_ltap_pala_vd TR          TR  TR            TR
-TR  &m_ltap_alv_vl TR  TR  &m_ltap_vel_vd TR             TR  TR  TR                TR            TR  TR
-&m_ltap_alv_vd TR            TR  TR  TR  TR                 TR  TR                TR            &m_ltap_ret_vl &m_ltap_ret_vd TR
-TR  TR  TR  TR  TR  TR                                  TR  TR            TR
+&trans  &trans  &trans  &trans  &trans                                               &m_ltap_pala_vd &trans          &trans  &trans            &trans
+&trans  &m_ltap_alv_vl &trans  &trans  &m_ltap_vel_vd &trans             &trans  &trans  &trans                &trans            &trans  &trans
+&m_ltap_alv_vd &trans            &trans  &trans  &trans  &trans                 &trans  &trans                &trans            &m_ltap_ret_vl &m_ltap_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
             >;
         };
 
         TRILL {
             bindings = <
-&m_tr_uv_vl  &v_no_ce_ro  &v_no_ba_un  &m_tr_uv_vd &m_tr_alv_vl                &v_no_fr_ro    &v_no_ba_ro      &v_no_fr_un      TR            &m_tr_bil_vl
-&v_no_ce_un    &m_tr_alv_vd TR  TR  TR  TR                                 TR  TR  &m_tr_palv_vd TR            TR  TR
-TR  TR            TR  TR  &m_tr_bil_vd  TR                               TR  &m_tr_epi_vl &m_tr_epi_vd &m_tr_ret_vl &m_tr_ret_vd TR
-TR  TR  TR  TR  TR  TR                                  TR  TR            TR
+&m_tr_uv_vl  &v_no_ce_ro  &v_no_ba_un  &m_tr_uv_vd &m_tr_alv_vl                &v_no_fr_ro    &v_no_ba_ro      &v_no_fr_un      &trans            &m_tr_bil_vl
+&v_no_ce_un    &m_tr_alv_vd &trans  &trans  &trans  &trans                                 &trans  &trans  &m_tr_palv_vd &trans            &trans  &trans
+&trans  &trans            &trans  &trans  &m_tr_bil_vd  &trans                               &trans  &m_tr_epi_vl &m_tr_epi_vd &m_tr_ret_vl &m_tr_ret_vd TR
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
             >;
         };
 
         IMPLO {
             bindings = <
-&m_im_uv_vd  &v_op_ce_ro  &v_op_ba_un  TR  &m_im_den_vl                          &v_op_fr_ro    &v_op_ba_ro      &v_op_fr_un      TR            &m_im_bil_vl
-&v_op_ce_un    &m_im_alv_vl &m_im_alv_vd TR  &m_im_pala_vl TR         TR  TR  &m_im_palv_vd TR            TR  TR
-TR &m_im_pala_vl  TR  &m_im_bil_vd  TR                               TR  TR            TR            &m_im_ret_vl &m_im_ret_vd TR
-TR  TR  TR  TR  TR  TR                                  TR  TR            TR
+&m_im_uv_vd  &v_op_ce_ro  &v_op_ba_un  &trans  &m_im_den_vl                          &v_op_fr_ro    &v_op_ba_ro      &v_op_fr_un      &trans            &m_im_bil_vl
+&v_op_ce_un    &m_im_alv_vl &m_im_alv_vd &trans  &m_im_pala_vl &trans         &trans  &trans  &m_im_palv_vd &trans            &trans  &trans
+&trans &m_im_pala_vl  &trans  &m_im_bil_vd  &trans                               &trans  &trans            &trans            &m_im_ret_vl &m_im_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
             >;
         };
 
         LAT_IMPLO {
             bindings = <
-TR  TR  TR  TR  &m_lim_den_vl                                   TR            TR            TR  TR            TR
-TR  TR  TR  TR  TR  TR                                      TR  TR  TR              TR            TR  TR
-TR  TR  TR  TR  TR  TR                                      TR  TR              TR            TR  TR            TR
-TR  TR  TR  TR  TR  TR                                  TR  TR            TR
+&trans  &trans  &trans  &trans  &m_lim_den_vl                                   &trans            &trans            &trans  &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans              &trans            &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans              &trans            &trans  &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
             >;
         };
     };
