@@ -824,16 +824,7 @@
             >;
         };
 
-        layer_6 {
-            bindings = <
-&trans  &trans        &trans        &trans        &trans                                      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans        &trans        &trans        &trans        &trans        &trans  &trans      &trans        &trans        &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans      &bootloader  &trans        &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans  &trans        &trans        &trans        &trans        &trans  &trans      &trans        &trans                                                  &bt BT_CLR_ALL
-            >;
-        };
-
-        NASAL 7 { // Layer 7
+        NASAL { // Layer 7
             bindings = <
 &m_nas_uv_vl  TR  TR  &m_nas_uv_vd  &m_nas_den_vl                    &m_nas_pala_vd  TR            TR  TR            &m_nas_bil_vl
 TR  &m_nas_alv_vl  &m_nas_den_vd  &m_nas_lab_vl  &m_nas_vel_vd  TR        TR  TR  &m_nas_palv_vd &m_nas_vel_vl  TR  TR
@@ -842,7 +833,7 @@ TR  TR  TR  TR  TR  TR                                  TR
             >;
         };
 
-        PLOSIVE 8 { // Layer 8 (close)
+        PLOSIVE { // Layer 8 (close)
             bindings = <
 &m_p_uv_vl  &v_cl_ce_ro  &v_cl_ba_un  &m_p_uv_vd  &m_p_den_vl                    &v_cl_fr_ro     &v_cl_ba_ro      &v_cl_fr_un          TR            &m_p_bil_vl
 &v_cl_ce_un    &m_p_alv_vl  &m_p_den_vd  &m_p_lab_vl  &m_p_vel_vd  TR         TR  TR  &m_p_pala_vd  &m_p_vel_vl  TR  &m_p_glo_vl
@@ -851,7 +842,7 @@ TR  TR  TR  TR  TR  TR                                  TR
             >;
         };
 
-        NSFRICATIVE 9 { // Layer 9 (close-mid)
+        NSFRICATIVE { // Layer 9 (close-mid)
             bindings = <
 &m_nsf_uv_vl &v_cm_ce_ro  &v_cm_ba_un  &m_nsf_uv_vd &m_nsf_den_vl                &v_cm_fr_ro     &v_cm_ba_ro      &v_cm_fr_un          TR            &m_nsf_bil_vl
 &v_cm_ce_un      &m_nsf_alv_vl &m_nsf_den_vd &m_nsf_lab_vl  &m_nsf_vel_vd TR     TR  TR  &m_nsf_palv_vd &m_nsf_vel_vl TR  &m_nsf_glo_vd
@@ -860,7 +851,7 @@ TR  TR  TR  TR  TR  TR                                  TR
             >;
         };
 
-        NSAFFRICATE 10 { // Layer 10
+        NSAFFRICATE { // Layer 10
             bindings = <
 &m_nsa_uv_vl TR  TR  &m_nsa_uv_vd &m_nsa_den_vl                &m_nsa_pala_vd TR            TR  TR            &m_nsa_bil_vl
 TR  &m_nsa_alv_vl &m_nsa_den_vd &m_nsa_lab_vl  &m_nsa_vel_vd TR     TR  TR  &m_nsa_palv_vd &m_nsa_vel_vl TR  &m_nsa_glo_vl
@@ -869,7 +860,7 @@ TR  TR  TR  TR  TR  TR                                  TR
             >;
         };
 
-        SFRICATIVE 11 { // Layer 11 (Near-close)
+        SFRICATIVE { // Layer 11 (Near-close)
             bindings = <
 TR            &v_nc_ce_ro  &v_nc_ba_un  TR  &m_sf_den_vl                          &v_nc_fr_ro    &v_nc_ba_ro      &v_nc_fr_un      TR            TR
 &v_nc_ce_un    &m_sf_alv_vl  &m_sf_den_vd  TR  TR  TR                TR  TR  &m_sf_palv_vd TR            TR  TR
@@ -878,7 +869,7 @@ TR  TR  TR  TR  TR  TR                                  TR
             >;
         };
 
-        SAFFRICATE 12 { // Layer 12
+        SAFFRICATE { // Layer 12
             bindings = <
 &m_sa_uv_vl TR  TR  &m_sa_uv_vd &m_sa_den_vl                &m_sa_pala_vd TR            TR  TR            TR
 TR  &m_sa_alv_vl  &m_sa_den_vd  TR  &m_sa_vel_vd TR       TR  TR  &m_sa_palv_vd &m_sa_vel_vl TR &m_sa_glo_vl
@@ -887,7 +878,7 @@ TR  TR  TR  TR  TR  TR                                  TR
             >;
         };
 
-        LFRICATIVE 13 { // Layer 13
+        LFRICATIVE { // Layer 13
             bindings = <
 TR  TR  TR  TR  &m_lf_den_vl                                 &m_lf_pala_vd TR            TR  TR            TR
 TR  &m_lf_alv_vl  &m_lf_den_vd  TR  &m_lf_vel_vd TR       TR  TR  TR                &m_lf_vel_vl TR  TR
@@ -896,7 +887,7 @@ TR  TR  TR  TR  TR  TR                                  TR
             >;
         };
 
-        LAFFRICATE 14 { // Layer 14
+        LAFFRICATE { // Layer 14
             bindings = <
 TR  TR  TR  TR  TR                                               &m_la_pala_vd TR            TR  TR            TR
 TR  &m_la_alv_vl  TR  TR  &m_la_vel_vd TR                 TR  TR  TR                &m_la_vel_vl TR  TR
@@ -905,7 +896,7 @@ TR  TR  TR  TR  TR  TR                                  TR
             >;
         };
 
-        APPROXIMANT 15 { // Layer 15 (mid)
+        APPROXIMANT { // Layer 15 (mid)
             bindings = <
 TR            &v_mi_ce_ro  &v_mi_ba_un  TR  TR                                    &v_mi_fr_ro    &v_mi_ba_ro      &v_mi_fr_un      TR            TR
 &v_mi_ce_un    TR  &m_ap_den_vd  TR  &m_ap_vel_vd TR                 TR  TR  &m_ap_palv_vd TR            TR  TR
@@ -914,7 +905,7 @@ TR  TR  TR  TR  TR  TR                                  TR
             >;
         };
 
-        LAPPROXIMANT 16 { // Layer 16
+        LAPPROXIMANT { // Layer 16
             bindings = <
 TR  TR  TR  TR  &m_lap_den_vd                                    &m_lap_pala_vd TR            TR  TR            TR
 TR  &m_lap_alv_vd &m_lap_den_vd TR  &m_lap_vel_vd TR     TR  TR  TR                &m_lap_vel_vl TR  TR
@@ -923,7 +914,7 @@ TR  TR  TR  TR  TR  TR                                  TR
             >;
         };
 
-        TAP 17 { // Layer 17 (open-mid)
+        TAP { // Layer 17 (open-mid)
             bindings = <
 TR            &v_om_ce_ro  &v_om_ba_un  &m_tap_uv_vd TR                          &v_om_fr_ro    &v_om_ba_ro      &v_om_fr_un      TR            TR
 &v_om_ce_un    &m_tap_alv_vl TR  TR  TR  TR                                 TR  TR  TR                TR            TR  TR
@@ -932,7 +923,7 @@ TR  TR  TR  TR  TR  TR                                  TR
             >;
         };
 
-        LTAP 18 { // Layer 18
+        LTAP { // Layer 18
             bindings = <
 TR  TR  TR  TR  TR                                               &m_ltap_pala_vd TR          TR  TR            TR
 TR  &m_ltap_alv_vl TR  TR  &m_ltap_vel_vd TR             TR  TR  TR                TR            TR  TR
@@ -941,7 +932,7 @@ TR  TR  TR  TR  TR  TR                                  TR
             >;
         };
 
-        TRILL 19 { // Layer 19 (Near-open)
+        TRILL { // Layer 19 (Near-open)
             bindings = <
 &m_tr_uv_vl  &v_no_ce_ro  &v_no_ba_un  &m_tr_uv_vd &m_tr_alv_vl                &v_no_fr_ro    &v_no_ba_ro      &v_no_fr_un      TR            &m_tr_bil_vl
 &v_no_ce_un    &m_tr_alv_vd TR  TR  TR  TR                                 TR  TR  &m_tr_palv_vd TR            TR  TR
@@ -950,7 +941,7 @@ TR  TR  TR  TR  TR  TR                                  TR
             >;
         };
 
-        IMPLO 20 { // Layer 20 (Open)
+        IMPLO { // Layer 20 (Open)
             bindings = <
 &m_im_uv_vd  &v_op_ce_ro  &v_op_ba_un  TR  &m_im_den_vl                          &v_op_fr_ro    &v_op_ba_ro      &v_op_fr_un      TR            &m_im_bil_vl
 &v_op_ce_un    &m_im_alv_vl &m_im_alv_vd TR  &m_im_pala_vl TR         TR  TR  &m_im_palv_vd TR            TR  TR
@@ -959,7 +950,7 @@ TR  TR  TR  TR  TR  TR                                  TR
             >;
         };
 
-        LAT_IMPLO 21 { // Layer 21 (新規追加)
+        LAT_IMPLO { // Layer 21 (新規追加)
             bindings = <
 TR  TR  TR  TR  &m_lim_den_vl                                   TR            TR            TR  TR            TR
 TR  TR  TR  TR  TR  TR                                      TR  TR  TR              TR            TR  TR
