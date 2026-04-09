@@ -447,7 +447,7 @@ m_nas_uv_vd: m_nas_uv_vd { compatible = "zmk,behavior-macro"; #binding-cells = <
         m_nsa_epi_vd: m_nsa_epi_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
             bindings = <&kp N0 &kp N2 &kp A &kp N1 &kp RET &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp N0 &kp N2 &kp A &kp N2 &kp RET>; }; // ʡ͡ʢ
         m_nsa_glo_vl: m_nsa_glo_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
-            bindings = <&kp N0 &kp N2 &kp N9 &kp N4 &kp RET &kp N0 &kp N3 &kp N6 &kp N1 &RET &kp H &kp RET>; }; // ʔ͡h
+            bindings = <&kp N0 &kp N2 &kp N9 &kp N4 &kp RET &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp H &kp RET>; }; // ʔ͡h
 
     // --- Layer 16: Lateral Approximant (側面接近音) ---
     m_lap_den_vd: m_lap_den_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&kp L &kp N0 &kp N3 &kp N2 &kp A &kp RET>; }; // l̪
