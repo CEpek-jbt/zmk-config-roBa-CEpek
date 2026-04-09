@@ -619,14 +619,29 @@ bindings = <
 &kp RET>; }; // g͡ʟ̝
 
         // --- Layer 15: Approximant (接近音) ---
-        m_ap_bil_vd: m_ap_bil_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_tap &kp U+03B2 &kp U+031E>; }; // β̞
-        m_ap_lab_vd: m_ap_lab_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_tap &kp U+028B>; }; // ʋ
-        m_ap_den_vd: m_ap_den_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_tap &kp U+00F0 &kp U+031E>; }; // ð̞
-        m_ap_alv_vd: m_ap_alv_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_tap &kp U+0279>; }; // ɹ
-        m_ap_palv_vd: m_ap_palv_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_tap &kp U+0279 &kp U+0320>; }; // ɹ̠
-        m_ap_ret_vd: m_ap_ret_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_tap &kp U+027B>; }; // ɻ
-        m_ap_pal_vd: m_ap_pal_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_tap &kp J>; }; // j
-        m_ap_vel_vd: m_ap_vel_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_tap &kp U+0270>; }; // ɰ
+        m_ap_bil_vd: m_ap_bil_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>;
+bindings = <&kp U &kp N0 &kp N3 &kp B &kp N2 &kp U &kp N0 &kp N3 &kp N1 &kp E &kp RET>; };
+
+m_ap_lab_vd: m_ap_lab_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>;
+bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp B &kp RET>; };
+
+m_ap_den_vd: m_ap_den_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>;
+bindings = <&kp U &kp N0 &kp N0 &kp F &kp N0 &kp U &kp N0 &kp N3 &kp N1 &kp E &kp RET>; };
+
+m_ap_alv_vd: m_ap_alv_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>;
+bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp RET>; };
+
+m_ap_palv_vd: m_ap_palv_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>;
+bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>; };
+
+m_ap_ret_vd: m_ap_ret_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>;
+bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp B &kp RET>; };
+
+m_ap_pal_vd: m_ap_pal_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>;
+bindings = <&kp J &kp RET>; };
+
+m_ap_vel_vd: m_ap_vel_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>;
+bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N0 &kp RET>; };
 
     // --- Layer 16: Lateral Approximant (側面接近音) ---
     m_lap_den_vd: m_lap_den_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&kp L &kp N0 &kp N3 &kp N2 &kp A &kp RET>; }; // l̪
