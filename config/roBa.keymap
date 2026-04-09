@@ -850,8 +850,8 @@ TR  TR  TR  TR  TR  TR                                  TR  TR            TR
         PLOSIVE { // Layer 8 (close)
             bindings = <
 &m_p_uvu_vl  &v_cl_ce_ro  &v_cl_ba_un  &m_p_uvu_vd  &m_p_den_vl                    &v_cl_fr_ro     &v_cl_ba_ro      &v_cl_fr_un          TR            &m_p_bil_vl
-&v_cl_ce_un    &m_p_alv_vl  &m_p_den_vd  &m_p_lab_vl  &m_p_vel_vd  TR         TR  TR  &m_p_pal_vd  &m_p_vel_vl  TR  &m_p_epi_vd
-&m_p_alv_vd  TR            &m_p_pal_vl  &m_p_lab_vd  &m_p_bil_vd  TR       TR  &m_p_epi_vl  &m_p_epi_vd  &m_p_ret_vl  &m_p_ret_vd  TR
+&v_cl_ce_un    &m_p_alv_vl  &m_p_den_vd  &m_p_lab_vl  &m_p_vel_vd  TR         TR  TR  &m_p_pal_vd  &m_p_vel_vl  TR  &m_p_glo_vl
+&m_p_alv_vd  TR            &m_p_pal_vl  &m_p_lab_vd  &m_p_bil_vd  TR       TR  &m_p_epi_vl  TR  &m_p_ret_vl  &m_p_ret_vd  TR
 TR  TR  TR  TR  TR  TR                                  TR  TR            TR
             >;
         };
