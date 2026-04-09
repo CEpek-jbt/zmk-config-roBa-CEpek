@@ -323,43 +323,43 @@
         mac_ipa_0260_030A_035C_0253_0325: m_complex1 { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>; bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET &kp U &kp N0 &kp N3 &kp N5 &kp C &kp RET &kp U &kp N0 &kp N2 &kp N5 &kp N3 &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>; };
         mac_ipa_0260_0361_0253: m_complex2 { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>; bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N5 &kp N3 &kp RET>; };
     
-    // --- Layer 7: Nasal (鼻音) ---
-    m_nas_bil_vl: m_nas_bil_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
-        bindings = <&macro_tap &kp M &kp N0 &kp N3 &kp N2 &kp N5>; }; // m̥
-    m_nas_bil_vd: m_nas_bil_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
-        bindings = <&macro_tap &kp M>; }; // m
-    m_nas_lab_vl: m_nas_lab_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
-        bindings = <&macro_tap &kp N0 &kp N2 &kp N7 &kp N1 &kp N0 &kp N3 &kp N0 &kp A>; }; // ɱ̊
-    m_nas_lab_vd: m_nas_lab_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
-        bindings = <&macro_tap &kp N0 &kp N2 &kp N7 &kp N1>; }; // ɱ
-    m_nas_den_vl: m_nas_den_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
-        bindings = <&macro_tap &kp N &kp N0 &kp N3 &kp N2 &kp A &kp N0 &kp N3 &kp N0 &kp A>; }; // n̪̊
-    m_nas_den_vd: m_nas_den_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
-        bindings = <&macro_tap &kp N &kp N0 &kp N3 &kp N2 &kp A>; }; // n̪
-    m_nas_alv_vl: m_nas_alv_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
-        bindings = <&macro_tap &kp N &kp N0 &kp N3 &kp N2 &kp N5>; }; // n̥
-    m_nas_alv_vd: m_nas_alv_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
-        bindings = <&macro_tap &kp N>; }; // n
-    m_nas_palv_vl: m_nas_palv_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
-        bindings = <&macro_tap &kp N &kp N0 &kp N3 &kp N2 &kp N0 &kp N0 &kp N3 &kp N0 &kp A>; }; // n̠̊
-    m_nas_palv_vd: m_nas_palv_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
-        bindings = <&macro_tap &kp N &kp N0 &kp N3 &kp N2 &kp N0>; }; // n̠
-    m_nas_ret_vl: m_nas_ret_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
-        bindings = <&macro_tap &kp N0 &kp N2 &kp N7 &kp N3 &kp N0 &kp N3 &kp N0 &kp A>; }; // ɳ̊
-    m_nas_ret_vd: m_nas_ret_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
-        bindings = <&macro_tap &kp N0 &kp N2 &kp N7 &kp N3>; }; // ɳ
-    m_nas_pala_vl: m_nas_pala_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
-        bindings = <&macro_tap &kp N0 &kp N2 &kp N7 &kp N2 &kp N0 &kp N3 &kp N0 &kp A>; }; // ɲ̊
-    m_nas_pala_vd: m_nas_pala_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
-        bindings = <&macro_tap &kp N0 &kp N2 &kp N7 &kp N2>; }; // ɲ
-    m_nas_vel_vl: m_nas_vel_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
-        bindings = <&macro_tap &kp N0 &kp N1 &kp N4 &kp B &kp N0 &kp N3 &kp N0 &kp A>; }; // ŋ̊
-    m_nas_vel_vd: m_nas_vel_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
-        bindings = <&macro_tap &kp N0 &kp N1 &kp N4 &kp B>; }; // ŋ
-    m_nas_uv_vl: m_nas_uv_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
-        bindings = <&macro_tap &kp N0 &kp N2 &kp N7 &kp N4 &kp N0 &kp N3 &kp N2 &kp N5>; }; // ɴ̥
-    m_nas_uv_vd: m_nas_uv_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; 
-        bindings = <&macro_tap &kp N0 &kp N2 &kp N7 &kp N4>; }; // ɴ
+// --- Layer 7: Nasal (鼻音) ---
+m_nas_bil_vl: m_nas_bil_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>;
+    bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp D &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>; }; // m̥
+m_nas_bil_vd: m_nas_bil_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>;
+    bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp D &kp RET>; }; // m
+m_nas_lab_vl: m_nas_lab_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>;
+    bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N1 &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>; }; // ɱ̊
+m_nas_lab_vd: m_nas_lab_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>;
+    bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N1 &kp RET>; }; // ɱ
+m_nas_den_vl: m_nas_den_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>;
+    bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>; }; // n̪̊
+m_nas_den_vd: m_nas_den_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>;
+    bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET>; }; // n̪
+m_nas_alv_vl: m_nas_alv_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>;
+    bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>; }; // n̥
+m_nas_alv_vd: m_nas_alv_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>;
+    bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET>; }; // n
+m_nas_palv_vl: m_nas_palv_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>;
+    bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>; }; // n̠̊
+m_nas_palv_vd: m_nas_palv_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>;
+    bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>; }; // n̠
+m_nas_ret_vl: m_nas_ret_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>;
+    bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N3 &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>; }; // ɳ̊
+m_nas_ret_vd: m_nas_ret_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>;
+    bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N3 &kp RET>; }; // ɳ
+m_nas_pala_vl: m_nas_pala_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>;
+    bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N2 &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>; }; // ɲ̊
+m_nas_pala_vd: m_nas_pala_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>;
+    bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N2 &kp RET>; }; // ɲ
+m_nas_vel_vl: m_nas_vel_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>;
+    bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>; }; // ŋ̊
+m_nas_vel_vd: m_nas_vel_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>;
+    bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET>; }; // ŋ
+m_nas_uv_vl: m_nas_uv_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>;
+    bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N4 &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>; }; // ɴ̥
+m_nas_uv_vd: m_nas_uv_vd { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <10>; tap-ms = <10>;
+    bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N4 &kp RET>; }; // ɴ
 
     // --- Layer 8: Plosive (破裂音) ---
     m_p_bil_vl: m_p_bil_vl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <1>; tap-ms = <1>; bindings = <&macro_tap &kp P>; };
