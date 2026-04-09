@@ -933,7 +933,7 @@
             bindings = <
 &m_tr_uv_vl  &v_no_ce_ro  &v_no_ba_un  &m_tr_uv_vd &m_tr_alv_vl                &v_no_fr_ro    &v_no_ba_ro      &v_no_fr_un      &trans            &m_tr_bil_vl
 &v_no_ce_un    &m_tr_alv_vd &trans  &trans  &trans  &trans                                 &trans  &trans  &m_tr_palv_vd &trans            &trans  &trans
-&trans  &trans            &trans  &trans  &m_tr_bil_vd  &trans                               &trans  &m_tr_epi_vl &m_tr_epi_vd &m_tr_ret_vl &m_tr_ret_vd TR
+&trans  &trans            &trans  &trans  &m_tr_bil_vd  &trans                               &trans  &m_tr_epi_vl &m_tr_epi_vd &m_tr_ret_vl &m_tr_ret_vd &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
             >;
         };
