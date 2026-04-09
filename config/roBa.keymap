@@ -772,8 +772,8 @@
             bindings = <
 &kp Q             &kp W             &kp E             &kp R             &kp T                                        &kp Y                  &kp U         &kp I      &kp O    &kp P
 &kp A             &kp S             &kp D             &kp F             &kp G             &mkp MB1             &lt_NUM 6 EQUAL  &kp H                  &kp J         &kp K      &kp L    &lt 5 ASTRK
-&kp Z             &kp X             &kp C             &kp V             &kp B             &mt LEFT_SHIFT TAB   &lt_ipa 20 BSLH  &lt_ipa 7 N            &lt_ipa 20 M  &kp COMMA  &kp DOT  &kp SEMICOLON
-&lt_ipa 8 K_COPY  &lt_ipa 11 K_PASTE  &lt_ipa 9 K_UNDO  &lt_ipa 15 LANG2  &lt_ipa 17 SPACE  &lt_ipa 19 LANG1     &kp BACKSPACE    &mt RIGHT_SHIFT ENTER                                  &kp DEL
+&kp Z             &kp X             &kp C             &kp V             &kp B             &mt LEFT_SHIFT TAB   &ipa_sw 20 BSLH  &ipa_sw 7 N            &ipa_sw 20 M  &kp COMMA  &kp DOT  &kp SEMICOLON
+&ipa_sw 8 K_COPY  &ipa_sw 11 K_PASTE  &ipa_sw 9 K_UNDO  &ipa_sw 15 LANG2  &ipa_sw 17 SPACE  &ipa_sw 19 LANG1     &kp BACKSPACE    &mt RIGHT_SHIFT ENTER                                  &kp DEL
             >;
             sensor-bindings = <&scroll_up_down>;
         };
@@ -819,7 +819,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                                &trans  &trans             &trans  &trans  &m_im_bil_vl
 &trans  &trans  &trans  &trans  &trans        &trans      &trans  &trans  &mkp_exit_AML MB1  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &lt_ipa 20 0  &trans      &trans  &trans  &trans             &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &ipa_sw 20 0  &trans      &trans  &trans  &trans             &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans        &trans      &trans  &trans                                     &trans
             >;
         };
