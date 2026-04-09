@@ -871,139 +871,139 @@ bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N0 &kp RET>; };
             >;
         };
 
-        NASAL {
-    bindings = <
-        &m_nas_uv_vl &trans &trans &m_nas_uv_vd &m_nas_den_vl &m_nas_pala_vd &trans &trans &trans &m_nas_bil_vl
-        &trans &m_nas_alv_vl &m_nas_den_vd &m_nas_lab_vl &m_nas_vel_vd &trans &trans &trans &m_nas_palv_vd &m_nas_vel_vl &trans &trans
-        &m_nas_alv_vd &m_nas_palv_vl &m_nas_pala_vl &m_nas_lab_vd &m_nas_bil_vd &trans &trans &trans &trans &m_nas_ret_vl &m_nas_ret_vd &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
+        NASAL { // Layer 7
+            bindings = <
+&m_nas_uv_vl  &trans  &trans  &m_nas_uv_vd  &m_nas_den_vl                         &m_nas_pala_vd  &trans  &trans  &trans              &m_nas_bil_vl
+&trans  &m_nas_alv_vl  &m_nas_den_vd  &m_nas_lab_vl  &m_nas_vel_vd  &trans        &trans  &trans  &m_nas_palv_vd &m_nas_vel_vl  &trans  &trans
+&m_nas_alv_vd  &m_nas_palv_vl  &m_nas_pala_vl  &m_nas_lab_vd  &m_nas_bil_vd  &trans      &trans  &m_nas_uv_vl  &m_nas_uv_vd  &m_nas_ret_vl  &m_nas_ret_vd  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
+            >;
+        };
 
-PLOSIVE {
-    bindings = <
-        &m_p_uv_vl &v_cl_ce_ro &v_cl_ba_un &m_p_uv_vd &m_p_den_vl &v_cl_fr_ro &v_cl_ba_ro &v_cl_fr_un &trans &m_p_bil_vl
-        &v_cl_ce_un &m_p_alv_vl &m_p_den_vd &m_p_lab_vl &m_p_vel_vd &trans &trans &trans &m_p_pala_vd &m_p_vel_vl &trans &m_p_glo_vl
-        &m_p_alv_vd &trans &m_p_pala_vl &m_p_lab_vd &m_p_bil_vd &trans &trans &m_p_epi_vl &trans &m_p_ret_vl &m_p_ret_vd &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
+        PLOSIVE { // Layer 8 (Close Vowels)
+            bindings = <
+&m_p_uv_vl   &v_cl_ce_ro  &v_cl_ba_un  &m_p_uv_vd   &m_p_den_vl          &m_p_pala_vd  &v_cl_ba_ro  &v_cl_fr_un  &v_cl_fr_ro  &m_p_bil_vl
+&v_cl_ce_un  &m_p_alv_vl  &m_p_den_vd  &m_p_lab_vl  &m_p_vel_vd  &trans      &trans  &trans  &&transans &m_p_vel_vl  &trans  &m_p_glo_vl
+&m_p_alv_vd  &trans           &m_p_pala_vl &m_p_lab_vd  &m_p_bil_vd  &trans      &trans  &m_p_epi_vl  &trans  &m_p_ret_vl  &m_p_ret_vd  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
+            >;
+        };
 
-NSFRICATIVE {
-    bindings = <
-        &m_nsf_uv_vl &v_cm_ce_ro &v_cm_ba_un &m_nsf_uv_vd &m_nsf_den_vl &v_cm_fr_ro &v_cm_ba_ro &v_cm_fr_un &trans &m_nsf_bil_vl
-        &v_cm_ce_un &m_nsf_alv_vl &m_nsf_den_vd &m_nsf_lab_vl &m_nsf_vel_vd &trans &trans &trans &m_nsf_palv_vd &m_nsf_vel_vl &trans &m_nsf_glo_vd
-        &m_nsf_alv_vd &m_nsf_palv_vl &m_nsf_pala_vl &m_nsf_lab_vd &m_nsf_bil_vd &trans &trans &m_nsf_epi_vl &m_nsf_epi_vd &m_nsf_ret_vl &m_nsf_ret_vd &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
+        NSFRICATIVE { // Layer 9 (Close-mid Vowels)
+            bindings = <
+&m_nsf_uv_vl &v_cm_ce_ro  &v_cm_ba_un  &m_nsf_uv_vd &m_nsf_den_vl        &m_nsf_pala_vd  &v_cm_ba_ro  &v_cm_fr_un  &v_cm_fr_ro  &m_nsf_bil_vl
+&v_cm_ce_un  &m_nsf_alv_vl &m_nsf_den_vd &m_nsf_lab_vl  &m_nsf_vel_vd &trans      &trans  &trans  &m_nsf_palv_vd &m_nsf_vel_vl &trans  &m_nsf_glo_vd
+&m_nsf_alv_vd &m_nsf_palv_vl &m_nsf_pala_vl &m_nsf_lab_vd &m_nsf_bil_vd &trans      &trans  &m_nsf_epi_vl &m_nsf_epi_vd &m_nsf_ret_vl &m_nsf_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
+            >;
+        };
 
-NSAFFRICATE {
-    bindings = <
-        &m_nsa_uv_vl &trans &trans &m_nsa_uv_vd &m_nsa_den_vl &m_nsa_pala_vd &trans &trans &trans &m_nsa_bil_vl
-        &trans &m_nsa_alv_vl &m_nsa_den_vd &m_nsa_lab_vl &m_nsa_vel_vd &trans &trans &trans &m_nsa_palv_vd &m_nsa_vel_vl &trans &m_nsa_glo_vl
-        &m_nsa_alv_vd &m_nsa_palv_vl &m_nsa_pala_vl &m_nsa_lab_vd &m_nsa_bil_vd &trans &trans &m_nsa_epi_vl &m_nsa_epi_vd &m_nsa_ret_vl &m_nsa_ret_vd &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
+        NSAFFRICATE { // Layer 10
+            bindings = <
+&m_nsa_uv_vl &trans  &trans  &m_nsa_uv_vd &m_nsa_den_vl                         &m_nsa_pala_vd &trans  &trans  &trans              &m_nsa_bil_vl
+&trans  &m_nsa_alv_vl &m_nsa_den_vd &m_nsa_lab_vl  &m_nsa_vel_vd &trans        &trans  &trans  &m_nsa_palv_vd &m_nsa_vel_vl &trans  &m_nsa_glo_vl
+&m_nsa_alv_vd &m_nsa_palv_vl &m_nsa_pala_vl &m_nsa_lab_vd &m_nsa_bil_vd &trans      &trans  &m_nsa_epi_vl &m_nsa_epi_vd &m_nsa_ret_vl &m_nsa_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
+            >;
+        };
 
-SFRICATIVE {
-    bindings = <
-        &trans &v_nc_ce_ro &v_nc_ba_un &trans &m_sf_den_vl &v_nc_fr_ro &v_nc_ba_ro &v_nc_fr_un &trans &trans
-        &v_nc_ce_un &m_sf_alv_vl &m_sf_den_vd &trans &trans &trans &trans &trans &m_sf_palv_vd &trans &trans &trans
-        &m_sf_alv_vd &m_sf_palv_vl &m_sf_pala_vl &trans &trans &trans &trans &trans &trans &m_sf_ret_vl &m_sf_ret_vd &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
+        SFRICATIVE { // Layer 11 (Near-close Vowels)
+            bindings = <
+&trans           &v_nc_ce_ro  &v_nc_ba_un  &trans           &m_sf_den_vl         &m_sf_pala_vd  &v_nc_ba_ro  &v_nc_fr_un  &v_nc_fr_ro  &trans
+&v_nc_ce_un  &m_sf_alv_vl &m_sf_den_vd &trans           &trans           &trans      &trans  &trans  &m_sf_palv_vd &trans  &trans  &trans
+&m_sf_alv_vd &m_sf_palv_vl &m_sf_pala_vl &trans         &trans           &trans      &trans  &trans  &trans            &m_sf_ret_vl &m_sf_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
+            >;
+        };
 
-SAFFRICATE {
-    bindings = <
-        &trans &trans &trans &trans &m_sa_den_vl &m_sa_pala_vd &trans &trans &trans &trans
-        &trans &m_sa_alv_vl &m_sa_den_vd &trans &trans &trans &trans &trans &m_sa_palv_vd &trans &trans &trans
-        &m_sa_alv_vd &m_sa_palv_vl &m_sa_pala_vl &trans &trans &trans &trans &trans &trans &m_sa_ret_vl &m_sa_ret_vd &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
+        SAFFRICATE { // Layer 12
+            bindings = <
+&m_sa_uv_vl &trans  &trans  &m_sa_uv_vd &m_sa_den_vl                         &m_sa_pala_vd &trans  &trans  &trans              &trans
+&trans  &m_sa_alv_vl  &m_sa_den_vd  &trans  &m_sa_vel_vd &trans        &trans  &trans  &m_sa_palv_vd &m_sa_vel_vl &trans &m_sa_glo_vl
+&m_sa_alv_vd  &m_sa_palv_vl  &m_sa_pala_vl  &trans  &trans  &trans  &trans  &m_sa_epi_vl &m_sa_epi_vd &m_sa_ret_vl &m_sa_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
+            >;
+        };
 
-LFRICATIVE {
-    bindings = <
-        &trans &trans &trans &trans &m_lf_den_vl &m_lf_pala_vd &trans &trans &trans &trans
-        &trans &m_lf_alv_vl &m_lf_den_vd &trans &m_lf_vel_vd &trans &trans &trans &trans &m_lf_vel_vl &trans &trans
-        &m_lf_alv_vd &trans &m_lf_pala_vl &trans &trans &trans &trans &trans &trans &m_lf_ret_vl &m_lf_ret_vd &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
+        LFRICATIVE { // Layer 13
+            bindings = <
+&trans  &trans  &trans  &trans  &m_lf_den_vl                                  &m_lf_pala_vd &trans  &trans  &trans              &trans
+&trans  &m_lf_alv_vl  &m_lf_den_vd  &trans  &m_lf_vel_vd &trans        &trans  &trans  &trans                &m_lf_vel_vl &trans  &trans
+&m_lf_alv_vd  &trans            &m_lf_pala_vl  &trans  &trans  &trans      &trans  &trans  &trans                &m_lf_ret_vl &m_lf_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
+            >;
+        };
 
-LAFFRICATE {
-    bindings = <
-        &trans &trans &trans &trans &trans &m_la_pala_vd &trans &trans &trans &trans
-        &trans &m_la_alv_vl &trans &trans &m_la_vel_vd &trans &trans &trans &trans &m_la_vel_vl &trans &trans
-        &m_la_alv_vd &trans &m_la_pala_vl &trans &trans &trans &trans &trans &trans &m_la_ret_vl &m_la_ret_vd &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
+        LAFFRICATE { // Layer 14
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                                             &m_la_pala_vd &trans  &trans  &trans              &trans
+&trans  &m_la_alv_vl  &trans  &trans  &m_la_vel_vd &trans                  &trans  &trans  &trans                &m_la_vel_vl &trans  &trans
+&m_la_alv_vd  &trans            &m_la_pala_vl  &trans  &trans  &trans      &trans  &trans  &trans                &m_la_ret_vl &m_la_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
+            >;
+        };
 
-APPROXIMANT {
-    bindings = <
-        &trans &v_mi_ce_ro &v_mi_ba_un &trans &trans &v_mi_fr_ro &v_mi_ba_ro &v_mi_fr_un &trans &trans
-        &v_mi_ce_un &trans &m_ap_den_vd &trans &m_ap_vel_vd &trans &trans &trans &m_ap_palv_vd &trans &trans &trans
-        &m_ap_alv_vd &trans &trans &m_ap_lab_vd &m_ap_bil_vd &trans &trans &trans &trans &trans &m_ap_ret_vd &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
+        APPROXIMANT { // Layer 15 (Mid Vowels)
+            bindings = <
+&trans           &v_mi_ce_ro  &v_mi_ba_un  &trans           &trans                   &m_ap_pala_vd  &v_mi_ba_ro  &v_mi_fr_un  &v_mi_fr_ro  &trans
+&v_mi_ce_un  &trans           &m_ap_den_vd &trans           &m_ap_vel_vd &trans      &trans  &trans  &m_ap_palv_vd &trans  &trans  &trans
+&m_ap_alv_vd &trans           &trans           &m_ap_lab_vd &m_ap_bil_vd &trans      &trans  &trans  &trans            &trans  &m_ap_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
+            >;
+        };
 
-LAPPROXIMANT {
-    bindings = <
-        &m_lap_uv_vd &trans &trans &trans &m_lap_den_vd &m_lap_pala_vd &trans &trans &trans &trans
-        &trans &m_lap_alv_vd &m_lap_den_vd &trans &m_lap_vel_vd &trans &trans &trans &trans &m_lap_vel_vl &trans &trans
-        &trans &trans &m_lap_pala_vl &trans &trans &trans &trans &trans &trans &m_lap_ret_vl &m_lap_ret_vd &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
+        LAPPROXIMANT { // Layer 16
+            bindings = <
+&trans  &trans  &trans  &trans  &m_lap_den_vd                                  &m_lap_pala_vd &trans  &trans  &trans              &trans
+&trans  &m_lap_alv_vd &m_lap_den_vd &trans  &m_lap_vel_vd &trans      &trans  &trans  &trans                &m_lap_vel_vl &trans  &trans
+&trans  &trans            &m_lap_pala_vl &trans  &trans  &trans                &trans  &trans  &m_lap_uv_vd &m_lap_ret_vl &m_lap_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
+            >;
+        };
 
-TAP {
-    bindings = <
-        &trans &v_om_ce_ro &v_om_ba_un &m_tap_uv_vd &trans &v_om_fr_ro &v_om_ba_ro &v_om_fr_un &trans &trans
-        &v_om_ce_un &m_tap_alv_vl &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &m_tap_alv_vd &trans &trans &m_tap_lab_vd &m_tap_bil_vd &trans &trans &m_tap_epi_vd &trans &m_tap_ret_vl &m_tap_ret_vd &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
+        TAP { // Layer 17 (Open-mid Vowels)
+            bindings = <
+&trans           &v_om_ce_ro  &v_om_ba_un  &m_tap_uv_vd &trans                   &trans  &v_om_ba_ro  &v_om_fr_un  &v_om_fr_ro  &trans
+&v_om_ce_un  &m_tap_alv_vl &trans          &trans           &trans           &trans      &trans  &trans  &trans            &trans            &trans  &trans
+&m_tap_alv_vd &trans          &trans           &m_tap_lab_vd &m_tap_bil_vd &trans    &trans  &m_tap_epi_vd &trans          &m_tap_ret_vl &m_tap_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
+            >;
+        };
 
-LTAP {
-    bindings = <
-        &trans &trans &trans &trans &trans &m_ltap_pala_vd &trans &trans &trans &trans
-        &trans &m_ltap_alv_vl &trans &trans &m_ltap_vel_vd &trans &trans &trans &trans &trans &trans &trans
-        &m_ltap_alv_vd &trans &trans &trans &trans &trans &trans &trans &trans &trans &m_ltap_ret_vl &m_ltap_ret_vd &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
+        LTAP { // Layer 18
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                                             &m_ltap_pala_vd &trans  &trans  &trans              &trans
+&trans  &m_ltap_alv_vl &trans  &trans  &m_ltap_vel_vd &trans              &trans  &trans  &trans                &trans            &trans  &trans
+&m_ltap_alv_vd &trans            &trans  &trans  &trans  &trans                  &trans  &trans                &trans            &m_ltap_ret_vl &m_ltap_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
+            >;
+        };
 
-TRILL {
-    bindings = <
-        &m_tr_uv_vl &v_no_ce_ro &v_no_ba_un &m_tr_uv_vd &m_tr_alv_vl &v_no_fr_ro &v_no_ba_ro &v_no_fr_un &trans &m_tr_bil_vl
-        &v_no_ce_un &m_tr_alv_vd &trans &trans &trans &trans &trans &trans &m_tr_palv_vd &trans &trans &trans
-        &trans &trans &trans &trans &m_tr_bil_vd &trans &trans &m_tr_epi_vl &m_tr_epi_vd &m_tr_ret_vl &m_tr_ret_vd &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
+        TRILL { // Layer 19 (Near-open Vowels)
+            bindings = <
+&m_tr_uv_vl  &v_no_ce_ro  &v_no_ba_un  &m_tr_uv_vd  &m_tr_alv_vl         &trans  &v_no_ba_ro  &v_no_fr_un  &v_no_fr_ro  &m_tr_bil_vl
+&v_no_ce_un  &m_tr_alv_vd &trans           &trans           &trans           &trans      &trans  &trans  &m_tr_palv_vd &trans            &trans  &trans
+&trans           &trans           &trans           &trans           &m_tr_bil_vd &trans      &trans  &m_tr_epi_vl &m_tr_epi_vd &m_tr_ret_vl &m_tr_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
+            >;
+        };
 
-IMPLO {
-    bindings = <
-        &m_im_uv_vd &v_op_ce_ro &v_op_ba_un &trans &m_im_den_vl &v_op_fr_ro &v_op_ba_ro &v_op_fr_un &trans &m_im_bil_vl
-        &v_op_ce_un &m_im_alv_vl &m_im_alv_vd &trans &m_im_vel_vd &trans &trans &trans &m_im_palv_vd &trans &trans &trans
-        &trans &m_im_pala_vl &trans &m_im_bil_vd &trans &trans &trans &trans &trans &m_im_ret_vl &m_im_ret_vd &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
+        IMPLO { // Layer 20 (Open Vowels)
+            bindings = <
+&m_im_uv_vd  &v_op_ce_ro  &v_op_ba_un  &trans           &m_im_den_vl         &m_im_pala_vd  &v_op_ba_ro  &v_op_fr_un  &v_op_fr_ro  &m_im_bil_vl
+&v_op_ce_un  &m_im_alv_vl &m_im_alv_vd &trans           &m_im_vel_vl &trans     &trans  &trans  &trans &trans            &trans  &trans
+&trans           &trans m_im_pala_vl          &m_im_bil_vd &trans                   &trans  &trans  &trans            &trans            &m_im_ret_vl &m_im_ret_vd &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
+            >;
+        };
 
-LAT_IMPLO {
-    bindings = <
-        &trans &trans &trans &trans &m_lim_den_vl &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
+        LAT_IMPLO { // Layer 21
+            bindings = <
+&trans  &trans  &trans  &trans  &m_lim_den_vl                                  &trans            &trans            &trans  &trans              &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans                &trans            &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans                &trans            &trans  &trans              &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans            &trans
+            >;
+        };
     };
 };
