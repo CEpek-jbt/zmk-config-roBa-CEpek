@@ -991,7 +991,7 @@ TRILL {
 IMPLO {
     bindings = <
         &m_im_uv_vd &v_op_ce_ro &v_op_ba_un &trans &m_im_den_vl &v_op_fr_ro &v_op_ba_ro &v_op_fr_un &trans &m_im_bil_vl
-        &v_op_ce_un &m_im_alv_vl &m_im_alv_vd &trans &m_im_pala_vl &trans &trans &trans &m_im_palv_vd &trans &trans &trans
+        &v_op_ce_un &m_im_alv_vl &m_im_alv_vd &trans &m_im_vel_vd &trans &trans &trans &m_im_palv_vd &trans &trans &trans
         &trans &m_im_pala_vl &trans &m_im_bil_vd &trans &trans &trans &trans &trans &m_im_ret_vl &m_im_ret_vd &trans
         &trans &trans &trans &trans &trans &trans &trans &trans &trans
     >;
