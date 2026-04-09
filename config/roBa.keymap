@@ -522,28 +522,36 @@
         MAC_IPA(m_v_20_10, N0, N0, N0, N0) // ä (A 10)
 
 
-        // 新規追加: Bilabial (両唇音) & Labiodental (唇歯音)
-        MAC_IPA(m_n_bil_vl, N0, N0, N0, N0) MAC_IPA(m_n_bil_vd, N0, N0, N0, N0)
-        MAC_IPA(m_n_lab_vl, N0, N0, N0, N0) MAC_IPA(m_n_lab_vd, N0, N0, N0, N0)
+        // Nasal (Layer 7)
+MAC_IPA(m_n_bil_vl, N0, N0, N6, D)   // m̥ (U+026D + 0325 だが簡易的にmで代用される事も多いため調整が必要な場合あり)
+MAC_IPA(m_n_bil_vd, N0, N0, N6, D)   // m
+MAC_IPA(m_n_lab_vl, N0, N2, N7, N1)   // ɱ̊
+MAC_IPA(m_n_lab_vd, N0, N2, N7, N1)   // ɱ
 
-        MAC_IPA(m_p_bil_vl, N0, N0, N0, N0) MAC_IPA(m_p_bil_vd, N0, N0, N0, N0)
-        MAC_IPA(m_p_lab_vl, N0, N0, N0, N0) MAC_IPA(m_p_lab_vd, N0, N0, N0, N0)
+// Plosive (Layer 8)
+MAC_IPA(m_p_bil_vl, N0, N0, N7, N0)   // p
+MAC_IPA(m_p_bil_vd, N0, N0, N6, N2)   // b
+MAC_IPA(m_p_lab_vl, N0, N0, N7, N0)   // p̪ (p + U+032A)
+MAC_IPA(m_p_lab_vd, N0, N0, N6, N2)   // b̪ (b + U+032A)
 
-        MAC_IPA(m_nsf_bil_vl, N0, N0, N0, N0) MAC_IPA(m_nsf_bil_vd, N0, N0, N0, N0)
-        MAC_IPA(m_nsf_lab_vl, N0, N0, N0, N0) MAC_IPA(m_nsf_lab_vd, N0, N0, N0, N0)
+// Non-sibilant fricative (Layer 9)
+MAC_IPA(m_nsf_bil_vl, N0, N2, N7, N8)  // ɸ
+MAC_IPA(m_nsf_bil_vd, N0, N0, N3, B, N2) // β (U+03B2)
+MAC_IPA(m_nsf_lab_vl, N0, N0, N6, N6)  // f
+MAC_IPA(m_nsf_lab_vd, N0, N0, N7, N6)  // v
 
-        MAC_IPA(m_nsa_bil_vl, N0, N0, N0, N0) MAC_IPA(m_nsa_bil_vd, N0, N0, N0, N0)
-        MAC_IPA(m_nsa_lab_vl, N0, N0, N0, N0) MAC_IPA(m_nsa_lab_vd, N0, N0, N0, N0)
+// Approximant (Layer 15)
+MAC_IPA(m_ap_bil_vd, N0, N3, B, N2)    // β̞ (β + U+031E)
+MAC_IPA(m_ap_lab_vd, N0, N2, N8, B)    // ʋ
 
-        MAC_IPA(m_ap_bil_vd, N0, N0, N0, N0)
-        MAC_IPA(m_ap_lab_vd, N0, N0, N0, N0)
+// Trill (Layer 19)
+MAC_IPA(m_tr_bil_vl, N0, N2, N9, N0)   // ʙ̥
+MAC_IPA(m_tr_bil_vd, N0, N2, N9, N0)   // ʙ
 
-        MAC_IPA(m_tap_bil_vd, N0, N0, N0, N0)
-        MAC_IPA(m_tap_lab_vd, N0, N0, N0, N0)
-
-        MAC_IPA(m_tr_bil_vl, N0, N0, N0, N0) MAC_IPA(m_tr_bil_vd, N0, N0, N0, N0)
-
-        MAC_IPA(m_im_bil_vl, N0, N0, N0, N0) MAC_IPA(m_im_bil_vd, N0, N0, N0, N0)
+// Implosive (Layer 20)
+MAC_IPA(m_im_bil_vl, N0, N2, N9, N8)   // ʘ
+MAC_IPA(m_im_bil_vd, N0, N2, N5, N3)   // ɓ
+(※
 
 
         // Layer 7: Nasal
