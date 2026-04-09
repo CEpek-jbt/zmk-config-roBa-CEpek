@@ -40,6 +40,7 @@
     scroll-layers = <5>;
 };
 
+/ {
 macros {
         ipa_sw: ipa_sw {
             compatible = "zmk,behavior-macro-two-param";
@@ -486,7 +487,7 @@ macros {
         MAC_IPA(m_lim_den_vl, N0, N1, C, N1)
     };
 
-/ {
+
     combos {
         compatible = "zmk,combos";
 
