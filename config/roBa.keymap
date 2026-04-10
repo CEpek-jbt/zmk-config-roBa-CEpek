@@ -73,7 +73,8 @@
             key-positions = <34>;
         };
 
-        BT_NXT {
+        {
+BT_NXT {
             bindings = <&bt BT_NXT>;
             key-positions = <35>;
         };
