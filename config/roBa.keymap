@@ -3209,14 +3209,11 @@
             bindings = <&kp N0 &kp N2 &kp N5 &kp N1 &kp RET>;
         }; // ɑ
         v_op_ba_ro: v_op_ba_ro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <1>;
-            tap-ms = <1>;
             bindings = <&kp N0 &kp N2 &kp N5 &kp N2 &kp RET>;
-        }; // ɒ
+        }; //  0
     };
 
+    
     behaviors {
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
