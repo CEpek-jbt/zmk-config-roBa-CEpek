@@ -50,6 +50,726 @@
             bindings = <&bt BT_SEL 2>;
             key-positions = <28 24>;
         };
+
+        combo_nsaffricate {
+            timeout-ms = <50>;
+            key-positions = <34 36>;
+            bindings = <&ipa_sw 10 0>;
+        };
+
+        combo_saffricate {
+            timeout-ms = <50>;
+            key-positions = <34 35>;
+            bindings = <&ipa_sw 12 0>;
+        };
+
+        combo_lfricative {
+            timeout-ms = <50>;
+            key-positions = <35 41>;
+            bindings = <&ipa_sw 13 0>;
+        };
+
+        combo_laffricate {
+            timeout-ms = <50>;
+            key-positions = <34 35 41>;
+            bindings = <&ipa_sw 14 0>;
+        };
+
+        combo_lapproximant {
+            timeout-ms = <50>;
+            key-positions = <37 41>;
+            bindings = <&ipa_sw 16 0>;
+        };
+
+        combo_ltap {
+            timeout-ms = <50>;
+            key-positions = <38 41>;
+            bindings = <&ipa_sw 18 0>;
+        };
+
+        combo_SLA {
+            timeout-ms = <300>;
+            key-positions = <11 20 10>;
+            bindings = <&mac_ipa_030D>;
+        };
+
+        combo_SLB {
+            timeout-ms = <300>;
+            key-positions = <11 20 26>;
+            bindings = <&mac_ipa_0329>;
+        };
+
+        combo_NSA {
+            timeout-ms = <300>;
+            key-positions = <29 11 10>;
+            bindings = <&mac_ipa_0311>;
+        };
+
+        combo_NSB {
+            timeout-ms = <300>;
+            key-positions = <29 11 26>;
+            bindings = <&mac_ipa_032F>;
+        };
+
+        combo_HL {
+            timeout-ms = <300>;
+            key-positions = <17 20>;
+            bindings = <&mac_ipa_02B0>;
+        };
+
+        combo_HHL {
+            timeout-ms = <300>;
+            key-positions = <17 17 20>;
+            bindings = <&mac_ipa_02B1>;
+        };
+
+        combo_ML {
+            timeout-ms = <300>;
+            key-positions = <30 20>;
+            bindings = <&mac_ipa_1D4D>;
+        };
+
+        combo_NL {
+            timeout-ms = <300>;
+            key-positions = <29 20>;
+            bindings = <&mac_ipa_207F>;
+        };
+
+        combo_RNL {
+            timeout-ms = <300>;
+            key-positions = <3 29 20>;
+            bindings = <&mac_ipa_1DAF>;
+        };
+
+        combo_GNL {
+            timeout-ms = <300>;
+            key-positions = <14 29 20>;
+            bindings = <&mac_ipa_1DAE>;
+        };
+
+        combo_NGL {
+            timeout-ms = <300>;
+            key-positions = <29 14 20>;
+            bindings = <&mac_ipa_1D51>;
+        };
+
+        combo_LL {
+            timeout-ms = <300>;
+            key-positions = <20 20>;
+            bindings = <&mac_ipa_02E1>;
+        };
+
+        combo_AWL {
+            timeout-ms = <300>;
+            key-positions = <10 1 20>;
+            bindings = <&mac_ipa_1D4A>;
+        };
+
+        combo_THL {
+            timeout-ms = <300>;
+            key-positions = <4 17 20>;
+            bindings = <&mac_ipa_1DBF>;
+        };
+
+        combo_XL {
+            timeout-ms = <300>;
+            key-positions = <23 20>;
+            bindings = <&mac_ipa_02E3>;
+        };
+
+        combo_AP {
+            timeout-ms = <300>;
+            key-positions = <10 9>;
+            bindings = <&mac_ipa_031A>;
+        };
+
+        combo_VLA {
+            timeout-ms = <300>;
+            key-positions = <25 20 10>;
+            bindings = <&mac_ipa_030A>;
+        };
+
+        combo_VLB {
+            timeout-ms = <300>;
+            key-positions = <25 20 26>;
+            bindings = <&mac_ipa_0325>;
+        };
+
+        combo_VD {
+            timeout-ms = <300>;
+            key-positions = <25 12>;
+            bindings = <&mac_ipa_032C>;
+        };
+
+        combo_TR {
+            timeout-ms = <300>;
+            key-positions = <4 3>;
+            bindings = <&mac_ipa_0308>;
+        };
+
+        combo_TRB {
+            timeout-ms = <300>;
+            key-positions = <4 3 26>;
+            bindings = <&mac_ipa_0324>;
+        };
+
+        combo_CT {
+            timeout-ms = <300>;
+            key-positions = <24 4>;
+            bindings = <&mac_ipa_0308>;
+        };
+
+        combo_BVD {
+            timeout-ms = <300>;
+            key-positions = <26 25 12>;
+            bindings = <&mac_ipa_0324>;
+        };
+
+        combo_TLA {
+            timeout-ms = <300>;
+            key-positions = <4 20 10>;
+            bindings = <&mac_ipa_0303>;
+        };
+
+        combo_TLB {
+            timeout-ms = <300>;
+            key-positions = <4 20 26>;
+            bindings = <&mac_ipa_0330>;
+        };
+
+        combo_NS {
+            timeout-ms = <300>;
+            key-positions = <29 11>;
+            bindings = <&mac_ipa_0303>;
+        };
+
+        combo_CK {
+            timeout-ms = <300>;
+            key-positions = <24 19>;
+            bindings = <&mac_ipa_0330>;
+        };
+
+        combo_DN {
+            timeout-ms = <300>;
+            key-positions = <12 29>;
+            bindings = <&mac_ipa_032A>;
+        };
+
+        combo_AL_1 {
+            timeout-ms = <300>;
+            key-positions = <10 20>;
+            bindings = <&mac_ipa_033A>;
+        };
+
+        combo_FR {
+            timeout-ms = <300>;
+            key-positions = <13 3>;
+            bindings = <&mac_ipa_031F>;
+        };
+
+        combo_BK {
+            timeout-ms = <300>;
+            key-positions = <26 19>;
+            bindings = <&mac_ipa_0320>;
+        };
+
+        combo_PS {
+            timeout-ms = <300>;
+            key-positions = <9 11>;
+            bindings = <&mac_ipa_031D>;
+        };
+
+        combo_DW {
+            timeout-ms = <300>;
+            key-positions = <12 1>;
+            bindings = <&mac_ipa_031E>;
+        };
+
+        combo_LN {
+            timeout-ms = <300>;
+            key-positions = <20 29>;
+            bindings = <&mac_ipa_033B>;
+        };
+
+        combo_LG {
+            timeout-ms = <300>;
+            key-positions = <20 14>;
+            bindings = <&mac_ipa_033C>;
+        };
+
+        combo_MDC {
+            timeout-ms = <300>;
+            key-positions = <30 12 24>;
+            bindings = <&mac_ipa_033D>;
+        };
+
+        combo_RDA {
+            timeout-ms = <300>;
+            key-positions = <3 12 10>;
+            bindings = <&mac_ipa_0357>;
+        };
+
+        combo_RDB_1 {
+            timeout-ms = <300>;
+            key-positions = <3 12 26>;
+            bindings = <&mac_ipa_0339>;
+        };
+
+        combo_URA {
+            timeout-ms = <300>;
+            key-positions = <6 3 10>;
+            bindings = <&mac_ipa_0351>;
+        };
+
+        combo_URB {
+            timeout-ms = <300>;
+            key-positions = <6 3 26>;
+            bindings = <&mac_ipa_031C>;
+        };
+
+        combo_WL {
+            timeout-ms = <300>;
+            key-positions = <1 20>;
+            bindings = <&mac_ipa_02B7>;
+        };
+
+        combo_VL {
+            timeout-ms = <300>;
+            key-positions = <25 20>;
+            bindings = <&mac_ipa_02E0>;
+        };
+
+        combo_GML {
+            timeout-ms = <300>;
+            key-positions = <14 30 20>;
+            bindings = <&mac_ipa_02E0>;
+        };
+
+        combo_AL {
+            timeout-ms = <300>;
+            key-positions = <10 20>;
+            bindings = <&mac_ipa_02E4>;
+        };
+
+        combo_HML {
+            timeout-ms = <300>;
+            key-positions = <17 30 20>;
+            bindings = <&mac_ipa_02C0>;
+        };
+
+        combo_ATR {
+            timeout-ms = <300>;
+            key-positions = <10 4 3>;
+            bindings = <&mac_ipa_0318>;
+        };
+
+        combo_RTR {
+            timeout-ms = <300>;
+            key-positions = <3 4 3>;
+            bindings = <&mac_ipa_0319>;
+        };
+
+        combo_JL {
+            timeout-ms = <300>;
+            key-positions = <18 20>;
+            bindings = <&mac_ipa_02B2>;
+        };
+
+        combo_LV {
+            timeout-ms = <300>;
+            key-positions = <20 25>;
+            bindings = <&mac_ipa_026B>;
+        };
+
+        combo_RH {
+            timeout-ms = <300>;
+            key-positions = <3 17>;
+            bindings = <&mac_ipa_02DE>;
+        };
+
+        combo_DIB {
+            timeout-ms = <300>;
+            key-positions = <12 7 26>;
+            bindings = <&mac_ipa_0361>;
+        };
+
+        combo_DBB {
+            timeout-ms = <300>;
+            key-positions = <12 26 26>;
+            bindings = <&mac_ipa_035C>;
+        };
+
+        combo_SP {
+            timeout-ms = <300>;
+            key-positions = <11 9>;
+            bindings = <&mac_ipa_02C8>;
+        };
+
+        combo_SS {
+            timeout-ms = <300>;
+            key-positions = <11 11>;
+            bindings = <&mac_ipa_02CC>;
+        };
+
+        combo_QQ {
+            timeout-ms = <300>;
+            key-positions = <0 0>;
+            bindings = <&mac_ipa_02D0>;
+        };
+
+        combo_QQQ {
+            timeout-ms = <300>;
+            key-positions = <0 0 0>;
+            bindings = <&mac_ipa_02D1>;
+        };
+
+        combo_FLA {
+            timeout-ms = <300>;
+            key-positions = <13 20 10>;
+            bindings = <&mac_ipa_0306>;
+        };
+
+        combo_FLB {
+            timeout-ms = <300>;
+            key-positions = <13 20 26>;
+            bindings = <&mac_ipa_032E>;
+        };
+
+        combo_BR {
+            timeout-ms = <300>;
+            key-positions = <26 3>;
+            bindings = <&mac_ipa_0306>;
+        };
+
+        combo_BRB {
+            timeout-ms = <300>;
+            key-positions = <26 3 26>;
+            bindings = <&mac_ipa_032E>;
+        };
+
+        combo_LK {
+            timeout-ms = <300>;
+            key-positions = <20 19>;
+            bindings = <&mac_ipa_203F>;
+        };
+
+        combo_MNB {
+            timeout-ms = <300>;
+            key-positions = <29 30 26>;
+            bindings = <&mac_ipa_007C>;
+        };
+
+        combo_MJB_1 {
+            timeout-ms = <300>;
+            key-positions = <29 19 26>;
+            bindings = <&mac_ipa_2016>;
+        };
+
+        combo_GLR {
+            timeout-ms = <300>;
+            key-positions = <14 20 3>;
+            bindings = <&mac_ipa_2197>;
+        };
+
+        combo_GLF {
+            timeout-ms = <300>;
+            key-positions = <14 20 13>;
+            bindings = <&mac_ipa_2198>;
+        };
+
+        combo_PSS {
+            timeout-ms = <300>;
+            key-positions = <9 11 11>;
+            bindings = <&mac_ipa_A71B>;
+        };
+
+        combo_DWS {
+            timeout-ms = <300>;
+            key-positions = <12 1 11>;
+            bindings = <&mac_ipa_A71C>;
+        };
+
+        combo_AC_2 {
+            timeout-ms = <300>;
+            key-positions = <10 24>;
+            bindings = <&mac_ipa_0301>;
+        };
+
+        combo_DAC {
+            timeout-ms = <300>;
+            key-positions = <12 10 24>;
+            bindings = <&mac_ipa_030B>;
+        };
+
+        combo_GR {
+            timeout-ms = <300>;
+            key-positions = <14 3>;
+            bindings = <&mac_ipa_0300>;
+        };
+
+        combo_DGR {
+            timeout-ms = <300>;
+            key-positions = <12 14 3>;
+            bindings = <&mac_ipa_030F>;
+        };
+
+        combo_LT {
+            timeout-ms = <300>;
+            key-positions = <20 4>;
+            bindings = <&mac_ipa_02E9>;
+        };
+
+        combo_HLT {
+            timeout-ms = <300>;
+            key-positions = <17 20 4>;
+            bindings = <&mac_ipa_02E8>;
+        };
+
+        combo_MT {
+            timeout-ms = <300>;
+            key-positions = <30 4>;
+            bindings = <&mac_ipa_02E7>;
+        };
+
+        combo_HHT {
+            timeout-ms = <300>;
+            key-positions = <17 17 4>;
+            bindings = <&mac_ipa_02E6>;
+        };
+
+        combo_HT {
+            timeout-ms = <300>;
+            key-positions = <17 4>;
+            bindings = <&mac_ipa_02E5>;
+        };
+
+        combo_MC {
+            timeout-ms = <300>;
+            key-positions = <30 24>;
+            bindings = <&mac_ipa_0304>;
+        };
+
+        combo_MCB {
+            timeout-ms = <300>;
+            key-positions = <30 24 26>;
+            bindings = <&mac_ipa_0331>;
+        };
+
+        combo_CR {
+            timeout-ms = <300>;
+            key-positions = <24 3>;
+            bindings = <&mac_ipa_0302>;
+        };
+
+        combo_CRB {
+            timeout-ms = <300>;
+            key-positions = <24 3 26>;
+            bindings = <&mac_ipa_032D>;
+        };
+
+        combo_HC {
+            timeout-ms = <300>;
+            key-positions = <17 24>;
+            bindings = <&mac_ipa_030C>;
+        };
+
+        combo_HCB {
+            timeout-ms = <300>;
+            key-positions = <17 24 26>;
+            bindings = <&mac_ipa_032C>;
+        };
+
+        combo_CD {
+            timeout-ms = <300>;
+            key-positions = <24 12>;
+            bindings = <&mac_ipa_0327>;
+        };
+
+        combo_CM {
+            timeout-ms = <300>;
+            key-positions = <24 30>;
+            bindings = <&mac_ipa_02BB>;
+        };
+
+        combo_CMB {
+            timeout-ms = <300>;
+            key-positions = <24 30 26>;
+            bindings = <&mac_ipa_0326>;
+        };
+
+        combo_IB_2 {
+            timeout-ms = <300>;
+            key-positions = <7 26>;
+            bindings = <&mac_ipa_0311>;
+        };
+
+        combo_IBB {
+            timeout-ms = <300>;
+            key-positions = <7 26 26>;
+            bindings = <&mac_ipa_032F>;
+        };
+
+        combo_DT_2 {
+            timeout-ms = <300>;
+            key-positions = <12 4>;
+            bindings = <&mac_ipa_0307>;
+        };
+
+        combo_DTB {
+            timeout-ms = <300>;
+            key-positions = <12 4 26>;
+            bindings = <&mac_ipa_0323>;
+        };
+
+        combo_HK {
+            timeout-ms = <300>;
+            key-positions = <17 19>;
+            bindings = <&mac_ipa_0309>;
+        };
+
+        combo_HR {
+            timeout-ms = <300>;
+            key-positions = <17 3>;
+            bindings = <&mac_ipa_031B>;
+        };
+
+        combo_OG {
+            timeout-ms = <300>;
+            key-positions = <8 14>;
+            bindings = <&mac_ipa_0328>;
+        };
+
+        combo_RG {
+            timeout-ms = <300>;
+            key-positions = <3 14>;
+            bindings = <&mac_ipa_030A>;
+        };
+
+        combo_ST {
+            timeout-ms = <300>;
+            key-positions = <11 4>;
+            bindings = <&mac_ipa_0335>;
+        };
+
+        combo_DK {
+            timeout-ms = <300>;
+            key-positions = <12 19>;
+            bindings = <&mac_ipa_309B>;
+        };
+
+        combo_HD {
+            timeout-ms = <300>;
+            key-positions = <17 12>;
+            bindings = <&mac_ipa_309C>;
+        };
+
+        combo_EJ {
+            timeout-ms = <300>;
+            key-positions = <2 18>;
+            bindings = <&mac_ipa_02BC>;
+        };
+
+        combo_NM {
+            timeout-ms = <300>;
+            key-positions = <29 30>;
+            bindings = <&mac_ipa_006E_0361_006D>;
+        };
+
+        combo_RNM {
+            timeout-ms = <300>;
+            key-positions = <3 29 30>;
+            bindings = <&mac_ipa_0273_0361_006D>;
+        };
+
+        combo_NGM {
+            timeout-ms = <300>;
+            key-positions = <29 14 30>;
+            bindings = <&mac_ipa_014B_0361_006D>;
+        };
+
+        combo_TP {
+            timeout-ms = <300>;
+            key-positions = <4 9>;
+            bindings = <&mac_ipa_0074_0361_0070>;
+        };
+
+        combo_DB {
+            timeout-ms = <300>;
+            key-positions = <12 26>;
+            bindings = <&mac_ipa_0064_0361_0062>;
+        };
+
+        combo_RTP {
+            timeout-ms = <300>;
+            key-positions = <3 4 9>;
+            bindings = <&mac_ipa_0288_0361_0070>;
+        };
+
+        combo_RDB_2 {
+            timeout-ms = <300>;
+            key-positions = <3 12 26>;
+            bindings = <&mac_ipa_0256_0361_0062>;
+        };
+
+        combo_KP {
+            timeout-ms = <300>;
+            key-positions = <19 9>;
+            bindings = <&mac_ipa_006B_0361_0070>;
+        };
+
+        combo_GB {
+            timeout-ms = <300>;
+            key-positions = <14 26>;
+            bindings = <&mac_ipa_0067_0361_0062>;
+        };
+
+        combo_QH {
+            timeout-ms = <300>;
+            key-positions = <0 17>;
+            bindings = <&mac_ipa_0071_0361_02A1>;
+        };
+
+        combo_QP {
+            timeout-ms = <300>;
+            key-positions = <0 9>;
+            bindings = <&mac_ipa_0071_0361_0070>;
+        };
+
+        combo_HYY {
+            timeout-ms = <300>;
+            key-positions = <17 5 5>;
+            bindings = <&mac_ipa_0265_030A>;
+        };
+
+        combo_YY {
+            timeout-ms = <300>;
+            key-positions = <5 5>;
+            bindings = <&mac_ipa_0265>;
+        };
+
+        combo_HW {
+            timeout-ms = <300>;
+            key-positions = <17 1>;
+            bindings = <&mac_ipa_028D>;
+        };
+
+        combo_SJ {
+            timeout-ms = <300>;
+            key-positions = <11 18>;
+            bindings = <&mac_ipa_0267>;
+        };
+
+        combo_MKP {
+            timeout-ms = <300>;
+            key-positions = <30 19 9>;
+            bindings = <&mac_ipa_0260_030A_035C_0253_0325>;
+        };
+
+        combo_MGB {
+            timeout-ms = <300>;
+            key-positions = <30 14 26>;
+            bindings = <&mac_ipa_0260_0361_0253>;
+        };
     };
 
     keymap {
@@ -57,11 +777,2055 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W               &kp E             &kp R             &kp T                                                      &kp Y                  &kp U         &kp I       &kp O    &mt LEFT_GUI P
-&kp A             &kp S               &kp D             &kp F             &kp G             &mkp MB1                &kp N6          &kp EQUAL  &kp H                  &kp J         &kp K      &kp L    &kp ASTRK
-&kp Z             &kp X               &kp C             &kp V             &kp B             &mt LEFT_SHIFT TAB      &kp BSLH       &kp N            &kp M       &kp COMMA  &kp DOT  &kp SEMICOLON
+&kp Q             &kp W               &kp E             &kp R             &kp T                                                      &kp Y                  &kp U         &lt NUM I   &kp O    &mt LEFT_GUI P
+&kp A             &kp S               &kp D             &kp F             &kp G             &mkp MB1                &lt_NUM N6 EQUAL  &kp H                  &kp J         &kp K      &kp L    &lt NUM ASTRK
+&kp Z             &kp X               &kp C             &kp V             &kp B             &mt LEFT_SHIFT TAB      &kp BSLH        &kp N            &kp M       &kp COMMA  &kp DOT  &kp SEMICOLON
 &kp K_COPY        &kp K_PASTE         &kp K_UNDO        &kp LANG2         &kp SPACE         &kp LANG1              &kp BACKSPACE    &mt RIGHT_SHIFT ENTER  &kp DEL
             >;
+            sensor-bindings = <&scroll_up_down>;
         };
+
+        SYMBOLS {
+            bindings = <
+&kp ESCAPE  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans             &trans
+&kp TILDE   &kp DOLLAR       &kp PERCENT   &kp CARET             &trans                 &trans      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON  &kp SINGLE_QUOTE   &kp BACKSLASH
+&kp GRAVE   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &trans                 &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp DOUBLE_QUOTES  &kp PIPE
+&trans      &trans           &trans        &trans                &trans                 &trans      &trans  &trans                &trans
+            >;
+        };
+
+        NUM {
+            bindings = <
+&kp MINUS  &kp N7        &kp N7        &kp N9        &kp PERIOD                                     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans
+&kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp LC(LA(PERCENT))      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans  &trans
+&kp N0     &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp PLUS      &kp EQUAL                &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans  &trans
+&trans     &trans        &trans        &trans        &trans        &trans                   &trans  &trans                &trans
+            >;
+        };
+
+        ARROW {
+            bindings = <
+&kp LG(LEFT_ARROW)  &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &kp LG(RIGHT_ARROW)                      &kp LG(LEFT_ARROW)  &kp LS(LC(TAB))         &kp UP_ARROW    &kp LC(TAB)              &kp LG(RIGHT_ARROW)
+&kp HOME            &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END              &trans      &trans  &kp HOME            &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END
+&kp LEFT_SHIFT      &kp LG(LC(LEFT_ARROW))  &trans          &kp LG(LC(RIGHT_ARROW))  &trans               &trans      &trans  &trans              &kp LC(LG(LEFT_ARROW))  &trans          &kp LC(LG(RIGHT_ARROW))  &trans
+&trans              &trans                  &trans          &trans                   &trans               &trans      &trans  &trans              &trans
+            >;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+        };
+
+        MOUSE {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                                &trans           &trans    &kp LC(T)  &trans    &m_nsa_bil_vl
+&trans  &trans  &trans  &trans  &trans         &trans      &kp LC(V)  &kp LC(LS(TAB))  &mkp MB1  &mkp MB3   &mkp MB2  &kp LC(TAB)
+&trans  &trans  &trans  &trans  &m_nsa_bil_vd  &trans      &kp LC(C)  &trans           &mkp MB4  &kp LC(W)  &mkp MB5  &trans
+&trans  &trans  &trans  &trans  &trans         &trans      &trans     &trans           &trans
+            >;
+        };
+
+        SCROLL {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans
+            >;
+        };
+
+        NASAL {
+            bindings = <
+&m_nas_uv_vl   &trans          &trans          &m_nas_uv_vd   &m_nas_den_vl                      &m_nas_pala_vd  &trans          &trans         &trans         &m_nas_bil_vl
+&trans         &m_nas_alv_vl   &m_nas_den_vd   &m_nas_lab_vl  &m_nas_vel_vd  &trans      &trans  &trans          &m_nas_palv_vd  &m_nas_vel_vl  &trans         &trans
+&m_nas_alv_vd  &m_nas_palv_vl  &m_nas_pala_vl  &m_nas_lab_vd  &m_nas_bil_vd  &trans      &trans  &m_nas_uv_vl    &m_nas_uv_vd    &m_nas_ret_vl  &m_nas_ret_vd  &trans
+&trans         &trans          &trans          &trans         &trans         &trans      &trans  &trans          &trans
+            >;
+        };
+
+        PLOSIVE {
+            bindings = <
+&m_p_uv_vl   &v_cl_ce_ro  &v_cl_ba_un   &m_p_uv_vd   &m_p_den_vl                      &m_p_pala_vd  &v_cl_ba_ro  &v_cl_fr_un  &v_cl_fr_ro  &m_p_bil_vl
+&v_cl_ce_un  &m_p_alv_vl  &m_p_den_vd   &m_p_lab_vl  &m_p_vel_vd  &trans      &trans  &trans        &trans       &m_p_vel_vl  &trans       &m_p_glo_vl
+&m_p_alv_vd  &trans       &m_p_pala_vl  &m_p_lab_vd  &m_p_bil_vd  &trans      &trans  &m_p_epi_vl   &trans       &m_p_ret_vl  &m_p_ret_vd  &trans
+&trans       &trans       &trans        &trans       &trans       &trans      &trans  &trans        &trans
+            >;
+        };
+
+        NSFRICATIVE {
+            bindings = <
+&m_nsf_uv_vl   &v_cm_ce_ro     &v_cm_ba_un     &m_nsf_uv_vd   &m_nsf_den_vl                      &m_nsf_pala_vd  &v_cm_ba_ro     &v_cm_fr_un    &v_cm_fr_ro    &m_nsf_bil_vl
+&v_cm_ce_un    &m_nsf_alv_vl   &m_nsf_den_vd   &m_nsf_lab_vl  &m_nsf_vel_vd  &trans      &trans  &trans          &m_nsf_palv_vd  &m_nsf_vel_vl  &trans         &m_nsf_glo_vd
+&m_nsf_alv_vd  &m_nsf_palv_vl  &m_nsf_pala_vl  &m_nsf_lab_vd  &m_nsf_bil_vd  &trans      &trans  &m_nsf_epi_vl   &m_nsf_epi_vd   &m_nsf_ret_vl  &m_nsf_ret_vd  &trans
+&trans         &trans          &trans          &trans         &trans         &trans      &trans  &trans          &trans
+            >;
+        };
+
+        NSAFFRICATE {
+            bindings = <
+&m_nsa_uv_vl   &trans          &trans          &m_nsa_uv_vd   &m_nsa_den_vl                      &m_nsa_pala_vd  &trans          &trans         &trans         &m_nsa_bil_vl
+&trans         &m_nsa_alv_vl   &m_nsa_den_vd   &m_nsa_lab_vl  &m_nsa_vel_vd  &trans      &trans  &trans          &m_nsa_palv_vd  &m_nsa_vel_vl  &trans         &m_nsa_glo_vl
+&m_nsa_alv_vd  &m_nsa_palv_vl  &m_nsa_pala_vl  &m_nsa_lab_vd  &m_nsa_bil_vd  &trans      &trans  &m_nsa_epi_vl   &m_nsa_epi_vd   &m_nsa_ret_vl  &m_nsa_ret_vd  &trans
+&trans         &trans          &trans          &trans         &trans         &trans      &trans  &trans          &trans
+            >;
+        };
+
+        SFRICATIVE {
+            bindings = <
+&trans        &v_nc_ce_ro    &v_nc_ba_un    &trans  &m_sf_den_vl                      &m_sf_pala_vd  &v_nc_ba_ro    &v_nc_fr_un   &v_nc_fr_ro   &trans
+&v_nc_ce_un   &m_sf_alv_vl   &m_sf_den_vd   &trans  &trans        &trans      &trans  &trans         &m_sf_palv_vd  &trans        &trans        &trans
+&m_sf_alv_vd  &m_sf_palv_vl  &m_sf_pala_vl  &trans  &trans        &trans      &trans  &trans         &trans         &m_sf_ret_vl  &m_sf_ret_vd  &trans
+&trans        &trans         &trans         &trans  &trans        &trans      &trans  &trans         &trans
+            >;
+        };
+
+        SAFFRICATE {
+            bindings = <
+&trans        &trans         &trans         &trans  &m_sa_den_vl                      &m_sa_pala_vd  &trans         &trans        &trans        &trans
+&trans        &m_sa_alv_vl   &m_sa_den_vd   &trans  &trans        &trans      &trans  &trans         &m_sa_palv_vd  &trans        &trans        &trans
+&m_sa_alv_vd  &m_sa_palv_vl  &m_sa_pala_vl  &trans  &trans        &trans      &trans  &trans         &trans         &m_sa_ret_vl  &m_sa_ret_vd  &trans
+&trans        &trans         &trans         &trans  &trans        &trans      &trans  &trans         &trans
+            >;
+        };
+
+        LFRICATIVE {
+            bindings = <
+&trans        &trans        &trans         &trans  &m_lf_den_vl                      &m_lf_pala_vd  &trans  &trans        &trans        &trans
+&trans        &m_lf_alv_vl  &m_lf_den_vd   &trans  &m_lf_vel_vd  &trans      &trans  &trans         &trans  &m_lf_vel_vl  &trans        &trans
+&m_lf_alv_vd  &trans        &m_lf_pala_vl  &trans  &trans        &trans      &trans  &trans         &trans  &m_lf_ret_vl  &m_lf_ret_vd  &trans
+&trans        &trans        &trans         &trans  &trans        &trans      &trans  &trans         &trans
+            >;
+        };
+
+        LAFFRICATE {
+            bindings = <
+&trans        &trans        &trans         &trans  &trans                            &m_la_pala_vd  &trans  &trans        &trans        &trans
+&trans        &m_la_alv_vl  &trans         &trans  &m_la_vel_vd  &trans      &trans  &trans         &trans  &m_la_vel_vl  &trans        &trans
+&m_la_alv_vd  &trans        &m_la_pala_vl  &trans  &trans        &trans      &trans  &trans         &trans  &m_la_ret_vl  &m_la_ret_vd  &trans
+&trans        &trans        &trans         &trans  &trans        &trans      &trans  &trans         &trans
+            >;
+        };
+
+        APPROXIMANT {
+            bindings = <
+&trans        &v_mi_ce_ro  &v_mi_ba_un   &trans        &trans                            &m_ap_pala_vd  &v_mi_ba_ro    &v_mi_fr_un  &v_mi_fr_ro   &trans
+&v_mi_ce_un   &trans       &m_ap_den_vd  &trans        &m_ap_vel_vd  &trans      &trans  &trans         &m_ap_palv_vd  &trans       &trans        &trans
+&m_ap_alv_vd  &trans       &trans        &m_ap_lab_vd  &m_ap_bil_vd  &trans      &trans  &trans         &trans         &trans       &m_ap_ret_vd  &trans
+&trans        &trans       &trans        &trans        &trans        &trans      &trans  &trans         &trans
+            >;
+        };
+
+        LAPPROXIMANT {
+            bindings = <
+&trans  &trans         &trans          &trans  &m_lap_den_vd                      &m_lap_pala_vd  &trans        &trans         &trans         &trans
+&trans  &m_lap_alv_vd  &m_lap_den_vd   &trans  &m_lap_vel_vd  &trans      &trans  &trans          &trans        &m_lap_vel_vl  &trans         &trans
+&trans  &trans         &m_lap_pala_vl  &trans  &trans         &trans      &trans  &trans          &m_lap_uv_vd  &m_lap_ret_vl  &m_lap_ret_vd  &trans
+&trans  &trans         &trans          &trans  &trans         &trans      &trans  &trans          &trans
+            >;
+        };
+
+        TAP {
+            bindings = <
+&trans         &v_om_ce_ro    &v_om_ba_un  &m_tap_uv_vd   &trans                             &trans         &v_om_ba_ro  &v_om_fr_un    &v_om_fr_ro    &trans
+&v_om_ce_un    &m_tap_alv_vl  &trans       &trans         &trans         &trans      &trans  &trans         &trans       &trans         &trans         &trans
+&m_tap_alv_vd  &trans         &trans       &m_tap_lab_vd  &m_tap_bil_vd  &trans      &trans  &m_tap_epi_vd  &trans       &m_tap_ret_vl  &m_tap_ret_vd  &trans
+&trans         &trans         &trans       &trans         &trans         &trans      &trans  &trans         &trans
+            >;
+        };
+
+        LTAP {
+            bindings = <
+&trans          &trans          &trans  &trans  &trans                              &m_ltap_pala_vd  &trans  &trans          &trans          &trans
+&trans          &m_ltap_alv_vl  &trans  &trans  &m_ltap_vel_vd  &trans      &trans  &trans           &trans  &trans          &trans          &trans
+&m_ltap_alv_vd  &trans          &trans  &trans  &trans          &trans      &trans  &trans           &trans  &m_ltap_ret_vl  &m_ltap_ret_vd  &trans
+&trans          &trans          &trans  &trans  &trans          &trans      &trans  &trans           &trans
+            >;
+        };
+
+        TRILL {
+            bindings = <
+&m_tr_uv_vl  &v_no_ce_ro   &v_no_ba_un  &m_tr_uv_vd  &m_tr_alv_vl                      &trans        &v_no_ba_ro    &v_no_fr_un   &v_no_fr_ro   &m_tr_bil_vl
+&v_no_ce_un  &m_tr_alv_vd  &trans       &trans       &trans        &trans      &trans  &trans        &m_tr_palv_vd  &trans        &trans        &trans
+&trans       &trans        &trans       &trans       &m_tr_bil_vd  &trans      &trans  &m_tr_epi_vl  &m_tr_epi_vd   &m_tr_ret_vl  &m_tr_ret_vd  &trans
+&trans       &trans        &trans       &trans       &trans        &trans      &trans  &trans         &trans
+            >;
+        };
+
+        IMPLO {
+            bindings = <
+&trans  &v_op_ce_ro   &v_op_ba_un    &m_im_uv_vd        &m_im_den_vl                      &m_im_pala_vd  &v_op_ba_ro  &v_op_fr_un   &v_op_fr_ro   &m_im_bil_vl
+&v_op_ce_un  &m_im_alv_vl  &m_im_den_vd   &trans        &m_im_vel_vd            &trans      &trans  &trans         &trans       &trans        &trans        &trans
+&trans       &trans        &m_im_pala_vl  &trans  &m_im_bil_vd        &trans      &trans  &trans         &trans       &m_im_ret_vl  &m_im_ret_vd  &trans
+&trans       &trans        &trans         &trans        &trans        &trans      &trans  &trans         &trans
+            >;
+        };
+
+        LAT_IMPLO {
+            bindings = <
+&trans  &trans  &trans  &trans  &m_lim_den_vl                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans      &trans  &trans  &trans
+            >;
+        };
+    };
+};
+
+macros {
+    mac_ipa_030D: mac_ipa_030D {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "  ";
+    };
+
+    mac_ipa_0329: mac_ipa_0329 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "  ";
+    };
+
+    mac_ipa_0311: mac_ipa_0311 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "  ";
+    };
+
+    mac_ipa_032F: mac_ipa_032F {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "  ";
+    };
+
+    mac_ipa_02B0: mac_ipa_02B0 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02B1: mac_ipa_02B1 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_1D4D: mac_ipa_1D4D {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_207F: mac_ipa_207F {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_1DAF: mac_ipa_1DAF {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_1DAE: mac_ipa_1DAE {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_1D51: mac_ipa_1D51 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02E1: mac_ipa_02E1 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_1D4A: mac_ipa_1D4A {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_1DBF: mac_ipa_1DBF {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02E3: mac_ipa_02E3 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_031A: mac_ipa_031A {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_030A: mac_ipa_030A {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0325: mac_ipa_0325 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_032C: mac_ipa_032C {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0308: mac_ipa_0308 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0324: mac_ipa_0324 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0303: mac_ipa_0303 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0330: mac_ipa_0330 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_032A: mac_ipa_032A {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_033A: mac_ipa_033A {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_031F: mac_ipa_031F {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0320: mac_ipa_0320 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_031D: mac_ipa_031D {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_031E: mac_ipa_031E {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_033B: mac_ipa_033B {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_033C: mac_ipa_033C {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_033D: mac_ipa_033D {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0357: mac_ipa_0357 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0339: mac_ipa_0339 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0351: mac_ipa_0351 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_031C: mac_ipa_031C {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02B7: mac_ipa_02B7 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02E0: mac_ipa_02E0 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02E4: mac_ipa_02E4 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02C0: mac_ipa_02C0 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0318: mac_ipa_0318 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0319: mac_ipa_0319 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02B2: mac_ipa_02B2 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_026B: mac_ipa_026B {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02DE: mac_ipa_02DE {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0361: mac_ipa_0361 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_035C: mac_ipa_035C {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02C8: mac_ipa_02C8 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02CC: mac_ipa_02CC {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02D0: mac_ipa_02D0 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02D1: mac_ipa_02D1 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0306: mac_ipa_0306 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_032E: mac_ipa_032E {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_203F: mac_ipa_203F {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_007C: mac_ipa_007C {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "|";
+    };
+
+    mac_ipa_2016: mac_ipa_2016 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_2197: mac_ipa_2197 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_2198: mac_ipa_2198 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_A71B: mac_ipa_A71B {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_A71C: mac_ipa_A71C {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0301: mac_ipa_0301 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_030B: mac_ipa_030B {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0300: mac_ipa_0300 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_030F: mac_ipa_030F {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02E9: mac_ipa_02E9 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02E8: mac_ipa_02E8 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02E7: mac_ipa_02E7 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02E6: mac_ipa_02E6 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02E5: mac_ipa_02E5 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0304: mac_ipa_0304 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0331: mac_ipa_0331 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0302: mac_ipa_0302 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_032D: mac_ipa_032D {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_030C: mac_ipa_030C {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0327: mac_ipa_0327 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02BB: mac_ipa_02BB {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0326: mac_ipa_0326 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0307: mac_ipa_0307 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0323: mac_ipa_0323 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0309: mac_ipa_0309 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_031B: mac_ipa_031B {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0328: mac_ipa_0328 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_030A: mac_ipa_030A {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0335: mac_ipa_0335 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_309B: mac_ipa_309B {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_309C: mac_ipa_309C {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_02BC: mac_ipa_02BC {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_006E_0361_006D: m_n_m {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "n m";
+    };
+
+    mac_ipa_0273_0361_006D: m_nr_m {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " m";
+    };
+
+    mac_ipa_014B_0361_006D: m_ng_m {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " m";
+    };
+
+    mac_ipa_0074_0361_0070: m_t_p {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "t p";
+    };
+
+    mac_ipa_0064_0361_0062: m_d_b {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "d b";
+    };
+
+    mac_ipa_0288_0361_0070: m_r_p {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " r p";
+    };
+
+    mac_ipa_0256_0361_0062: m_r_b {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " r b";
+    };
+
+    mac_ipa_006B_0361_0070: m_k_p {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "k p";
+    };
+
+    mac_ipa_0067_0361_0062: m_g_b {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "g b";
+    };
+
+    mac_ipa_0071_0361_02A1: m_q_h {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "q ";
+    };
+
+    mac_ipa_0071_0361_0070: m_q_p {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "q p";
+    };
+
+    mac_ipa_0265_030A: m_h_y {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " y";
+    };
+
+    mac_ipa_0265: mac_ipa_0265 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    mac_ipa_028D: mac_ipa_028D {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0267: mac_ipa_0267 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0260_030A_035C_0253_0325: m_complex1 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    mac_ipa_0260_0361_0253: m_complex2 {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    m_nas_bil_vl: m_nas_bil_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "m ";
+    };
+
+    m_nas_bil_vd: m_nas_bil_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "m";
+    };
+
+    m_nas_lab_vl: m_nas_lab_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    m_nas_lab_vd: m_nas_lab_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nas_den_vl: m_nas_den_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "n ";
+    };
+
+    m_nas_den_vd: m_nas_den_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "n ";
+    };
+
+    m_nas_alv_vl: m_nas_alv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "n ";
+    };
+
+    m_nas_alv_vd: m_nas_alv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "n";
+    };
+
+    m_nas_palv_vl: m_nas_palv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    m_nas_palv_vd: m_nas_palv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nas_pala_vl: m_nas_pala_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    m_nas_pala_vd: m_nas_pala_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nas_ret_vl: m_nas_ret_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    m_nas_ret_vd: m_nas_ret_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nas_glo_vl: m_nas_glo_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    m_nas_glo_vd: m_nas_glo_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nas_uv_vl: m_nas_uv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nas_uv_vd: m_nas_uv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_p_bil_vl: m_p_bil_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "p";
+    };
+
+    m_p_bil_vd: m_p_bil_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "b";
+    };
+
+    m_p_lab_vl: m_p_lab_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "p ";
+    };
+
+    m_p_lab_vd: m_p_lab_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "b ";
+    };
+
+    m_p_den_vl: m_p_den_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "t ";
+    };
+
+    m_p_den_vd: m_p_den_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "d ";
+    };
+
+    m_p_alv_vl: m_p_alv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "t";
+    };
+
+    m_p_alv_vd: m_p_alv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "d";
+    };
+
+    m_p_ret_vl: m_p_ret_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_p_ret_vd: m_p_ret_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_p_glo_vl: m_p_glo_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "k";
+    };
+
+    m_p_pala_vl: m_p_pala_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "c";
+    };
+
+    m_p_pala_vd: m_p_pala_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_p_vel_vl: m_p_vel_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "q";
+    };
+
+    m_p_vel_vd: m_p_vel_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_p_uv_vl: m_p_uv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_p_uv_vd: m_p_uv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_p_epi_vl: m_p_epi_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsf_bil_vl: m_nsf_bil_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsf_bil_vd: m_nsf_bil_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsf_lab_vl: m_nsf_lab_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "f";
+    };
+
+    m_nsf_lab_vd: m_nsf_lab_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "v";
+    };
+
+    m_nsf_den_vl: m_nsf_den_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsf_den_vd: m_nsf_den_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsf_alv_vl: m_nsf_alv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsf_alv_vd: m_nsf_alv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsf_palv_vl: m_nsf_palv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsf_palv_vd: m_nsf_palv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsf_pala_vl: m_nsf_pala_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsf_pala_vd: m_nsf_pala_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsf_ret_vl: m_nsf_ret_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsf_ret_vd: m_nsf_ret_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsf_vel_vl: m_nsf_vel_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsf_vel_vd: m_nsf_vel_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsf_uv_vl: m_nsf_uv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsf_uv_vd: m_nsf_uv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsf_epi_vl: m_nsf_epi_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsf_epi_vd: m_nsf_epi_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsf_glo_vl: m_nsf_glo_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    m_nsf_glo_vd: m_nsf_glo_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    m_nsa_bil_vl: m_nsa_bil_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "p ";
+    };
+
+    m_nsa_bil_vd: m_nsa_bil_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "b ";
+    };
+
+    m_nsa_lab_vl: m_nsa_lab_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "p f";
+    };
+
+    m_nsa_lab_vd: m_nsa_lab_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "b v";
+    };
+
+    m_nsa_den_vl: m_nsa_den_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "t ";
+    };
+
+    m_nsa_den_vd: m_nsa_den_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "d ";
+    };
+
+    m_nsa_alv_vl: m_nsa_alv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "t ";
+    };
+
+    m_nsa_alv_vd: m_nsa_alv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "d ";
+    };
+
+    m_nsa_palv_vl: m_nsa_palv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsa_palv_vd: m_nsa_palv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsa_pala_vl: m_nsa_pala_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsa_pala_vd: m_nsa_pala_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsa_ret_vl: m_nsa_ret_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsa_ret_vd: m_nsa_ret_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsa_vel_vl: m_nsa_vel_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsa_vel_vd: m_nsa_vel_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsa_uv_vl: m_nsa_uv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsa_uv_vd: m_nsa_uv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsa_epi_vl: m_nsa_epi_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsa_epi_vd: m_nsa_epi_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_nsa_glo_vl: m_nsa_glo_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    m_nsa_glo_vd: m_nsa_glo_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = " ";
+    };
+
+    m_sf_den_vl: m_sf_den_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "s ";
+    };
+
+    m_sf_den_vd: m_sf_den_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "z ";
+    };
+
+    m_sf_alv_vl: m_sf_alv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "s";
+    };
+
+    m_sf_alv_vd: m_sf_alv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "z";
+    };
+
+    m_sf_palv_vl: m_sf_palv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_sf_palv_vd: m_sf_palv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_sf_ret_vl: m_sf_ret_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_sf_ret_vd: m_sf_ret_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_sa_den_vl: m_sa_den_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "ts ";
+    };
+
+    m_sa_pala_vd: m_sa_pala_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_sa_alv_vl: m_sa_alv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "ts";
+    };
+
+    m_sa_palv_vl: m_sa_palv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_sa_alv_vd: m_sa_alv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "dz";
+    };
+
+    m_sa_ret_vl: m_sa_ret_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_sa_ret_vd: m_sa_ret_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_lf_den_vl: m_lf_den_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_lf_pala_vd: m_lf_pala_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_lf_alv_vl: m_lf_alv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_lf_den_vd: m_lf_den_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_lf_vel_vl: m_lf_vel_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_lf_vel_vd: m_lf_vel_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_lf_ret_vl: m_lf_ret_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_lf_ret_vd: m_lf_ret_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_la_pala_vd: m_la_pala_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_la_alv_vl: m_la_alv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_la_vel_vd: m_la_vel_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_la_vel_vl: m_la_vel_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_la_ret_vl: m_la_ret_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_la_ret_vd: m_la_ret_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_ap_pala_vd: m_ap_pala_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_ap_den_vd: m_ap_den_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_ap_vel_vd: m_ap_vel_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_ap_palv_vd: m_ap_palv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_ap_alv_vd: m_ap_alv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_ap_lab_vd: m_ap_lab_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_ap_bil_vd: m_ap_bil_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_ap_ret_vd: m_ap_ret_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_lap_den_vd: m_lap_den_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_lap_pala_vd: m_lap_pala_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_lap_alv_vd: m_lap_alv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_lap_den_vd: m_lap_den_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_lap_vel_vd: m_lap_vel_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_lap_vel_vl: m_lap_vel_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_lap_uv_vd: m_lap_uv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_lap_ret_vl: m_lap_ret_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_lap_ret_vd: m_lap_ret_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_ltap_pala_vd: m_ltap_pala_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_ltap_alv_vl: m_ltap_alv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_ltap_vel_vd: m_ltap_vel_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_ltap_alv_vd: m_ltap_alv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_ltap_ret_vl: m_ltap_ret_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_ltap_ret_vd: m_ltap_ret_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_tap_uv_vd: m_tap_uv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_tap_alv_vl: m_tap_alv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_tap_lab_vd: m_tap_lab_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_tap_bil_vd: m_tap_bil_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_tap_epi_vd: m_tap_epi_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_tap_ret_vl: m_tap_ret_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_tap_ret_vd: m_tap_ret_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_tr_uv_vl: m_tr_uv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_tr_uv_vd: m_tr_uv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_tr_alv_vl: m_tr_alv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_tr_alv_vd: m_tr_alv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_tr_bil_vl: m_tr_bil_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_tr_bil_vd: m_tr_bil_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_tr_palv_vd: m_tr_palv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_tr_epi_vl: m_tr_epi_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_tr_epi_vd: m_tr_epi_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_tr_ret_vl: m_tr_ret_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_tr_ret_vd: m_tr_ret_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_im_uv_vd: m_im_uv_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_im_alv_vl: m_im_alv_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_im_den_vd: m_im_den_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_im_pala_vl: m_im_pala_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_im_pala_vd: m_im_pala_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_im_bil_vl: m_im_bil_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_im_vel_vd: m_im_vel_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_im_ret_vl: m_im_ret_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_im_ret_vd: m_im_ret_vd {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    m_lim_den_vl: m_lim_den_vl {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_cl_ce_ro: v_cl_ce_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "e";
+    };
+
+    v_cl_ba_un: v_cl_ba_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "a";
+    };
+
+    v_cl_ce_un: v_cl_ce_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_cl_ba_ro: v_cl_ba_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_cl_fr_un: v_cl_fr_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_cl_fr_ro: v_cl_fr_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_cm_ce_ro: v_cm_ce_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "e";
+    };
+
+    v_cm_ba_un: v_cm_ba_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "a";
+    };
+
+    v_cm_ce_un: v_cm_ce_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_cm_ba_ro: v_cm_ba_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_cm_fr_un: v_cm_fr_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_cm_fr_ro: v_cm_fr_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_nc_ce_ro: v_nc_ce_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "e";
+    };
+
+    v_nc_ba_un: v_nc_ba_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "a";
+    };
+
+    v_nc_ce_un: v_nc_ce_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_nc_ba_ro: v_nc_ba_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_nc_fr_un: v_nc_fr_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_nc_fr_ro: v_nc_fr_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_mi_ce_ro: v_mi_ce_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "e";
+    };
+
+    v_mi_ba_un: v_mi_ba_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "a";
+    };
+
+    v_mi_ce_un: v_mi_ce_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_mi_ba_ro: v_mi_ba_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_mi_fr_un: v_mi_fr_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_mi_fr_ro: v_mi_fr_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_om_ce_ro: v_om_ce_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "e";
+    };
+
+    v_om_ba_un: v_om_ba_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "a";
+    };
+
+    v_om_ce_un: v_om_ce_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_om_ba_ro: v_om_ba_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_om_fr_un: v_om_fr_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_om_fr_ro: v_om_fr_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_no_ce_ro: v_no_ce_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "e";
+    };
+
+    v_no_ba_un: v_no_ba_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "a";
+    };
+
+    v_no_ce_un: v_no_ce_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_no_ba_ro: v_no_ba_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_no_fr_un: v_no_fr_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_no_fr_ro: v_no_fr_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_op_ce_ro: v_op_ce_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_op_ba_un: v_op_ba_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "a";
+    };
+
+    v_op_ce_un: v_op_ce_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_op_ba_ro: v_op_ba_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_op_fr_un: v_op_fr_un {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+
+    v_op_fr_ro: v_op_fr_ro {
+        compatible = "zmk,behavior-text";
+        #binding-cells = <0>;
+        text = "";
+    };
+};
+
+behaviors {
+    scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
+        compatible = "zmk,behavior-sensor-rotate";
+        #sensor-binding-cells = <0>;
+        bindings = <&msc SCRL_DOWN &msc SCRL_UP>;
+        tap-ms = <20>;
+    };
+
+    ipa_sw: lt_ipa {
+        compatible = "zmk,behavior-hold-tap";
+        #binding-cells = <2>;
+        tapping-term-ms = <150>;
+        flavor = "hold-preferred";
+        bindings = <&mo 1 &kp A>;
+    };
+
+    lt_NUM: lt_NUM {
+        compatible = "zmk,behavior-hold-tap";
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+        bindings = <&mo NUM &kp A>;
     };
 };
