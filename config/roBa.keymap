@@ -2738,14 +2738,14 @@ behaviors {
             #binding-cells = <2>;
             tapping-term-ms = <150>;
             flavor = "hold-preferred";
-            bindings = <&mo &kp>;
+            bindings = <&mo 1 &kp A>;
         };
 
         lt_NUM: lt_NUM {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            bindings = <&mo &kp>;
+            bindings = <&mo 1 &kp A>;
         };
     };
 };
