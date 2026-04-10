@@ -3213,7 +3213,1117 @@
         }; //  0
     };
 
-    
+    macros {
+        mac_ipa_030D: mac_ipa_030D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x030D>;
+        };
+
+        mac_ipa_0329: mac_ipa_0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0329>;
+        };
+
+        mac_ipa_0311: mac_ipa_0311 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp N1 &kp RET>;
+        };
+
+        mac_ipa_032F: mac_ipa_032F {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp F &kp RET>;
+        };
+
+        mac_ipa_02B0: mac_ipa_02B0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp B &kp N0 &kp RET>;
+        };
+
+        mac_ipa_02B1: mac_ipa_02B1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp B &kp N1 &kp RET>;
+        };
+
+        mac_ipa_1D4D: mac_ipa_1D4D {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N1 &kp N4 &kp D &kp N4 &kp D &kp RET>;
+        };
+
+        mac_ipa_207F: mac_ipa_207F {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N2 &kp N0 &kp N7 &kp F &kp RET>;
+        };
+
+        mac_ipa_1DAF: mac_ipa_1DAF {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N1 &kp N4 &kp D &kp A &kp F &kp RET>;
+        };
+
+        mac_ipa_1DAE: mac_ipa_1DAE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N1 &kp N4 &kp D &kp A &kp E &kp RET>;
+        };
+
+        mac_ipa_1D51: mac_ipa_1D51 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N1 &kp N4 &kp D &kp N5 &kp N1 &kp RET>;
+        };
+
+        mac_ipa_02E1: mac_ipa_02E1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N1 &kp RET>;
+        };
+
+        mac_ipa_1D4A: mac_ipa_1D4A {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N1 &kp N4 &kp D &kp N4 &kp A &kp RET>;
+        };
+
+        mac_ipa_1DBF: mac_ipa_1DBF {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N1 &kp N4 &kp D &kp B &kp F &kp RET>;
+        };
+
+        mac_ipa_02E3: mac_ipa_02E3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N3 &kp RET>;
+        };
+
+        mac_ipa_031A: mac_ipa_031A {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp A &kp RET>;
+        };
+
+        mac_ipa_030A: mac_ipa_030A {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        };
+
+        mac_ipa_0325: mac_ipa_0325 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
+        };
+
+        mac_ipa_032C: mac_ipa_032C {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp C &kp RET>;
+        };
+
+        mac_ipa_0308: mac_ipa_0308 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N8 &kp RET>;
+        };
+
+        mac_ipa_0324: mac_ipa_0324 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N4 &kp RET>;
+        };
+
+        mac_ipa_0303: mac_ipa_0303 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N3 &kp RET>;
+        };
+
+        mac_ipa_0330: mac_ipa_0330 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp N0 &kp RET>;
+        };
+
+        mac_ipa_032A: mac_ipa_032A {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
+        };
+
+        mac_ipa_033A: mac_ipa_033A {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp A &kp RET>;
+        };
+
+        mac_ipa_031F: mac_ipa_031F {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp F &kp RET>;
+        };
+
+        mac_ipa_0320: mac_ipa_0320 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>;
+        };
+
+        mac_ipa_031D: mac_ipa_031D {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+        };
+
+        mac_ipa_031E: mac_ipa_031E {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
+        };
+
+        mac_ipa_033B: mac_ipa_033B {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp B &kp RET>;
+        };
+
+        mac_ipa_033C: mac_ipa_033C {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp C &kp RET>;
+        };
+
+        mac_ipa_033D: mac_ipa_033D {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp D &kp RET>;
+        };
+
+        mac_ipa_0357: mac_ipa_0357 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N5 &kp N7 &kp RET>;
+        };
+
+        mac_ipa_0339: mac_ipa_0339 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp N9 &kp RET>;
+        };
+
+        mac_ipa_0351: mac_ipa_0351 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N5 &kp N1 &kp RET>;
+        };
+
+        mac_ipa_031C: mac_ipa_031C {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp C &kp RET>;
+        };
+
+        mac_ipa_02B7: mac_ipa_02B7 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp B &kp N7 &kp RET>;
+        };
+
+        mac_ipa_02E0: mac_ipa_02E0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N0 &kp RET>;
+        };
+
+        mac_ipa_02E4: mac_ipa_02E4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N4 &kp RET>;
+        };
+
+        mac_ipa_02C0: mac_ipa_02C0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp C &kp N0 &kp RET>;
+        };
+
+        mac_ipa_0318: mac_ipa_0318 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp N8 &kp RET>;
+        };
+
+        mac_ipa_0319: mac_ipa_0319 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp N9 &kp RET>;
+        };
+
+        mac_ipa_02B2: mac_ipa_02B2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp B &kp N2 &kp RET>;
+        };
+
+        mac_ipa_026B: mac_ipa_026B {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp B &kp RET>;
+        };
+
+        mac_ipa_02DE: mac_ipa_02DE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp D &kp E &kp RET>;
+        };
+
+        mac_ipa_0361: mac_ipa_0361 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET>;
+        };
+
+        mac_ipa_035C: mac_ipa_035C {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N5 &kp C &kp RET>;
+        };
+
+        mac_ipa_02C8: mac_ipa_02C8 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp C &kp N8 &kp RET>;
+        };
+
+        mac_ipa_02CC: mac_ipa_02CC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp C &kp C &kp RET>;
+        };
+
+        mac_ipa_02D0: mac_ipa_02D0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp D &kp N0 &kp RET>;
+        };
+
+        mac_ipa_02D1: mac_ipa_02D1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp D &kp N1 &kp RET>;
+        };
+
+        mac_ipa_0306: mac_ipa_0306 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N6 &kp RET>;
+        };
+
+        mac_ipa_032E: mac_ipa_032E {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp E &kp RET>;
+        };
+
+        mac_ipa_203F: mac_ipa_203F {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N2 &kp N0 &kp N3 &kp F &kp RET>;
+        };
+
+        mac_ipa_007C: mac_ipa_007C {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N7 &kp C &kp RET>;
+        };
+
+        mac_ipa_2016: mac_ipa_2016 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N2 &kp N0 &kp N1 &kp N6 &kp RET>;
+        };
+
+        mac_ipa_2197: mac_ipa_2197 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N2 &kp N1 &kp N9 &kp N7 &kp RET>;
+        };
+
+        mac_ipa_2198: mac_ipa_2198 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N2 &kp N1 &kp N9 &kp N8 &kp RET>;
+        };
+
+        mac_ipa_A71B: mac_ipa_A71B {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N4 &kp N7 &kp N1 &kp B &kp RET>;
+        };
+
+        mac_ipa_A71C: mac_ipa_A71C {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N4 &kp N7 &kp N1 &kp C &kp RET>;
+        };
+
+        mac_ipa_0301: mac_ipa_0301 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N1 &kp RET>;
+        };
+
+        mac_ipa_030B: mac_ipa_030B {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp B &kp RET>;
+        };
+
+        mac_ipa_0300: mac_ipa_0300 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N0 &kp RET>;
+        };
+
+        mac_ipa_030F: mac_ipa_030F {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp F &kp RET>;
+        };
+
+        mac_ipa_02E9: mac_ipa_02E9 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N9 &kp RET>;
+        };
+
+        mac_ipa_02E8: mac_ipa_02E8 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N8 &kp RET>;
+        };
+
+        mac_ipa_02E7: mac_ipa_02E7 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N7 &kp RET>;
+        };
+
+        mac_ipa_02E6: mac_ipa_02E6 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N6 &kp RET>;
+        };
+
+        mac_ipa_02E5: mac_ipa_02E5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N5 &kp RET>;
+        };
+
+        mac_ipa_0304: mac_ipa_0304 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N4 &kp RET>;
+        };
+
+        mac_ipa_0331: mac_ipa_0331 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp N1 &kp RET>;
+        };
+
+        mac_ipa_0302: mac_ipa_0302 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N2 &kp RET>;
+        };
+
+        mac_ipa_032D: mac_ipa_032D {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp D &kp RET>;
+        };
+
+        mac_ipa_030C: mac_ipa_030C {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp C &kp RET>;
+        };
+
+        mac_ipa_0327: mac_ipa_0327 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N7 &kp RET>;
+        };
+
+        mac_ipa_02BB: mac_ipa_02BB {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp B &kp B &kp RET>;
+        };
+
+        mac_ipa_0326: mac_ipa_0326 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N6 &kp RET>;
+        };
+
+        mac_ipa_0307: mac_ipa_0307 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N7 &kp RET>;
+        };
+
+        mac_ipa_0323: mac_ipa_0323 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N3 &kp RET>;
+        };
+
+        mac_ipa_0309: mac_ipa_0309 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N9 &kp RET>;
+        };
+
+        mac_ipa_031B: mac_ipa_031B {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp B &kp RET>;
+        };
+
+        mac_ipa_0328: mac_ipa_0328 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N8 &kp RET>;
+        };
+
+        mac_ipa_0335: mac_ipa_0335 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp N5 &kp RET>;
+        };
+
+        mac_ipa_309B: mac_ipa_309B {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N3 &kp N0 &kp N9 &kp B &kp RET>;
+        };
+
+        mac_ipa_309C: mac_ipa_309C {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N3 &kp N0 &kp N9 &kp C &kp RET>;
+        };
+
+        mac_ipa_02BC: mac_ipa_02BC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp B &kp C &kp RET>;
+        };
+
+        mac_ipa_0265: mac_ipa_0265 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N5 &kp RET>;
+        };
+
+        mac_ipa_028D: mac_ipa_028D {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp D &kp RET>;
+        };
+
+        mac_ipa_0267: mac_ipa_0267 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N7 &kp RET>;
+        };
+
+        mac_ipa_006E_0361_006D: mac_ipa_006E_0361_006D {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N6 &kp D &kp RET>;
+        };
+
+        mac_ipa_0273_0361_006D: mac_ipa_0273_0361_006D {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N3 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N6 &kp D &kp RET>;
+        };
+
+        mac_ipa_014B_0361_006D: mac_ipa_014B_0361_006D {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N6 &kp D &kp RET>;
+        };
+
+        mac_ipa_0074_0361_0070: mac_ipa_0074_0361_0070 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N7 &kp N4 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N7 &kp N0 &kp RET>;
+        };
+
+        mac_ipa_0064_0361_0062: mac_ipa_0064_0361_0062 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp N4 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N6 &kp N2 &kp RET>;
+        };
+
+        mac_ipa_0288_0361_0070: mac_ipa_0288_0361_0070 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp N8 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N7 &kp N0 &kp RET>;
+        };
+
+        mac_ipa_0256_0361_0062: mac_ipa_0256_0361_0062 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp N6 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N6 &kp N2 &kp RET>;
+        };
+
+        mac_ipa_006B_0361_0070: mac_ipa_006B_0361_0070 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp B &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N7 &kp N0 &kp RET>;
+        };
+
+        mac_ipa_0067_0361_0062: mac_ipa_0067_0361_0062 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp N7 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N6 &kp N2 &kp RET>;
+        };
+
+        mac_ipa_0071_0361_02A1: mac_ipa_0071_0361_02A1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N7 &kp N1 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp A &kp N1 &kp RET>;
+        };
+
+        mac_ipa_0071_0361_0070: mac_ipa_0071_0361_0070 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N7 &kp N1 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N7 &kp N0 &kp RET>;
+        };
+
+        mac_ipa_0265_030A: mac_ipa_0265_030A {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N5 &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        };
+
+        mac_ipa_0260_030A_035C_0253_0325: mac_ipa_0260_030A_035C_0253_0325 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET &kp U &kp N0 &kp N3 &kp N5 &kp C &kp RET &kp U &kp N0 &kp N2 &kp N5 &kp N3 &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
+        };
+
+        mac_ipa_0260_0361_0253: mac_ipa_0260_0361_0253 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N5 &kp N3 &kp RET>;
+        };
+
+        // IPA text macros for linguistics work
+        m_nas_bil_vl: m_nas_bil_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp M &kp RET>;
+        };
+
+        m_nas_bil_vd: m_nas_bil_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp M &kp RET>;
+        };
+
+        m_nas_lab_vl: m_nas_lab_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N1 &kp RET>;
+        };
+
+        m_nas_lab_vd: m_nas_lab_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N1 &kp RET>;
+        };
+
+        m_nas_den_vl: m_nas_den_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET>;
+        };
+
+        m_nas_den_vd: m_nas_den_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET>;
+        };
+
+        m_nas_alv_vl: m_nas_alv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET>;
+        };
+
+        m_nas_alv_vd: m_nas_alv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET>;
+        };
+
+        m_nas_palv_vl: m_nas_palv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N2 &kp RET>;
+        };
+
+        m_nas_palv_vd: m_nas_palv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N2 &kp RET>;
+        };
+
+        m_nas_pala_vl: m_nas_pala_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET>;
+        };
+
+        m_nas_pala_vd: m_nas_pala_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET>;
+        };
+
+        m_nas_ret_vl: m_nas_ret_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp RET>;
+        };
+
+        m_nas_ret_vd: m_nas_ret_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp RET>;
+        };
+
+        m_nas_glo_vl: m_nas_glo_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET>;
+        };
+
+        m_nas_glo_vd: m_nas_glo_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET>;
+        };
+
+        m_nas_uv_vl: m_nas_uv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET>;
+        };
+
+        m_nas_uv_vd: m_nas_uv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET>;
+        };
+
+        m_p_bil_vl: m_p_bil_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp P &kp RET>;
+        };
+
+        m_p_bil_vd: m_p_bil_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp B &kp RET>;
+        };
+
+        m_p_lab_vl: m_p_lab_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp P &kp RET>;
+        };
+
+        m_p_lab_vd: m_p_lab_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp B &kp RET>;
+        };
+
+        m_p_den_vl: m_p_den_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp T &kp RET>;
+        };
+
+        m_p_den_vd: m_p_den_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp D &kp RET>;
+        };
+
+        m_p_alv_vl: m_p_alv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp T &kp RET>;
+        };
+
+        m_p_alv_vd: m_p_alv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp D &kp RET>;
+        };
+
+        m_p_ret_vl: m_p_ret_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp N8 &kp RET>;
+        };
+
+        m_p_ret_vd: m_p_ret_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp N6 &kp RET>;
+        };
+
+        m_p_glo_vl: m_p_glo_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp K &kp RET>;
+        };
+
+        m_p_pala_vl: m_p_pala_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp C &kp RET>;
+        };
+
+        m_p_pala_vd: m_p_pala_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp N5 &kp RET>;
+        };
+
+        m_p_vel_vl: m_p_vel_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp Q &kp RET>;
+        };
+
+        m_p_vel_vd: m_p_vel_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N1 &kp RET>;
+        };
+
+        m_p_uv_vl: m_p_uv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp Q &kp RET>;
+        };
+
+        m_p_uv_vd: m_p_uv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N1 &kp RET>;
+        };
+
+        m_p_epi_vl: m_p_epi_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N7 &kp N1 &kp N4 &kp RET>;
+        };
+    };
+
     behaviors {
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
