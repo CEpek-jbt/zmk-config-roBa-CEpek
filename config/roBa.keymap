@@ -2538,9 +2538,7 @@ v_op_ba_ro: v_op_ba_ro {
     #binding-cells = <0>;
     text = "ɒ";
 };
-};
 
-  behaviors {
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
@@ -2624,7 +2622,7 @@ v_op_ba_ro: v_op_ba_ro {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                            &trans  &trans    &trans  &trans  &m_im_bil_vl
 &trans  &trans  &trans  &trans  &trans        &trans      &trans  &trans  &mkp MB1  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &ipa_sw 20 0  &trans      &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &ipa_sw 20 &none  &trans      &trans  &trans  &trans    &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans        &trans      &trans  &trans                            &trans
             >;
         };
