@@ -2546,6 +2546,8 @@ v_op_ba_ro: v_op_ba_ro {
             tap-ms = <20>;
         };
 
+
+behavior {
         // 名前を lt_ipa から ipa_sw に変更、
         // もしくは ipa_sw というラベルを付与する
 
