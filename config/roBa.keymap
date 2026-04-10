@@ -23,7 +23,7 @@
 #define LTAP 18
 #define TRILL 19
 #define IMPLO 20
-#define LAT_IMPLO 21  // Lateral implosive layer
+#define LAT_IMPLO 21  // 追加: Lateral implosive layer
 
 &mt {
     flavor = "hold-preferred";
@@ -32,12 +32,10 @@
 
 &sl { release-after-ms = <250>; };
 
-/*
 &trackball {
     automouse-layer = <4>;
     scroll-layers = <5>;
 };
-*/
 
 / {
     combos {
@@ -50,742 +48,3195 @@
 
         BT1 {
             bindings = <&bt BT_SEL 1>;
-            key-positions = <29>;
+            key-positions = <28 23>;
         };
 
         BT2 {
             bindings = <&bt BT_SEL 2>;
-            key-positions = <30>;
+            key-positions = <28 24>;
         };
 
-        BT3 {
-            bindings = <&bt BT_SEL 3>;
-            key-positions = <31>;
+        combo_nsaffricate {
+            timeout-ms = <50>;
+            key-positions = <34 36>;
+            bindings = <&ipa_sw 10 0>;
         };
 
-        BT4 {
-            bindings = <&bt BT_SEL 4>;
-            key-positions = <32>;
-        };
-
-        BT_CLR {
-            bindings = <&bt BT_CLR>;
-            key-positions = <33>;
-        };
-
-        BT_DISC {
-            bindings = <&bt BT_DISC>;
-            key-positions = <34>;
-        };
-
-        BT_NXT {
-            bindings = <&bt BT_NXT>;
-            key-positions = <35>;
-        };
-
-        BT_PRV {
-            bindings = <&bt BT_PRV>;
-            key-positions = <36>;
-        };
-
-        // IPA Unicode combos using macro-based Unicode input
-        ipa_030D {
-            bindings = <&mac_ipa_030D>;
-            key-positions = <0 1>;
-        };
-
-        ipa_0329 {
-            bindings = <&mac_ipa_0329>;
-            key-positions = <2 3>;
-        };
-
-        ipa_0311 {
-            bindings = <&mac_ipa_0311>;
-            key-positions = <4 5>;
-        };
-
-        ipa_032F {
-            bindings = <&mac_ipa_032F>;
-            key-positions = <6 7>;
-        };
-
-        ipa_02B0 {
-            bindings = <&mac_ipa_02B0>;
-            key-positions = <8 9>;
-        };
-
-        ipa_02B1 {
-            bindings = <&mac_ipa_02B1>;
-            key-positions = <10 11>;
-        };
-
-        ipa_1D4D {
-            bindings = <&mac_ipa_1D4D>;
-            key-positions = <12 13>;
-        };
-
-        ipa_207F {
-            bindings = <&mac_ipa_207F>;
-            key-positions = <14 15>;
-        };
-
-        ipa_1DAF {
-            bindings = <&mac_ipa_1DAF>;
-            key-positions = <16 17>;
-        };
-
-        ipa_1DAE {
-            bindings = <&mac_ipa_1DAE>;
-            key-positions = <18 19>;
-        };
-
-        ipa_1D51 {
-            bindings = <&mac_ipa_1D51>;
-            key-positions = <20 21>;
-        };
-
-        ipa_02E1 {
-            bindings = <&mac_ipa_02E1>;
-            key-positions = <22 23>;
-        };
-
-        ipa_1D4A {
-            bindings = <&mac_ipa_1D4A>;
-            key-positions = <24 25>;
-        };
-
-        ipa_1DBF {
-            bindings = <&mac_ipa_1DBF>;
-            key-positions = <26 27>;
-        };
-
-        ipa_02E3 {
-            bindings = <&mac_ipa_02E3>;
-            key-positions = <28 29>;
-        };
-
-        ipa_031A {
-            bindings = <&mac_ipa_031A>;
-            key-positions = <30 31>;
-        };
-
-        ipa_030A {
-            bindings = <&mac_ipa_030A>;
-            key-positions = <32 33>;
-        };
-
-        ipa_0325 {
-            bindings = <&mac_ipa_0325>;
+        combo_saffricate {
+            timeout-ms = <50>;
             key-positions = <34 35>;
+            bindings = <&ipa_sw 12 0>;
         };
 
-        ipa_032C {
+        combo_lfricative {
+            timeout-ms = <50>;
+            key-positions = <35 41>;
+            bindings = <&ipa_sw 13 0>;
+        };
+
+        combo_laffricate {
+            timeout-ms = <50>;
+            key-positions = <34 35 41>;
+            bindings = <&ipa_sw 14 0>;
+        };
+
+        combo_lapproximant {
+            timeout-ms = <50>;
+            key-positions = <37 41>;
+            bindings = <&ipa_sw 16 0>;
+        };
+
+        combo_ltap {
+            timeout-ms = <50>;
+            key-positions = <38 41>;
+            bindings = <&ipa_sw 18 0>;
+        };
+
+        // ==========================================
+        // 追加: IPA ダイアクリティック用コンボ
+        // ==========================================
+
+        combo_SLA {
+            timeout-ms = <300>;
+            key-positions = <11 20 10>;
+            bindings = <&mac_ipa_030D>;
+        };
+
+        combo_SLB {
+            timeout-ms = <300>;
+            key-positions = <11 20 26>;
+            bindings = <&mac_ipa_0329>;
+        };
+
+        combo_NSA {
+            timeout-ms = <300>;
+            key-positions = <29 11 10>;
+            bindings = <&mac_ipa_0311>;
+        };
+
+        combo_NSB {
+            timeout-ms = <300>;
+            key-positions = <29 11 26>;
+            bindings = <&mac_ipa_032F>;
+        };
+
+        combo_HL {
+            timeout-ms = <300>;
+            key-positions = <17 20>;
+            bindings = <&mac_ipa_02B0>;
+        };
+
+        combo_HHL {
+            timeout-ms = <300>;
+            key-positions = <17 17 20>;
+            bindings = <&mac_ipa_02B1>;
+        };
+
+        combo_ML {
+            timeout-ms = <300>;
+            key-positions = <30 20>;
+            bindings = <&mac_ipa_1D4D>;
+        };
+
+        combo_NL {
+            timeout-ms = <300>;
+            key-positions = <29 20>;
+            bindings = <&mac_ipa_207F>;
+        };
+
+        combo_RNL {
+            timeout-ms = <300>;
+            key-positions = <3 29 20>;
+            bindings = <&mac_ipa_1DAF>;
+        };
+
+        combo_GNL {
+            timeout-ms = <300>;
+            key-positions = <14 29 20>;
+            bindings = <&mac_ipa_1DAE>;
+        };
+
+        combo_NGL {
+            timeout-ms = <300>;
+            key-positions = <29 14 20>;
+            bindings = <&mac_ipa_1D51>;
+        };
+
+        combo_LL {
+            timeout-ms = <300>;
+            key-positions = <20 20>;
+            bindings = <&mac_ipa_02E1>;
+        };
+
+        combo_AWL {
+            timeout-ms = <300>;
+            key-positions = <10 1 20>;
+            bindings = <&mac_ipa_1D4A>;
+        };
+
+        combo_THL {
+            timeout-ms = <300>;
+            key-positions = <4 17 20>;
+            bindings = <&mac_ipa_1DBF>;
+        };
+
+        combo_XL {
+            timeout-ms = <300>;
+            key-positions = <23 20>;
+            bindings = <&mac_ipa_02E3>;
+        };
+
+        combo_AP {
+            timeout-ms = <300>;
+            key-positions = <10 9>;
+            bindings = <&mac_ipa_031A>;
+        };
+
+        combo_VLA {
+            timeout-ms = <300>;
+            key-positions = <25 20 10>;
+            bindings = <&mac_ipa_030A>;
+        };
+
+        combo_VLB {
+            timeout-ms = <300>;
+            key-positions = <25 20 26>;
+            bindings = <&mac_ipa_0325>;
+        };
+
+        combo_VD {
+            timeout-ms = <300>;
+            key-positions = <25 12>;
             bindings = <&mac_ipa_032C>;
-            key-positions = <36 37>;
         };
 
-        ipa_0308 {
+        combo_TR {
+            timeout-ms = <300>;
+            key-positions = <4 3>;
             bindings = <&mac_ipa_0308>;
-            key-positions = <38 39>;
         };
 
-        ipa_0324 {
+        combo_TRB {
+            timeout-ms = <300>;
+            key-positions = <4 3 26>;
             bindings = <&mac_ipa_0324>;
-            key-positions = <40 41>;
         };
 
-        ipa_0303 {
+        combo_CT {
+            timeout-ms = <300>;
+            key-positions = <24 4>;
+            bindings = <&mac_ipa_0308>;
+        };
+
+        combo_BVD {
+            timeout-ms = <300>;
+            key-positions = <26 25 12>;
+            bindings = <&mac_ipa_0324>;
+        };
+
+        combo_TLA {
+            timeout-ms = <300>;
+            key-positions = <4 20 10>;
             bindings = <&mac_ipa_0303>;
-            key-positions = <42 43>;
         };
 
-        ipa_0330 {
+        combo_TLB {
+            timeout-ms = <300>;
+            key-positions = <4 20 26>;
             bindings = <&mac_ipa_0330>;
-            key-positions = <44 45>;
         };
 
-        ipa_032A {
+        combo_NS {
+            timeout-ms = <300>;
+            key-positions = <29 11>;
+            bindings = <&mac_ipa_0303>;
+        };
+
+        combo_CK {
+            timeout-ms = <300>;
+            key-positions = <24 19>;
+            bindings = <&mac_ipa_0330>;
+        };
+
+        combo_DT_1 {
+            timeout-ms = <300>;
+            key-positions = <12 4>;
             bindings = <&mac_ipa_032A>;
-            key-positions = <46 47>;
         };
 
-        ipa_033A {
+        combo_AC_1 {
+            timeout-ms = <300>;
+            key-positions = <10 24>;
             bindings = <&mac_ipa_033A>;
-            key-positions = <48 49>;
         };
 
-        ipa_031F {
+        combo_FR {
+            timeout-ms = <300>;
+            key-positions = <13 3>;
             bindings = <&mac_ipa_031F>;
-            key-positions = <50 51>;
         };
 
-        ipa_0320 {
+        combo_BK {
+            timeout-ms = <300>;
+            key-positions = <26 19>;
             bindings = <&mac_ipa_0320>;
-            key-positions = <52 53>;
         };
 
-        ipa_031D {
+        combo_PS {
+            timeout-ms = <300>;
+            key-positions = <9 11>;
             bindings = <&mac_ipa_031D>;
-            key-positions = <54 55>;
         };
 
-        ipa_031E {
+        combo_DW {
+            timeout-ms = <300>;
+            key-positions = <12 1>;
             bindings = <&mac_ipa_031E>;
-            key-positions = <56 57>;
         };
 
-        ipa_033B {
+        combo_LN {
+            timeout-ms = <300>;
+            key-positions = <20 29>;
             bindings = <&mac_ipa_033B>;
-            key-positions = <58 59>;
         };
 
-        ipa_033C {
+        combo_LG {
+            timeout-ms = <300>;
+            key-positions = <20 14>;
             bindings = <&mac_ipa_033C>;
-            key-positions = <60 61>;
         };
 
-        ipa_033D {
+        combo_MDC {
+            timeout-ms = <300>;
+            key-positions = <30 12 24>;
             bindings = <&mac_ipa_033D>;
-            key-positions = <62 63>;
         };
 
-        ipa_0357 {
+        combo_RDA {
+            timeout-ms = <300>;
+            key-positions = <3 12 10>;
             bindings = <&mac_ipa_0357>;
-            key-positions = <64 65>;
         };
 
-        ipa_0339 {
+        combo_RDB_1 {
+            timeout-ms = <300>;
+            key-positions = <3 12 26>;
             bindings = <&mac_ipa_0339>;
-            key-positions = <66 67>;
         };
 
-        ipa_0351 {
+        combo_URA {
+            timeout-ms = <300>;
+            key-positions = <6 3 10>;
             bindings = <&mac_ipa_0351>;
-            key-positions = <68 69>;
         };
 
-        ipa_031C {
+        combo_URB {
+            timeout-ms = <300>;
+            key-positions = <6 3 26>;
             bindings = <&mac_ipa_031C>;
-            key-positions = <70 71>;
         };
 
-        ipa_02B7 {
+        combo_WL {
+            timeout-ms = <300>;
+            key-positions = <1 20>;
             bindings = <&mac_ipa_02B7>;
-            key-positions = <72 73>;
         };
 
-        ipa_02E0 {
+        combo_VL {
+            timeout-ms = <300>;
+            key-positions = <25 20>;
             bindings = <&mac_ipa_02E0>;
-            key-positions = <74 75>;
         };
 
-        ipa_02E4 {
+        combo_GML {
+            timeout-ms = <300>;
+            key-positions = <14 30 20>;
+            bindings = <&mac_ipa_02E0>;
+        };
+
+        combo_PL_1 {
+            timeout-ms = <300>;
+            key-positions = <9 20>;
             bindings = <&mac_ipa_02E4>;
-            key-positions = <76 77>;
         };
 
-        ipa_02C0 {
+        combo_AL {
+            timeout-ms = <300>;
+            key-positions = <10 20>;
+            bindings = <&mac_ipa_02E4>;
+        };
+
+        combo_HML {
+            timeout-ms = <300>;
+            key-positions = <17 30 20>;
             bindings = <&mac_ipa_02C0>;
-            key-positions = <78 79>;
         };
 
-        ipa_0318 {
+        combo_PL_2 {
+            timeout-ms = <300>;
+            key-positions = <9 20>;
+            bindings = <&mac_ipa_02C0>;
+        };
+
+        combo_ATR {
+            timeout-ms = <300>;
+            key-positions = <10 4 3>;
             bindings = <&mac_ipa_0318>;
-            key-positions = <80 81>;
         };
 
-        ipa_0319 {
+        combo_RTR {
+            timeout-ms = <300>;
+            key-positions = <3 4 3>;
             bindings = <&mac_ipa_0319>;
-            key-positions = <82 83>;
         };
 
-        ipa_02B2 {
+        combo_JL {
+            timeout-ms = <300>;
+            key-positions = <18 20>;
             bindings = <&mac_ipa_02B2>;
-            key-positions = <84 85>;
         };
 
-        ipa_026B {
+        combo_LV {
+            timeout-ms = <300>;
+            key-positions = <20 25>;
             bindings = <&mac_ipa_026B>;
-            key-positions = <86 87>;
         };
 
-        ipa_02DE {
+        combo_RH {
+            timeout-ms = <300>;
+            key-positions = <3 17>;
             bindings = <&mac_ipa_02DE>;
-            key-positions = <88 89>;
         };
 
-        ipa_0361 {
+        combo_DIB {
+            timeout-ms = <300>;
+            key-positions = <12 7 26>;
             bindings = <&mac_ipa_0361>;
-            key-positions = <90 91>;
         };
 
-        ipa_035C {
+        combo_DBB {
+            timeout-ms = <300>;
+            key-positions = <12 26 26>;
             bindings = <&mac_ipa_035C>;
-            key-positions = <92 93>;
         };
 
-        ipa_02C8 {
+        combo_SP {
+            timeout-ms = <300>;
+            key-positions = <11 9>;
             bindings = <&mac_ipa_02C8>;
-            key-positions = <94 95>;
         };
 
-        ipa_02CC {
+        combo_SS {
+            timeout-ms = <300>;
+            key-positions = <11 11>;
             bindings = <&mac_ipa_02CC>;
-            key-positions = <96 97>;
         };
 
-        ipa_02D0 {
+        combo_QQ {
+            timeout-ms = <300>;
+            key-positions = <0 0>;
             bindings = <&mac_ipa_02D0>;
-            key-positions = <98 99>;
         };
 
-        ipa_02D1 {
+        combo_QQQ {
+            timeout-ms = <300>;
+            key-positions = <0 0 0>;
             bindings = <&mac_ipa_02D1>;
-            key-positions = <100 101>;
         };
 
-        ipa_0306 {
+        combo_FLA {
+            timeout-ms = <300>;
+            key-positions = <13 20 10>;
             bindings = <&mac_ipa_0306>;
-            key-positions = <102 103>;
         };
 
-        ipa_032E {
+        combo_FLB {
+            timeout-ms = <300>;
+            key-positions = <13 20 26>;
             bindings = <&mac_ipa_032E>;
-            key-positions = <104 105>;
         };
 
-        ipa_203F {
+        combo_BR {
+            timeout-ms = <300>;
+            key-positions = <26 3>;
+            bindings = <&mac_ipa_0306>;
+        };
+
+        combo_BRB {
+            timeout-ms = <300>;
+            key-positions = <26 3 26>;
+            bindings = <&mac_ipa_032E>;
+        };
+
+        combo_LK {
+            timeout-ms = <300>;
+            key-positions = <20 19>;
             bindings = <&mac_ipa_203F>;
-            key-positions = <106 107>;
         };
 
-        ipa_007C {
+        combo_FB {
+            timeout-ms = <300>;
+            key-positions = <13 26>;
             bindings = <&mac_ipa_007C>;
-            key-positions = <108 109>;
         };
 
-        ipa_2016 {
+        combo_IB_1 {
+            timeout-ms = <300>;
+            key-positions = <7 26>;
             bindings = <&mac_ipa_2016>;
-            key-positions = <110 111>;
         };
 
-        ipa_2197 {
+        combo_GLR {
+            timeout-ms = <300>;
+            key-positions = <14 20 3>;
             bindings = <&mac_ipa_2197>;
-            key-positions = <112 113>;
         };
 
-        ipa_2198 {
+        combo_GLF {
+            timeout-ms = <300>;
+            key-positions = <14 20 13>;
             bindings = <&mac_ipa_2198>;
-            key-positions = <114 115>;
         };
 
-        ipa_A71B {
+        combo_PSS {
+            timeout-ms = <300>;
+            key-positions = <9 11 11>;
             bindings = <&mac_ipa_A71B>;
-            key-positions = <116 117>;
         };
 
-        ipa_A71C {
+        combo_DWS {
+            timeout-ms = <300>;
+            key-positions = <12 1 11>;
             bindings = <&mac_ipa_A71C>;
-            key-positions = <118 119>;
         };
 
-        ipa_0301 {
+        combo_AC_2 {
+            timeout-ms = <300>;
+            key-positions = <10 24>;
             bindings = <&mac_ipa_0301>;
-            key-positions = <120 121>;
         };
 
-        ipa_030B {
+        combo_DAC {
+            timeout-ms = <300>;
+            key-positions = <12 10 24>;
             bindings = <&mac_ipa_030B>;
-            key-positions = <122 123>;
         };
 
-        ipa_0300 {
+        combo_GR {
+            timeout-ms = <300>;
+            key-positions = <14 3>;
             bindings = <&mac_ipa_0300>;
-            key-positions = <124 125>;
         };
 
-        ipa_030F {
+        combo_DGR {
+            timeout-ms = <300>;
+            key-positions = <12 14 3>;
             bindings = <&mac_ipa_030F>;
-            key-positions = <126 127>;
         };
 
-        ipa_02E9 {
+        combo_LT {
+            timeout-ms = <300>;
+            key-positions = <20 4>;
             bindings = <&mac_ipa_02E9>;
-            key-positions = <128 129>;
         };
 
-        ipa_02E8 {
+        combo_HLT {
+            timeout-ms = <300>;
+            key-positions = <17 20 4>;
             bindings = <&mac_ipa_02E8>;
-            key-positions = <130 131>;
         };
 
-        ipa_02E7 {
+        combo_MT {
+            timeout-ms = <300>;
+            key-positions = <30 4>;
             bindings = <&mac_ipa_02E7>;
-            key-positions = <132 133>;
         };
 
-        ipa_02E6 {
+        combo_HHT {
+            timeout-ms = <300>;
+            key-positions = <17 17 4>;
             bindings = <&mac_ipa_02E6>;
-            key-positions = <134 135>;
         };
 
-        ipa_02E5 {
+        combo_HT {
+            timeout-ms = <300>;
+            key-positions = <17 4>;
             bindings = <&mac_ipa_02E5>;
-            key-positions = <136 137>;
         };
 
-        ipa_0304 {
+        combo_MC {
+            timeout-ms = <300>;
+            key-positions = <30 24>;
             bindings = <&mac_ipa_0304>;
-            key-positions = <138 139>;
         };
 
-        ipa_0331 {
+        combo_MCB {
+            timeout-ms = <300>;
+            key-positions = <30 24 26>;
             bindings = <&mac_ipa_0331>;
-            key-positions = <140 141>;
         };
 
-        ipa_0302 {
+        combo_CR {
+            timeout-ms = <300>;
+            key-positions = <24 3>;
             bindings = <&mac_ipa_0302>;
-            key-positions = <142 143>;
         };
 
-        ipa_032D {
+        combo_CRB {
+            timeout-ms = <300>;
+            key-positions = <24 3 26>;
             bindings = <&mac_ipa_032D>;
-            key-positions = <144 145>;
         };
 
-        ipa_030C {
+        combo_HC {
+            timeout-ms = <300>;
+            key-positions = <17 24>;
             bindings = <&mac_ipa_030C>;
-            key-positions = <146 147>;
         };
 
-        ipa_0327 {
+        combo_HCB {
+            timeout-ms = <300>;
+            key-positions = <17 24 26>;
+            bindings = <&mac_ipa_032C>;
+        };
+
+        combo_CD {
+            timeout-ms = <300>;
+            key-positions = <24 12>;
             bindings = <&mac_ipa_0327>;
-            key-positions = <148 149>;
         };
 
-        ipa_02BB {
+        combo_CM {
+            timeout-ms = <300>;
+            key-positions = <24 30>;
             bindings = <&mac_ipa_02BB>;
-            key-positions = <150 151>;
         };
 
-        ipa_0326 {
+        combo_CMB {
+            timeout-ms = <300>;
+            key-positions = <24 30 26>;
             bindings = <&mac_ipa_0326>;
-            key-positions = <152 153>;
         };
 
-        ipa_0307 {
+        combo_IB_2 {
+            timeout-ms = <300>;
+            key-positions = <7 26>;
+            bindings = <&mac_ipa_0311>;
+        };
+
+        combo_IBB {
+            timeout-ms = <300>;
+            key-positions = <7 26 26>;
+            bindings = <&mac_ipa_032F>;
+        };
+
+        combo_DT_2 {
+            timeout-ms = <300>;
+            key-positions = <12 4>;
             bindings = <&mac_ipa_0307>;
-            key-positions = <154 155>;
         };
 
-        ipa_0323 {
+        combo_DTB {
+            timeout-ms = <300>;
+            key-positions = <12 4 26>;
             bindings = <&mac_ipa_0323>;
-            key-positions = <156 157>;
         };
 
-        ipa_0309 {
+        combo_HK {
+            timeout-ms = <300>;
+            key-positions = <17 19>;
             bindings = <&mac_ipa_0309>;
-            key-positions = <158 159>;
         };
 
-        ipa_031B {
+        combo_HR {
+            timeout-ms = <300>;
+            key-positions = <17 3>;
             bindings = <&mac_ipa_031B>;
-            key-positions = <160 161>;
         };
 
-        ipa_0328 {
+        combo_OG {
+            timeout-ms = <300>;
+            key-positions = <8 14>;
             bindings = <&mac_ipa_0328>;
-            key-positions = <162 163>;
         };
 
-        ipa_0335 {
+        combo_RG {
+            timeout-ms = <300>;
+            key-positions = <3 14>;
+            bindings = <&mac_ipa_030A>;
+        };
+
+        combo_ST {
+            timeout-ms = <300>;
+            key-positions = <11 4>;
             bindings = <&mac_ipa_0335>;
-            key-positions = <164 165>;
         };
 
-        ipa_309B {
+        combo_DK {
+            timeout-ms = <300>;
+            key-positions = <12 19>;
             bindings = <&mac_ipa_309B>;
-            key-positions = <166 167>;
         };
 
-        ipa_309C {
+        combo_HD {
+            timeout-ms = <300>;
+            key-positions = <17 12>;
             bindings = <&mac_ipa_309C>;
-            key-positions = <168 169>;
         };
 
-        ipa_02BC {
+        combo_EJ {
+            timeout-ms = <300>;
+            key-positions = <2 18>;
             bindings = <&mac_ipa_02BC>;
-            key-positions = <170 171>;
         };
 
-        ipa_0265 {
+        combo_NM {
+            timeout-ms = <300>;
+            key-positions = <29 30>;
+            bindings = <&mac_ipa_006E_0361_006D>;
+        };
+
+        combo_RNM {
+            timeout-ms = <300>;
+            key-positions = <3 29 30>;
+            bindings = <&mac_ipa_0273_0361_006D>;
+        };
+
+        combo_NGM {
+            timeout-ms = <300>;
+            key-positions = <29 14 30>;
+            bindings = <&mac_ipa_014B_0361_006D>;
+        };
+
+        combo_TP {
+            timeout-ms = <300>;
+            key-positions = <4 9>;
+            bindings = <&mac_ipa_0074_0361_0070>;
+        };
+
+        combo_DB {
+            timeout-ms = <300>;
+            key-positions = <12 26>;
+            bindings = <&mac_ipa_0064_0361_0062>;
+        };
+
+        combo_RTP {
+            timeout-ms = <300>;
+            key-positions = <3 4 9>;
+            bindings = <&mac_ipa_0288_0361_0070>;
+        };
+
+        combo_RDB_2 {
+            timeout-ms = <300>;
+            key-positions = <3 12 26>;
+            bindings = <&mac_ipa_0256_0361_0062>;
+        };
+
+        combo_KP {
+            timeout-ms = <300>;
+            key-positions = <19 9>;
+            bindings = <&mac_ipa_006B_0361_0070>;
+        };
+
+        combo_GB {
+            timeout-ms = <300>;
+            key-positions = <14 26>;
+            bindings = <&mac_ipa_0067_0361_0062>;
+        };
+
+        combo_QH {
+            timeout-ms = <300>;
+            key-positions = <0 17>;
+            bindings = <&mac_ipa_0071_0361_02A1>;
+        };
+
+        combo_QP {
+            timeout-ms = <300>;
+            key-positions = <0 9>;
+            bindings = <&mac_ipa_0071_0361_0070>;
+        };
+
+        combo_HYY {
+            timeout-ms = <300>;
+            key-positions = <17 5 5>;
+            bindings = <&mac_ipa_0265_030A>;
+        };
+
+        combo_YY {
+            timeout-ms = <300>;
+            key-positions = <5 5>;
             bindings = <&mac_ipa_0265>;
-            key-positions = <172 173>;
         };
 
-        ipa_028D {
+        combo_HW {
+            timeout-ms = <300>;
+            key-positions = <17 1>;
             bindings = <&mac_ipa_028D>;
-            key-positions = <174 175>;
         };
 
-        ipa_0267 {
+        combo_SJ {
+            timeout-ms = <300>;
+            key-positions = <11 18>;
             bindings = <&mac_ipa_0267>;
-            key-positions = <176 177>;
         };
 
-        ipa_006E_0361_006D {
-            bindings = <&m_n_m>;
-            key-positions = <178 179>;
+        combo_MKP {
+            timeout-ms = <300>;
+            key-positions = <30 19 9>;
+            bindings = <&mac_ipa_0260_030A_035C_0253_0325>;
         };
 
-        ipa_0273_0361_006D {
-            bindings = <&m_nr_m>;
-            key-positions = <180 181>;
+        combo_MGB {
+            timeout-ms = <300>;
+            key-positions = <30 14 26>;
+            bindings = <&mac_ipa_0260_0361_0253>;
+        };
+    };
+
+    macros {
+        // ==========================================
+        // IPA ダイアクリティック / 記号用マクロ群
+        // ==========================================
+
+        mac_ipa_030D: mac_ipa_030D {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp D &kp RET>;
         };
 
-        ipa_014B_0361_006D {
-            bindings = <&m_ng_m>;
-            key-positions = <182 183>;
+        mac_ipa_0329: mac_ipa_0329 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N9 &kp RET>;
         };
 
-        ipa_0074_0361_0070 {
-            bindings = <&m_t_p>;
-            key-positions = <184 185>;
+        mac_ipa_0311: mac_ipa_0311 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp N1 &kp RET>;
         };
 
-        ipa_0064_0361_0062 {
-            bindings = <&m_d_b>;
-            key-positions = <186 187>;
+        mac_ipa_032F: mac_ipa_032F {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp F &kp RET>;
         };
 
-        ipa_0288_0361_0070 {
-            bindings = <&m_r_p>;
-            key-positions = <188 189>;
+        mac_ipa_02B0: mac_ipa_02B0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp B &kp N0 &kp RET>;
         };
 
-        ipa_0256_0361_0062 {
-            bindings = <&m_r_b>;
-            key-positions = <190 191>;
+        mac_ipa_02B1: mac_ipa_02B1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp B &kp N1 &kp RET>;
         };
 
-        ipa_006B_0361_0070 {
-            bindings = <&m_k_p>;
-            key-positions = <192 193>;
+        mac_ipa_1D4D: mac_ipa_1D4D {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N1 &kp D &kp N4 &kp D &kp RET>;
         };
 
-        ipa_0067_0361_0062 {
-            bindings = <&m_g_b>;
-            key-positions = <194 195>;
+        mac_ipa_207F: mac_ipa_207F {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N2 &kp N0 &kp N7 &kp F &kp RET>;
         };
 
-        ipa_0071_0361_02A1 {
-            bindings = <&m_q_h>;
-            key-positions = <196 197>;
+        mac_ipa_1DAF: mac_ipa_1DAF {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N1 &kp D &kp A &kp F &kp RET>;
         };
 
-        ipa_0071_0361_0070 {
-            bindings = <&m_q_p>;
-            key-positions = <198 199>;
+        mac_ipa_1DAE: mac_ipa_1DAE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N1 &kp D &kp A &kp E &kp RET>;
         };
 
-        ipa_0265_030A {
-            bindings = <&m_h_y>;
-            key-positions = <200 201>;
+        mac_ipa_1D51: mac_ipa_1D51 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N1 &kp D &kp N5 &kp N1 &kp RET>;
         };
 
-        ipa_0260_030A_035C_0253_0325 {
-            bindings = <&m_complex1>;
-            key-positions = <202 203>;
+        mac_ipa_02E1: mac_ipa_02E1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N1 &kp RET>;
         };
 
-        ipa_0260_0361_0253 {
-            bindings = <&m_complex2>;
-            key-positions = <204 205>;
+        mac_ipa_1D4A: mac_ipa_1D4A {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N1 &kp D &kp N4 &kp A &kp RET>;
         };
 
-        // IPA text macros for different articulations
-        nas_bil_vl {
-            bindings = <&m_nas_bil_vl>;
-            key-positions = <206 207>;
+        mac_ipa_1DBF: mac_ipa_1DBF {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N1 &kp D &kp B &kp F &kp RET>;
         };
 
-        nas_bil_vd {
-            bindings = <&m_nas_bil_vd>;
-            key-positions = <208 209>;
+        mac_ipa_02E3: mac_ipa_02E3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N3 &kp RET>;
         };
 
-        nas_lab_vl {
-            bindings = <&m_nas_lab_vl>;
-            key-positions = <210 211>;
+        mac_ipa_031A: mac_ipa_031A {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp A &kp RET>;
         };
 
-        nas_lab_vd {
-            bindings = <&m_nas_lab_vd>;
-            key-positions = <212 213>;
+        mac_ipa_030A: mac_ipa_030A {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
         };
 
-        nas_den_vl {
-            bindings = <&m_nas_den_vl>;
-            key-positions = <214 215>;
+        mac_ipa_0325: mac_ipa_0325 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
         };
 
-        nas_den_vd {
-            bindings = <&m_nas_den_vd>;
-            key-positions = <216 217>;
+        mac_ipa_032C: mac_ipa_032C {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp C &kp RET>;
         };
 
-        nas_alv_vl {
-            bindings = <&m_nas_alv_vl>;
-            key-positions = <218 219>;
+        mac_ipa_0308: mac_ipa_0308 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N8 &kp RET>;
         };
 
-        nas_alv_vd {
-            bindings = <&m_nas_alv_vd>;
-            key-positions = <220 221>;
+        mac_ipa_0324: mac_ipa_0324 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N4 &kp RET>;
         };
 
-        nas_palv_vl {
-            bindings = <&m_nas_palv_vl>;
-            key-positions = <222 223>;
+        mac_ipa_0303: mac_ipa_0303 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N3 &kp RET>;
         };
 
-        nas_palv_vd {
-            bindings = <&m_nas_palv_vd>;
-            key-positions = <224 225>;
+        mac_ipa_0330: mac_ipa_0330 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp N0 &kp RET>;
         };
 
-        nas_pala_vl {
-            bindings = <&m_nas_pala_vl>;
-            key-positions = <226 227>;
+        mac_ipa_032A: mac_ipa_032A {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
         };
 
-        nas_pala_vd {
-            bindings = <&m_nas_pala_vd>;
-            key-positions = <228 229>;
+        mac_ipa_033A: mac_ipa_033A {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp A &kp RET>;
         };
 
-        nas_ret_vl {
-            bindings = <&m_nas_ret_vl>;
-            key-positions = <230 231>;
+        mac_ipa_031F: mac_ipa_031F {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp F &kp RET>;
         };
 
-        nas_ret_vd {
-            bindings = <&m_nas_ret_vd>;
-            key-positions = <232 233>;
+        mac_ipa_0320: mac_ipa_0320 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>;
         };
 
-        nas_glo_vl {
-            bindings = <&m_nas_glo_vl>;
-            key-positions = <234 235>;
+        mac_ipa_031D: mac_ipa_031D {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
         };
 
-        nas_glo_vd {
-            bindings = <&m_nas_glo_vd>;
-            key-positions = <236 237>;
+        mac_ipa_031E: mac_ipa_031E {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
         };
 
-        nas_uv_vl {
-            bindings = <&m_nas_uv_vl>;
-            key-positions = <238 239>;
+        mac_ipa_033B: mac_ipa_033B {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp B &kp RET>;
         };
 
-        nas_uv_vd {
-            bindings = <&m_nas_uv_vd>;
-            key-positions = <240 241>;
+        mac_ipa_033C: mac_ipa_033C {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp C &kp RET>;
         };
 
-        p_bil_vl {
-            bindings = <&m_p_bil_vl>;
-            key-positions = <242 243>;
+        mac_ipa_033D: mac_ipa_033D {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp D &kp RET>;
         };
 
-        p_bil_vd {
-            bindings = <&m_p_bil_vd>;
-            key-positions = <244 245>;
+        mac_ipa_0357: mac_ipa_0357 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N5 &kp N7 &kp RET>;
         };
 
-        p_lab_vl {
-            bindings = <&m_p_lab_vl>;
-            key-positions = <246 247>;
+        mac_ipa_0339: mac_ipa_0339 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp N9 &kp RET>;
         };
 
-        p_lab_vd {
-            bindings = <&m_p_lab_vd>;
-            key-positions = <248 249>;
+        mac_ipa_0351: mac_ipa_0351 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N5 &kp N1 &kp RET>;
         };
 
-        p_den_vl {
-            bindings = <&m_p_den_vl>;
-            key-positions = <250 251>;
+        mac_ipa_031C: mac_ipa_031C {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp C &kp RET>;
         };
 
-        p_den_vd {
-            bindings = <&m_p_den_vd>;
-            key-positions = <252 253>;
+        mac_ipa_02B7: mac_ipa_02B7 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp B &kp N7 &kp RET>;
         };
 
-        p_alv_vl {
-            bindings = <&m_p_alv_vl>;
-            key-positions = <254 255>;
+        mac_ipa_02E0: mac_ipa_02E0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N0 &kp RET>;
         };
 
-        p_alv_vd {
-            bindings = <&m_p_alv_vd>;
-            key-positions = <256 257>;
+        mac_ipa_02E4: mac_ipa_02E4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N4 &kp RET>;
         };
 
-        p_ret_vl {
-            bindings = <&m_p_ret_vl>;
-            key-positions = <258 259>;
+        mac_ipa_02C0: mac_ipa_02C0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp C &kp N0 &kp RET>;
         };
 
-        p_ret_vd {
-            bindings = <&m_p_ret_vd>;
-            key-positions = <260 261>;
+        mac_ipa_0318: mac_ipa_0318 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp N8 &kp RET>;
         };
 
-        p_glo_vl {
-            bindings = <&m_p_glo_vl>;
-            key-positions = <262 263>;
+        mac_ipa_0319: mac_ipa_0319 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp N9 &kp RET>;
         };
 
-        p_pala_vl {
-            bindings = <&m_p_pala_vl>;
-            key-positions = <264 265>;
+        mac_ipa_02B2: mac_ipa_02B2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp B &kp N2 &kp RET>;
         };
 
-        p_pala_vd {
-            bindings = <&m_p_pala_vd>;
-            key-positions = <266 267>;
+        mac_ipa_026B: mac_ipa_026B {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp B &kp RET>;
         };
 
-        p_vel_vl {
-            bindings = <&m_p_vel_vl>;
-            key-positions = <268 269>;
+        mac_ipa_02DE: mac_ipa_02DE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp D &kp E &kp RET>;
         };
 
-        p_vel_vd {
-            bindings = <&m_p_vel_vd>;
-            key-positions = <270 271>;
+        mac_ipa_0361: mac_ipa_0361 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET>;
         };
 
-        p_uv_vl {
-            bindings = <&m_p_uv_vl>;
-            key-positions = <272 273>;
+        mac_ipa_035C: mac_ipa_035C {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N5 &kp C &kp RET>;
         };
 
-        p_uv_vd {
-            bindings = <&m_p_uv_vd>;
-            key-positions = <274 275>;
+        mac_ipa_02C8: mac_ipa_02C8 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp C &kp N8 &kp RET>;
         };
 
-        p_epi_vl {
-            bindings = <&m_p_epi_vl>;
-            key-positions = <276 277>;
+        mac_ipa_02CC: mac_ipa_02CC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp C &kp C &kp RET>;
         };
 
-        // Add more combos as needed...
+        mac_ipa_02D0: mac_ipa_02D0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp D &kp N0 &kp RET>;
+        };
+
+        mac_ipa_02D1: mac_ipa_02D1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp D &kp N1 &kp RET>;
+        };
+
+        mac_ipa_0306: mac_ipa_0306 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N6 &kp RET>;
+        };
+
+        mac_ipa_032E: mac_ipa_032E {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp E &kp RET>;
+        };
+
+        mac_ipa_203F: mac_ipa_203F {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N2 &kp N0 &kp N3 &kp F &kp RET>;
+        };
+
+        mac_ipa_007C: mac_ipa_007C {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N7 &kp C &kp RET>;
+        };
+
+        mac_ipa_2016: mac_ipa_2016 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N2 &kp N0 &kp N1 &kp N6 &kp RET>;
+        };
+
+        mac_ipa_2197: mac_ipa_2197 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N2 &kp N1 &kp N9 &kp N7 &kp RET>;
+        };
+
+        mac_ipa_2198: mac_ipa_2198 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N2 &kp N1 &kp N9 &kp N8 &kp RET>;
+        };
+
+        mac_ipa_A71B: mac_ipa_A71B {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp A &kp N7 &kp N1 &kp B &kp RET>;
+        };
+
+        mac_ipa_A71C: mac_ipa_A71C {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp A &kp N7 &kp N1 &kp C &kp RET>;
+        };
+
+        mac_ipa_0301: mac_ipa_0301 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N1 &kp RET>;
+        };
+
+        mac_ipa_030B: mac_ipa_030B {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp B &kp RET>;
+        };
+
+        mac_ipa_0300: mac_ipa_0300 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N0 &kp RET>;
+        };
+
+        mac_ipa_030F: mac_ipa_030F {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp F &kp RET>;
+        };
+
+        mac_ipa_02E9: mac_ipa_02E9 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N9 &kp RET>;
+        };
+
+        mac_ipa_02E8: mac_ipa_02E8 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N8 &kp RET>;
+        };
+
+        mac_ipa_02E7: mac_ipa_02E7 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N7 &kp RET>;
+        };
+
+        mac_ipa_02E6: mac_ipa_02E6 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N6 &kp RET>;
+        };
+
+        mac_ipa_02E5: mac_ipa_02E5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp E &kp N5 &kp RET>;
+        };
+
+        mac_ipa_0304: mac_ipa_0304 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N4 &kp RET>;
+        };
+
+        mac_ipa_0331: mac_ipa_0331 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp N1 &kp RET>;
+        };
+
+        mac_ipa_0302: mac_ipa_0302 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N2 &kp RET>;
+        };
+
+        mac_ipa_032D: mac_ipa_032D {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp D &kp RET>;
+        };
+
+        mac_ipa_030C: mac_ipa_030C {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp C &kp RET>;
+        };
+
+        mac_ipa_0327: mac_ipa_0327 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N7 &kp RET>;
+        };
+
+        mac_ipa_02BB: mac_ipa_02BB {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp B &kp B &kp RET>;
+        };
+
+        mac_ipa_0326: mac_ipa_0326 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N6 &kp RET>;
+        };
+
+        mac_ipa_0307: mac_ipa_0307 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N7 &kp RET>;
+        };
+
+        mac_ipa_0323: mac_ipa_0323 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N3 &kp RET>;
+        };
+
+        mac_ipa_0309: mac_ipa_0309 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp N9 &kp RET>;
+        };
+
+        mac_ipa_031B: mac_ipa_031B {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N1 &kp B &kp RET>;
+        };
+
+        mac_ipa_0328: mac_ipa_0328 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N8 &kp RET>;
+        };
+
+        mac_ipa_0335: mac_ipa_0335 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N3 &kp N3 &kp N5 &kp RET>;
+        };
+
+        mac_ipa_309B: mac_ipa_309B {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N3 &kp N0 &kp N9 &kp B &kp RET>;
+        };
+
+        mac_ipa_309C: mac_ipa_309C {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N3 &kp N0 &kp N9 &kp C &kp RET>;
+        };
+
+        mac_ipa_02BC: mac_ipa_02BC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp B &kp C &kp RET>;
+        };
+
+        // --- 複合Unicode文字（複数のコードを連続入力） ---
+
+        mac_ipa_006E_0361_006D: m_n_m {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N6 &kp D &kp RET>;
+        };
+
+        mac_ipa_0273_0361_006D: m_nr_m {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N3 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N6 &kp D &kp RET>;
+        };
+
+        mac_ipa_014B_0361_006D: m_ng_m {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N6 &kp D &kp RET>;
+        };
+
+        mac_ipa_0074_0361_0070: m_t_p {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N7 &kp N4 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N7 &kp N0 &kp RET>;
+        };
+
+        mac_ipa_0064_0361_0062: m_d_b {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp N4 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N6 &kp N2 &kp RET>;
+        };
+
+        mac_ipa_0288_0361_0070: m_tr_p {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp N8 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N7 &kp N0 &kp RET>;
+        };
+
+        mac_ipa_0256_0361_0062: m_dr_b {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp N6 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N6 &kp N2 &kp RET>;
+        };
+
+        mac_ipa_006B_0361_0070: m_k_p {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp B &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N7 &kp N0 &kp RET>;
+        };
+
+        mac_ipa_0067_0361_0062: m_g_b {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp N7 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N6 &kp N2 &kp RET>;
+        };
+
+        mac_ipa_0071_0361_02A1: m_q_a {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N7 &kp N1 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp A &kp N1 &kp RET>;
+        };
+
+        mac_ipa_0071_0361_0070: m_q_p {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N7 &kp N1 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N0 &kp N7 &kp N0 &kp RET>;
+        };
+
+        mac_ipa_0265_030A: m_h_ring {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N5 &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        };
+
+        mac_ipa_0265: mac_ipa_0265 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N5 &kp RET>;
+        };
+
+        mac_ipa_028D: mac_ipa_028D {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp D &kp RET>;
+        };
+
+        mac_ipa_0267: mac_ipa_0267 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N7 &kp RET>;
+        };
+
+        mac_ipa_0260_030A_035C_0253_0325: m_complex1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET &kp U &kp N0 &kp N3 &kp N5 &kp C &kp RET &kp U &kp N0 &kp N2 &kp N5 &kp N3 &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
+        };
+
+        mac_ipa_0260_0361_0253: m_complex2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N5 &kp N3 &kp RET>;
+        };
+
+        // --- Layer 7: Nasal (鼻音) ---
+
+        m_nas_bil_vl: m_nas_bil_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp D &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
+        }; // m̥
+        m_nas_bil_vd: m_nas_bil_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp D &kp RET>;
+        }; // m
+        m_nas_lab_vl: m_nas_lab_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N1 &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        }; // ɱ̊
+        m_nas_lab_vd: m_nas_lab_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N1 &kp RET>;
+        }; // ɱ
+        m_nas_den_vl: m_nas_den_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        }; // n̪̊
+        m_nas_den_vd: m_nas_den_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
+        }; // n̪
+        m_nas_alv_vl: m_nas_alv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
+        }; // n̥
+        m_nas_alv_vd: m_nas_alv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET>;
+        }; // n
+        m_nas_palv_vl: m_nas_palv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        }; // n̠̊
+        m_nas_palv_vd: m_nas_palv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>;
+        }; // n̠
+        m_nas_ret_vl: m_nas_ret_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N3 &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        }; // ɳ̊
+        m_nas_ret_vd: m_nas_ret_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N3 &kp RET>;
+        }; // ɳ
+        m_nas_pala_vl: m_nas_pala_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N2 &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        }; // ɲ̊
+        m_nas_pala_vd: m_nas_pala_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N2 &kp RET>;
+        }; // ɲ
+        m_nas_vel_vl: m_nas_vel_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        }; // ŋ̊
+        m_nas_vel_vd: m_nas_vel_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET>;
+        }; // ŋ
+        m_nas_uv_vl: m_nas_uv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N4 &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
+        }; // ɴ̥
+        m_nas_uv_vd: m_nas_uv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N4 &kp RET>;
+        }; // ɴ
+        // --- Layer 8: Plosive (破裂音) ---
+
+        m_p_bil_vl: m_p_bil_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp P>;
+        };
+
+        m_p_bil_vd: m_p_bil_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp B>;
+        };
+
+        m_p_lab_vl: m_p_lab_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp P &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
+        }; // p̪
+        m_p_lab_vd: m_p_lab_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp B &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
+        }; // b̪
+        m_p_den_vl: m_p_den_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp T &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
+        }; // t̪
+        m_p_den_vd: m_p_den_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp D &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
+        }; // d̪
+        m_p_alv_vl: m_p_alv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp T>;
+        };
+
+        m_p_alv_vd: m_p_alv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp D>;
+        };
+
+        m_p_ret_vl: m_p_ret_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp N8 &kp RET>;
+        }; // ʈ
+        m_p_ret_vd: m_p_ret_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp N6 &kp RET>;
+        }; // ɖ
+        m_p_pala_vl: m_p_pala_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp C>;
+        };
+
+        m_p_pala_vd: m_p_pala_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp F &kp RET>;
+        }; // ɟ
+        m_p_vel_vl: m_p_vel_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp K>;
+        };
+
+        m_p_vel_vd: m_p_vel_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp G>;
+        };
+
+        m_p_uv_vl: m_p_uv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp Q>;
+        };
+
+        m_p_uv_vd: m_p_uv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N2 &kp RET>;
+        }; // ɢ
+        m_p_epi_vl: m_p_epi_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp A &kp N1 &kp RET>;
+        }; // ʡ
+        m_p_glo_vl: m_p_glo_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N9 &kp N4 &kp RET>;
+        }; // ʔ
+        // --- Layer 9: Non-sibilant Fricative (非歯擦音摩擦音) ---
+
+        m_nsf_bil_vl: m_nsf_bil_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N8 &kp RET>;
+        }; // ɸ
+        m_nsf_bil_vd: m_nsf_bil_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N3 &kp B &kp N2 &kp RET>;
+        }; // β
+        m_nsf_lab_vl: m_nsf_lab_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp F>;
+        };
+
+        m_nsf_lab_vd: m_nsf_lab_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp V>;
+        };
+
+        m_nsf_den_vl: m_nsf_den_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N3 &kp B &kp N8 &kp RET>;
+        }; // θ
+        m_nsf_den_vd: m_nsf_den_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp F &kp N0 &kp RET>;
+        }; // ð
+        m_nsf_alv_vl: m_nsf_alv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N3 &kp B &kp N8 &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>;
+        }; // θ̠
+        m_nsf_alv_vd: m_nsf_alv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp F &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>;
+        }; // ð̠
+        m_nsf_palv_vl: m_nsf_palv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        }; // ɹ̠̊˔
+        m_nsf_palv_vd: m_nsf_palv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+        }; // ɹ̠˔
+        m_nsf_ret_vl: m_nsf_ret_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp B &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+        }; // ɻ̊˔
+        m_nsf_ret_vd: m_nsf_ret_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp B &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+        }; // ɻ̝
+        m_nsf_pala_vl: m_nsf_pala_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp E &kp N7 &kp RET>;
+        }; // ç
+        m_nsf_pala_vd: m_nsf_pala_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N9 &kp D &kp RET>;
+        }; // ʝ
+        m_nsf_vel_vl: m_nsf_vel_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&trans>;
+        };
+
+        m_nsf_vel_vd: m_nsf_vel_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N3 &kp RET>;
+        }; // ɣ
+        m_nsf_uv_vl: m_nsf_uv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N3 &kp C &kp N7 &kp RET>;
+        }; // χ
+        m_nsf_uv_vd: m_nsf_uv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp N1 &kp RET>;
+        }; // ʁ
+        m_nsf_epi_vl: m_nsf_epi_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N1 &kp N2 &kp N7 &kp RET>;
+        }; // ħ
+        m_nsf_epi_vd: m_nsf_epi_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N9 &kp N5 &kp RET>;
+        }; // ʕ
+        m_nsf_glo_vl: m_nsf_glo_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp H>;
+        };
+
+        m_nsf_glo_vd: m_nsf_glo_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N6 &kp RET>;
+        }; // ɦ
+        // --- Layer 10: Non-sibilant Affricate (非歯擦音破擦音) ---
+
+        m_nsa_bil_vl: m_nsa_bil_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp P &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N7 &kp N8 &kp RET>;
+        }; // p͡ɸ
+        m_nsa_bil_vd: m_nsa_bil_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp B &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N3 &kp B &kp N2 &kp RET>;
+        }; // b͡β
+        m_nsa_lab_vl: m_nsa_lab_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp P &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp F>;
+        }; // p̪͡f
+        m_nsa_lab_vd: m_nsa_lab_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp B &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp V>;
+        }; // b̪͡v
+        m_nsa_den_vl: m_nsa_den_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp T &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N3 &kp B &kp N8 &kp RET>;
+        }; // t̪͡θ
+        m_nsa_den_vd: m_nsa_den_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp D &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp F &kp N0 &kp RET>;
+        }; // d̪͡ð
+        m_nsa_alv_vl: m_nsa_alv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp T &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        }; // t͡ɹ̝̊
+        m_nsa_alv_vd: m_nsa_alv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp D &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+        }; // d͡ɹ̝
+        m_nsa_palv_vl: m_nsa_palv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp T &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        }; // t̠͡ɹ̠̊˔
+        m_nsa_palv_vd: m_nsa_palv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp D &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp RET &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+        }; // d̠͡ɹ̠˔
+        m_nsa_ret_vl: m_nsa_ret_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp N8 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N7 &kp B &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        }; // ʈ͡ɻ̊˔
+        m_nsa_ret_vd: m_nsa_ret_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp N6 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N7 &kp B &kp RET &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+        }; // ɖ͡ɻ̝
+        m_nsa_pala_vl: m_nsa_pala_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp C &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp E &kp N7 &kp RET>;
+        }; // c͡ç
+        m_nsa_pala_vd: m_nsa_pala_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp F &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N9 &kp D &kp RET>;
+        }; // ɟ͡ʝ
+        m_nsa_vel_vl: m_nsa_vel_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp K &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET>;
+        }; // k͡x
+        m_nsa_vel_vd: m_nsa_vel_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp G &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N6 &kp N3 &kp RET>;
+        }; // g͡ɣ
+        m_nsa_uv_vl: m_nsa_uv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp Q &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N3 &kp C &kp N7 &kp RET>;
+        }; // q͡χ
+        m_nsa_uv_vd: m_nsa_uv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N2 &kp RET &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp U &kp N0 &kp N2 &kp N8 &kp N1 &kp RET>;
+        }; // ɢ͡ʁ
+        m_nsa_epi_vl: m_nsa_epi_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp A &kp N1 &kp RET &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp N0 &kp N2 &kp N9 &kp C &kp RET>;
+        }; // ʡ̥͡ʜ
+        m_nsa_epi_vd: m_nsa_epi_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp A &kp N1 &kp RET &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp N0 &kp N2 &kp A &kp N2 &kp RET>;
+        }; // ʡ͡ʢ
+        m_nsa_glo_vl: m_nsa_glo_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N9 &kp N4 &kp RET &kp N0 &kp N3 &kp N6 &kp N1 &kp RET &kp H &kp RET>;
+        }; // ʔ͡h
+        // --- Layer 11: Sibilant Fricative ---
+
+        m_sf_den_vl: m_sf_den_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp S &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
+        }; // s̪
+        m_sf_den_vd: m_sf_den_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp Z &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
+        }; // z̪
+        m_sf_alv_vl: m_sf_alv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp S &kp RET>;
+        }; // s
+        m_sf_alv_vd: m_sf_alv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp Z &kp RET>;
+        }; // z
+        m_sf_palv_vl: m_sf_palv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp N3 &kp RET>;
+        }; // ʃ
+        m_sf_palv_vd: m_sf_palv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N9 &kp N2 &kp RET>;
+        }; // ʒ
+        m_sf_ret_vl: m_sf_ret_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp N2 &kp RET>;
+        }; // ʂ
+        m_sf_ret_vd: m_sf_ret_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N9 &kp N0 &kp RET>;
+        }; // ʐ
+        m_sf_pala_vl: m_sf_pala_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp N5 &kp RET>;
+        }; // ɕ
+        m_sf_pala_vd: m_sf_pala_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N9 &kp N1 &kp RET>;
+        }; // ʑ
+        // --- Layer 12: Sibilant Affricate ---
+
+        m_sa_den_vl: m_sa_den_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp T &kp U &kp N0 &kp N3 &kp N2 &kp A &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp S &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
+        };
+
+        m_sa_den_vd: m_sa_den_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp D &kp U &kp N0 &kp N3 &kp N2 &kp A &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp Z &kp U &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
+        };
+
+        m_sa_alv_vl: m_sa_alv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp T &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp S &kp RET>;
+        };
+
+        m_sa_alv_vd: m_sa_alv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp D &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp Z &kp RET>;
+        };
+
+        m_sa_palv_vl: m_sa_palv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp T &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N8 &kp N3 &kp RET>;
+        };
+
+        m_sa_palv_vd: m_sa_palv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp D &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N9 &kp N2 &kp RET>;
+        };
+
+        m_sa_pala_vl: m_sa_pala_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N7 &kp N4 &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N5 &kp N5 &kp RET>;
+        }; // t͡ɕ
+        m_sa_pala_vd: m_sa_pala_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp N4 &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N9 &kp N1 &kp RET>;
+        }; // d͡ʑ
+        m_sa_ret_vl: m_sa_ret_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp N8 &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N8 &kp N2 &kp RET>;
+        };
+
+        m_sa_ret_vd: m_sa_ret_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp N6 &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N9 &kp N0 &kp RET>;
+        };
+
+        // Layer 13: Lateral Fricative
+
+        m_lf_den_vl: m_lf_den_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp C &kp RET>;
+        }; // ɬ̪
+        m_lf_den_vd: m_lf_den_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp E &kp RET>;
+        }; // ɮ̪
+        m_lf_alv_vl: m_lf_alv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp C &kp RET>;
+        }; // ɬ
+        m_lf_alv_vd: m_lf_alv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp E &kp RET>;
+        }; // ɮ
+        m_lf_ret_vl: m_lf_ret_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp D &kp U &kp N0 &kp N3 &kp N1 &kp D &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        }; // ɭ̝̊
+        m_lf_ret_vd: m_lf_ret_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp D &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+        }; // ɭ̝
+        m_lf_pala_vl: m_lf_pala_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp E &kp RET>;
+        }; // ʎ̝̊
+        m_lf_pala_vd: m_lf_pala_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp E &kp RET>;
+        };
+
+        m_lf_vel_vl: m_lf_vel_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N9 &kp F &kp RET>;
+        }; // ʟ̝̊
+        m_lf_vel_vd: m_lf_vel_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N9 &kp F &kp RET>;
+        };
+
+        // --- Layer 14: Lateral Affricate (側面破擦音) ---
+
+        m_la_alv_vl: m_la_alv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp T &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N6 &kp C &kp RET>;
+        };
+
+        m_la_alv_vd: m_la_alv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp D &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N9 &kp E &kp RET>;
+        };
+
+        m_la_ret_vl: m_la_ret_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp N8 &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N6 &kp D &kp U &kp N0 &kp N3 &kp N1 &kp D &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        };
+
+        m_la_ret_vd: m_la_ret_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp N6 &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N6 &kp D &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+        };
+
+        m_la_pala_vl: m_la_pala_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp C &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N8 &kp E &kp U &kp N0 &kp N3 &kp N1 &kp D &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        }; // c͡ʎ̝̊
+        m_la_pala_vd: m_la_pala_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp F &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N8 &kp E &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+        }; // ɟ͡ʎ̝
+        m_la_vel_vl: m_la_vel_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp K &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N9 &kp F &kp U &kp N0 &kp N3 &kp N1 &kp D &kp U &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        }; // k͡ʟ̝̊
+        m_la_vel_vd: m_la_vel_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp G &kp U &kp N0 &kp N3 &kp N6 &kp N1 &kp U &kp N0 &kp N2 &kp N9 &kp F &kp U &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+        }; // g͡ʟ̝
+        // --- Layer 15: Approximant (接近音) ---
+
+        m_ap_bil_vd: m_ap_bil_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N3 &kp B &kp N2 &kp U &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
+        };
+
+        m_ap_lab_vd: m_ap_lab_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp B &kp RET>;
+        };
+
+        m_ap_den_vd: m_ap_den_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N0 &kp F &kp N0 &kp U &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
+        };
+
+        m_ap_alv_vd: m_ap_alv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp RET>;
+        };
+
+        m_ap_palv_vd: m_ap_palv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp U &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>;
+        };
+
+        m_ap_ret_vd: m_ap_ret_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp B &kp RET>;
+        };
+
+        m_ap_pala_vd: m_ap_pala_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp J &kp RET>;
+        };
+
+        m_ap_vel_vd: m_ap_vel_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N0 &kp RET>;
+        };
+
+        // --- Layer 16: Lateral Approximant (側面接近音) ---
+
+        m_lap_den_vd: m_lap_den_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp L &kp N0 &kp N3 &kp N2 &kp A &kp RET>;
+        }; // l̪
+        m_lap_alv_vl: m_lap_alv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp L &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
+        }; // l̥
+        m_lap_alv_vd: m_lap_alv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp L &kp RET>;
+        };
+
+        m_lap_ret_vl: m_lap_ret_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N6 &kp D &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        }; // ɭ̊
+        m_lap_ret_vd: m_lap_ret_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N6 &kp D &kp RET>;
+        }; // ɭ
+        m_lap_pala_vl: m_lap_pala_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N8 &kp E &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        }; // ʎ̥
+        m_lap_pala_vd: m_lap_pala_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N8 &kp E &kp RET>;
+        }; // ʎ
+        m_lap_vel_vl: m_lap_vel_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N9 &kp F &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        }; // ʟ̥
+        m_lap_vel_vd: m_lap_vel_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N9 &kp F &kp RET>;
+        }; // ʟ
+        m_lap_uv_vd: m_lap_uv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N9 &kp F &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>;
+        }; // ʟ̠
+        // --- Layer 17: Tap/Flap (弾き音) ---
+
+        m_tap_bil_vd: m_tap_lab_vd_pre {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp C &kp N3 &kp N0 &kp N2 &kp N8 &kp B &kp RET>;
+        }; // ⱱ̟
+        m_tap_lab_vd: m_tap_lab_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N8 &kp B &kp RET>;
+        }; // ⱱ
+        m_tap_alv_vl: m_tap_alv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N7 &kp E &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
+        }; // ɾ̥
+        m_tap_alv_vd: m_tap_alv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N7 &kp E &kp RET>;
+        }; // ɾ
+        m_tap_ret_vl: m_tap_ret_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N7 &kp D &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        }; // ɽ̊
+        m_tap_ret_vd: m_tap_ret_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N7 &kp D &kp RET>;
+        }; // ɽ
+        m_tap_uv_vd: m_tap_uv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N6 &kp N2 &kp N0 &kp N3 &kp N0 &kp N6 &kp RET>;
+        }; // ɢ̆
+        m_tap_epi_vd: m_tap_epi_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp A &kp N1 &kp N0 &kp N3 &kp N0 &kp N6 &kp RET>;
+        }; // ʡ̆
+        // --- Layer 18: Lateral Tap/Flap (側面弾き音) ---
+
+        m_ltap_alv_vl: m_ltap_alv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N7 &kp A &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
+        }; // ɺ̥
+        m_ltap_alv_vd: m_ltap_alv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N7 &kp A &kp RET>;
+        }; // ɺ
+        m_ltap_ret_vl: m_ltap_ret_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N6 &kp D &kp N0 &kp N3 &kp N0 &kp N6 &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        }; // ɭ̆ ̥
+        m_ltap_ret_vd: m_ltap_ret_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N6 &kp D &kp N0 &kp N3 &kp N0 &kp N6 &kp RET>;
+        }; // ɭ̆
+        m_ltap_pala_vd: m_ltap_pala_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N8 &kp E &kp N0 &kp N3 &kp N0 &kp N6 &kp RET>;
+        }; // ʎ̆
+        m_ltap_vel_vd: m_ltap_vel_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N9 &kp F &kp N0 &kp N3 &kp N0 &kp N6 &kp RET>;
+        }; // ʟ̆
+        // --- Layer 19: Trill (ふるえ音) ---
+
+        m_tr_bil_vl: m_tr_bil_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N9 &kp N9 &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
+        }; // ʙ̥
+        m_tr_bil_vd: m_tr_bil_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N9 &kp N9 &kp RET>;
+        }; // ʙ
+        m_tr_alv_vl: m_tr_alv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp R &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
+        }; // r̥
+        m_tr_alv_vd: m_tr_alv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp R &kp RET>;
+        };
+
+        m_tr_palv_vd: m_tr_palv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp R &kp N0 &kp N3 &kp N2 &kp N0 &kp RET>;
+        }; // r̠
+        m_tr_ret_vl: m_tr_ret_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp R &kp N0 &kp N3 &kp N6 &kp N1 &kp N0 &kp N2 &kp N7 &kp D &kp N0 &kp N3 &kp N0 &kp A &kp RET>;
+        }; // r̥͡ɽ̊
+        m_tr_ret_vd: m_tr_ret_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp R &kp N0 &kp N3 &kp N6 &kp N1 &kp N0 &kp N2 &kp N7 &kp D &kp RET>;
+        }; // r͡ɽ
+        m_tr_uv_vl: m_tr_uv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N8 &kp N0 &kp N0 &kp N3 &kp N2 &kp N5 &kp RET>;
+        }; // ʀ̥
+        m_tr_uv_vd: m_tr_uv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N8 &kp N0 &kp RET>;
+        }; // ʀ
+        m_tr_epi_vl: m_tr_epi_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N9 &kp C &kp N0 &kp N3 &kp N0 &kp C &kp RET>;
+        }; // ʜ̌
+        m_tr_epi_vd: m_tr_epi_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp A &kp N2 &kp RET>;
+        }; // ʢ
+        // --- Layer 20: Implosive/Clicks (吸着音 / 入破音) ---
+
+        m_im_bil_vl: m_im_bil_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N9 &kp N8 &kp RET>;
+        }; // ʘ
+        m_im_bil_vd: m_im_bil_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N5 &kp N3 &kp RET>;
+        }; // ɓ
+        m_im_den_vl: m_im_den_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N1 &kp C &kp N0 &kp RET>;
+        }; // ǀ
+        m_im_alv_vl: m_im_alv_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N1 &kp C &kp N3 &kp RET>;
+        }; // ǃ
+        m_im_alv_vd: m_im_alv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N5 &kp N7 &kp RET>;
+        }; // ɗ
+        m_im_ret_vl: m_im_ret_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N0 &kp N3 &kp C &kp RET>;
+        }; // ‼︎
+        m_im_ret_vd: m_im_ret_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N1 &kp D &kp A &kp N1 &kp RET>;
+        }; // ᶑ
+        m_im_pala_vl: m_im_pala_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N1 &kp C &kp N2 &kp RET>;
+        }; // ǂ
+        m_im_pala_vd: m_im_pala_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N8 &kp N4 &kp RET>;
+        }; // ʄ
+        m_im_vel_vl: m_im_vel_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N1 &kp C &kp N1 &kp RET>;
+        }; // ǁ
+        m_im_vel_vd: m_im_vel_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N6 &kp N0 &kp RET>;
+        }; // ɠ
+        m_im_uv_vd: m_im_uv_vd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N9 &kp B &kp RET>;
+        }; // ʛ
+        // --- Layer 21: Lateral Click (側面吸着音) ---
+
+        m_lim_den_vl: m_lim_den_vl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N1 &kp C &kp N1 &kp N0 &kp N3 &kp N3 &kp N2 &kp RET>;
+        }; // ǁ̠
+        // --- Layer 8: Close (狭母音) ---
+
+        v_cl_fr_un: v_cl_fr_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp I &kp RET>;
+        }; // i
+        v_cl_fr_ro: v_cl_fr_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp Y &kp RET>;
+        }; // y
+        v_cl_ce_un: v_cl_ce_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N6 &kp N8 &kp RET>;
+        }; // ɨ
+        v_cl_ce_ro: v_cl_ce_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N8 &kp N9 &kp RET>;
+        }; // ʉ
+        v_cl_ba_un: v_cl_ba_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N6 &kp F &kp RET>;
+        }; // ɯ
+        v_cl_ba_ro: v_cl_ba_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp U &kp RET>;
+        }; // u
+        // --- Layer 11: Near-close (広めの狭母音) ---
+
+        v_nc_fr_un: v_nc_fr_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N6 &kp A &kp RET>;
+        }; // ɪ
+        v_nc_fr_ro: v_nc_fr_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N8 &kp F &kp RET>;
+        }; // ʏ
+        v_nc_ce_un: v_nc_ce_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N6 &kp N8 &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
+        }; // ɨ̞
+        v_nc_ce_ro: v_nc_ce_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N8 &kp N9 &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
+        }; // ʉ̞
+        v_nc_ba_un: v_nc_ba_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N6 &kp F &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
+        }; // ɯ̞
+        v_nc_ba_ro: v_nc_ba_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N8 &kp A &kp RET>;
+        }; // ʊ
+        // --- Layer 9: Close-mid (半狭母音) ---
+
+        v_cm_fr_un: v_cm_fr_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp E &kp RET>;
+        }; // e
+        v_cm_fr_ro: v_cm_fr_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp F &kp N8 &kp RET>;
+        }; // ø
+        v_cm_ce_un: v_cm_ce_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N5 &kp N8 &kp RET>;
+        }; // ɘ
+        v_cm_ce_ro: v_cm_ce_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N7 &kp N5 &kp RET>;
+        }; // ɵ
+        v_cm_ba_un: v_cm_ba_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N6 &kp N4 &kp RET>;
+        }; // ɤ
+        v_cm_ba_ro: v_cm_ba_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp O &kp RET>;
+        }; // o
+        // --- Layer 15: Mid (中央母音) ---
+
+        v_mi_fr_un: v_mi_fr_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp E &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
+        }; // e̞
+        v_mi_fr_ro: v_mi_fr_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp F &kp N8 &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
+        }; // ø̞
+        v_mi_ce_un: v_mi_ce_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N5 &kp N9 &kp RET>;
+        }; // ə
+        v_mi_ce_ro: v_mi_ce_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N7 &kp N5 &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
+        }; // ɵ̞
+        v_mi_ba_un: v_mi_ba_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N6 &kp N4 &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
+        }; // ɤ̞
+        v_mi_ba_ro: v_mi_ba_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp O &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
+        }; // o̞
+        // --- Layer 17: Open-mid (半広母音) ---
+
+        v_om_fr_un: v_om_fr_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N5 &kp B &kp RET>;
+        }; // ɛ
+        v_om_fr_ro: v_om_fr_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N1 &kp N5 &kp N3 &kp RET>;
+        }; // œ
+        v_om_ce_un: v_om_ce_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N5 &kp C &kp RET>;
+        }; // ɜ
+        v_om_ce_ro: v_om_ce_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N9 &kp A &kp RET>;
+        }; // ɞ
+        v_om_ba_un: v_om_ba_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N8 &kp C &kp RET>;
+        }; // ʌ
+        v_om_ba_ro: v_om_ba_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N5 &kp N4 &kp RET>;
+        }; // ɔ
+        // --- Layer 19: Near-open (狭めの広母音) ---
+
+        v_no_fr_un: v_no_fr_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp E &kp N6 &kp RET>;
+        }; // æ
+        v_no_fr_ro: v_no_fr_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N1 &kp N5 &kp N3 &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
+        }; // œ̞
+        v_no_ce_un: v_no_ce_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N5 &kp N0 &kp RET>;
+        }; // ɐ
+        v_no_ce_ro: v_no_ce_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N9 &kp A &kp N0 &kp N3 &kp N1 &kp E &kp RET>;
+        }; // ɞ̞
+        v_no_ba_un: v_no_ba_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N5 &kp N1 &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+        }; // ɑ̝
+        v_no_ba_ro: v_no_ba_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N5 &kp N2 &kp N0 &kp N3 &kp N1 &kp D &kp RET>;
+        }; // ɒ̝
+        // --- Layer 20: Open (広母音) ---
+
+        v_op_fr_un: v_op_fr_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp A &kp RET>;
+        }; // a
+        v_op_fr_ro: v_op_fr_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N7 &kp N6 &kp RET>;
+        }; // ɶ
+        v_op_ce_un: v_op_ce_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp A &kp N0 &kp N3 &kp N0 &kp N8 &kp RET>;
+        }; // ä
+        v_op_ce_ro: v_op_ce_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N5 &kp N2 &kp N0 &kp N3 &kp N0 &kp N8 &kp RET>;
+        }; // ɒ̈
+        v_op_ba_un: v_op_ba_un {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N5 &kp N1 &kp RET>;
+        }; // ɑ
+        v_op_ba_ro: v_op_ba_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&kp N0 &kp N2 &kp N5 &kp N2 &kp RET>;
+        }; // ɒ
+    };
+
+    behaviors {
+        scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_DOWN &msc SCRL_UP>;
+            tap-ms = <20>;
+        };
+
+        // 名前を lt_ipa から ipa_sw に変更、
+        // もしくは ipa_sw というラベルを付与する
+
+        ipa_sw: lt_ipa {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            flavor = "hold-preferred";
+            bindings = <&mo>, <&kp>;
+ // レイヤー(mo)とキー(kp)を組み合わせる標準的な設定
+        };
+
+        lt_NUM: lt_NUM {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            bindings = <&mo>, <&kp>;
+        };
     };
 
     keymap {
@@ -793,1190 +3244,195 @@
 
         default_layer {
             bindings = <
-&kp Q    &kp W    &kp E    &kp R    &kp T    &kp Y    &kp U    &kp I    &kp O    &kp P
-&kp A    &kp S    &kp D    &kp F    &kp G    &kp H    &kp J    &kp K    &kp L    &kp SEMI
-&mt LS(Z) &kp X    &kp C    &kp V    &kp B    &kp N    &kp M    &kp COMMA &kp DOT  &kp SLSH
-&kp ESC  &kp TAB  &kp LGUI &kp LALT &kp LSFT &kp SPC  &kp BSPC &kp DEL  &kp RET  &kp RALT
+&kp Q             &kp W               &kp E             &kp R             &kp T                                                      &kp Y                  &kp U         &lt 5 I    &kp O    &mt LEFT_GUI P
+&kp A             &kp S               &kp D             &kp F             &kp G             &mkp MB1                &lt_NUM 6 EQUAL  &kp H                  &kp J         &kp K      &kp L    &lt 5 ASTRK
+&kp Z             &kp X               &kp C             &kp V             &kp B             &mt LEFT_SHIFT TAB      &ipa_sw 20 BSLH  &ipa_sw 7 N            &ipa_sw 20 M  &kp COMMA  &kp DOT  &kp SEMICOLON
+&ipa_sw 8 K_COPY  &ipa_sw 11 K_PASTE  &ipa_sw 9 K_UNDO  &ipa_sw 15 LANG2  &ipa_sw 17 SPACE  &ipa_sw 19 LANG1        &kp BACKSPACE    &mt RIGHT_SHIFT ENTER                                    &kp DEL
+            >;
+
+            sensor-bindings = <&scroll_up_down>;
+        };
+
+        SYMBOLS {
+            bindings = <
+&kp ESCAPE  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans             &trans
+&kp TILDE   &kp DOLLAR       &kp PERCENT   &kp CARET             &trans                 &trans      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON  &kp SINGLE_QUOTE   &kp BACKSLASH
+&kp GRAVE   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &trans                 &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp DOUBLE_QUOTES  &kp PIPE
+&trans      &trans           &trans        &trans                &trans                 &trans      &trans  &trans                                                                         &trans
             >;
         };
 
-        // Add other layers as needed...
+        NUM {
+            bindings = <
+&kp MINUS  &kp N7        &kp N7        &kp N9        &kp PERIOD                                     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans
+&kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp LC(LA(PERCENT))      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans  &trans
+&kp N0     &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp PLUS      &kp EQUAL                &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans  &trans
+&trans     &trans        &trans        &trans        &trans        &trans                   &trans  &trans                                                       &trans
+            >;
+        };
+
+        ARROW {
+            bindings = <
+&kp LG(LEFT_ARROW)  &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &kp LG(RIGHT_ARROW)                      &kp LG(LEFT_ARROW)  &kp LS(LC(TAB))         &kp UP_ARROW    &kp LC(TAB)              &kp LG(RIGHT_ARROW)
+&kp HOME            &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END              &trans      &trans  &kp HOME            &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END
+&kp LEFT_SHIFT      &kp LG(LC(LEFT_ARROW))  &trans          &kp LG(LC(RIGHT_ARROW))  &trans               &trans      &trans  &trans              &kp LC(LG(LEFT_ARROW))  &trans          &kp LC(LG(RIGHT_ARROW))  &trans
+&trans              &trans                  &trans          &trans                   &trans               &trans      &trans  &trans                                                                               &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+        };
+
+        MOUSE {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                                &trans           &trans    &kp LC(T)  &trans    &m_nsa_bil_vl
+&trans  &trans  &trans  &trans  &trans         &trans      &kp LC(V)  &kp LC(LS(TAB))  &mkp MB1  &mkp MB3   &mkp MB2  &kp LC(TAB)
+&trans  &trans  &trans  &trans  &m_nsa_bil_vd  &trans      &kp LC(C)  &trans           &mkp MB4  &kp LC(W)  &mkp MB5  &trans
+&trans  &trans  &trans  &trans  &trans         &trans      &trans     &trans                                          &trans
+            >;
+        };
+
+        SCROLL {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                            &trans  &trans    &trans  &trans  &m_im_bil_vl
+&trans  &trans  &trans  &trans  &trans        &trans      &trans  &trans  &mkp MB1  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &ipa_sw 20 0  &trans      &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans        &trans      &trans  &trans                            &trans
+            >;
+        };
+
+        NASAL {
+            bindings = <
+&m_nas_uv_vl   &trans          &trans          &m_nas_uv_vd   &m_nas_den_vl                      &m_nas_pala_vd  &trans          &trans         &trans         &m_nas_bil_vl
+&trans         &m_nas_alv_vl   &m_nas_den_vd   &m_nas_lab_vl  &m_nas_vel_vd  &trans      &trans  &trans          &m_nas_palv_vd  &m_nas_vel_vl  &trans         &trans
+&m_nas_alv_vd  &m_nas_palv_vl  &m_nas_pala_vl  &m_nas_lab_vd  &m_nas_bil_vd  &trans      &trans  &m_nas_uv_vl    &m_nas_uv_vd    &m_nas_ret_vl  &m_nas_ret_vd  &trans
+&trans         &trans          &trans          &trans         &trans         &trans      &trans  &trans                                                        &trans
+            >;
+        };
+
+        PLOSIVE {
+            bindings = <
+&m_p_uv_vl   &v_cl_ce_ro  &v_cl_ba_un   &m_p_uv_vd   &m_p_den_vl                      &m_p_pala_vd  &v_cl_ba_ro  &v_cl_fr_un  &v_cl_fr_ro  &m_p_bil_vl
+&v_cl_ce_un  &m_p_alv_vl  &m_p_den_vd   &m_p_lab_vl  &m_p_vel_vd  &trans      &trans  &trans        &trans       &m_p_vel_vl  &trans       &m_p_glo_vl
+&m_p_alv_vd  &trans       &m_p_pala_vl  &m_p_lab_vd  &m_p_bil_vd  &trans      &trans  &m_p_epi_vl   &trans       &m_p_ret_vl  &m_p_ret_vd  &trans
+&trans       &trans       &trans        &trans       &trans       &trans      &trans  &trans                                               &trans
+            >;
+        };
+
+        NSFRICATIVE {
+            bindings = <
+&m_nsf_uv_vl   &v_cm_ce_ro     &v_cm_ba_un     &m_nsf_uv_vd   &m_nsf_den_vl                      &m_nsf_pala_vd  &v_cm_ba_ro     &v_cm_fr_un    &v_cm_fr_ro    &m_nsf_bil_vl
+&v_cm_ce_un    &m_nsf_alv_vl   &m_nsf_den_vd   &m_nsf_lab_vl  &m_nsf_vel_vd  &trans      &trans  &trans          &m_nsf_palv_vd  &m_nsf_vel_vl  &trans         &m_nsf_glo_vd
+&m_nsf_alv_vd  &m_nsf_palv_vl  &m_nsf_pala_vl  &m_nsf_lab_vd  &m_nsf_bil_vd  &trans      &trans  &m_nsf_epi_vl   &m_nsf_epi_vd   &m_nsf_ret_vl  &m_nsf_ret_vd  &trans
+&trans         &trans          &trans          &trans         &trans         &trans      &trans  &trans                                                        &trans
+            >;
+        };
+
+        NSAFFRICATE {
+            bindings = <
+&m_nsa_uv_vl   &trans          &trans          &m_nsa_uv_vd   &m_nsa_den_vl                      &m_nsa_pala_vd  &trans          &trans         &trans         &m_nsa_bil_vl
+&trans         &m_nsa_alv_vl   &m_nsa_den_vd   &m_nsa_lab_vl  &m_nsa_vel_vd  &trans      &trans  &trans          &m_nsa_palv_vd  &m_nsa_vel_vl  &trans         &m_nsa_glo_vl
+&m_nsa_alv_vd  &m_nsa_palv_vl  &m_nsa_pala_vl  &m_nsa_lab_vd  &m_nsa_bil_vd  &trans      &trans  &m_nsa_epi_vl   &m_nsa_epi_vd   &m_nsa_ret_vl  &m_nsa_ret_vd  &trans
+&trans         &trans          &trans          &trans         &trans         &trans      &trans  &trans                                                        &trans
+            >;
+        };
+
+        SFRICATIVE {
+            bindings = <
+&trans        &v_nc_ce_ro    &v_nc_ba_un    &trans  &m_sf_den_vl                      &m_sf_pala_vd  &v_nc_ba_ro    &v_nc_fr_un   &v_nc_fr_ro   &trans
+&v_nc_ce_un   &m_sf_alv_vl   &m_sf_den_vd   &trans  &trans        &trans      &trans  &trans         &m_sf_palv_vd  &trans        &trans        &trans
+&m_sf_alv_vd  &m_sf_palv_vl  &m_sf_pala_vl  &trans  &trans        &trans      &trans  &trans         &trans         &m_sf_ret_vl  &m_sf_ret_vd  &trans
+&trans        &trans         &trans         &trans  &trans        &trans      &trans  &trans                                                    &trans
+            >;
+        };
+
+        SAFFRICATE {
+            bindings = <
+&trans        &trans         &trans         &trans  &m_sa_den_vl                      &m_sa_pala_vd  &trans         &trans        &trans        &trans
+&trans        &m_sa_alv_vl   &m_sa_den_vd   &trans  &trans        &trans      &trans  &trans         &m_sa_palv_vd  &trans        &trans        &trans
+&m_sa_alv_vd  &m_sa_palv_vl  &m_sa_pala_vl  &trans  &trans        &trans      &trans  &trans         &trans         &m_sa_ret_vl  &m_sa_ret_vd  &trans
+&trans        &trans         &trans         &trans  &trans        &trans      &trans  &trans                                                    &trans
+            >;
+        };
+
+        LFRICATIVE {
+            bindings = <
+&trans        &trans        &trans         &trans  &m_lf_den_vl                      &m_lf_pala_vd  &trans  &trans        &trans        &trans
+&trans        &m_lf_alv_vl  &m_lf_den_vd   &trans  &m_lf_vel_vd  &trans      &trans  &trans         &trans  &m_lf_vel_vl  &trans        &trans
+&m_lf_alv_vd  &trans        &m_lf_pala_vl  &trans  &trans        &trans      &trans  &trans         &trans  &m_lf_ret_vl  &m_lf_ret_vd  &trans
+&trans        &trans        &trans         &trans  &trans        &trans      &trans  &trans                                             &trans
+            >;
+        };
+
+        LAFFRICATE {
+            bindings = <
+&trans        &trans        &trans         &trans  &trans                            &m_la_pala_vd  &trans  &trans        &trans        &trans
+&trans        &m_la_alv_vl  &trans         &trans  &m_la_vel_vd  &trans      &trans  &trans         &trans  &m_la_vel_vl  &trans        &trans
+&m_la_alv_vd  &trans        &m_la_pala_vl  &trans  &trans        &trans      &trans  &trans         &trans  &m_la_ret_vl  &m_la_ret_vd  &trans
+&trans        &trans        &trans         &trans  &trans        &trans      &trans  &trans                                             &trans
+            >;
+        };
+
+        APPROXIMANT {
+            bindings = <
+&trans        &v_mi_ce_ro  &v_mi_ba_un   &trans        &trans                            &m_ap_pala_vd  &v_mi_ba_ro    &v_mi_fr_un  &v_mi_fr_ro   &trans
+&v_mi_ce_un   &trans       &m_ap_den_vd  &trans        &m_ap_vel_vd  &trans      &trans  &trans         &m_ap_palv_vd  &trans       &trans        &trans
+&m_ap_alv_vd  &trans       &trans        &m_ap_lab_vd  &m_ap_bil_vd  &trans      &trans  &trans         &trans         &trans       &m_ap_ret_vd  &trans
+&trans        &trans       &trans        &trans        &trans        &trans      &trans  &trans                                                   &trans
+            >;
+        };
+
+        LAPPROXIMANT {
+            bindings = <
+&trans  &trans         &trans          &trans  &m_lap_den_vd                      &m_lap_pala_vd  &trans        &trans         &trans         &trans
+&trans  &m_lap_alv_vd  &m_lap_den_vd   &trans  &m_lap_vel_vd  &trans      &trans  &trans          &trans        &m_lap_vel_vl  &trans         &trans
+&trans  &trans         &m_lap_pala_vl  &trans  &trans         &trans      &trans  &trans          &m_lap_uv_vd  &m_lap_ret_vl  &m_lap_ret_vd  &trans
+&trans  &trans         &trans          &trans  &trans         &trans      &trans  &trans                                                      &trans
+            >;
+        };
+
+        TAP {
+            bindings = <
+&trans         &v_om_ce_ro    &v_om_ba_un  &m_tap_uv_vd   &trans                             &trans         &v_om_ba_ro  &v_om_fr_un    &v_om_fr_ro    &trans
+&v_om_ce_un    &m_tap_alv_vl  &trans       &trans         &trans         &trans      &trans  &trans         &trans       &trans         &trans         &trans
+&m_tap_alv_vd  &trans         &trans       &m_tap_lab_vd  &m_tap_bil_vd  &trans      &trans  &m_tap_epi_vd  &trans       &m_tap_ret_vl  &m_tap_ret_vd  &trans
+&trans         &trans         &trans       &trans         &trans         &trans      &trans  &trans                                                    &trans
+            >;
+        };
+
+        LTAP {
+            bindings = <
+&trans          &trans          &trans  &trans  &trans                              &m_ltap_pala_vd  &trans  &trans          &trans          &trans
+&trans          &m_ltap_alv_vl  &trans  &trans  &m_ltap_vel_vd  &trans      &trans  &trans           &trans  &trans          &trans          &trans
+&m_ltap_alv_vd  &trans          &trans  &trans  &trans          &trans      &trans  &trans           &trans  &m_ltap_ret_vl  &m_ltap_ret_vd  &trans
+&trans          &trans          &trans  &trans  &trans          &trans      &trans  &trans                                                   &trans
+            >;
+        };
+
+        TRILL {
+            bindings = <
+&m_tr_uv_vl  &v_no_ce_ro   &v_no_ba_un  &m_tr_uv_vd  &m_tr_alv_vl                      &trans        &v_no_ba_ro    &v_no_fr_un   &v_no_fr_ro   &m_tr_bil_vl
+&v_no_ce_un  &m_tr_alv_vd  &trans       &trans       &trans        &trans      &trans  &trans        &m_tr_palv_vd  &trans        &trans        &trans
+&trans       &trans        &trans       &trans       &m_tr_bil_vd  &trans      &trans  &m_tr_epi_vl  &m_tr_epi_vd   &m_tr_ret_vl  &m_tr_ret_vd  &trans
+&trans       &trans        &trans       &trans       &trans        &trans      &trans  &trans                                                   &trans
+            >;
+        };
+
+        IMPLO {
+            bindings = <
+&m_im_uv_vd  &v_op_ce_ro   &v_op_ba_un    &trans        &m_im_den_vl                      &m_im_pala_vd  &v_op_ba_ro  &v_op_fr_un   &v_op_fr_ro   &m_im_bil_vl
+&v_op_ce_un  &m_im_alv_vl  &m_im_alv_vd   &trans        &m_im_vel_vl  &trans      &trans  &trans         &trans       &trans        &trans        &trans
+&trans       &trans        &m_im_pala_vl  &m_im_bil_vd  &trans        &trans      &trans  &trans         &trans       &m_im_ret_vl  &m_im_ret_vd  &trans
+&trans       &trans        &trans         &trans        &trans        &trans      &trans  &trans                                                  &trans
+            >;
+        };
+
+        LAT_IMPLO {
+            bindings = <
+&trans  &trans  &trans  &trans  &m_lim_den_vl                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans         &trans      &trans  &trans                          &trans
+            >;
+        };
     };
-};
-
-behaviors {
-    scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
-        compatible = "zmk,behavior-sensor-rotate";
-        #sensor-binding-cells = <0>;
-        bindings = <&msc SCRL_DOWN &msc SCRL_UP>;
-        tap-ms = <20>;
-    };
-
-    ipa_sw: lt_ipa {
-        compatible = "zmk,behavior-hold-tap";
-        #binding-cells = <2>;
-        tapping-term-ms = <150>;
-        flavor = "hold-preferred";
-        bindings = <&mo 1 &kp A>;
-    };
-
-    lt_NUM: lt_NUM {
-        compatible = "zmk,behavior-hold-tap";
-        #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        bindings = <&mo NUM &kp A>;
-    };
-};
-};
-
-/{
-macros {
-    // Solution 4: Enhanced macro-based Unicode input for macOS
-    // Using proper macro press/release sequences with Option key
-    
-    mac_ipa_030D: mac_ipa_030D {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N0 &kp D>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0329: mac_ipa_0329 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N2 &kp N9>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0311: mac_ipa_0311 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N1 &kp N1>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_032F: mac_ipa_032F {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N2 &kp F>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02B0: mac_ipa_02B0 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp B &kp N0>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02B1: mac_ipa_02B1 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp B &kp N1>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_1D4D: mac_ipa_1D4D {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N1 &kp N4 &kp D &kp N4 &kp D>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_207F: mac_ipa_207F {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N2 &kp N0 &kp N7 &kp F>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_1DAF: mac_ipa_1DAF {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N1 &kp N4 &kp D &kp A &kp F>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_1DAE: mac_ipa_1DAE {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N1 &kp N4 &kp D &kp A &kp E>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_1D51: mac_ipa_1D51 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N1 &kp N4 &kp D &kp N5 &kp N1>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02E1: mac_ipa_02E1 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp E &kp N1>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_1D4A: mac_ipa_1D4A {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N1 &kp N4 &kp D &kp N4 &kp A>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_1DBF: mac_ipa_1DBF {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N1 &kp N4 &kp D &kp B &kp F>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02E3: mac_ipa_02E3 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp E &kp N3>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_031A: mac_ipa_031A {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N1 &kp A>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_030A: mac_ipa_030A {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N0 &kp A>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0325: mac_ipa_0325 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N2 &kp N5>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_032C: mac_ipa_032C {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N2 &kp C>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0308: mac_ipa_0308 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N0 &kp N8>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0324: mac_ipa_0324 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N2 &kp N4>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0303: mac_ipa_0303 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N0 &kp N3>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0330: mac_ipa_0330 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N3 &kp N0>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_032A: mac_ipa_032A {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N2 &kp A>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_033A: mac_ipa_033A {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N3 &kp A>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_031F: mac_ipa_031F {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N1 &kp F>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0320: mac_ipa_0320 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N2 &kp N0>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_031D: mac_ipa_031D {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N1 &kp D>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_031E: mac_ipa_031E {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N1 &kp E>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_033B: mac_ipa_033B {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N3 &kp B>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_033C: mac_ipa_033C {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N3 &kp C>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_033D: mac_ipa_033D {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N3 &kp D>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0357: mac_ipa_0357 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N5 &kp N7>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0339: mac_ipa_0339 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N3 &kp N9>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0351: mac_ipa_0351 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N5 &kp N1>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_031C: mac_ipa_031C {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N1 &kp C>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02B7: mac_ipa_02B7 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp B &kp N7>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02E0: mac_ipa_02E0 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp E &kp N0>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02E4: mac_ipa_02E4 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp E &kp N4>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02C0: mac_ipa_02C0 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp C &kp N0>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0318: mac_ipa_0318 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N1 &kp N8>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0319: mac_ipa_0319 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N1 &kp N9>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02B2: mac_ipa_02B2 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp B &kp N2>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_026B: mac_ipa_026B {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp N6 &kp B>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02DE: mac_ipa_02DE {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp D &kp E>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0361: mac_ipa_0361 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N6 &kp N1>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_035C: mac_ipa_035C {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N5 &kp C>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02C8: mac_ipa_02C8 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp C &kp N8>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02CC: mac_ipa_02CC {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp C &kp C>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02D0: mac_ipa_02D0 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp D &kp N0>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02D1: mac_ipa_02D1 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp D &kp N1>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0306: mac_ipa_0306 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N0 &kp N6>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_032E: mac_ipa_032E {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N2 &kp E>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_203F: mac_ipa_203F {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N2 &kp N0 &kp N3 &kp F>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_007C: mac_ipa_007C {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N0 &kp N7 &kp C>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_2016: mac_ipa_2016 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N2 &kp N0 &kp N1 &kp N6>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_2197: mac_ipa_2197 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N2 &kp N1 &kp N9 &kp N7>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_2198: mac_ipa_2198 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N2 &kp N1 &kp N9 &kp N8>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_A71B: mac_ipa_A71B {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N4 &kp N7 &kp N1 &kp B>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_A71C: mac_ipa_A71C {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N4 &kp N7 &kp N1 &kp C>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0301: mac_ipa_0301 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N0 &kp N1>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_030B: mac_ipa_030B {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N0 &kp B>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0300: mac_ipa_0300 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N0 &kp N0>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_030F: mac_ipa_030F {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N0 &kp F>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02E9: mac_ipa_02E9 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp E &kp N9>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02E8: mac_ipa_02E8 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp E &kp N8>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02E7: mac_ipa_02E7 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp E &kp N7>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02E6: mac_ipa_02E6 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp E &kp N6>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02E5: mac_ipa_02E5 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp E &kp N5>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0304: mac_ipa_0304 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N0 &kp N4>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0331: mac_ipa_0331 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N3 &kp N1>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0302: mac_ipa_0302 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N0 &kp N2>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_032D: mac_ipa_032D {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N2 &kp D>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_030C: mac_ipa_030C {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N0 &kp C>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0327: mac_ipa_0327 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N2 &kp N7>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02BB: mac_ipa_02BB {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp B &kp B>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0326: mac_ipa_0326 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N2 &kp N6>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0307: mac_ipa_0307 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N0 &kp N7>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0323: mac_ipa_0323 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N2 &kp N3>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0309: mac_ipa_0309 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N0 &kp N9>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_031B: mac_ipa_031B {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N1 &kp B>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0328: mac_ipa_0328 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N2 &kp N8>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0335: mac_ipa_0335 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N3 &kp N5>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_309B: mac_ipa_309B {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N3 &kp N0 &kp N9 &kp B>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_309C: mac_ipa_309C {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N3 &kp N0 &kp N9 &kp C>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_02BC: mac_ipa_02BC {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp B &kp C>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0265: mac_ipa_0265 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp N6 &kp N5>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_028D: mac_ipa_028D {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp N8 &kp D>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0267: mac_ipa_0267 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp N6 &kp N7>, <&macro_release &kp LALT>;
-    };
-
-    // Complex macros with multiple Unicode characters
-    mac_ipa_006E_0361_006D: m_n_m {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N0 &kp N6 &kp E>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N6 &kp N1>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N0 &kp N6 &kp D>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0273_0361_006D: m_nr_m {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp N7 &kp N3>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N6 &kp N1>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N0 &kp N6 &kp D>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_014B_0361_006D: m_ng_m {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N1 &kp N4 &kp B>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N6 &kp N1>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N0 &kp N6 &kp D>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0074_0361_0070: m_t_p {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N0 &kp N7 &kp N4>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N6 &kp N1>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N0 &kp N7 &kp N0>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0064_0361_0062: m_d_b {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N0 &kp N6 &kp N4>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N6 &kp N1>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N0 &kp N6 &kp N2>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0288_0361_0070: m_r_p {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp N8 &kp N8>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N6 &kp N1>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N0 &kp N7 &kp N0>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0256_0361_0062: m_r_b {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp N5 &kp N6>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N6 &kp N1>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N0 &kp N6 &kp N2>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_006B_0361_0070: m_k_p {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N0 &kp N6 &kp B>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N6 &kp N1>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N0 &kp N7 &kp N0>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0067_0361_0062: m_g_b {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N0 &kp N6 &kp N7>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N6 &kp N1>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N0 &kp N6 &kp N2>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0071_0361_02A1: m_q_h {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N0 &kp N7 &kp N1>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N6 &kp N1>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp A &kp N1>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0071_0361_0070: m_q_p {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N0 &kp N7 &kp N1>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N6 &kp N1>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N0 &kp N7 &kp N0>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0265_030A: m_h_y {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp N6 &kp N5>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N0 &kp A>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0260_030A_035C_0253_0325: m_complex1 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp N6 &kp N0>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N0 &kp A>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N5 &kp C>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp N5 &kp N3>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N2 &kp N5>, <&macro_release &kp LALT>;
-    };
-
-    mac_ipa_0260_0361_0253: m_complex2 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp N6 &kp N0>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N3 &kp N6 &kp N1>, <&macro_release &kp LALT>,
-                  <&macro_press &kp LALT>, <&macro_tap &kp U &kp N0 &kp N2 &kp N5 &kp N3>, <&macro_release &kp LALT>;
-    };
-
-    // IPA text macros
-    m_nas_bil_vl: m_nas_bil_vl {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N0 &kp M &kp RET>;
-    };
-
-    m_nas_bil_vd: m_nas_bil_vd {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N0 &kp M &kp RET>;
-    };
-
-    m_nas_lab_vl: m_nas_lab_vl {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N1 &kp RET>;
-    };
-
-    m_nas_lab_vd: m_nas_lab_vd {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N1 &kp RET>;
-    };
-
-    m_nas_den_vl: m_nas_den_vl {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET>;
-    };
-
-    m_nas_den_vd: m_nas_den_vd {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET>;
-    };
-
-    m_nas_alv_vl: m_nas_alv_vl {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET>;
-    };
-
-    m_nas_alv_vd: m_nas_alv_vd {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N0 &kp N6 &kp E &kp RET>;
-    };
-
-    m_nas_palv_vl: m_nas_palv_vl {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N2 &kp RET>;
-    };
-
-    m_nas_palv_vd: m_nas_palv_vd {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N2 &kp RET>;
-    };
-
-    m_nas_pala_vl: m_nas_pala_vl {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET>;
-    };
-
-    m_nas_pala_vd: m_nas_pala_vd {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET>;
-    };
-
-    m_nas_ret_vl: m_nas_ret_vl {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp RET>;
-    };
-
-    m_nas_ret_vd: m_nas_ret_vd {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N2 &kp N7 &kp N9 &kp RET>;
-    };
-
-    m_nas_glo_vl: m_nas_glo_vl {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET>;
-    };
-
-    m_nas_glo_vd: m_nas_glo_vd {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET>;
-    };
-
-    m_nas_uv_vl: m_nas_uv_vl {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET>;
-    };
-
-    m_nas_uv_vd: m_nas_uv_vd {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N1 &kp N4 &kp B &kp RET>;
-    };
-
-    m_p_bil_vl: m_p_bil_vl {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N0 &kp P &kp RET>;
-    };
-
-    m_p_bil_vd: m_p_bil_vd {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N0 &kp B &kp RET>;
-    };
-
-    m_p_lab_vl: m_p_lab_vl {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N0 &kp P &kp RET>;
-    };
-
-    m_p_lab_vd: m_p_lab_vd {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N0 &kp B &kp RET>;
-    };
-
-    m_p_den_vl: m_p_den_vl {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N0 &kp T &kp RET>;
-    };
-
-    m_p_den_vd: m_p_den_vd {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N0 &kp D &kp RET>;
-    };
-
-    m_p_alv_vl: m_p_alv_vl {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N0 &kp T &kp RET>;
-    };
-
-    m_p_alv_vd: m_p_alv_vd {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N0 &kp D &kp RET>;
-    };
-
-    m_p_ret_vl: m_p_ret_vl {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N2 &kp N8 &kp N8 &kp RET>;
-    };
-
-    m_p_ret_vd: m_p_ret_vd {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp N6 &kp RET>;
-    };
-
-    m_p_glo_vl: m_p_glo_vl {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N0 &kp K &kp RET>;
-    };
-
-    m_p_pala_vl: m_p_pala_vl {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N0 &kp C &kp RET>;
-    };
-
-    m_p_pala_vd: m_p_pala_vd {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N2 &kp N5 &kp N5 &kp RET>;
-    };
-
-    m_p_vel_vl: m_p_vel_vl {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N0 &kp Q &kp RET>;
-    };
-
-    m_p_vel_vd: m_p_vel_vd {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N1 &kp RET>;
-    };
-
-    m_p_uv_vl: m_p_uv_vl {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N0 &kp Q &kp RET>;
-    };
-
-    m_p_uv_vd: m_p_uv_vd {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N2 &kp N6 &kp N1 &kp RET>;
-    };
-
-    m_p_epi_vl: m_p_epi_vl {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <10>;
-        tap-ms = <10>;
-        bindings = <&kp U &kp N0 &kp N7 &kp N1 &kp N4 &kp RET>;
-    };
-
-    // Add more macros as needed...
-};
 };
