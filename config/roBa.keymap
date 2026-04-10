@@ -39,15 +39,6 @@
 };
 */
 
-/ {
-    behaviors {
-        unicode: unicode {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-mode = <2>;  // macOS mode
-        };
-    };
-
     combos {
         compatible = "zmk,combos";
 
