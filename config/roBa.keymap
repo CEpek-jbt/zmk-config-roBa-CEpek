@@ -2756,10 +2756,10 @@ v_op_ba_ro: v_op_ba_ro {
          LAT_IMPLO {
             bindings = <
 &trans  &trans  &trans  &trans  &m_lim_den_vl                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans         &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans          &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans      &trans  &trans                          &trans
             >;
         };
-    };
-}
+    }; // ここで keymap ノードが終了
+}; // ここで root (/) ノードが終了。これ以降に文字があってはいけません。
