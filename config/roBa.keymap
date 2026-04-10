@@ -2611,9 +2611,9 @@ behavior {
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                            &trans  &trans    &trans  &trans  &m_im_bil_vl
-&trans  &trans  &trans  &trans  &trans        &trans      &trans  &trans  &mkp MB1  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &ipa_sw 20 &none  &trans      &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans        &trans      &trans  &trans                            &trans
             >;
         };
