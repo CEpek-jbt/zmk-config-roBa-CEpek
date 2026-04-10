@@ -827,6 +827,7 @@ behaviors {
         bindings = <&mo NUM &kp A>;
     };
 };
+};
 
 /{
 macros {
