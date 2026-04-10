@@ -2307,12 +2307,6 @@
         text = "";
     };
 
-    m_lap_den_vd: m_lap_den_vd {
-        compatible = "zmk,behavior-text";
-        #binding-cells = <0>;
-        text = "";
-    };
-
     m_lap_vel_vd: m_lap_vel_vd {
         compatible = "zmk,behavior-text";
         #binding-cells = <0>;
