@@ -68,11 +68,6 @@
             key-positions = <32>;
         };
 
-        BT_CLR {
-            bindings = <&bt BT_CLR>;
-            key-positions = <33>;
-        };
-
         BT_DISC {
             bindings = <&bt BT_DISC>;
             key-positions = <34>;
