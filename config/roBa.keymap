@@ -258,15 +258,15 @@
             bindings = <&mac_ipa_0330>;
         };
 
-        combo_DT_1 {
+        combo_DN {
             timeout-ms = <300>;
-            key-positions = <12 4>;
+            key-positions = <12 29>;
             bindings = <&mac_ipa_032A>;
         };
 
-        combo_AC_1 {
+        combo_AL_1 {
             timeout-ms = <300>;
-            key-positions = <10 24>;
+            key-positions = <10 20>;
             bindings = <&mac_ipa_033A>;
         };
 
@@ -354,11 +354,6 @@
             bindings = <&mac_ipa_02E0>;
         };
 
-        combo_PL_1 {
-            timeout-ms = <300>;
-            key-positions = <9 20>;
-            bindings = <&mac_ipa_02E4>;
-        };
 
         combo_AL {
             timeout-ms = <300>;
@@ -369,12 +364,6 @@
         combo_HML {
             timeout-ms = <300>;
             key-positions = <17 30 20>;
-            bindings = <&mac_ipa_02C0>;
-        };
-
-        combo_PL_2 {
-            timeout-ms = <300>;
-            key-positions = <9 20>;
             bindings = <&mac_ipa_02C0>;
         };
 
@@ -474,15 +463,15 @@
             bindings = <&mac_ipa_203F>;
         };
 
-        combo_FB {
+        combo_MNB {
             timeout-ms = <300>;
-            key-positions = <13 26>;
+            key-positions = <29 30 26>;
             bindings = <&mac_ipa_007C>;
         };
 
-        combo_IB_1 {
+        combo_MJB_1 {
             timeout-ms = <300>;
-            key-positions = <7 26>;
+            key-positions = <29 19 26>;
             bindings = <&mac_ipa_2016>;
         };
 
