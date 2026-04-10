@@ -2752,5 +2752,5 @@ behavior {
 &trans  &trans  &trans  &trans  &trans          &trans      &trans  &trans                          &trans
             >;
         };
-    }; // ここで keymap ノードが終了
-}; // ここで root (/) ノードが終了。これ以降に文字があってはいけません。
+    }; 
+};
