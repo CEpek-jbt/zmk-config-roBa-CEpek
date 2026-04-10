@@ -37,6 +37,7 @@
     scroll-layers = <5>;
 };
 
+/ {
     combos {
         compatible = "zmk,combos";
 
