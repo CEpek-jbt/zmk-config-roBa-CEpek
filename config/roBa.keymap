@@ -847,7 +847,7 @@
         mac_ipa_1D4D: mac_ipa_1D4D {
             compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
-            unicode-code = <0x &kp N1 &kp D &kp N4 &kp D &kp RET>;
+            unicode-code = <0x1D4D>;
         };
 
         mac_ipa_207F: mac_ipa_207F {
