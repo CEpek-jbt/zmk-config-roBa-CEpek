@@ -40,6 +40,14 @@
 */
 
 / {
+    behaviors {
+        unicode: unicode {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-mode = <2>;  // macOS mode
+        };
+    };
+
     combos {
         compatible = "zmk,combos";
 
@@ -801,19 +809,15 @@
         // ==========================================
 
         mac_ipa_030D: mac_ipa_030D {
-            compatible = "zmk,behavior-macro";
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N0 &kp D &kp RET>;
+            unicode-code = <0x030D>;
         };
 
         mac_ipa_0329: mac_ipa_0329 {
-            compatible = "zmk,behavior-macro";
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
-            bindings = <&kp U &kp N0 &kp N3 &kp N2 &kp N9 &kp RET>;
+            unicode-code = <0x0329>;
         };
 
         mac_ipa_0311: mac_ipa_0311 {
