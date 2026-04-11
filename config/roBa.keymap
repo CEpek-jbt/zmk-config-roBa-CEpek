@@ -1675,6 +1675,12 @@
             unicode-code = <0x0071 0x0361 0x0070>;
         }; // q + combining inverted bridge below + p
         
+        mac_ipa_0265: mac_ipa_0265 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0265>;
+        }; //  (central vowel)
+        
         mac_ipa_0265_030A: mac_ipa_0265_030A {
             compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
