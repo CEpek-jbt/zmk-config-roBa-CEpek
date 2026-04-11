@@ -2868,6 +2868,12 @@
             unicode-code = <0x025D>;
         }; //  (open-mid central unrounded vowel)
         
+        m_ap_bil_vd: m_ap_bil_vd {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x03B2>;
+        }; // beta (voiced bilabial approximant)
+        
         // Labial-velar approximants
         
         
