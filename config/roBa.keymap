@@ -1509,12 +1509,6 @@
             unicode-code = <0x0279 0x0338>;
         }; //  + stroke (alveolar approximant)
 
-        mac_ipa_02790338: mac_ipa_02790338 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0279 0x0338>;
-        }; //  + stroke (retroflex approximant)
-
         mac_ipa_027B: mac_ipa_027B {
             compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
@@ -1638,17 +1632,6 @@
             unicode-code = <0x0072 0x0338>;
         }; // r + stroke (alveolar trill)
 
-        mac_ipa_00720329: mac_ipa_00720329 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0072 0x0329>;
-        }; // r + ring below (voiceless retroflex trill)
-
-        mac_ipa_00720338: mac_ipa_00720338 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0072 0x0338>;
-        }; // r + stroke (retroflex trill)
 
         mac_ipa_02800329: mac_ipa_02800329 {
             compatible = "zmk,behavior-unicode";
@@ -1874,12 +1857,7 @@
             unicode-code = <0x025B 0x032D>;
         }; //  + line below
 
-        mac_ipa_0153032D: mac_ipa_0153032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0153 0x032D>;
-        }; // oe + line below
-
+        
         mac_ipa_0437032D: mac_ipa_0437032D {
             compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
@@ -1910,12 +1888,7 @@
             unicode-code = <0x00E6 0x032D>;
         }; // ae + line below
 
-        mac_ipa_0153032D: mac_ipa_0153032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0153 0x032D>;
-        }; // oe + line below
-
+        
         mac_ipa_0250032D: mac_ipa_0250032D {
             compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
@@ -2096,13 +2069,13 @@
             #binding-cells = <0>;
             unicode-code = <0x03B8 0x032D>;
         }; // theta + line below (dental fricative)
-
+        
         mac_ipa_00F0032D: mac_ipa_00F0032D {
             compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x00F0 0x032D>;
         }; // eth + line below (dental fricative)
-
+        
         mac_ipa_0279032D: mac_ipa_0279032D {
             compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
@@ -2146,18 +2119,8 @@
             unicode-code = <0x0064 0x032D 0x00F0>;
         }; // d + line below + eth (dental affricate)
 
-        mac_ipa_03B8032D: mac_ipa_03B8032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x03B8 0x032D>;
-        }; // theta + line below (dental fricative)
-
-        mac_ipa_00F0032D: mac_ipa_00F0032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x00F0 0x032D>;
-        }; // eth + line below (dental fricative)
-
+        
+        
         mac_ipa_0074032D0279032D032E: mac_ipa_0074032D0279032D032E {
             compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
@@ -2325,18 +2288,6 @@
             unicode-code = <0x03B2 0x0338>;
         }; // beta + stroke (voiced bilabial approximant)
 
-        mac_ipa_03B20338: mac_ipa_03B20338 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x03B2 0x0338>;
-        }; // beta + stroke (voiced bilabial approximant)
-
-        mac_ipa_03B20338: mac_ipa_03B20338 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x03B2 0x0338>;
-        }; // beta + stroke (voiced bilabial approximant)
-
         mac_ipa_00F00338: mac_ipa_00F00338 {
             compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
@@ -2410,12 +2361,6 @@
             unicode-code = <0x026D>;
         }; //  (retroflex lateral approximant)
 
-        mac_ipa_026D0329: mac_ipa_026D0329 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x026D 0x0329>;
-        }; //  + ring below (voiceless retroflex lateral approximant)
-
         mac_ipa_028E0325: mac_ipa_028E0325 {
             compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
@@ -2471,12 +2416,6 @@
             unicode-code = <0x027D>;
         }; //  (retroflex tap)
 
-        mac_ipa_027D0329: mac_ipa_027D0329 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x027D 0x0329>;
-        }; //  + ring below (voiceless retroflex tap)
-
         // Trills with diacritics
         mac_ipa_00720329: mac_ipa_00720329 {
             compatible = "zmk,behavior-unicode";
@@ -2489,12 +2428,6 @@
             #binding-cells = <0>;
             unicode-code = <0x0072>;
         }; // r
-
-        mac_ipa_00720329: mac_ipa_00720329 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0072 0x0329>;
-        }; // r + ring below (voiceless retroflex trill)
 
         mac_ipa_00720329: mac_ipa_00720329 {
             compatible = "zmk,behavior-unicode";
@@ -2714,272 +2647,12 @@
             unicode-code = <0x00F8 0x032D>;
         }; // ø + line below
 
-        mac_ipa_0258032D: mac_ipa_0258032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0258 0x032D>;
-        }; //  + line below
-
-        mac_ipa_0275032D: mac_ipa_0275032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0275 0x032D>;
-        }; //  + line below
-
-        mac_ipa_0264032D: mac_ipa_0264032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0264 0x032D>;
-        }; //  + line below
-
-        mac_ipa_006F032D: mac_ipa_006F032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x006F 0x032D>;
-        }; // o + line below
-
-        mac_ipa_025B032D: mac_ipa_025B032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x025B 0x032D>;
-        }; //  + line below
-
         mac_ipa_0153032D: mac_ipa_0153032D {
             compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0153 0x032D>;
         }; // oe + line below
-
-        mac_ipa_0437032D: mac_ipa_0437032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0437 0x032D>;
-        }; // ze + line below
-
-        mac_ipa_025E032D: mac_ipa_025E032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x025E 0x032D>;
-        }; //  + line below
-
-        mac_ipa_028C032D: mac_ipa_028C032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x028C 0x032D>;
-        }; //  + line below
-
-        mac_ipa_0254032D: mac_ipa_0254032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0254 0x032D>;
-        }; //  + line below
-
-        mac_ipa_00E6032D: mac_ipa_00E6032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x00E6 0x032D>;
-        }; // ae + line below
-
-        mac_ipa_0153032D: mac_ipa_0153032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0153 0x032D>;
-        }; // oe + line below
-
-        mac_ipa_0250032D: mac_ipa_0250032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0250 0x032D>;
-        }; //  + line below
-
-        mac_ipa_0251032D: mac_ipa_0251032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0251 0x032D>;
-        }; //  + line below
-
-        mac_ipa_0252032D: mac_ipa_0252032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0252 0x032D>;
-        }; //  + line below
-
-        mac_ipa_00E4032D: mac_ipa_00E4032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x00E4 0x032D>;
-        }; // ä + line below
-
-        mac_ipa_0178032D: mac_ipa_0178032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0178 0x032D>;
-        }; // ÿ + line below
-
-        mac_ipa_0228032D: mac_ipa_0228032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0228 0x032D>;
-        }; //  + line below
-
-        mac_ipa_0229032D: mac_ipa_0229032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0229 0x032D>;
-        }; //  + line below
-
-        mac_ipa_022B032D: mac_ipa_022B032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x022B 0x032D>;
-        }; //  + line below
-
-        mac_ipa_022F032D: mac_ipa_022F032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x022F 0x032D>;
-        }; //  + line below
-
-        mac_ipa_0233032D: mac_ipa_0233032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0233 0x032D>;
-        }; //  + line below
-
-        mac_ipa_0249032D: mac_ipa_0249032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0249 0x032D>;
-        }; //  + line below
-
-        // Additional specific combinations from user list
-        mac_ipa_02620328: mac_ipa_02620328 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0262 0x0328>;
-        }; //  + ogonek (uvular plosive with ogonek)
-
-        mac_ipa_02A10328: mac_ipa_02A10328 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02A1 0x0328>;
-        }; //  + ogonek (epiglottal plosive with ogonek)
-
-        mac_ipa_00720328: mac_ipa_00720328 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0072 0x0328>;
-        }; // r + ogonek (alveolar trill with ogonek)
-
-        mac_ipa_00720329: mac_ipa_00720329 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0072 0x0329>;
-        }; // r + ring below (voiceless alveolar trill)
-
-        mac_ipa_00720328: mac_ipa_00720328 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0072 0x0328>;
-        }; // r + ogonek (alveolar trill with ogonek)
-
-        mac_ipa_00720329: mac_ipa_00720329 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0072 0x0329>;
-        }; // r + ring below (voiceless alveolar trill)
-
-        mac_ipa_00720328: mac_ipa_00720328 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0072 0x0328>;
-        }; // r + ogonek (alveolar trill with ogonek)
-
-        mac_ipa_00720329: mac_ipa_00720329 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0072 0x0329>;
-        }; // r + ring below (voiceless alveolar trill)
-
-        mac_ipa_02800329: mac_ipa_02800329 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0280 0x0329>;
-        }; //  + ring below (voiceless uvular trill)
-
-        mac_ipa_0280: mac_ipa_0280 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0280>;
-        }; //  (uvular trill)
-
-        mac_ipa_029C0329: mac_ipa_029C0329 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x029C 0x0329>;
-        }; //  + ring below (voiceless epiglottal trill)
-
-        mac_ipa_029C: mac_ipa_029C {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x029C>;
-        }; //  (epiglottal trill)
-
-        mac_ipa_02A20229: mac_ipa_02A20229 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02A2 0x0229>;
-        }; //  + nasal hook (epiglottal fricative/trill)
-
-        // Additional specific combinations
-        mac_ipa_027C0329: mac_ipa_027C0329 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x027C 0x0329>;
-        }; //  + ring below (voiceless alveolar lateral approximant)
-
-        mac_ipa_1D2D0329: mac_ipa_1D2D0329 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x1D2D 0x0329>;
-        }; //  + ring below (voiceless bilabial trill)
-
-        mac_ipa_1D2D: mac_ipa_1D2D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x1D2D>;
-        }; //  (bilabial trill)
-
-        mac_ipa_02740325: mac_ipa_02740325 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0274 0x0325>;
-        }; //  + ring below (voiceless uvular nasal)
-
-        mac_ipa_0274: mac_ipa_0274 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0274>;
-        }; //  (uvular nasal)
-
-        mac_ipa_029C0329: mac_ipa_029C0329 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x029C 0x0329>;
-        }; //  + ring below (voiceless epiglottal trill)
-
-        mac_ipa_029C: mac_ipa_029C {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x029C>;
-        }; //  (epiglottal trill)
-
-        mac_ipa_02A20229: mac_ipa_02A20229 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02A2 0x0229>;
-        }; //  + nasal hook (epiglottal fricative/trill)
-
+        
         // Labial-velar approximants
         mac_ipa_006B0070: mac_ipa_006B0070 {
             compatible = "zmk,behavior-unicode";
@@ -3011,53 +2684,6 @@
             unicode-code = <0x0077 0x02A1>;
         }; // w + epiglottal stop (voiced labial-velar fricative)
 
-        mac_ipa_028B0338: mac_ipa_028B0338 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x028B 0x0338>;
-        }; // v with hook + stroke (labiodental approximant)
-
-        mac_ipa_028B: mac_ipa_028B {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x028B>;
-        }; // v with hook (labiodental approximant)
-
-        mac_ipa_00F00338: mac_ipa_00F00338 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x00F0 0x0338>;
-        }; // eth + stroke (voiced dental approximant)
-
-        mac_ipa_0279: mac_ipa_0279 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0279>;
-        }; //  (alveolar approximant)
-
-        mac_ipa_02790338: mac_ipa_02790338 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0279 0x0338>;
-        }; //  + stroke (alveolar approximant)
-
-        mac_ipa_02790338: mac_ipa_02790338 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0279 0x0338>;
-        }; //  + stroke (retroflex approximant)
-
-        mac_ipa_027B: mac_ipa_027B {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x027B>;
-        }; //  (retroflex approximant)
-
-        mac_ipa_027B0338: mac_ipa_027B0338 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x027B 0x0338>;
-        }; //  + stroke (retroflex approximant)
 
         mac_ipa_006A: mac_ipa_006A {
             compatible = "zmk,behavior-unicode";
