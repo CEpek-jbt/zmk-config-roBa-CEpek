@@ -1608,6 +1608,19 @@
             unicode-code = <0x0153 0x032D>;
         }; // oe + line below
         
+        // Combined consonants for combos
+        mac_ipa_006E_0361_006D: mac_ipa_006E_0361_006D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006E 0x0361 0x006D>;
+        }; // n + combining inverted bridge below + m
+        
+        mac_ipa_0273_0361_006D: mac_ipa_0273_0361_006D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0273 0x0361 0x006D>;
+        }; //  + combining inverted bridge below + m
+        
         // Labial-velar approximants
         
         
