@@ -809,431 +809,517 @@
         // ==========================================
 
         mac_ipa_030D: mac_ipa_030D {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x030D>;
         };
 
         mac_ipa_0329: mac_ipa_0329 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0329>;
         };
 
         mac_ipa_0311: mac_ipa_0311 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0311>;
         };
 
         mac_ipa_032F: mac_ipa_032F {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x032F>;
         };
 
         mac_ipa_02B0: mac_ipa_02B0 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02B0>;
         };
 
         mac_ipa_02B1: mac_ipa_02B1 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02B1>;
         };
 
         mac_ipa_1D4D: mac_ipa_1D4D {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x1D4D>;
         };
 
         mac_ipa_207F: mac_ipa_207F {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x207F>;
         };
 
         mac_ipa_1DAF: mac_ipa_1DAF {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x1DAF>;
         };
 
         mac_ipa_1DAE: mac_ipa_1DAE {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x1DAE>;
         };
 
         mac_ipa_1D51: mac_ipa_1D51 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x1D51>;
         };
 
         mac_ipa_02E1: mac_ipa_02E1 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02E1>;
         };
 
         mac_ipa_1D4A: mac_ipa_1D4A {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x1D4A>;
         };
 
         mac_ipa_1DBF: mac_ipa_1DBF {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x1DBF>;
         };
 
         mac_ipa_02E3: mac_ipa_02E3 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02E3>;
         };
 
         mac_ipa_031A: mac_ipa_031A {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x031A>;
         };
 
         mac_ipa_030A: mac_ipa_030A {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x030A>;
         };
 
         mac_ipa_0325: mac_ipa_0325 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0325>;
         };
 
         mac_ipa_032C: mac_ipa_032C {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x032C>;
         };
 
         mac_ipa_0308: mac_ipa_0308 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0308>;
         };
 
         mac_ipa_0324: mac_ipa_0324 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0324>;
         };
 
         mac_ipa_0303: mac_ipa_0303 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0303>;
         };
 
         mac_ipa_0330: mac_ipa_0330 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0330>;
         };
 
         mac_ipa_032A: mac_ipa_032A {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x032A>;
         };
 
         mac_ipa_033A: mac_ipa_033A {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x033A>;
         };
 
         mac_ipa_031F: mac_ipa_031F {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x031F>;
         };
 
         mac_ipa_0320: mac_ipa_0320 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0320>;
         };
 
         mac_ipa_031D: mac_ipa_031D {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x031D>;
         };
 
         mac_ipa_031E: mac_ipa_031E {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x031E>;
         };
 
         mac_ipa_033B: mac_ipa_033B {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x033B>;
         };
 
         mac_ipa_033C: mac_ipa_033C {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x033C>;
         };
 
         mac_ipa_033D: mac_ipa_033D {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x033D>;
         };
 
         mac_ipa_0357: mac_ipa_0357 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0357>;
         };
 
         mac_ipa_0339: mac_ipa_0339 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0339>;
         };
 
         mac_ipa_0351: mac_ipa_0351 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0351>;
         };
 
         mac_ipa_031C: mac_ipa_031C {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x031C>;
         };
 
         mac_ipa_02B7: mac_ipa_02B7 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02B7>;
         };
 
         mac_ipa_02E0: mac_ipa_02E0 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02E0>;
         };
 
         mac_ipa_02E4: mac_ipa_02E4 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02E4>;
         };
 
         mac_ipa_02C0: mac_ipa_02C0 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02C0>;
         };
 
         mac_ipa_0318: mac_ipa_0318 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0318>;
         };
 
         mac_ipa_0319: mac_ipa_0319 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0319>;
         };
 
         mac_ipa_02B2: mac_ipa_02B2 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02B2>;
         };
 
         mac_ipa_026B: mac_ipa_026B {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x026B>;
         };
 
         mac_ipa_02DE: mac_ipa_02DE {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02DE>;
         };
 
         mac_ipa_0361: mac_ipa_0361 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0361>;
         };
 
         mac_ipa_035C: mac_ipa_035C {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x035C>;
         };
 
         mac_ipa_02C8: mac_ipa_02C8 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02C8>;
         };
 
         mac_ipa_02CC: mac_ipa_02CC {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02CC>;
         };
 
         mac_ipa_02D0: mac_ipa_02D0 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02D0>;
         };
 
         mac_ipa_02D1: mac_ipa_02D1 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02D1>;
         };
 
         mac_ipa_0306: mac_ipa_0306 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0306>;
         };
 
         mac_ipa_032E: mac_ipa_032E {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x032E>;
         };
 
         mac_ipa_203F: mac_ipa_203F {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x203F>;
         };
 
         mac_ipa_007C: mac_ipa_007C {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x007C>;
         };
 
         mac_ipa_2016: mac_ipa_2016 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x2016>;
         };
 
         mac_ipa_2197: mac_ipa_2197 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x2197>;
         };
 
         mac_ipa_2198: mac_ipa_2198 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x2198>;
         };
 
         mac_ipa_A71B: mac_ipa_A71B {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0xA71B>;
         };
 
         mac_ipa_A71C: mac_ipa_A71C {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0xA71C>;
         };
 
         mac_ipa_0301: mac_ipa_0301 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0301>;
         };
 
         mac_ipa_030B: mac_ipa_030B {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x030B>;
         };
 
         mac_ipa_0300: mac_ipa_0300 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0300>;
         };
 
         mac_ipa_030F: mac_ipa_030F {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x030F>;
         };
 
         mac_ipa_02E9: mac_ipa_02E9 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02E9>;
         };
 
         mac_ipa_02E8: mac_ipa_02E8 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02E8>;
         };
 
         mac_ipa_02E7: mac_ipa_02E7 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02E7>;
         };
 
         mac_ipa_02E6: mac_ipa_02E6 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02E6>;
         };
 
         mac_ipa_02E5: mac_ipa_02E5 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02E5>;
         };
 
         mac_ipa_0304: mac_ipa_0304 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0304>;
         };
 
         mac_ipa_0331: mac_ipa_0331 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0331>;
         };
 
         mac_ipa_0302: mac_ipa_0302 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0302>;
         };
 
         mac_ipa_032D: mac_ipa_032D {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x032D>;
         };
 
         mac_ipa_030C: mac_ipa_030C {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x030C>;
         };
 
         mac_ipa_0327: mac_ipa_0327 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0327>;
         };
 
         mac_ipa_02BB: mac_ipa_02BB {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02BB>;
         };
 
         mac_ipa_0326: mac_ipa_0326 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0326>;
         };
 
         mac_ipa_0307: mac_ipa_0307 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0307>;
         };
 
         mac_ipa_0323: mac_ipa_0323 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0323>;
         };
 
         mac_ipa_0309: mac_ipa_0309 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0309>;
         };
 
         mac_ipa_031B: mac_ipa_031B {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x031B>;
         };
 
         mac_ipa_0328: mac_ipa_0328 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0328>;
         };
 
         mac_ipa_0335: mac_ipa_0335 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0335>;
         };
 
         mac_ipa_309B: mac_ipa_309B {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x309B>;
         };
 
         mac_ipa_309C: mac_ipa_309C {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x309C>;
         };
 
         mac_ipa_02BC: mac_ipa_02BC {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x02BC>;
         };
@@ -1241,86 +1327,103 @@
         // --- 複合Unicode文字（複数のコードを連続入力） ---
 
         mac_ipa_006E_0361_006D: m_n_m {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x006E 0x0361 0x006D>;
         };
 
         mac_ipa_0273_0361_006D: m_nr_m {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0273 0x0361 0x006D>;
         };
 
         mac_ipa_014B_0361_006D: m_ng_m {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x014B 0x0361 0x006D>;
         };
 
         mac_ipa_0074_0361_0070: m_t_p {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0074 0x0361 0x0070>;
         };
 
         mac_ipa_0064_0361_0062: m_d_b {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0064 0x0361 0x0062>;
         };
 
         mac_ipa_0288_0361_0070: m_tr_p {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0288 0x0361 0x0070>;
         };
 
         mac_ipa_0256_0361_0062: m_dr_b {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0256 0x0361 0x0062>;
         };
 
         mac_ipa_006B_0361_0070: m_k_p {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x006B 0x0361 0x0070>;
         };
 
         mac_ipa_0067_0361_0062: m_g_b {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0067 0x0361 0x0062>;
         };
 
         mac_ipa_0071_0361_02A1: m_q_a {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0071 0x0361 0x02A1>;
         };
 
         mac_ipa_0071_0361_0070: m_q_p {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0071 0x0361 0x0070>;
         };
 
         mac_ipa_0265_030A: m_h_ring {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0265 0x030A>;
         };
 
         mac_ipa_0265: mac_ipa_0265 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0265>;
         };
 
         mac_ipa_028D: mac_ipa_028D {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x028D>;
         };
 
         mac_ipa_0267: mac_ipa_0267 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0267>;
         };
 
         mac_ipa_0260_030A_035C_0253_0325: m_complex1 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0260 0x030A 0x035C 0x0253 0x0325>;
         };
 
         mac_ipa_0260_0361_0253: m_complex2 {
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
             unicode-code = <0x0260 0x0361 0x0253>;
         };
