@@ -875,12 +875,7 @@
         }; //  (velar lateral)
 
         // Approximants
-        mac_ipa_028B: mac_ipa_028B {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x028B>;
-        }; // v with hook (labiodental approximant)
-
+        
         
         
         // Lateral approximants
@@ -1380,12 +1375,7 @@
             unicode-code = <0x03B2 0x0338>;
         }; // beta + stroke (voiced bilabial approximant)
 
-        mac_ipa_028B: mac_ipa_028B {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x028B>;
-        }; // v with hook (labiodental approximant)
-
+        
         
         
         mac_ipa_02790338: mac_ipa_02790338 {
@@ -1406,27 +1396,12 @@
         // Lateral approximants with diacritics
         
         
-        mac_ipa_006C0329: mac_ipa_006C0329 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x006C 0x0329>;
-        }; // l + ring below (voiceless alveolar lateral approximant)
-
         
         
-        mac_ipa_028E0329: mac_ipa_028E0329 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x028E 0x0329>;
-        }; //  + ring below (voiceless palatal lateral approximant)
-
         
-        mac_ipa_029F0329: mac_ipa_029F0329 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x029F 0x0329>;
-        }; //  + ring below (voiceless velar lateral approximant)
-
+        
+        
+        
         
         // Taps and flaps
         mac_ipa_027E0329: mac_ipa_027E0329 {
