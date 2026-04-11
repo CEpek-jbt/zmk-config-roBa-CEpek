@@ -52,6 +52,3115 @@
             #binding-cells = <0>;
             unicode-code = <0x030D>;
         };
+
+        mac_ipa_0329: mac_ipa_0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0329>;
+        };
+
+        mac_ipa_0311: mac_ipa_0311 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0311>;
+        };
+
+        mac_ipa_032F: mac_ipa_032F {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x032F>;
+        };
+
+        mac_ipa_02B0: mac_ipa_02B0 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02B0>;
+        };
+
+        mac_ipa_02B1: mac_ipa_02B1 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02B1>;
+        };
+
+        mac_ipa_1D4D: mac_ipa_1D4D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x1D4D>;
+        };
+
+        mac_ipa_207F: mac_ipa_207F {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x207F>;
+        };
+
+        mac_ipa_1DAF: mac_ipa_1DAF {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x1DAF>;
+        };
+
+        mac_ipa_1DAE: mac_ipa_1DAE {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x1DAE>;
+        };
+
+        mac_ipa_1D51: mac_ipa_1D51 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x1D51>;
+        };
+
+        mac_ipa_02E1: mac_ipa_02E1 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02E1>;
+        };
+
+        mac_ipa_1D4A: mac_ipa_1D4A {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x1D4A>;
+        };
+
+        mac_ipa_1DBF: mac_ipa_1DBF {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x1DBF>;
+        };
+
+        mac_ipa_02E3: mac_ipa_02E3 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02E3>;
+        };
+
+        mac_ipa_031A: mac_ipa_031A {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x031A>;
+        };
+
+        mac_ipa_030A: mac_ipa_030A {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x030A>;
+        };
+
+        mac_ipa_0325: mac_ipa_0325 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0325>;
+        };
+
+        mac_ipa_032C: mac_ipa_032C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x032C>;
+        };
+
+        mac_ipa_0308: mac_ipa_0308 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0308>;
+        };
+
+        mac_ipa_0324: mac_ipa_0324 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0324>;
+        };
+
+        mac_ipa_0303: mac_ipa_0303 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0303>;
+        };
+
+        mac_ipa_0330: mac_ipa_0330 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0330>;
+        };
+
+        mac_ipa_032A: mac_ipa_032A {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x032A>;
+        };
+
+        mac_ipa_033A: mac_ipa_033A {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x033A>;
+        };
+
+        mac_ipa_031F: mac_ipa_031F {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x031F>;
+        };
+
+        mac_ipa_0320: mac_ipa_0320 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0320>;
+        };
+
+        mac_ipa_031D: mac_ipa_031D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x031D>;
+        };
+
+        mac_ipa_031E: mac_ipa_031E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x031E>;
+        };
+
+        mac_ipa_033B: mac_ipa_033B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x033B>;
+        };
+
+        mac_ipa_033C: mac_ipa_033C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x033C>;
+        };
+
+        mac_ipa_033D: mac_ipa_033D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x033D>;
+        };
+
+        mac_ipa_0357: mac_ipa_0357 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0357>;
+        };
+
+        mac_ipa_0339: mac_ipa_0339 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0339>;
+        };
+
+        mac_ipa_0351: mac_ipa_0351 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0351>;
+        };
+
+        mac_ipa_031C: mac_ipa_031C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x031C>;
+        };
+
+        mac_ipa_02B7: mac_ipa_02B7 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02B7>;
+        };
+
+        mac_ipa_02E0: mac_ipa_02E0 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02E0>;
+        };
+
+        mac_ipa_02E4: mac_ipa_02E4 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02E4>;
+        };
+
+        mac_ipa_02C0: mac_ipa_02C0 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02C0>;
+        };
+
+        mac_ipa_0318: mac_ipa_0318 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0318>;
+        };
+
+        mac_ipa_0319: mac_ipa_0319 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0319>;
+        };
+
+        mac_ipa_02B2: mac_ipa_02B2 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02B2>;
+        };
+
+        mac_ipa_026B: mac_ipa_026B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026B>;
+        };
+
+        mac_ipa_02DE: mac_ipa_02DE {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02DE>;
+        };
+
+        mac_ipa_0361: mac_ipa_0361 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0361>;
+        };
+
+        mac_ipa_035C: mac_ipa_035C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x035C>;
+        };
+
+        mac_ipa_02C8: mac_ipa_02C8 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02C8>;
+        };
+
+        mac_ipa_02CC: mac_ipa_02CC {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02CC>;
+        };
+
+        mac_ipa_02D0: mac_ipa_02D0 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02D0>;
+        };
+
+        mac_ipa_02D1: mac_ipa_02D1 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02D1>;
+        };
+
+        mac_ipa_0306: mac_ipa_0306 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0306>;
+        };
+
+        mac_ipa_032E: mac_ipa_032E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x032E>;
+        };
+
+        mac_ipa_203F: mac_ipa_203F {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x203F>;
+        };
+
+        mac_ipa_007C: mac_ipa_007C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x007C>;
+        };
+
+        mac_ipa_2016: mac_ipa_2016 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x2016>;
+        };
+
+        mac_ipa_2197: mac_ipa_2197 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x2197>;
+        };
+
+        mac_ipa_2198: mac_ipa_2198 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x2198>;
+        };
+
+        mac_ipa_A71B: mac_ipa_A71B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0xA71B>;
+        };
+
+        mac_ipa_A71C: mac_ipa_A71C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0xA71C>;
+        };
+
+        mac_ipa_0301: mac_ipa_0301 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0301>;
+        };
+
+        mac_ipa_030B: mac_ipa_030B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x030B>;
+        };
+
+        mac_ipa_0300: mac_ipa_0300 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0300>;
+        };
+
+        mac_ipa_030F: mac_ipa_030F {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x030F>;
+        };
+
+        mac_ipa_02E9: mac_ipa_02E9 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02E9>;
+        };
+
+        mac_ipa_02E8: mac_ipa_02E8 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02E8>;
+        };
+
+        mac_ipa_02E7: mac_ipa_02E7 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02E7>;
+        };
+
+        mac_ipa_02E6: mac_ipa_02E6 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02E6>;
+        };
+
+        mac_ipa_02E5: mac_ipa_02E5 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02E5>;
+        };
+
+        mac_ipa_0304: mac_ipa_0304 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0304>;
+        };
+
+        mac_ipa_0331: mac_ipa_0331 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0331>;
+        };
+
+        mac_ipa_0302: mac_ipa_0302 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0302>;
+        };
+
+        mac_ipa_032D: mac_ipa_032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x032D>;
+        };
+
+        mac_ipa_030C: mac_ipa_030C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x030C>;
+        };
+
+        mac_ipa_0327: mac_ipa_0327 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0327>;
+        };
+
+        mac_ipa_02BB: mac_ipa_02BB {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02BB>;
+        };
+
+        mac_ipa_0326: mac_ipa_0326 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0326>;
+        };
+
+        mac_ipa_0307: mac_ipa_0307 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0307>;
+        };
+
+        mac_ipa_0323: mac_ipa_0323 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0323>;
+        };
+
+        mac_ipa_0309: mac_ipa_0309 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0309>;
+        };
+
+        mac_ipa_031B: mac_ipa_031B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x031B>;
+        };
+
+        mac_ipa_0328: mac_ipa_0328 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0328>;
+        };
+
+        mac_ipa_0335: mac_ipa_0335 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0335>;
+        };
+
+        mac_ipa_309B: mac_ipa_309B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x309B>;
+        };
+
+        mac_ipa_309C: mac_ipa_309C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x309C>;
+        };
+
+        mac_ipa_02BC: mac_ipa_02BC {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02BC>;
+        };
+
+        // ==========================================
+        // Base consonant macros
+        // ==========================================
+
+        // Nasal consonants
+        mac_ipa_006D: mac_ipa_006D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006D>;
+        }; // m
+
+        mac_ipa_0271: mac_ipa_0271 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0271>;
+        }; //  ight labiodental nasal
+
+        mac_ipa_006E: mac_ipa_006E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006E>;
+        }; // n
+
+        mac_ipa_0273: mac_ipa_0273 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0273>;
+        }; //  (retroflex nasal)
+
+        mac_ipa_0272: mac_ipa_0272 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0272>;
+        }; //  (palatal nasal)
+
+        mac_ipa_014B: mac_ipa_014B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x014B>;
+        }; // eng (velar nasal)
+
+        mac_ipa_0274: mac_ipa_0274 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0274>;
+        }; //  (uvular nasal)
+
+        // Plosive consonants
+        mac_ipa_0070: mac_ipa_0070 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0070>;
+        }; // p
+
+        mac_ipa_0062: mac_ipa_0062 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0062>;
+        }; // b
+
+        mac_ipa_0074: mac_ipa_0074 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0074>;
+        }; // t
+
+        mac_ipa_0064: mac_ipa_0064 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0064>;
+        }; // d
+
+        mac_ipa_01C3: mac_ipa_01C3 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x01C3>;
+        }; //  (retroflex plosive)
+
+        mac_ipa_0284: mac_ipa_0284 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0284>;
+        }; //  (retroflex plosive)
+
+        mac_ipa_0063: mac_ipa_0063 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0063>;
+        }; // c
+
+        mac_ipa_025F: mac_ipa_025F {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x025F>;
+        }; //  (palatal plosive)
+
+        mac_ipa_006B: mac_ipa_006B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006B>;
+        }; // k
+
+        mac_ipa_0067: mac_ipa_0067 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0067>;
+        }; // g
+
+        mac_ipa_0071: mac_ipa_0071 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0071>;
+        }; // q
+
+        mac_ipa_0262: mac_ipa_0262 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0262>;
+        }; //  (uvular plosive)
+
+        mac_ipa_02A1: mac_ipa_02A1 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02A1>;
+        }; //  (epiglottal plosive)
+
+        mac_ipa_0294: mac_ipa_0294 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0294>;
+        }; //  (glottal stop)
+
+        // Fricative consonants
+        mac_ipa_03C6: mac_ipa_03C6 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x03C6>;
+        }; // phi (bilabial fricative)
+
+        mac_ipa_03B2: mac_ipa_03B2 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x03B2>;
+        }; // beta (bilabial fricative)
+
+        mac_ipa_0066: mac_ipa_0066 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0066>;
+        }; // f
+
+        mac_ipa_0076: mac_ipa_0076 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0076>;
+        }; // v
+
+        mac_ipa_03B8: mac_ipa_03B8 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x03B8>;
+        }; // theta (dental fricative)
+
+        mac_ipa_00F0: mac_ipa_00F0 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x00F0>;
+        }; // eth (dental fricative)
+
+        mac_ipa_0279: mac_ipa_0279 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0279>;
+        }; //  (alveolar approximant)
+
+        mac_ipa_027B: mac_ipa_027B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027B>;
+        }; //  (retroflex approximant)
+
+        mac_ipa_00E7: mac_ipa_00E7 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x00E7>;
+        }; // c-cedilla (palatal fricative)
+
+        mac_ipa_025D: mac_ipa_025D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x025D>;
+        }; //  (palatal fricative)
+
+        mac_ipa_0078: mac_ipa_0078 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0078>;
+        }; // x
+
+        mac_ipa_0263: mac_ipa_0263 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0263>;
+        }; // gamma (velar fricative)
+
+        mac_ipa_03C7: mac_ipa_03C7 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x03C7>;
+        }; // chi (uvular fricative)
+
+        mac_ipa_0281: mac_ipa_0281 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0281>;
+        }; //  (uvular fricative)
+
+        mac_ipa_0127: mac_ipa_0127 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0127>;
+        }; //  (pharyngeal fricative)
+
+        mac_ipa_02BF: mac_ipa_02BF {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02BF>;
+        }; //  (pharyngeal fricative)
+
+        mac_ipa_0068: mac_ipa_0068 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0068>;
+        }; // h
+
+        mac_ipa_0266: mac_ipa_0266 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0266>;
+        }; //  (breathy-voiced glottal fricative)
+
+        // Sibilant fricatives
+        mac_ipa_0073: mac_ipa_0073 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0073>;
+        }; // s
+
+        mac_ipa_007A: mac_ipa_007A {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x007A>;
+        }; // z
+
+        mac_ipa_0283: mac_ipa_0283 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0283>;
+        }; // esh (postalveolar fricative)
+
+        mac_ipa_0292: mac_ipa_0292 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0292>;
+        }; // ezh (postalveolar fricative)
+
+        mac_ipa_0282: mac_ipa_0282 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0282>;
+        }; //  (retroflex fricative)
+
+        mac_ipa_0290: mac_ipa_0290 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0290>;
+        }; //  (retroflex fricative)
+
+        mac_ipa_0285: mac_ipa_0285 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0285>;
+        }; //  (alveolo-palatal fricative)
+
+        mac_ipa_0291: mac_ipa_0291 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0291>;
+        }; //  (alveolo-palatal fricative)
+
+        // Lateral fricatives
+        mac_ipa_026C: mac_ipa_026C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026C>;
+        }; //  (alveolar lateral fricative)
+
+        mac_ipa_026E: mac_ipa_026E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026E>;
+        }; //  (alveolar lateral fricative)
+
+        mac_ipa_026D: mac_ipa_026D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026D>;
+        }; //  (retroflex lateral)
+
+        mac_ipa_028E: mac_ipa_028E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x028E>;
+        }; //  (palatal lateral)
+
+        mac_ipa_029F: mac_ipa_029F {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029F>;
+        }; //  (velar lateral)
+
+        // Approximants
+        mac_ipa_028B: mac_ipa_028B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x028B>;
+        }; // v with hook (labiodental approximant)
+
+        mac_ipa_006A: mac_ipa_006A {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006A>;
+        }; // j (palatal approximant)
+
+        mac_ipa_0260: mac_ipa_0260 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0260>;
+        }; //  (velar approximant)
+
+        // Lateral approximants
+        mac_ipa_006C: mac_ipa_006C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006C>;
+        }; // l
+
+        mac_ipa_027E: mac_ipa_027E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027E>;
+        }; //  (alveolar tap)
+
+        mac_ipa_027D: mac_ipa_027D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027D>;
+        }; //  (retroflex tap)
+
+        // Trills
+        mac_ipa_0072: mac_ipa_0072 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0072>;
+        }; // r
+
+        mac_ipa_0280: mac_ipa_0280 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0280>;
+        }; //  (uvular trill)
+
+        mac_ipa_029C: mac_ipa_029C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029C>;
+        }; //  (epiglottal trill)
+
+        mac_ipa_02A2: mac_ipa_02A2 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02A2>;
+        }; //  (epiglottal fricative/trill)
+
+        // Clicks
+        mac_ipa_1D2C: mac_ipa_1D2C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x1D2C>;
+        }; //  (bilabial click)
+
+        mac_ipa_1D54: mac_ipa_1D54 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x1D54>;
+        }; //  (bilabial click)
+
+        mac_ipa_0253: mac_ipa_0253 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0253>;
+        }; //  (bilabial implosive)
+
+        mac_ipa_01C0: mac_ipa_01C0 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x01C0>;
+        }; //  (dental click)
+
+        mac_ipa_01C1: mac_ipa_01C1 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x01C1>;
+        }; //  (lateral click)
+
+        mac_ipa_0257: mac_ipa_0257 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0257>;
+        }; //  (dental implosive)
+
+        mac_ipa_203C: mac_ipa_203C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x203C>;
+        }; // !! (alveolar click)
+
+        mac_ipa_1D91: mac_ipa_1D91 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x1D91>;
+        }; //  (retroflex click)
+
+        mac_ipa_01C2: mac_ipa_01C2 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x01C2>;
+        }; //  (palatal click)
+
+        mac_ipa_0284: mac_ipa_0284_implosive {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0284>;
+        }; //  (palatal implosive)
+
+        mac_ipa_0260_implosive: mac_ipa_0260_implosive {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0260>;
+        }; //  (velar implosive)
+
+        mac_ipa_029B: mac_ipa_029B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029B>;
+        }; //  (uvular implosive)
+
+        // ==========================================
+        // Base vowel macros
+        // ==========================================
+
+        // Close vowels
+        mac_ipa_0069: mac_ipa_0069 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0069>;
+        }; // i
+
+        mac_ipa_0079: mac_ipa_0079 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0079>;
+        }; // y
+
+        mac_ipa_0268: mac_ipa_0268 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0268>;
+        }; //  (close central unrounded vowel)
+
+        mac_ipa_0289: mac_ipa_0289 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0289>;
+        }; //  (close central rounded vowel)
+
+        mac_ipa_026F: mac_ipa_026F {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026F>;
+        }; //  (close back unrounded vowel)
+
+        mac_ipa_0075: mac_ipa_0075 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0075>;
+        }; // u
+
+        // Near-close vowels
+        mac_ipa_026A: mac_ipa_026A {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026A>;
+        }; //  (near-close near-front unrounded vowel)
+
+        mac_ipa_028F: mac_ipa_028F {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x028F>;
+        }; //  (near-close near-front rounded vowel)
+
+        // Close-mid vowels
+        mac_ipa_0065: mac_ipa_0065 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0065>;
+        }; // e
+
+        mac_ipa_00F8: mac_ipa_00F8 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x00F8>;
+        }; // ø (close-mid front rounded vowel)
+
+        mac_ipa_0258: mac_ipa_0258 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0258>;
+        }; //  (close-mid central unrounded vowel)
+
+        mac_ipa_0275: mac_ipa_0275 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0275>;
+        }; //  (close-mid central rounded vowel)
+
+        mac_ipa_0264: mac_ipa_0264 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0264>;
+        }; //  (close-mid back unrounded vowel)
+
+        mac_ipa_006F: mac_ipa_006F {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006F>;
+        }; // o
+
+        // Open-mid vowels
+        mac_ipa_025B: mac_ipa_025B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x025B>;
+        }; //  (open-mid front unrounded vowel)
+
+        mac_ipa_0153: mac_ipa_0153 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0153>;
+        }; // oe (open-mid front rounded vowel)
+
+        mac_ipa_0437: mac_ipa_0437 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0437>;
+        }; // ze (open-mid central unrounded vowel)
+
+        mac_ipa_025E: mac_ipa_025E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x025E>;
+        }; //  (open-mid central rounded vowel)
+
+        mac_ipa_028C: mac_ipa_028C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x028C>;
+        }; //  (open-mid back unrounded vowel)
+
+        mac_ipa_0254: mac_ipa_0254 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0254>;
+        }; //  (open-mid back rounded vowel)
+
+        // Near-open vowels
+        mac_ipa_00E6: mac_ipa_00E6 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x00E6>;
+        }; // ae (near-open front unrounded vowel)
+
+        mac_ipa_0250: mac_ipa_0250 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0250>;
+        }; //  (near-open central vowel)
+
+        // Open vowels
+        mac_ipa_0251: mac_ipa_0251 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0251>;
+        }; //  (open front unrounded vowel)
+
+        mac_ipa_0252: mac_ipa_0252 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0252>;
+        }; //  (open back rounded vowel)
+
+        // Additional vowel symbols
+        mac_ipa_00E4: mac_ipa_00E4 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x00E4>;
+        }; // ä
+
+        mac_ipa_0178: mac_ipa_0178 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0178>;
+        }; // ÿ
+
+        mac_ipa_0228: mac_ipa_0228 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0228>;
+        }; //  (nasalized a)
+
+        mac_ipa_0229: mac_ipa_0229 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0229>;
+        }; //  (nasalized e)
+
+        mac_ipa_022B: mac_ipa_022B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x022B>;
+        }; //  (nasalized i)
+
+        mac_ipa_022F: mac_ipa_022F {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x022F>;
+        }; //  (nasalized o)
+
+        mac_ipa_0233: mac_ipa_0233 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0233>;
+        }; //  (nasalized u)
+
+        mac_ipa_0249: mac_ipa_0249 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0249>;
+        }; //  (small letter i with stroke)
+
+        // ==========================================
+        // Combined Unicode character macros (affricates, etc.)
+        // ==========================================
+
+        // Bilabial affricates
+        mac_ipa_p03C6: mac_ipa_p03C6 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0070 0x03C6>;
+        }; // p + phi (voiceless bilabial affricate)
+
+        mac_ipa_b03B2: mac_ipa_b03B2 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0062 0x03B2>;
+        }; // b + beta (voiced bilabial affricate)
+
+        // Labiodental affricates
+        mac_ipa_p0066: mac_ipa_p0066 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0070 0x0066>;
+        }; // p + f (voiceless labiodental affricate)
+
+        mac_ipa_b0076: mac_ipa_b0076 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0062 0x0076>;
+        }; // b + v (voiced labiodental affricate)
+
+        // Dental affricates
+        mac_ipa_t03B8: mac_ipa_t03B8 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0074 0x03B8>;
+        }; // t + theta (voiceless dental affricate)
+
+        mac_ipa_d00F0: mac_ipa_d00F0 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0064 0x00F0>;
+        }; // d + eth (voiced dental affricate)
+
+        // Alveolar affricates
+        mac_ipa_t0073: mac_ipa_t0073 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0074 0x0073>;
+        }; // t + s (voiceless alveolar affricate)
+
+        mac_ipa_d007A: mac_ipa_d007A {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0064 0x007A>;
+        }; // d + z (voiced alveolar affricate)
+
+        // Postalveolar affricates
+        mac_ipa_t0283: mac_ipa_t0283 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0074 0x0283>;
+        }; // t + esh (voiceless postalveolar affricate)
+
+        mac_ipa_d0292: mac_ipa_d0292 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0064 0x0292>;
+        }; // d + ezh (voiced postalveolar affricate)
+
+        // Retroflex affricates
+        mac_ipa_1C30282: mac_ipa_1C30282 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x01C3 0x0282>;
+        }; //  +  (voiceless retroflex affricate)
+
+        mac_ipa_1C30290: mac_ipa_1C30290 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x01C3 0x0290>;
+        }; //  +  (voiced retroflex affricate)
+
+        // Alveolo-palatal affricates
+        mac_ipa_t0285: mac_ipa_t0285 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0074 0x0285>;
+        }; // t +  (voiceless alveolo-palatal affricate)
+
+        mac_ipa_d0291: mac_ipa_d0291 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0064 0x0291>;
+        }; // d +  (voiced alveolo-palatal affricate)
+
+        // Palatal affricates
+        mac_ipa_c00E7: mac_ipa_c00E7 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0063 0x00E7>;
+        }; // c + c-cedilla (voiceless palatal affricate)
+
+        mac_ipa_025F025D: mac_ipa_025F025D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x025F 0x025D>;
+        }; //  +  (voiced palatal affricate)
+
+        // Velar affricates
+        mac_ipa_k0078: mac_ipa_k0078 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006B 0x0078>;
+        }; // k + x (voiceless velar affricate)
+
+        mac_ipa_g0263: mac_ipa_g0263 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0067 0x0263>;
+        }; // g + gamma (voiced velar affricate)
+
+        // Uvular affricates
+        mac_ipa_q03C7: mac_ipa_q03C7 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0071 0x03C7>;
+        }; // q + chi (voiceless uvular affricate)
+
+        mac_ipa_02620281: mac_ipa_02620281 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0262 0x0281>;
+        }; //  +  (voiced uvular affricate)
+
+        // Epiglottal affricates
+        mac_ipa_02A10127: mac_ipa_02A10127 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02A1 0x0127>;
+        }; //  +  (voiceless epiglottal affricate)
+
+        mac_ipa_02A102BF: mac_ipa_02A102BF {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02A1 0x02BF>;
+        }; //  +  (voiced epiglottal affricate)
+
+        // Glottal affricates
+        mac_ipa_02940068: mac_ipa_02940068 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0294 0x0068>;
+        }; //  + h (voiceless glottal affricate)
+
+        // Lateral fricatives with diacritics
+        mac_ipa_026C0329: mac_ipa_026C0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026C 0x0329>;
+        }; //  + ring below (voiceless alveolar lateral fricative)
+
+        mac_ipa_026E0329: mac_ipa_026E0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026E 0x0329>;
+        }; //  + ring below (voiced alveolar lateral fricative)
+
+        // Retroflex lateral with diacritics
+        mac_ipa_026D032D: mac_ipa_026D032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026D 0x032D>;
+        }; //  + line below (voiceless retroflex lateral)
+
+        mac_ipa_026D0331: mac_ipa_026D0331 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026D 0x0331>;
+        }; //  + macron below (voiced retroflex lateral)
+
+        // Palatal lateral with diacritics
+        mac_ipa_028E032D: mac_ipa_028E032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x028E 0x032D>;
+        }; //  + line below (voiceless palatal lateral)
+
+        mac_ipa_028E0331: mac_ipa_028E0331 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x028E 0x0331>;
+        }; //  + macron below (voiced palatal lateral)
+
+        // Velar lateral with diacritics
+        mac_ipa_029F032D: mac_ipa_029F032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029F 0x032D>;
+        }; //  + line below (voiceless velar lateral)
+
+        mac_ipa_029F0331: mac_ipa_029F0331 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029F 0x0331>;
+        }; //  + macron below (voiced velar lateral)
+
+        // Lateral affricates
+        mac_ipa_t026C: mac_ipa_t026C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0074 0x026C>;
+        }; // t +  (voiceless alveolar lateral affricate)
+
+        mac_ipa_d026E: mac_ipa_d026E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0064 0x026E>;
+        }; // d +  (voiced alveolar lateral affricate)
+
+        mac_ipa_t026D032D: mac_ipa_t026D032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0074 0x026D 0x032D>;
+        }; // t +  + line below (voiceless retroflex lateral affricate)
+
+        mac_ipa_d026D0331: mac_ipa_d026D0331 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0064 0x026D 0x0331>;
+        }; // d +  + macron below (voiced retroflex lateral affricate)
+
+        mac_ipa_c028E032D: mac_ipa_c028E032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0063 0x028E 0x032D>;
+        }; // c +  + line below (voiceless palatal lateral affricate)
+
+        mac_ipa_025F028E0331: mac_ipa_025F028E0331 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x025F 0x028E 0x0331>;
+        }; //  +  + macron below (voiced palatal lateral affricate)
+
+        mac_ipa_k029F032D: mac_ipa_k029F032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006B 0x029F 0x032D>;
+        }; // k +  + line below (voiceless velar lateral affricate)
+
+        mac_ipa_g029F0331: mac_ipa_g029F0331 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0067 0x029F 0x0331>;
+        }; // g +  + macron below (voiced velar lateral affricate)
+
+        // Approximants with diacritics
+        mac_ipa_03B20338: mac_ipa_03B20338 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x03B2 0x0338>;
+        }; // beta + stroke (voiced bilabial approximant)
+
+        mac_ipa_028B: mac_ipa_028B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x028B>;
+        }; // v with hook (labiodental approximant)
+
+        mac_ipa_00F00338: mac_ipa_00F00338 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x00F0 0x0338>;
+        }; // eth + stroke (voiced dental approximant)
+
+        mac_ipa_0279: mac_ipa_0279 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0279>;
+        }; //  (alveolar approximant)
+
+        mac_ipa_02790338: mac_ipa_02790338 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0279 0x0338>;
+        }; //  + stroke (alveolar approximant)
+
+        mac_ipa_02790338: mac_ipa_02790338 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0279 0x0338>;
+        }; //  + stroke (retroflex approximant)
+
+        mac_ipa_027B: mac_ipa_027B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027B>;
+        }; //  (retroflex approximant)
+
+        mac_ipa_027B0338: mac_ipa_027B0338 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027B 0x0338>;
+        }; //  + stroke (retroflex approximant)
+
+        mac_ipa_006A: mac_ipa_006A {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006A>;
+        }; // j (palatal approximant)
+
+        mac_ipa_0260: mac_ipa_0260 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0260>;
+        }; //  (velar approximant)
+
+        // Lateral approximants with diacritics
+        mac_ipa_006C: mac_ipa_006C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006C>;
+        }; // l
+
+        mac_ipa_027C: mac_ipa_027C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027C>;
+        }; //  (alveolar lateral approximant)
+
+        mac_ipa_006C0329: mac_ipa_006C0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006C 0x0329>;
+        }; // l + ring below (voiceless alveolar lateral approximant)
+
+        mac_ipa_026D0329: mac_ipa_026D0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026D 0x0329>;
+        }; //  + ring below (voiceless retroflex lateral approximant)
+
+        mac_ipa_026D: mac_ipa_026D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026D>;
+        }; //  (retroflex lateral approximant)
+
+        mac_ipa_028E0329: mac_ipa_028E0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x028E 0x0329>;
+        }; //  + ring below (voiceless palatal lateral approximant)
+
+        mac_ipa_028E: mac_ipa_028E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x028E>;
+        }; //  (palatal lateral approximant)
+
+        mac_ipa_029F0329: mac_ipa_029F0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029F 0x0329>;
+        }; //  + ring below (voiceless velar lateral approximant)
+
+        mac_ipa_029F: mac_ipa_029F {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029F>;
+        }; //  (velar lateral approximant)
+
+        // Taps and flaps
+        mac_ipa_027E0329: mac_ipa_027E0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027E 0x0329>;
+        }; //  + ring below (voiceless alveolar tap)
+
+        mac_ipa_027E: mac_ipa_027E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027E>;
+        }; //  (alveolar tap)
+
+        mac_ipa_027D0329: mac_ipa_027D0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027D 0x0329>;
+        }; //  + ring below (voiceless retroflex tap)
+
+        mac_ipa_027D: mac_ipa_027D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027D>;
+        }; //  (retroflex tap)
+
+        // Trills with diacritics
+        mac_ipa_00720329: mac_ipa_00720329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0072 0x0329>;
+        }; // r + ring below (voiceless alveolar trill)
+
+        mac_ipa_0072: mac_ipa_0072 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0072>;
+        }; // r
+
+        mac_ipa_00720338: mac_ipa_00720338 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0072 0x0338>;
+        }; // r + stroke (alveolar trill)
+
+        mac_ipa_00720329: mac_ipa_00720329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0072 0x0329>;
+        }; // r + ring below (voiceless retroflex trill)
+
+        mac_ipa_00720338: mac_ipa_00720338 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0072 0x0338>;
+        }; // r + stroke (retroflex trill)
+
+        mac_ipa_02800329: mac_ipa_02800329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0280 0x0329>;
+        }; //  + ring below (voiceless uvular trill)
+
+        mac_ipa_0280: mac_ipa_0280 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0280>;
+        }; //  (uvular trill)
+
+        mac_ipa_029C0329: mac_ipa_029C0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029C 0x0329>;
+        }; //  + ring below (voiceless epiglottal trill)
+
+        mac_ipa_029C: mac_ipa_029C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029C>;
+        }; //  (epiglottal trill)
+
+        mac_ipa_02A20229: mac_ipa_02A20229 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02A2 0x0229>;
+        }; //  + nasal hook (epiglottal fricative/trill)
+
+        // Clicks with diacritics
+        mac_ipa_1D2C0329: mac_ipa_1D2C0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x1D2C 0x0329>;
+        }; //  + ring below (voiceless bilabial click)
+
+        mac_ipa_1D2C: mac_ipa_1D2C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x1D2C>;
+        }; //  (bilabial click)
+
+        mac_ipa_0253: mac_ipa_0253 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0253>;
+        }; //  (bilabial implosive)
+
+        mac_ipa_01C00329: mac_ipa_01C00329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x01C0 0x0329>;
+        }; //  + ring below (voiceless dental click)
+
+        mac_ipa_01C0: mac_ipa_01C0 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x01C0>;
+        }; //  (dental click)
+
+        mac_ipa_01C10329: mac_ipa_01C10329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x01C1 0x0329>;
+        }; //  + ring below (voiceless lateral click)
+
+        mac_ipa_01C1: mac_ipa_01C1 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x01C1>;
+        }; //  (lateral click)
+
+        mac_ipa_0257: mac_ipa_0257 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0257>;
+        }; //  (dental implosive)
+
+        mac_ipa_203C0329: mac_ipa_203C0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x203C 0x0329>;
+        }; // !! + ring below (voiceless alveolar click)
+
+        mac_ipa_203C: mac_ipa_203C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x203C>;
+        }; // !! (alveolar click)
+
+        mac_ipa_1D910329: mac_ipa_1D910329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x1D91 0x0329>;
+        }; //  + ring below (voiceless retroflex click)
+
+        mac_ipa_1D91: mac_ipa_1D91 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x1D91>;
+        }; //  (retroflex click)
+
+        mac_ipa_01C20329: mac_ipa_01C20329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x01C2 0x0329>;
+        }; //  + ring below (voiceless palatal click)
+
+        mac_ipa_01C2: mac_ipa_01C2 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x01C2>;
+        }; //  (palatal click)
+
+        mac_ipa_0284_implosive: mac_ipa_0284_implosive {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0284>;
+        }; //  (palatal implosive)
+
+        mac_ipa_0260_implosive: mac_ipa_0260_implosive {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0260>;
+        }; //  (velar implosive)
+
+        mac_ipa_029B: mac_ipa_029B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029B>;
+        }; //  (uvular implosive)
+
+        // Vowel combinations with diacritics
+        mac_ipa_0069032D: mac_ipa_0069032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0069 0x032D>;
+        }; // i + line below
+
+        mac_ipa_0079032D: mac_ipa_0079032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0079 0x032D>;
+        }; // y + line below
+
+        mac_ipa_0268032D: mac_ipa_0268032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0268 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0289032D: mac_ipa_0289032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0289 0x032D>;
+        }; //  + line below
+
+        mac_ipa_026F032D: mac_ipa_026F032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026F 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0075032D: mac_ipa_0075032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0075 0x032D>;
+        }; // u + line below
+
+        mac_ipa_026A032D: mac_ipa_026A032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026A 0x032D>;
+        }; //  + line below
+
+        mac_ipa_028F032D: mac_ipa_028F032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x028F 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0065032D: mac_ipa_0065032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0065 0x032D>;
+        }; // e + line below
+
+        mac_ipa_00F8032D: mac_ipa_00F8032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x00F8 0x032D>;
+        }; // ø + line below
+
+        mac_ipa_0258032D: mac_ipa_0258032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0258 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0275032D: mac_ipa_0275032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0275 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0264032D: mac_ipa_0264032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0264 0x032D>;
+        }; //  + line below
+
+        mac_ipa_006F032D: mac_ipa_006F032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006F 0x032D>;
+        }; // o + line below
+
+        mac_ipa_025B032D: mac_ipa_025B032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x025B 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0153032D: mac_ipa_0153032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0153 0x032D>;
+        }; // oe + line below
+
+        mac_ipa_0437032D: mac_ipa_0437032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0437 0x032D>;
+        }; // ze + line below
+
+        mac_ipa_025E032D: mac_ipa_025E032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x025E 0x032D>;
+        }; //  + line below
+
+        mac_ipa_028C032D: mac_ipa_028C032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x028C 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0254032D: mac_ipa_0254032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0254 0x032D>;
+        }; //  + line below
+
+        mac_ipa_00E6032D: mac_ipa_00E6032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x00E6 0x032D>;
+        }; // ae + line below
+
+        mac_ipa_0153032D: mac_ipa_0153032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0153 0x032D>;
+        }; // oe + line below
+
+        mac_ipa_0250032D: mac_ipa_0250032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0250 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0251032D: mac_ipa_0251032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0251 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0252032D: mac_ipa_0252032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0252 0x032D>;
+        }; //  + line below
+
+        mac_ipa_00E4032D: mac_ipa_00E4032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x00E4 0x032D>;
+        }; // ä + line below
+
+        mac_ipa_0178032D: mac_ipa_0178032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0178 0x032D>;
+        }; // ÿ + line below
+
+        mac_ipa_0228032D: mac_ipa_0228032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0228 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0229032D: mac_ipa_0229032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0229 0x032D>;
+        }; //  + line below
+
+        mac_ipa_022B032D: mac_ipa_022B032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x022B 0x032D>;
+        }; //  + line below
+
+        mac_ipa_022F032D: mac_ipa_022F032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x022F 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0233032D: mac_ipa_0233032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0233 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0249032D: mac_ipa_0249032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0249 0x032D>;
+        }; //  + line below
+
+        // ==========================================
+        // Additional diacritic combinations (missing from user list)
+        // ==========================================
+
+        // Consonants with specific diacritics
+        mac_ipa_006D0325: mac_ipa_006D0325 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006D 0x0325>;
+        }; // m + ring below (m with diacritic)
+
+        mac_ipa_0271032A: mac_ipa_0271032A {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0271 0x032A>;
+        }; //  + tilde below (voiceless labiodental nasal)
+
+        mac_ipa_006E032D: mac_ipa_006E032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006E 0x032D>;
+        }; // n + line below (dental nasal)
+
+        mac_ipa_006E032D0329: mac_ipa_006E032D0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006E 0x032D 0x0329>;
+        }; // n + line below + ring below (voiceless dental nasal)
+
+        mac_ipa_006E0325: mac_ipa_006E0325 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006E 0x0325>;
+        }; // n + ring below (voiceless alveolar nasal)
+
+        mac_ipa_0273032D: mac_ipa_0273032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0273 0x032D>;
+        }; //  + line below (retroflex nasal)
+
+        mac_ipa_0273032A: mac_ipa_0273032A {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0273 0x032A>;
+        }; //  + tilde below (voiceless retroflex nasal)
+
+        mac_ipa_02730325: mac_ipa_02730325 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0273 0x0325>;
+        }; //  + ring below (voiceless retroflex nasal)
+
+        mac_ipa_0272032A: mac_ipa_0272032A {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0272 0x032A>;
+        }; //  + tilde below (voiceless palatal nasal)
+
+        mac_ipa_02720325: mac_ipa_02720325 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0272 0x0325>;
+        }; //  + ring below (voiceless palatal nasal)
+
+        mac_ipa_014B032A: mac_ipa_014B032A {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x014B 0x032A>;
+        }; // eng + tilde below (voiceless velar nasal)
+
+        mac_ipa_014B0325: mac_ipa_014B0325 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x014B 0x0325>;
+        }; // eng + ring below (voiceless velar nasal)
+
+        mac_ipa_02740325: mac_ipa_02740325 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0274 0x0325>;
+        }; //  + ring below (voiceless uvular nasal)
+
+        // Plosives with diacritics
+        mac_ipa_0070032D: mac_ipa_0070032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0070 0x032D>;
+        }; // p + line below (dental plosive)
+
+        mac_ipa_0062032D: mac_ipa_0062032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0062 0x032D>;
+        }; // b + line below (dental plosive)
+
+        mac_ipa_0074032D: mac_ipa_0074032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0074 0x032D>;
+        }; // t + line below (dental plosive)
+
+        mac_ipa_0064032D: mac_ipa_0064032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0064 0x032D>;
+        }; // d + line below (dental plosive)
+
+        // Fricatives with specific diacritics
+        mac_ipa_03B8032D: mac_ipa_03B8032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x03B8 0x032D>;
+        }; // theta + line below (dental fricative)
+
+        mac_ipa_00F0032D: mac_ipa_00F0032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x00F0 0x032D>;
+        }; // eth + line below (dental fricative)
+
+        mac_ipa_0279032D: mac_ipa_0279032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0279 0x032D>;
+        }; //  + line below (retroflex approximant)
+
+        mac_ipa_0279032D032E: mac_ipa_0279032D032E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0279 0x032D 0x032E>;
+        }; //  + line below + bridge below (raised retroflex approximant)
+
+        mac_ipa_027B032D: mac_ipa_027B032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027B 0x032D>;
+        }; //  + line below (retroflex approximant)
+
+        mac_ipa_027B032D0329: mac_ipa_027B032D0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027B 0x032D 0x0329>;
+        }; //  + line below + ring below (voiceless retroflex approximant)
+
+        mac_ipa_027B032D032E: mac_ipa_027B032D032E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027B 0x032D 0x032E>;
+        }; //  + line below + bridge below (raised retroflex approximant)
+
+        // Specific affricates from user list
+        mac_ipa_0074032D03B8: mac_ipa_0074032D03B8 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0074 0x032D 0x03B8>;
+        }; // t + line below + theta (dental affricate)
+
+        mac_ipa_0064032D00F0: mac_ipa_0064032D00F0 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0064 0x032D 0x00F0>;
+        }; // d + line below + eth (dental affricate)
+
+        mac_ipa_03B8032D: mac_ipa_03B8032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x03B8 0x032D>;
+        }; // theta + line below (dental fricative)
+
+        mac_ipa_00F0032D: mac_ipa_00F0032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x00F0 0x032D>;
+        }; // eth + line below (dental fricative)
+
+        mac_ipa_0074032D0279032D032E: mac_ipa_0074032D0279032D032E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0074 0x032D 0x0279 0x032D 0x032E>;
+        }; // t + line below +  + line below + bridge below (dental affricate with raised)
+
+        mac_ipa_0064032D0279032D: mac_ipa_0064032D0279032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0064 0x032D 0x0279 0x032D>;
+        }; // d + line below +  + line below (dental affricate)
+
+        mac_ipa_0074032D0279032D0329: mac_ipa_0074032D0279032D0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0074 0x032D 0x0279 0x032D 0x0329>;
+        }; // t + line below +  + line below + ring below (voiceless dental affricate)
+
+        mac_ipa_0064032D0279032D0329: mac_ipa_0064032D0279032D0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0064 0x032D 0x0279 0x032D 0x0329>;
+        }; // d + line below +  + line below + ring below (voiceless dental affricate)
+
+        mac_ipa_0074032D027B032D0329: mac_ipa_0074032D027B032D0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0074 0x032D 0x027B 0x032D 0x0329>;
+        }; // t + line below +  + line below + ring below (voiceless retroflex affricate)
+
+        mac_ipa_0064032D027B032D: mac_ipa_0064032D027B032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0064 0x032D 0x027B 0x032D>;
+        }; // d + line below +  + line below (retroflex affricate)
+
+        mac_ipa_0074032D027B032D032E: mac_ipa_0074032D027B032D032E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0074 0x032D 0x027B 0x032D 0x032E>;
+        }; // t + line below +  + line below + bridge below (raised retroflex affricate)
+
+        mac_ipa_0064032D027B032D032E: mac_ipa_0064032D027B032D032E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0064 0x032D 0x027B 0x032D 0x032E>;
+        }; // d + line below +  + line below + bridge below (raised retroflex affricate)
+
+        // Sibilants with diacritics
+        mac_ipa_0073032D: mac_ipa_0073032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0073 0x032D>;
+        }; // s + line below (dental sibilant)
+
+        mac_ipa_007A032D: mac_ipa_007A032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x007A 0x032D>;
+        }; // z + line below (dental sibilant)
+
+        // Lateral fricatives with diacritics
+        mac_ipa_026C032D: mac_ipa_026C032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026C 0x032D>;
+        }; //  + line below (dental lateral fricative)
+
+        mac_ipa_026E032D: mac_ipa_026E032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026E 0x032D>;
+        }; //  + line below (dental lateral fricative)
+
+        // Laterals with diacritics
+        mac_ipa_026D032D: mac_ipa_026D032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026D 0x032D>;
+        }; //  + line below (retroflex lateral)
+
+        mac_ipa_026D032D032E: mac_ipa_026D032D032E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026D 0x032D 0x032E>;
+        }; //  + line below + bridge below (raised retroflex lateral)
+
+        mac_ipa_028E032D: mac_ipa_028E032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x028E 0x032D>;
+        }; //  + line below (palatal lateral)
+
+        mac_ipa_028E032D032E: mac_ipa_028E032D032E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x028E 0x032D 0x032E>;
+        }; //  + line below + bridge below (raised palatal lateral)
+
+        mac_ipa_029F032D: mac_ipa_029F032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029F 0x032D>;
+        }; //  + line below (velar lateral)
+
+        mac_ipa_029F032D032E: mac_ipa_029F032D032E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029F 0x032D 0x032E>;
+        }; //  + line below + bridge below (raised velar lateral)
+
+        // Lateral affricates with diacritics
+        mac_ipa_0074032D026C: mac_ipa_0074032D026C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0074 0x032D 0x026C>;
+        }; // t + line below +  (dental lateral affricate)
+
+        mac_ipa_0064032D026E: mac_ipa_0064032D026E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0064 0x032D 0x026E>;
+        }; // d + line below +  (dental lateral affricate)
+
+        mac_ipa_0074032D026D032D: mac_ipa_0074032D026D032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0074 0x032D 0x026D 0x032D>;
+        }; // t + line below +  + line below (retroflex lateral affricate)
+
+        mac_ipa_0064032D026D032D032E: mac_ipa_0064032D026D032D032E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0064 0x032D 0x026D 0x032D 0x032E>;
+        }; // d + line below +  + line below + bridge below (raised retroflex lateral affricate)
+
+        mac_ipa_00630328E032D: mac_ipa_00630328E032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0063 0x028E 0x032D>;
+        }; // c +  + line below (palatal lateral affricate)
+
+        mac_ipa_025F028E032D032E: mac_ipa_025F028E032D032E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x025F 0x028E 0x032D 0x032E>;
+        }; //  +  + line below + bridge below (raised palatal lateral affricate)
+
+        mac_ipa_006B029F032D: mac_ipa_006B029F032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006B 0x029F 0x032D>;
+        }; // k +  + line below (velar lateral affricate)
+
+        mac_ipa_0067029F032D032E: mac_ipa_0067029F032D032E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0067 0x029F 0x032D 0x032E>;
+        }; // g +  + line below + bridge below (raised velar lateral affricate)
+
+        // Approximants with diacritics
+        mac_ipa_03B20338: mac_ipa_03B20338 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x03B2 0x0338>;
+        }; // beta + stroke (voiced bilabial approximant)
+
+        mac_ipa_03B20338: mac_ipa_03B20338 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x03B2 0x0338>;
+        }; // beta + stroke (voiced bilabial approximant)
+
+        mac_ipa_03B20338: mac_ipa_03B20338 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x03B2 0x0338>;
+        }; // beta + stroke (voiced bilabial approximant)
+
+        mac_ipa_00F00338: mac_ipa_00F00338 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x00F0 0x0338>;
+        }; // eth + stroke (voiced dental approximant)
+
+        mac_ipa_0279: mac_ipa_0279 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0279>;
+        }; //  (alveolar approximant)
+
+        mac_ipa_0279032D: mac_ipa_0279032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0279 0x032D>;
+        }; //  + line below (retroflex approximant)
+
+        mac_ipa_027B: mac_ipa_027B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027B>;
+        }; //  (retroflex approximant)
+
+        mac_ipa_027B032D: mac_ipa_027B032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027B 0x032D>;
+        }; //  + line below (retroflex approximant)
+
+        mac_ipa_006A: mac_ipa_006A {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006A>;
+        }; // j (palatal approximant)
+
+        mac_ipa_0260: mac_ipa_0260 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0260>;
+        }; //  (velar approximant)
+
+        // Lateral approximants with diacritics
+        mac_ipa_006C032D: mac_ipa_006C032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006C 0x032D>;
+        }; // l + line below (dental lateral approximant)
+
+        mac_ipa_006C0325: mac_ipa_006C0325 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006C 0x0325>;
+        }; // l + ring below (voiceless alveolar lateral approximant)
+
+        mac_ipa_006C: mac_ipa_006C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006C>;
+        }; // l
+
+        mac_ipa_026D0329: mac_ipa_026D0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026D 0x0329>;
+        }; //  + ring below (voiceless retroflex lateral approximant)
+
+        mac_ipa_026D: mac_ipa_026D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026D>;
+        }; //  (retroflex lateral approximant)
+
+        mac_ipa_026D0329: mac_ipa_026D0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026D 0x0329>;
+        }; //  + ring below (voiceless retroflex lateral approximant)
+
+        mac_ipa_028E0325: mac_ipa_028E0325 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x028E 0x0325>;
+        }; //  + ring below (voiceless palatal lateral approximant)
+
+        mac_ipa_028E: mac_ipa_028E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x028E>;
+        }; //  (palatal lateral approximant)
+
+        mac_ipa_029F0325: mac_ipa_029F0325 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029F 0x0325>;
+        }; //  + ring below (voiceless velar lateral approximant)
+
+        mac_ipa_029F: mac_ipa_029F {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029F>;
+        }; //  (velar lateral approximant)
+
+        mac_ipa_029F032D: mac_ipa_029F032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029F 0x032D>;
+        }; //  + line below (retroflex lateral approximant)
+
+        // Taps and flaps with diacritics
+        mac_ipa_027E0325: mac_ipa_027E0325 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027E 0x0325>;
+        }; //  + ring below (voiceless alveolar tap)
+
+        mac_ipa_027E: mac_ipa_027E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027E>;
+        }; //  (alveolar tap)
+
+        mac_ipa_027D0329: mac_ipa_027D0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027D 0x0329>;
+        }; //  + ring below (voiceless retroflex tap)
+
+        mac_ipa_027D: mac_ipa_027D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027D>;
+        }; //  (retroflex tap)
+
+        mac_ipa_027D0329: mac_ipa_027D0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027D 0x0329>;
+        }; //  + ring below (voiceless retroflex tap)
+
+        // Trills with diacritics
+        mac_ipa_00720329: mac_ipa_00720329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0072 0x0329>;
+        }; // r + ring below (voiceless alveolar trill)
+
+        mac_ipa_0072: mac_ipa_0072 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0072>;
+        }; // r
+
+        mac_ipa_00720329: mac_ipa_00720329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0072 0x0329>;
+        }; // r + ring below (voiceless retroflex trill)
+
+        mac_ipa_00720329: mac_ipa_00720329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0072 0x0329>;
+        }; // r + ring below (voiceless retroflex trill)
+
+        mac_ipa_02800329: mac_ipa_02800329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0280 0x0329>;
+        }; //  + ring below (voiceless uvular trill)
+
+        mac_ipa_0280: mac_ipa_0280 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0280>;
+        }; //  (uvular trill)
+
+        mac_ipa_029C0329: mac_ipa_029C0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029C 0x0329>;
+        }; //  + ring below (voiceless epiglottal trill)
+
+        mac_ipa_029C: mac_ipa_029C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029C>;
+        }; //  (epiglottal trill)
+
+        // Clicks with diacritics
+        mac_ipa_1D2C0329: mac_ipa_1D2C0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x1D2C 0x0329>;
+        }; //  + ring below (voiceless bilabial click)
+
+        mac_ipa_1D2C: mac_ipa_1D2C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x1D2C>;
+        }; //  (bilabial click)
+
+        mac_ipa_0253: mac_ipa_0253 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0253>;
+        }; //  (bilabial implosive)
+
+        mac_ipa_01C00329: mac_ipa_01C00329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x01C0 0x0329>;
+        }; //  + ring below (voiceless dental click)
+
+        mac_ipa_01C0: mac_ipa_01C0 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x01C0>;
+        }; //  (dental click)
+
+        mac_ipa_01C10329: mac_ipa_01C10329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x01C1 0x0329>;
+        }; //  + ring below (voiceless lateral click)
+
+        mac_ipa_01C1: mac_ipa_01C1 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x01C1>;
+        }; //  (lateral click)
+
+        mac_ipa_0257: mac_ipa_0257 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0257>;
+        }; //  (dental implosive)
+
+        mac_ipa_203C0329: mac_ipa_203C0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x203C 0x0329>;
+        }; // !! + ring below (voiceless alveolar click)
+
+        mac_ipa_203C: mac_ipa_203C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x203C>;
+        }; // !! (alveolar click)
+
+        mac_ipa_1D910329: mac_ipa_1D910329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x1D91 0x0329>;
+        }; //  + ring below (voiceless retroflex click)
+
+        mac_ipa_1D91: mac_ipa_1D91 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x1D91>;
+        }; //  (retroflex click)
+
+        mac_ipa_01C20329: mac_ipa_01C20329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x01C2 0x0329>;
+        }; //  + ring below (voiceless palatal click)
+
+        mac_ipa_01C2: mac_ipa_01C2 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x01C2>;
+        }; //  (palatal click)
+
+        mac_ipa_0284_implosive: mac_ipa_0284_implosive {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0284>;
+        }; //  (palatal implosive)
+
+        mac_ipa_0260_implosive: mac_ipa_0260_implosive {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0260>;
+        }; //  (velar implosive)
+
+        mac_ipa_029B: mac_ipa_029B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029B>;
+        }; //  (uvular implosive)
+
+        // Vowel combinations with specific diacritics from user list
+        mac_ipa_0251032D: mac_ipa_0251032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0251 0x032D>;
+        }; //  + line below (retracted a)
+
+        mac_ipa_0252032D: mac_ipa_0252032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0252 0x032D>;
+        }; //  + line below (returned open back rounded vowel)
+
+        mac_ipa_02520308: mac_ipa_02520308 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0252 0x0308>;
+        }; //  + diaeresis (open back rounded vowel with diaeresis)
+
+        mac_ipa_02510308: mac_ipa_02510308 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0251 0x0308>;
+        }; //  + diaeresis (open back unrounded vowel with diaeresis)
+
+        mac_ipa_0069032D: mac_ipa_0069032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0069 0x032D>;
+        }; // i + line below
+
+        mac_ipa_0079032D: mac_ipa_0079032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0079 0x032D>;
+        }; // y + line below
+
+        mac_ipa_0268032D: mac_ipa_0268032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0268 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0289032D: mac_ipa_0289032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0289 0x032D>;
+        }; //  + line below
+
+        mac_ipa_026F032D: mac_ipa_026F032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026F 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0075032D: mac_ipa_0075032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0075 0x032D>;
+        }; // u + line below
+
+        mac_ipa_026A032D: mac_ipa_026A032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x026A 0x032D>;
+        }; //  + line below
+
+        mac_ipa_028F032D: mac_ipa_028F032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x028F 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0065032D: mac_ipa_0065032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0065 0x032D>;
+        }; // e + line below
+
+        mac_ipa_00F8032D: mac_ipa_00F8032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x00F8 0x032D>;
+        }; // ø + line below
+
+        mac_ipa_0258032D: mac_ipa_0258032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0258 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0275032D: mac_ipa_0275032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0275 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0264032D: mac_ipa_0264032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0264 0x032D>;
+        }; //  + line below
+
+        mac_ipa_006F032D: mac_ipa_006F032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006F 0x032D>;
+        }; // o + line below
+
+        mac_ipa_025B032D: mac_ipa_025B032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x025B 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0153032D: mac_ipa_0153032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0153 0x032D>;
+        }; // oe + line below
+
+        mac_ipa_0437032D: mac_ipa_0437032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0437 0x032D>;
+        }; // ze + line below
+
+        mac_ipa_025E032D: mac_ipa_025E032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x025E 0x032D>;
+        }; //  + line below
+
+        mac_ipa_028C032D: mac_ipa_028C032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x028C 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0254032D: mac_ipa_0254032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0254 0x032D>;
+        }; //  + line below
+
+        mac_ipa_00E6032D: mac_ipa_00E6032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x00E6 0x032D>;
+        }; // ae + line below
+
+        mac_ipa_0153032D: mac_ipa_0153032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0153 0x032D>;
+        }; // oe + line below
+
+        mac_ipa_0250032D: mac_ipa_0250032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0250 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0251032D: mac_ipa_0251032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0251 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0252032D: mac_ipa_0252032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0252 0x032D>;
+        }; //  + line below
+
+        mac_ipa_00E4032D: mac_ipa_00E4032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x00E4 0x032D>;
+        }; // ä + line below
+
+        mac_ipa_0178032D: mac_ipa_0178032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0178 0x032D>;
+        }; // ÿ + line below
+
+        mac_ipa_0228032D: mac_ipa_0228032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0228 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0229032D: mac_ipa_0229032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0229 0x032D>;
+        }; //  + line below
+
+        mac_ipa_022B032D: mac_ipa_022B032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x022B 0x032D>;
+        }; //  + line below
+
+        mac_ipa_022F032D: mac_ipa_022F032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x022F 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0233032D: mac_ipa_0233032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0233 0x032D>;
+        }; //  + line below
+
+        mac_ipa_0249032D: mac_ipa_0249032D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0249 0x032D>;
+        }; //  + line below
+
+        // Additional specific combinations from user list
+        mac_ipa_02620328: mac_ipa_02620328 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0262 0x0328>;
+        }; //  + ogonek (uvular plosive with ogonek)
+
+        mac_ipa_02A10328: mac_ipa_02A10328 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02A1 0x0328>;
+        }; //  + ogonek (epiglottal plosive with ogonek)
+
+        mac_ipa_00720328: mac_ipa_00720328 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0072 0x0328>;
+        }; // r + ogonek (alveolar trill with ogonek)
+
+        mac_ipa_00720329: mac_ipa_00720329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0072 0x0329>;
+        }; // r + ring below (voiceless alveolar trill)
+
+        mac_ipa_00720328: mac_ipa_00720328 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0072 0x0328>;
+        }; // r + ogonek (alveolar trill with ogonek)
+
+        mac_ipa_00720329: mac_ipa_00720329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0072 0x0329>;
+        }; // r + ring below (voiceless alveolar trill)
+
+        mac_ipa_00720328: mac_ipa_00720328 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0072 0x0328>;
+        }; // r + ogonek (alveolar trill with ogonek)
+
+        mac_ipa_00720329: mac_ipa_00720329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0072 0x0329>;
+        }; // r + ring below (voiceless alveolar trill)
+
+        mac_ipa_02800329: mac_ipa_02800329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0280 0x0329>;
+        }; //  + ring below (voiceless uvular trill)
+
+        mac_ipa_0280: mac_ipa_0280 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0280>;
+        }; //  (uvular trill)
+
+        mac_ipa_029C0329: mac_ipa_029C0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029C 0x0329>;
+        }; //  + ring below (voiceless epiglottal trill)
+
+        mac_ipa_029C: mac_ipa_029C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029C>;
+        }; //  (epiglottal trill)
+
+        mac_ipa_02A20229: mac_ipa_02A20229 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02A2 0x0229>;
+        }; //  + nasal hook (epiglottal fricative/trill)
+
+        // Additional specific combinations
+        mac_ipa_027C0329: mac_ipa_027C0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027C 0x0329>;
+        }; //  + ring below (voiceless alveolar lateral approximant)
+
+        mac_ipa_1D2D0329: mac_ipa_1D2D0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x1D2D 0x0329>;
+        }; //  + ring below (voiceless bilabial trill)
+
+        mac_ipa_1D2D: mac_ipa_1D2D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x1D2D>;
+        }; //  (bilabial trill)
+
+        mac_ipa_02740325: mac_ipa_02740325 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0274 0x0325>;
+        }; //  + ring below (voiceless uvular nasal)
+
+        mac_ipa_0274: mac_ipa_0274 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0274>;
+        }; //  (uvular nasal)
+
+        mac_ipa_029C0329: mac_ipa_029C0329 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029C 0x0329>;
+        }; //  + ring below (voiceless epiglottal trill)
+
+        mac_ipa_029C: mac_ipa_029C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x029C>;
+        }; //  (epiglottal trill)
+
+        mac_ipa_02A20229: mac_ipa_02A20229 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x02A2 0x0229>;
+        }; //  + nasal hook (epiglottal fricative/trill)
+
+        // Labial-velar approximants
+        mac_ipa_006B0070: mac_ipa_006B0070 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006B 0x0070>;
+        }; // kp (voiceless labial-velar plosive)
+
+        mac_ipa_00670062: mac_ipa_00670062 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0067 0x0062>;
+        }; // gb (voiced labial-velar plosive)
+
+        mac_ipa_014B016D: mac_ipa_014B016D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x014B 0x016D>;
+        }; // engm (labial-velar nasal)
+
+        mac_ipa_0277071: mac_ipa_0277071 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0277 0x0071>;
+        }; // wq (voiceless labial-velar fricative)
+
+        mac_ipa_007702A1: mac_ipa_007702A1 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0077 0x02A1>;
+        }; // w + epiglottal stop (voiced labial-velar fricative)
+
+        mac_ipa_028B0338: mac_ipa_028B0338 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x028B 0x0338>;
+        }; // v with hook + stroke (labiodental approximant)
+
+        mac_ipa_028B: mac_ipa_028B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x028B>;
+        }; // v with hook (labiodental approximant)
+
+        mac_ipa_00F00338: mac_ipa_00F00338 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x00F0 0x0338>;
+        }; // eth + stroke (voiced dental approximant)
+
+        mac_ipa_0279: mac_ipa_0279 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0279>;
+        }; //  (alveolar approximant)
+
+        mac_ipa_02790338: mac_ipa_02790338 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0279 0x0338>;
+        }; //  + stroke (alveolar approximant)
+
+        mac_ipa_02790338: mac_ipa_02790338 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0279 0x0338>;
+        }; //  + stroke (retroflex approximant)
+
+        mac_ipa_027B: mac_ipa_027B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027B>;
+        }; //  (retroflex approximant)
+
+        mac_ipa_027B0338: mac_ipa_027B0338 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x027B 0x0338>;
+        }; //  + stroke (retroflex approximant)
+
+        mac_ipa_006A: mac_ipa_006A {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x006A>;
+        }; // j (palatal approximant)
+
+        mac_ipa_0260: mac_ipa_0260 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x0260>;
+        }; //  (velar approximant)
+
+        // Additional specific characters
+        mac_ipa_2D71: mac_ipa_2D71 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x2D71>;
+        }; //  (labiodental flap)
+
+        mac_ipa_2D72: mac_ipa_2D72 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x2D72>;
+        }; //  (labiodental tap)
+
+        mac_ipa_2D73: mac_ipa_2D73 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x2D73>;
+        }; //  (bilabial percussive)
+
+        mac_ipa_2D74: mac_ipa_2D74 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x2D74>;
+        }; //  (bidental percussive)
+
+        mac_ipa_2D75: mac_ipa_2D75 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x2D75>;
+        }; //  (dental percussive)
+
+        mac_ipa_2D76: mac_ipa_2D76 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x2D76>;
+        }; //  (alveolar percussive)
+
+        mac_ipa_2D77: mac_ipa_2D77 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x2D77>;
+        }; //  (retroflex percussive)
+
+        mac_ipa_2D78: mac_ipa_2D78 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x2D78>;
+        }; //  (palatal percussive)
+
+        mac_ipa_2D79: mac_ipa_2D79 {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x2D79>;
+        }; //  (velar percussive)
+
+        mac_ipa_2D7A: mac_ipa_2D7A {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x2D7A>;
+        }; //  (uvular percussive)
+
+        mac_ipa_2D7B: mac_ipa_2D7B {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x2D7B>;
+        }; //  (glottal percussive)
+
+        mac_ipa_2D7C: mac_ipa_2D7C {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x2D7C>;
+        }; //  (alveolar lateral percussive)
+
+        mac_ipa_2D7D: mac_ipa_2D7D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x2D7D>;
+        }; //  (retroflex lateral percussive)
+
+        mac_ipa_2D7E: mac_ipa_2D7E {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x2D7E>;
+        }; //  (palatal lateral percussive)
+
+        mac_ipa_2D7F: mac_ipa_2D7F {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x2D7F>;
+        }; //  (velar lateral percussive)
     };
 
     combos {
@@ -807,1761 +3916,6 @@
             key-positions = <30 14 26>;
             bindings = <&mac_ipa_0260_0361_0253>;
         };
-    };
-
-    macros {
-        // ==========================================
-        // IPA diacritic / symbol macros
-        // ==========================================
-
-        mac_ipa_0329: mac_ipa_0329 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0329>;
-        };
-
-        mac_ipa_0311: mac_ipa_0311 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0311>;
-        };
-
-        mac_ipa_032F: mac_ipa_032F {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x032F>;
-        };
-
-        mac_ipa_02B0: mac_ipa_02B0 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02B0>;
-        };
-
-        mac_ipa_02B1: mac_ipa_02B1 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02B1>;
-        };
-
-        mac_ipa_1D4D: mac_ipa_1D4D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x1D4D>;
-        };
-
-        mac_ipa_207F: mac_ipa_207F {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x207F>;
-        };
-
-        mac_ipa_1DAF: mac_ipa_1DAF {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x1DAF>;
-        };
-
-        mac_ipa_1DAE: mac_ipa_1DAE {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x1DAE>;
-        };
-
-        mac_ipa_1D51: mac_ipa_1D51 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x1D51>;
-        };
-
-        mac_ipa_02E1: mac_ipa_02E1 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02E1>;
-        };
-
-        mac_ipa_1D4A: mac_ipa_1D4A {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x1D4A>;
-        };
-
-        mac_ipa_1DBF: mac_ipa_1DBF {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x1DBF>;
-        };
-
-        mac_ipa_02E3: mac_ipa_02E3 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02E3>;
-        };
-
-        mac_ipa_031A: mac_ipa_031A {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x031A>;
-        };
-
-        mac_ipa_030A: mac_ipa_030A {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x030A>;
-        };
-
-        mac_ipa_0325: mac_ipa_0325 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0325>;
-        };
-
-        mac_ipa_032C: mac_ipa_032C {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x032C>;
-        };
-
-        mac_ipa_0308: mac_ipa_0308 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0308>;
-        };
-
-        mac_ipa_0324: mac_ipa_0324 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0324>;
-        };
-
-        mac_ipa_0303: mac_ipa_0303 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0303>;
-        };
-
-        mac_ipa_0330: mac_ipa_0330 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0330>;
-        };
-
-        mac_ipa_032A: mac_ipa_032A {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x032A>;
-        };
-
-        mac_ipa_033A: mac_ipa_033A {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x033A>;
-        };
-
-        mac_ipa_031F: mac_ipa_031F {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x031F>;
-        };
-
-        mac_ipa_0320: mac_ipa_0320 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0320>;
-        };
-
-        mac_ipa_031D: mac_ipa_031D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x031D>;
-        };
-
-        mac_ipa_031E: mac_ipa_031E {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x031E>;
-        };
-
-        mac_ipa_033B: mac_ipa_033B {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x033B>;
-        };
-
-        mac_ipa_033C: mac_ipa_033C {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x033C>;
-        };
-
-        mac_ipa_033D: mac_ipa_033D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x033D>;
-        };
-
-        mac_ipa_0357: mac_ipa_0357 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0357>;
-        };
-
-        mac_ipa_0339: mac_ipa_0339 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0339>;
-        };
-
-        mac_ipa_0351: mac_ipa_0351 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0351>;
-        };
-
-        mac_ipa_031C: mac_ipa_031C {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x031C>;
-        };
-
-        mac_ipa_02B7: mac_ipa_02B7 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02B7>;
-        };
-
-        mac_ipa_02E0: mac_ipa_02E0 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02E0>;
-        };
-
-        mac_ipa_02E4: mac_ipa_02E4 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02E4>;
-        };
-
-        mac_ipa_02C0: mac_ipa_02C0 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02C0>;
-        };
-
-        mac_ipa_0318: mac_ipa_0318 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0318>;
-        };
-
-        mac_ipa_0319: mac_ipa_0319 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0319>;
-        };
-
-        mac_ipa_02B2: mac_ipa_02B2 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02B2>;
-        };
-
-        mac_ipa_026B: mac_ipa_026B {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x026B>;
-        };
-
-        mac_ipa_02DE: mac_ipa_02DE {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02DE>;
-        };
-
-        mac_ipa_0361: mac_ipa_0361 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0361>;
-        };
-
-        mac_ipa_035C: mac_ipa_035C {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x035C>;
-        };
-
-        mac_ipa_02C8: mac_ipa_02C8 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02C8>;
-        };
-
-        mac_ipa_02CC: mac_ipa_02CC {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02CC>;
-        };
-
-        mac_ipa_02D0: mac_ipa_02D0 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02D0>;
-        };
-
-        mac_ipa_02D1: mac_ipa_02D1 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02D1>;
-        };
-
-        mac_ipa_0306: mac_ipa_0306 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0306>;
-        };
-
-        mac_ipa_032E: mac_ipa_032E {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x032E>;
-        };
-
-        mac_ipa_203F: mac_ipa_203F {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x203F>;
-        };
-
-        mac_ipa_007C: mac_ipa_007C {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x007C>;
-        };
-
-        mac_ipa_2016: mac_ipa_2016 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x2016>;
-        };
-
-        mac_ipa_2197: mac_ipa_2197 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x2197>;
-        };
-
-        mac_ipa_2198: mac_ipa_2198 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x2198>;
-        };
-
-        mac_ipa_A71B: mac_ipa_A71B {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0xA71B>;
-        };
-
-        mac_ipa_A71C: mac_ipa_A71C {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0xA71C>;
-        };
-
-        mac_ipa_0301: mac_ipa_0301 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0301>;
-        };
-
-        mac_ipa_030B: mac_ipa_030B {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x030B>;
-        };
-
-        mac_ipa_0300: mac_ipa_0300 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0300>;
-        };
-
-        mac_ipa_030F: mac_ipa_030F {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x030F>;
-        };
-
-        mac_ipa_02E9: mac_ipa_02E9 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02E9>;
-        };
-
-        mac_ipa_02E8: mac_ipa_02E8 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02E8>;
-        };
-
-        mac_ipa_02E7: mac_ipa_02E7 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02E7>;
-        };
-
-        mac_ipa_02E6: mac_ipa_02E6 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02E6>;
-        };
-
-        mac_ipa_02E5: mac_ipa_02E5 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02E5>;
-        };
-
-        mac_ipa_0304: mac_ipa_0304 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0304>;
-        };
-
-        mac_ipa_0331: mac_ipa_0331 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0331>;
-        };
-
-        mac_ipa_0302: mac_ipa_0302 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0302>;
-        };
-
-        mac_ipa_032D: mac_ipa_032D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x032D>;
-        };
-
-        mac_ipa_030C: mac_ipa_030C {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x030C>;
-        };
-
-        mac_ipa_0327: mac_ipa_0327 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0327>;
-        };
-
-        mac_ipa_02BB: mac_ipa_02BB {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02BB>;
-        };
-
-        mac_ipa_0326: mac_ipa_0326 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0326>;
-        };
-
-        mac_ipa_0307: mac_ipa_0307 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0307>;
-        };
-
-        mac_ipa_0323: mac_ipa_0323 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0323>;
-        };
-
-        mac_ipa_0309: mac_ipa_0309 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0309>;
-        };
-
-        mac_ipa_031B: mac_ipa_031B {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x031B>;
-        };
-
-        mac_ipa_0328: mac_ipa_0328 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0328>;
-        };
-
-        mac_ipa_0335: mac_ipa_0335 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0335>;
-        };
-
-        mac_ipa_309B: mac_ipa_309B {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x309B>;
-        };
-
-        mac_ipa_309C: mac_ipa_309C {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x309C>;
-        };
-
-        mac_ipa_02BC: mac_ipa_02BC {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02BC>;
-        };
-
-        // --- 複合Unicode文字（複数のコードを連続入力） ---
-
-        mac_ipa_006E_0361_006D: m_n_m {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x006E 0x0361 0x006D>;
-        };
-
-        mac_ipa_0273_0361_006D: m_nr_m {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0273 0x0361 0x006D>;
-        };
-
-        mac_ipa_014B_0361_006D: m_ng_m {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x014B 0x0361 0x006D>;
-        };
-
-        mac_ipa_0074_0361_0070: m_t_p {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0074 0x0361 0x0070>;
-        };
-
-        mac_ipa_0064_0361_0062: m_d_b {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0064 0x0361 0x0062>;
-        };
-
-        mac_ipa_0288_0361_0070: m_tr_p {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0288 0x0361 0x0070>;
-        };
-
-        mac_ipa_0256_0361_0062: m_dr_b {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0256 0x0361 0x0062>;
-        };
-
-        mac_ipa_006B_0361_0070: m_k_p {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x006B 0x0361 0x0070>;
-        };
-
-        mac_ipa_0067_0361_0062: m_g_b {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0067 0x0361 0x0062>;
-        };
-
-        mac_ipa_0071_0361_02A1: m_q_a {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0071 0x0361 0x02A1>;
-        };
-
-        mac_ipa_0071_0361_0070: m_q_p {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0071 0x0361 0x0070>;
-        };
-
-        mac_ipa_0265_030A: m_h_ring {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0265 0x030A>;
-        };
-
-        mac_ipa_0265: mac_ipa_0265 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0265>;
-        };
-
-        mac_ipa_028D: mac_ipa_028D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x028D>;
-        };
-
-        mac_ipa_0267: mac_ipa_0267 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0267>;
-        };
-
-        mac_ipa_0260_030A_035C_0253_0325: m_complex1 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0260 0x030A 0x035C 0x0253 0x0325>;
-        };
-
-        mac_ipa_0260_0361_0253: m_complex2 {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0260 0x0361 0x0253>;
-        };
-
-        // --- Layer 7: Nasal (鼻音) ---
-
-        m_nas_bil_vl: m_nas_bil_vl {
-            #binding-cells = <0>;
-            unicode-code = <0x006D 0x0325>;
-        }; // m̥
-        m_nas_bil_vd: m_nas_bil_vd {
-            #binding-cells = <0>;
-            unicode-code = <0x006D>;
-        }; // m
-        m_nas_lab_vl: m_nas_lab_vl {
-            #binding-cells = <0>;
-            unicode-code = <0x0271 0x030A>;
-        }; // ɱ̊
-        m_nas_lab_vd: m_nas_lab_vd {
-            #binding-cells = <0>;
-            unicode-code = <0x0271>;
-        }; // ɱ
-        m_nas_den_vl: m_nas_den_vl {
-            #binding-cells = <0>;
-            unicode-code = <0x006E 0x032A 0x030A>;
-        }; // n̪̊
-        m_nas_den_vd: m_nas_den_vd {
-            #binding-cells = <0>;
-            unicode-code = <0x006E 0x032A>;
-        }; // n̪
-        m_nas_alv_vl: m_nas_alv_vl {
-            #binding-cells = <0>;
-            unicode-code = <0x006E 0x0325>;
-        }; // n̥
-        m_nas_alv_vd: m_nas_alv_vd {
-            #binding-cells = <0>;
-            unicode-code = <0x006E>;
-        }; // n
-        m_nas_palv_vl: m_nas_palv_vl {
-            #binding-cells = <0>;
-            unicode-code = <0x006E 0x0320 0x030A>;
-        }; // n̠̊
-        m_nas_palv_vd: m_nas_palv_vd {
-            #binding-cells = <0>;
-            unicode-code = <0x006E 0x0320>;
-        }; // n̠
-        m_nas_ret_vl: m_nas_ret_vl {
-            #binding-cells = <0>;
-            unicode-code = <0x0273 0x030A>;
-        }; // ɳ̊
-        m_nas_ret_vd: m_nas_ret_vd {
-            #binding-cells = <0>;
-            unicode-code = <0x0273>;
-        }; // ɳ
-        m_nas_pala_vl: m_nas_pala_vl {
-            #binding-cells = <0>;
-            unicode-code = <0x0272 0x030A>;
-        }; // ɲ̊
-        m_nas_pala_vd: m_nas_pala_vd {
-            #binding-cells = <0>;
-            unicode-code = <0x0272>;
-        }; // ɲ
-        m_nas_vel_vl: m_nas_vel_vl {
-            #binding-cells = <0>;
-            unicode-code = <0x014B 0x030A>;
-        }; // ŋ̊
-        m_nas_vel_vd: m_nas_vel_vd {
-            #binding-cells = <0>;
-            unicode-code = <0x014B>;
-        }; // ŋ
-        m_nas_uv_vl: m_nas_uv_vl {
-            #binding-cells = <0>;
-            unicode-code = <0x0274 0x0325>;
-        }; // ɴ̥
-        m_nas_uv_vd: m_nas_uv_vd {
-            #binding-cells = <0>;
-            unicode-code = <0x0274>;
-        }; // ɴ
-        // --- Layer 8: Plosive (破裂音) ---
-
-        m_p_bil_vl: m_p_bil_vl {
-            #binding-cells = <0>;
-            unicode-code = <0x0070>;
-        };
-
-        m_p_bil_vd: m_p_bil_vd {
-            #binding-cells = <0>;
-            unicode-code = <0x0062>;
-        };
-
-        m_p_lab_vl: m_p_lab_vl {
-            #binding-cells = <0>;
-            unicode-code = <0x0070 0x032A>;
-        }; // p̪
-        m_p_lab_vd: m_p_lab_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0062 0x032A>;
-        }; // b̪
-        m_p_den_vl: m_p_den_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0074 0x032A>;
-        }; // t̪
-        m_p_den_vd: m_p_den_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0064 0x032A>;
-        }; // d̪
-        m_p_alv_vl: m_p_alv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0074>;
-        };
-
-        m_p_alv_vd: m_p_alv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0064>;
-        };
-
-        m_p_ret_vl: m_p_ret_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0288>;
-        }; // ʈ
-        m_p_ret_vd: m_p_ret_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0256>;
-        }; // ɖ
-        m_p_pala_vl: m_p_pala_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0063>;
-        };
-
-        m_p_pala_vd: m_p_pala_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x025F>;
-        }; // ɟ
-        m_p_vel_vl: m_p_vel_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x006B>;
-        };
-
-        m_p_vel_vd: m_p_vel_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0067>;
-        };
-
-        m_p_uv_vl: m_p_uv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0071>;
-        };
-
-        m_p_uv_vd: m_p_uv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0262>;
-        }; // ɢ
-        m_p_epi_vl: m_p_epi_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02A1>;
-        }; // ʡ
-        m_p_glo_vl: m_p_glo_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0294>;
-        }; // ʔ
-        // --- Layer 9: Non-sibilant Fricative (非歯擦音摩擦音) ---
-
-        m_nsf_bil_vl: m_nsf_bil_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0278>;
-        }; // ɸ
-        m_nsf_bil_vd: m_nsf_bil_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x03B2>;
-        }; // β
-        m_nsf_lab_vl: m_nsf_lab_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0066>;
-        };
-
-        m_nsf_lab_vd: m_nsf_lab_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0076>;
-        };
-
-        m_nsf_den_vl: m_nsf_den_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x03B8>;
-        }; // θ
-        m_nsf_den_vd: m_nsf_den_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x00F0>;
-        }; // ð
-        m_nsf_alv_vl: m_nsf_alv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x03B8 0x0320>;
-        }; // θ̠
-        m_nsf_alv_vd: m_nsf_alv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x00F0 0x0320>;
-        }; // ð̠
-        m_nsf_palv_vl: m_nsf_palv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0279 0x0320 0x031D 0x030A>;
-        }; // ɹ̠̊˔
-        m_nsf_palv_vd: m_nsf_palv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0279 0x0320 0x031D>;
-        }; // ɹ̠˔
-        m_nsf_ret_vl: m_nsf_ret_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x027B 0x030A 0x031D>;
-        }; // ɻ̊˔
-        m_nsf_ret_vd: m_nsf_ret_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x027B 0x031D>;
-        }; // ɻ̝
-        m_nsf_pala_vl: m_nsf_pala_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x00E7>;
-        }; // ç
-        m_nsf_pala_vd: m_nsf_pala_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x029D>;
-        }; // ʝ
-        m_nsf_vel_vl: m_nsf_vel_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0078>;
-        };
-
-        m_nsf_vel_vd: m_nsf_vel_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0263>;
-        }; // ɣ
-        m_nsf_uv_vl: m_nsf_uv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x03C7>;
-        }; // χ
-        m_nsf_uv_vd: m_nsf_uv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0281>;
-        }; // ʁ
-        m_nsf_epi_vl: m_nsf_epi_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0127>;
-        }; // ħ
-        m_nsf_epi_vd: m_nsf_epi_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0295>;
-        }; // ʕ
-        m_nsf_glo_vl: m_nsf_glo_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0068>;
-        };
-
-        m_nsf_glo_vd: m_nsf_glo_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0266>;
-        }; // ɦ
-        // --- Layer 10: Non-sibilant Affricate (非歯擦音破擦音) ---
-
-        m_nsa_bil_vl: m_nsa_bil_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0070 0x0361 0x0278>;
-        }; // p͡ɸ
-        m_nsa_bil_vd: m_nsa_bil_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0062 0x0361 0x03B2>;
-        }; // b͡β
-        m_nsa_lab_vl: m_nsa_lab_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0070 0x032A 0x0361 0x0066>;
-        }; // p̪͡f
-        m_nsa_lab_vd: m_nsa_lab_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0062 0x032A 0x0361 0x0076>;
-        }; // b̪͡v
-        m_nsa_den_vl: m_nsa_den_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0074 0x032A 0x0361 0x03B8>;
-        }; // t̪͡θ
-        m_nsa_den_vd: m_nsa_den_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0064 0x032A 0x0361 0x00F0>;
-        }; // d̪͡ð
-        m_nsa_alv_vl: m_nsa_alv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0074 0x0361 0x0279 0x031D 0x030A>;
-        }; // t͡ɹ̝̊
-        m_nsa_alv_vd: m_nsa_alv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0064 0x0361 0x0279 0x031D>;
-        }; // d͡ɹ̝
-        m_nsa_palv_vl: m_nsa_palv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0074 0x0320 0x0361 0x0279 0x0320 0x031D 0x030A>;
-        }; // t̠͡ɹ̠̊˔
-        m_nsa_palv_vd: m_nsa_palv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0064 0x0320 0x0361 0x0279 0x0320 0x031D>;
-        }; // d̠͡ɹ̠˔
-        m_nsa_ret_vl: m_nsa_ret_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0288 0x0361 0x027B 0x030A 0x031D>;
-        }; // ʈ͡ɻ̊˔
-        m_nsa_ret_vd: m_nsa_ret_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0256 0x0361 0x027B 0x031D>;
-        }; // ɖ͡ɻ̝
-        m_nsa_pala_vl: m_nsa_pala_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0063 0x0361 0x00E7>;
-        }; // c͡ç
-        m_nsa_pala_vd: m_nsa_pala_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x025F 0x0361 0x029D>;
-        }; // ɟ͡ʝ
-        m_nsa_vel_vl: m_nsa_vel_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x006B 0x0361 0x0078>;
-        }; // k͡x
-        m_nsa_vel_vd: m_nsa_vel_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0067 0x0361 0x0263>;
-        }; // g͡ɣ
-        m_nsa_uv_vl: m_nsa_uv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0071 0x0361 0x03C7>;
-        }; // q͡χ
-        m_nsa_uv_vd: m_nsa_uv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0262 0x0361 0x0281>;
-        }; // ɢ͡ʁ
-        m_nsa_epi_vl: m_nsa_epi_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02A1 0x0325 0x0361 0x029C>;
-        }; // ʡ̥͡ʜ
-        m_nsa_epi_vd: m_nsa_epi_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02A1 0x0361 0x02A2>;
-        }; // ʡ͡ʢ
-        m_nsa_glo_vl: m_nsa_glo_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0294 0x0361 0x0068>;
-        }; // ʔ͡h
-        // --- Layer 11: Sibilant Fricative ---
-
-        m_sf_den_vl: m_sf_den_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0073 0x032A>;
-        }; // s̪
-        m_sf_den_vd: m_sf_den_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x007A 0x032A>;
-        }; // z̪
-        m_sf_alv_vl: m_sf_alv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0073>;
-        }; // s
-        m_sf_alv_vd: m_sf_alv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x007A>;
-        }; // z
-        m_sf_palv_vl: m_sf_palv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0283>;
-        }; // ʃ
-        m_sf_palv_vd: m_sf_palv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0292>;
-        }; // ʒ
-        m_sf_ret_vl: m_sf_ret_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0282>;
-        }; // ʂ
-        m_sf_ret_vd: m_sf_ret_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0290>;
-        }; // ʐ
-        m_sf_pala_vl: m_sf_pala_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0255>;
-        }; // ɕ
-        m_sf_pala_vd: m_sf_pala_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0291>;
-        }; // ʑ
-        // --- Layer 12: Sibilant Affricate ---
-
-        m_sa_den_vl: m_sa_den_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0074 0x032A 0x0361 0x0073 0x032A>;
-        };
-
-        m_sa_den_vd: m_sa_den_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0064 0x032A 0x0361 0x007A 0x032A>;
-        };
-
-        m_sa_alv_vl: m_sa_alv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0074 0x0361 0x0073>;
-        };
-
-        m_sa_alv_vd: m_sa_alv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0064 0x0361 0x007A>;
-        };
-
-        m_sa_palv_vl: m_sa_palv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0074 0x0361 0x0283>;
-        };
-
-        m_sa_palv_vd: m_sa_palv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0064 0x0361 0x0292>;
-        };
-
-        m_sa_pala_vl: m_sa_pala_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0074 0x0361 0x0255>;
-        }; // t͡ɕ
-        m_sa_pala_vd: m_sa_pala_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0064 0x0361 0x0291>;
-        }; // d͡ʑ
-        m_sa_ret_vl: m_sa_ret_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0288 0x0361 0x0282>;
-        };
-
-        m_sa_ret_vd: m_sa_ret_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0256 0x0361 0x0290>;
-        };
-
-        // Layer 13: Lateral Fricative
-
-        m_lf_den_vl: m_lf_den_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x026C>;
-        }; // ɬ̪
-        m_lf_den_vd: m_lf_den_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x026E>;
-        }; // ɮ̪
-        m_lf_alv_vl: m_lf_alv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x026C>;
-        }; // ɬ
-        m_lf_alv_vd: m_lf_alv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x026E>;
-        }; // ɮ
-        m_lf_ret_vl: m_lf_ret_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x026D 0x031D 0x030A>;
-        }; // ɭ̝̊
-        m_lf_ret_vd: m_lf_ret_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x026D 0x031D>;
-        }; // ɭ̝
-        m_lf_pala_vl: m_lf_pala_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x028E 0x031D 0x030A>;
-        }; // ʎ̝̊
-        m_lf_pala_vd: m_lf_pala_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x028E 0x031D>;
-        };
-
-        m_lf_vel_vl: m_lf_vel_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x029F 0x031D 0x030A>;
-        }; // ʟ̝̊
-        m_lf_vel_vd: m_lf_vel_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x029F 0x031D>;
-        };
-
-        // --- Layer 14: Lateral Affricate (側面破擦音) ---
-
-        m_la_alv_vl: m_la_alv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0074 0x0361 0x026C>;
-        };
-
-        m_la_alv_vd: m_la_alv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0064 0x0361 0x026E>;
-        };
-
-        m_la_ret_vl: m_la_ret_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0288 0x0361 0x026D 0x031D 0x030A>;
-        };
-
-        m_la_ret_vd: m_la_ret_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0256 0x0361 0x026D 0x031D>;
-        };
-
-        m_la_pala_vl: m_la_pala_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0063 0x0361 0x028E 0x031D 0x030A>;
-        }; // c͡ʎ̝̊
-        m_la_pala_vd: m_la_pala_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x025F 0x0361 0x028E 0x031D>;
-        }; // ɟ͡ʎ̝
-        m_la_vel_vl: m_la_vel_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x006B 0x0361 0x029F 0x031D 0x030A>;
-        }; // k͡ʟ̝̊
-        m_la_vel_vd: m_la_vel_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0067 0x0361 0x029F 0x031D>;
-        }; // g͡ʟ̝
-        // --- Layer 15: Approximant (接近音) ---
-
-        m_ap_bil_vd: m_ap_bil_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x03B2 0x031E>;
-        };
-
-        m_ap_lab_vd: m_ap_lab_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x028B>;
-        };
-
-        m_ap_den_vd: m_ap_den_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x00F0 0x031E>;
-        };
-
-        m_ap_alv_vd: m_ap_alv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0279>;
-        };
-
-        m_ap_palv_vd: m_ap_palv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0279 0x0320>;
-        };
-
-        m_ap_ret_vd: m_ap_ret_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x027B>;
-        };
-
-        m_ap_pala_vd: m_ap_pala_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x006A>;
-        };
-
-        m_ap_vel_vd: m_ap_vel_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0270>;
-        };
-
-        // --- Layer 16: Lateral Approximant (側面接近音) ---
-
-        m_lap_den_vd: m_lap_den_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x026C 0x032A>;
-        }; // l̪
-        m_lap_alv_vl: m_lap_alv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x006C 0x0325>;
-        }; // l̥
-        m_lap_alv_vd: m_lap_alv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x006C>;
-        };
-
-        m_lap_ret_vl: m_lap_ret_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x026D 0x030A>;
-        }; // ɭ̊
-        m_lap_ret_vd: m_lap_ret_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x026D>;
-        }; // ɭ
-        m_lap_pala_vl: m_lap_pala_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x028E 0x0325>;
-        }; // ʎ̥
-        m_lap_pala_vd: m_lap_pala_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x028E>;
-        }; // ʎ
-        m_lap_vel_vl: m_lap_vel_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x029F 0x0325>;
-        }; // ʟ̥
-        m_lap_vel_vd: m_lap_vel_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x029F>;
-        }; // ʟ
-        m_lap_uv_vd: m_lap_uv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x029F 0x0320>;
-        }; // ʟ̠
-        // --- Layer 17: Tap/Flap (弾き音) ---
-
-        m_tap_bil_vd: m_tap_lab_vd_pre {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x2C71 0x031F>;
-        }; // ⱱ̟
-        m_tap_lab_vd: m_tap_lab_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x2C71>;
-        }; // ⱱ
-        m_tap_alv_vl: m_tap_alv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x027E 0x0325>;
-        }; // ɾ̥
-        m_tap_alv_vd: m_tap_alv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x027E>;
-        }; // ɾ
-        m_tap_ret_vl: m_tap_ret_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x027D 0x030A>;
-        }; // ɽ̊
-        m_tap_ret_vd: m_tap_ret_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x027D>;
-        }; // ɽ
-        m_tap_uv_vd: m_tap_uv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0262 0x0326>;
-        }; // ɢ̆
-        m_tap_epi_vd: m_tap_epi_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02A1 0x0326>;
-        }; // ʡ̆
-        // --- Layer 18: Lateral Tap/Flap (側面弾き音) ---
-
-        m_ltap_alv_vl: m_ltap_alv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x027A 0x0325>;
-        }; // ɺ̥
-        m_ltap_alv_vd: m_ltap_alv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x027A>;
-        }; // ɺ
-        m_ltap_ret_vl: m_ltap_ret_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x026D 0x0326 0x0325>;
-        }; // ɭ̆ ̥
-        m_ltap_ret_vd: m_ltap_ret_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x026D 0x0326>;
-        }; // ɭ̆
-        m_ltap_pala_vd: m_ltap_pala_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x028E 0x0326>;
-        }; // ʎ̆
-        m_ltap_vel_vd: m_ltap_vel_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x029F 0x0326>;
-        }; // ʟ̆
-        // --- Layer 19: Trill (ふるえ音) ---
-
-        m_tr_bil_vl: m_tr_bil_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0299 0x0325>;
-        }; // ʙ̥
-        m_tr_bil_vd: m_tr_bil_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0299>;
-        }; // ʙ
-        m_tr_alv_vl: m_tr_alv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0072 0x0325>;
-        }; // r̥
-        m_tr_alv_vd: m_tr_alv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0072>;
-        };
-
-        m_tr_palv_vd: m_tr_palv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0072 0x0320>;
-        }; // r̠
-        m_tr_ret_vl: m_tr_ret_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0072 0x0325 0x0361 0x027D 0x030A>;
-        }; // r̥͡ɽ̊
-        m_tr_ret_vd: m_tr_ret_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0072 0x0361 0x027D>;
-        }; // r͡ɽ
-        m_tr_uv_vl: m_tr_uv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0280 0x0325>;
-        }; // ʀ̥
-        m_tr_uv_vd: m_tr_uv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0280>;
-        }; // ʀ
-        m_tr_epi_vl: m_tr_epi_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x029C 0x030C>;
-        }; // ʜ̌
-        m_tr_epi_vd: m_tr_epi_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x02A2>;
-        }; // ʢ
-        // --- Layer 20: Implosive/Clicks (吸着音 / 入破音) ---
-
-        m_im_bil_vl: m_im_bil_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0298>;
-        }; // ʘ
-        m_im_bil_vd: m_im_bil_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0253>;
-        }; // ɓ
-        m_im_den_vl: m_im_den_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x01C0>;
-        }; // ǀ
-        m_im_alv_vl: m_im_alv_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x01C3>;
-        }; // ǃ
-        m_im_alv_vd: m_im_alv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0257>;
-        }; // ɗ
-        m_im_ret_vl: m_im_ret_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x203C>;
-        }; // ‼︎
-        m_im_ret_vd: m_im_ret_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x1D91>;
-        }; // ᶑ
-        m_im_pala_vl: m_im_pala_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x01C2>;
-        }; // ǂ
-        m_im_pala_vd: m_im_pala_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0284>;
-        }; // ʄ
-        m_im_vel_vl: m_im_vel_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x01C1>;
-        }; // ǁ
-        m_im_vel_vd: m_im_vel_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0260>;
-        }; // ɠ
-        m_im_uv_vd: m_im_uv_vd {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x029B>;
-        }; // ʛ
-        // --- Layer 21: Lateral Click (側面吸着音) ---
-
-        m_lim_den_vl: m_lim_den_vl {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x01C1 0x0320>;
-        }; // ǁ̠
-        // --- Layer 8: Close (狭母音) ---
-
-        v_cl_fr_un: v_cl_fr_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0069>;
-        }; // i
-        v_cl_fr_ro: v_cl_fr_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0079>;
-        }; // y
-        v_cl_ce_un: v_cl_ce_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0268>;
-        }; // ɨ
-        v_cl_ce_ro: v_cl_ce_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0289>;
-        }; // ʉ
-        v_cl_ba_un: v_cl_ba_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x026F>;
-        }; // ɯ
-        v_cl_ba_ro: v_cl_ba_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0075>;
-        }; // u
-        // --- Layer 11: Near-close (広めの狭母音) ---
-
-        v_nc_fr_un: v_nc_fr_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x026A>;
-        }; // ɪ
-        v_nc_fr_ro: v_nc_fr_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x028F>;
-        }; // ʏ
-        v_nc_ce_un: v_nc_ce_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0268 0x031E>;
-        }; // ɨ̞
-        v_nc_ce_ro: v_nc_ce_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0289 0x031E>;
-        }; // ʉ̞
-        v_nc_ba_un: v_nc_ba_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x026F 0x031E>;
-        }; // ɯ̞
-        v_nc_ba_ro: v_nc_ba_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x028A>;
-        }; // ʊ
-        // --- Layer 9: Close-mid (半狭母音) ---
-
-        v_cm_fr_un: v_cm_fr_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0065>;
-        }; // e
-        v_cm_fr_ro: v_cm_fr_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x00F8>;
-        }; // ø
-        v_cm_ce_un: v_cm_ce_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0258>;
-        }; // ɘ
-        v_cm_ce_ro: v_cm_ce_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0275>;
-        }; // ɵ
-        v_cm_ba_un: v_cm_ba_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0264>;
-        }; // ɤ
-        v_cm_ba_ro: v_cm_ba_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x006F>;
-        }; // o
-        // --- Layer 15: Mid (中央母音) ---
-
-        v_mi_fr_un: v_mi_fr_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0065 0x031E>;
-        }; // e̞
-        v_mi_fr_ro: v_mi_fr_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x00F8 0x031E>;
-        }; // ø̞
-        v_mi_ce_un: v_mi_ce_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0259>;
-        }; // ə
-        v_mi_ce_ro: v_mi_ce_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0275 0x031E>;
-        }; // ɵ̞
-        v_mi_ba_un: v_mi_ba_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0264 0x031E>;
-        }; // ɤ̞
-        v_mi_ba_ro: v_mi_ba_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x006F 0x031E>;
-        }; // o̞
-        // --- Layer 17: Open-mid (半広母音) ---
-
-        v_om_fr_un: v_om_fr_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x025B>;
-        }; // ɛ
-        v_om_fr_ro: v_om_fr_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0153>;
-        }; // œ
-        v_om_ce_un: v_om_ce_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x025C>;
-        }; // ɜ
-        v_om_ce_ro: v_om_ce_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x029E>;
-        }; // ɞ
-        v_om_ba_un: v_om_ba_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x028C>;
-        }; // ʌ
-        v_om_ba_ro: v_om_ba_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0254>;
-        }; // ɔ
-        // --- Layer 19: Near-open (狭めの広母音) ---
-
-        v_no_fr_un: v_no_fr_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x00E6>;
-        }; // æ
-        v_no_fr_ro: v_no_fr_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0153 0x031E>;
-        }; // œ̞
-        v_no_ce_un: v_no_ce_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0250>;
-        }; // ɐ
-        v_no_ce_ro: v_no_ce_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x029E 0x031E>;
-        }; // ɞ̞
-        v_no_ba_un: v_no_ba_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0251 0x031D>;
-        }; // ɑ̝
-        v_no_ba_ro: v_no_ba_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0252 0x031D>;
-        }; // ɒ̝
-        // --- Layer 20: Open (広母音) ---
-
-        v_op_fr_un: v_op_fr_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0061>;
-        }; // a
-        v_op_fr_ro: v_op_fr_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0276>;
-        }; // ɶ
-        v_op_ce_un: v_op_ce_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x00E4>;
-        }; // ä
-        v_op_ce_ro: v_op_ce_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0252 0x0308>;
-        }; // ɒ̈
-        v_op_ba_un: v_op_ba_un {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0251>;
-        }; // ɑ
-        v_op_ba_ro: v_op_ba_ro {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x0252>;
-        }; //  0
     };
 
     behaviors {
