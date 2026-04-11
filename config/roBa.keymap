@@ -811,14 +811,8 @@
 
     macros {
         // ==========================================
-        // IPA ダイアクリティック / 記号用マクロ群
+        // IPA diacritic / symbol macros
         // ==========================================
-
-        mac_ipa_030D: mac_ipa_030D {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode-code = <0x030D>;
-        };
 
         mac_ipa_0329: mac_ipa_0329 {
             compatible = "zmk,behavior-unicode";
