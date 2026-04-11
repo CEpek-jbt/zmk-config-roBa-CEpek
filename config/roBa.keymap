@@ -491,6 +491,12 @@
             unicode-code = <0x030C>;
         };
 
+        mac_ipa_030D: mac_ipa_030D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x030D>;
+        }; // combining vertical line above
+
         mac_ipa_0327: mac_ipa_0327 {
             compatible = "zmk,behavior-unicode";
             #binding-cells = <0>;
@@ -3172,20 +3178,7 @@
         
         // Additional specific characters
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-            };
+    };
 
     combos {
         compatible = "zmk,combos";
