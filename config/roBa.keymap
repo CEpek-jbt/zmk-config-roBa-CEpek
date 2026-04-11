@@ -46,6 +46,12 @@
             #binding-cells = <0>;
             unicode-mode = <2>;  // macOS mode
         };
+
+        mac_ipa_030D: mac_ipa_030D {
+            compatible = "zmk,behavior-unicode";
+            #binding-cells = <0>;
+            unicode-code = <0x030D>;
+        };
     };
 
     combos {
