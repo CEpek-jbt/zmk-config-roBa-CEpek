@@ -1788,7 +1788,7 @@
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&macro_press &kp LALT>, <&kp N0 &kp N0 &kp N6 &kp N6>, <&macro_release &kp LALT>;;
+            bindings = <&macro_press &kp LALT>, <&kp N0 &kp N0 &kp N6 &kp N6>, <&macro_release &kp LALT>;
         };
 
         m_nsf_lab_vd: m_nsf_lab_vd {
@@ -1796,7 +1796,7 @@
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&macro_press &kp LALT>, <&kp N0 &kp N0 &kp N7 &kp N6>, <&macro_release &kp LALT>;;
+            bindings = <&macro_press &kp LALT>, <&kp N0 &kp N0 &kp N7 &kp N6>, <&macro_release &kp LALT>;
         };
 
         m_nsf_den_vl: m_nsf_den_vl {
