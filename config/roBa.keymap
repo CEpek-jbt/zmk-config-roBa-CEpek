@@ -80,7 +80,7 @@
             bindings = <&ipa_sw 14 0>;
         };
 
-        combo_lapproximant {
+        combo_lapproximant {, 
             timeout-ms = <150>;
             key-positions = <37 41>;
             bindings = <&ipa_sw 16 0>;
@@ -779,6 +779,248 @@
             key-positions = <30 14 26>;
             bindings = <&mac_ipa_0260_0361_0253>;
         };
+
+        // ==========================================
+        // IPA m_ and v_ macro combos
+        // ==========================================
+
+        // m_ macros: place of articulation + manner of articulation
+        combo_m_nas_bil_vl { timeout-ms = <150>; key-positions = <9 29>; bindings = <&m_nas_bil_vl>; };
+        combo_m_nas_bil_vd { timeout-ms = <150>; key-positions = <26 29>; bindings = <&m_nas_bil_vd>; };
+        combo_m_nas_lab_vl { timeout-ms = <150>; key-positions = <13 29>; bindings = <&m_nas_lab_vl>; };
+        combo_m_nas_lab_vd { timeout-ms = <150>; key-positions = <25 29>; bindings = <&m_nas_lab_vd>; };
+        combo_m_nas_den_vl { timeout-ms = <150>; key-positions = <4 29>; bindings = <&m_nas_den_vl>; };
+        combo_m_nas_den_vd { timeout-ms = <150>; key-positions = <12 29>; bindings = <&m_nas_den_vd>; };
+        combo_m_nas_alv_vl { timeout-ms = <150>; key-positions = <11 29>; bindings = <&m_nas_alv_vl>; };
+        combo_m_nas_alv_vd { timeout-ms = <150>; key-positions = <22 29>; bindings = <&m_nas_alv_vd>; };
+        combo_m_nas_palv_vl { timeout-ms = <150>; key-positions = <23 29>; bindings = <&m_nas_palv_vl>; };
+        combo_m_nas_palv_vd { timeout-ms = <150>; key-positions = <18 29>; bindings = <&m_nas_palv_vd>; };
+        combo_m_nas_ret_vl { timeout-ms = <150>; key-positions = <20 29>; bindings = <&m_nas_ret_vl>; };
+        combo_m_nas_ret_vd { timeout-ms = <150>; key-positions = <27 29>; bindings = <&m_nas_ret_vd>; };
+        combo_m_nas_pala_vl { timeout-ms = <150>; key-positions = <24 29>; bindings = <&m_nas_pala_vl>; };
+        combo_m_nas_pala_vd { timeout-ms = <150>; key-positions = <5 29>; bindings = <&m_nas_pala_vd>; };
+        combo_m_nas_vel_vl { timeout-ms = <150>; key-positions = <19 29>; bindings = <&m_nas_vel_vl>; };
+        combo_m_nas_vel_vd { timeout-ms = <150>; key-positions = <14 29>; bindings = <&m_nas_vel_vd>; };
+        combo_m_nas_uv_vl { timeout-ms = <150>; key-positions = <0 29>; bindings = <&m_nas_uv_vl>; };
+        combo_m_nas_uv_vd { timeout-ms = <150>; key-positions = <3 29>; bindings = <&m_nas_uv_vd>; };
+
+        combo_m_p_bil_vl { timeout-ms = <150>; key-positions = <9 34>; bindings = <&m_p_bil_vl>; };
+        combo_m_p_bil_vd { timeout-ms = <150>; key-positions = <26 34>; bindings = <&m_p_bil_vd>; };
+        combo_m_p_lab_vl { timeout-ms = <150>; key-positions = <13 34>; bindings = <&m_p_lab_vl>; };
+        combo_m_p_lab_vd { timeout-ms = <150>; key-positions = <25 34>; bindings = <&m_p_lab_vd>; };
+        combo_m_p_den_vl { timeout-ms = <150>; key-positions = <4 34>; bindings = <&m_p_den_vl>; };
+        combo_m_p_den_vd { timeout-ms = <150>; key-positions = <12 34>; bindings = <&m_p_den_vd>; };
+        combo_m_p_alv_vl { timeout-ms = <150>; key-positions = <11 34>; bindings = <&m_p_alv_vl>; };
+        combo_m_p_alv_vd { timeout-ms = <150>; key-positions = <22 34>; bindings = <&m_p_alv_vd>; };
+        combo_m_p_ret_vl { timeout-ms = <150>; key-positions = <20 34>; bindings = <&m_p_ret_vl>; };
+        combo_m_p_ret_vd { timeout-ms = <150>; key-positions = <27 34>; bindings = <&m_p_ret_vd>; };
+        combo_m_p_pala_vl { timeout-ms = <150>; key-positions = <24 34>; bindings = <&m_p_pala_vl>; };
+        combo_m_p_pala_vd { timeout-ms = <150>; key-positions = <5 34>; bindings = <&m_p_pala_vd>; };
+        combo_m_p_vel_vl { timeout-ms = <150>; key-positions = <19 34>; bindings = <&m_p_vel_vl>; };
+        combo_m_p_vel_vd { timeout-ms = <150>; key-positions = <14 34>; bindings = <&m_p_vel_vd>; };
+        combo_m_p_uv_vl { timeout-ms = <150>; key-positions = <0 34>; bindings = <&m_p_uv_vl>; };
+        combo_m_p_uv_vd { timeout-ms = <150>; key-positions = <3 34>; bindings = <&m_p_uv_vd>; };
+        combo_m_p_epi_vl { timeout-ms = <150>; key-positions = <31 34>; bindings = <&m_p_epi_vl>; };
+        combo_m_p_glo_vl { timeout-ms = <150>; key-positions = <33 34>; bindings = <&m_p_glo_vl>; };
+
+        combo_m_nsf_bil_vl { timeout-ms = <150>; key-positions = <9 36>; bindings = <&m_nsf_bil_vl>; };
+        combo_m_nsf_bil_vd { timeout-ms = <150>; key-positions = <26 36>; bindings = <&m_nsf_bil_vd>; };
+        combo_m_nsf_lab_vl { timeout-ms = <150>; key-positions = <13 36>; bindings = <&m_nsf_lab_vl>; };
+        combo_m_nsf_lab_vd { timeout-ms = <150>; key-positions = <25 36>; bindings = <&m_nsf_lab_vd>; };
+        combo_m_nsf_den_vl { timeout-ms = <150>; key-positions = <4 36>; bindings = <&m_nsf_den_vl>; };
+        combo_m_nsf_den_vd { timeout-ms = <150>; key-positions = <12 36>; bindings = <&m_nsf_den_vd>; };
+        combo_m_nsf_alv_vl { timeout-ms = <150>; key-positions = <11 36>; bindings = <&m_nsf_alv_vl>; };
+        combo_m_nsf_alv_vd { timeout-ms = <150>; key-positions = <22 36>; bindings = <&m_nsf_alv_vd>; };
+        combo_m_nsf_palv_vl { timeout-ms = <150>; key-positions = <23 36>; bindings = <&m_nsf_palv_vl>; };
+        combo_m_nsf_palv_vd { timeout-ms = <150>; key-positions = <18 36>; bindings = <&m_nsf_palv_vd>; };
+        combo_m_nsf_ret_vl { timeout-ms = <150>; key-positions = <20 36>; bindings = <&m_nsf_ret_vl>; };
+        combo_m_nsf_ret_vd { timeout-ms = <150>; key-positions = <27 36>; bindings = <&m_nsf_ret_vd>; };
+        combo_m_nsf_pala_vl { timeout-ms = <150>; key-positions = <24 36>; bindings = <&m_nsf_pala_vl>; };
+        combo_m_nsf_pala_vd { timeout-ms = <150>; key-positions = <5 36>; bindings = <&m_nsf_pala_vd>; };
+        combo_m_nsf_vel_vl { timeout-ms = <150>; key-positions = <19 36>; bindings = <&m_nsf_vel_vl>; };
+        combo_m_nsf_vel_vd { timeout-ms = <150>; key-positions = <14 36>; bindings = <&m_nsf_vel_vd>; };
+        combo_m_nsf_uv_vl { timeout-ms = <150>; key-positions = <0 36>; bindings = <&m_nsf_uv_vl>; };
+        combo_m_nsf_uv_vd { timeout-ms = <150>; key-positions = <3 36>; bindings = <&m_nsf_uv_vd>; };
+        combo_m_nsf_epi_vl { timeout-ms = <150>; key-positions = <31 36>; bindings = <&m_nsf_epi_vl>; };
+        combo_m_nsf_epi_vd { timeout-ms = <150>; key-positions = <32 36>; bindings = <&m_nsf_epi_vd>; };
+        combo_m_nsf_glo_vl { timeout-ms = <150>; key-positions = <33 36>; bindings = <&m_nsf_glo_vl>; };
+        combo_m_nsf_glo_vd { timeout-ms = <150>; key-positions = <17 36>; bindings = <&m_nsf_glo_vd>; };
+
+        combo_m_nsa_bil_vl { timeout-ms = <150>; key-positions = <9 34 36>; bindings = <&m_nsa_bil_vl>; };
+        combo_m_nsa_bil_vd { timeout-ms = <150>; key-positions = <26 34 36>; bindings = <&m_nsa_bil_vd>; };
+        combo_m_nsa_lab_vl { timeout-ms = <150>; key-positions = <13 34 36>; bindings = <&m_nsa_lab_vl>; };
+        combo_m_nsa_lab_vd { timeout-ms = <150>; key-positions = <25 34 36>; bindings = <&m_nsa_lab_vd>; };
+        combo_m_nsa_den_vl { timeout-ms = <150>; key-positions = <4 34 36>; bindings = <&m_nsa_den_vl>; };
+        combo_m_nsa_den_vd { timeout-ms = <150>; key-positions = <12 34 36>; bindings = <&m_nsa_den_vd>; };
+        combo_m_nsa_alv_vl { timeout-ms = <150>; key-positions = <11 34 36>; bindings = <&m_nsa_alv_vl>; };
+        combo_m_nsa_alv_vd { timeout-ms = <150>; key-positions = <22 34 36>; bindings = <&m_nsa_alv_vd>; };
+        combo_m_nsa_palv_vl { timeout-ms = <150>; key-positions = <23 34 36>; bindings = <&m_nsa_palv_vl>; };
+        combo_m_nsa_palv_vd { timeout-ms = <150>; key-positions = <18 34 36>; bindings = <&m_nsa_palv_vd>; };
+        combo_m_nsa_ret_vl { timeout-ms = <150>; key-positions = <20 34 36>; bindings = <&m_nsa_ret_vl>; };
+        combo_m_nsa_ret_vd { timeout-ms = <150>; key-positions = <27 34 36>; bindings = <&m_nsa_ret_vd>; };
+        combo_m_nsa_pala_vl { timeout-ms = <150>; key-positions = <24 34 36>; bindings = <&m_nsa_pala_vl>; };
+        combo_m_nsa_pala_vd { timeout-ms = <150>; key-positions = <5 34 36>; bindings = <&m_nsa_pala_vd>; };
+        combo_m_nsa_vel_vl { timeout-ms = <150>; key-positions = <19 34 36>; bindings = <&m_nsa_vel_vl>; };
+        combo_m_nsa_vel_vd { timeout-ms = <150>; key-positions = <14 34 36>; bindings = <&m_nsa_vel_vd>; };
+        combo_m_nsa_uv_vl { timeout-ms = <150>; key-positions = <0 34 36>; bindings = <&m_nsa_uv_vl>; };
+        combo_m_nsa_uv_vd { timeout-ms = <150>; key-positions = <3 34 36>; bindings = <&m_nsa_uv_vd>; };
+        combo_m_nsa_epi_vl { timeout-ms = <150>; key-positions = <31 34 36>; bindings = <&m_nsa_epi_vl>; };
+        combo_m_nsa_epi_vd { timeout-ms = <150>; key-positions = <32 34 36>; bindings = <&m_nsa_epi_vd>; };
+        combo_m_nsa_glo_vl { timeout-ms = <150>; key-positions = <33 34 36>; bindings = <&m_nsa_glo_vl>; };
+
+        combo_m_sf_den_vl { timeout-ms = <150>; key-positions = <4 35>; bindings = <&m_sf_den_vl>; };
+        combo_m_sf_den_vd { timeout-ms = <150>; key-positions = <12 35>; bindings = <&m_sf_den_vd>; };
+        combo_m_sf_alv_vl { timeout-ms = <150>; key-positions = <11 35>; bindings = <&m_sf_alv_vl>; };
+        combo_m_sf_alv_vd { timeout-ms = <150>; key-positions = <22 35>; bindings = <&m_sf_alv_vd>; };
+        combo_m_sf_palv_vl { timeout-ms = <150>; key-positions = <23 35>; bindings = <&m_sf_palv_vl>; };
+        combo_m_sf_palv_vd { timeout-ms = <150>; key-positions = <18 35>; bindings = <&m_sf_palv_vd>; };
+        combo_m_sf_ret_vl { timeout-ms = <150>; key-positions = <20 35>; bindings = <&m_sf_ret_vl>; };
+        combo_m_sf_ret_vd { timeout-ms = <150>; key-positions = <27 35>; bindings = <&m_sf_ret_vd>; };
+        combo_m_sf_pala_vl { timeout-ms = <150>; key-positions = <24 35>; bindings = <&m_sf_pala_vl>; };
+        combo_m_sf_pala_vd { timeout-ms = <150>; key-positions = <5 35>; bindings = <&m_sf_pala_vd>; };
+
+        combo_m_sa_den_vl { timeout-ms = <150>; key-positions = <4 34 35>; bindings = <&m_sa_den_vl>; };
+        combo_m_sa_den_vd { timeout-ms = <150>; key-positions = <12 34 35>; bindings = <&m_sa_den_vd>; };
+        combo_m_sa_alv_vl { timeout-ms = <150>; key-positions = <11 34 35>; bindings = <&m_sa_alv_vl>; };
+        combo_m_sa_alv_vd { timeout-ms = <150>; key-positions = <22 34 35>; bindings = <&m_sa_alv_vd>; };
+        combo_m_sa_palv_vl { timeout-ms = <150>; key-positions = <23 34 35>; bindings = <&m_sa_palv_vl>; };
+        combo_m_sa_palv_vd { timeout-ms = <150>; key-positions = <18 34 35>; bindings = <&m_sa_palv_vd>; };
+        combo_m_sa_pala_vl { timeout-ms = <150>; key-positions = <24 34 35>; bindings = <&m_sa_pala_vl>; };
+        combo_m_sa_pala_vd { timeout-ms = <150>; key-positions = <5 34 35>; bindings = <&m_sa_pala_vd>; };
+        combo_m_sa_ret_vl { timeout-ms = <150>; key-positions = <20 34 35>; bindings = <&m_sa_ret_vl>; };
+        combo_m_sa_ret_vd { timeout-ms = <150>; key-positions = <27 34 35>; bindings = <&m_sa_ret_vd>; };
+
+        combo_m_lf_den_vl { timeout-ms = <150>; key-positions = <4 35 41>; bindings = <&m_lf_den_vl>; };
+        combo_m_lf_den_vd { timeout-ms = <150>; key-positions = <12 35 41>; bindings = <&m_lf_den_vd>; };
+        combo_m_lf_alv_vl { timeout-ms = <150>; key-positions = <11 35 41>; bindings = <&m_lf_alv_vl>; };
+        combo_m_lf_alv_vd { timeout-ms = <150>; key-positions = <22 35 41>; bindings = <&m_lf_alv_vd>; };
+        combo_m_lf_ret_vl { timeout-ms = <150>; key-positions = <20 35 41>; bindings = <&m_lf_ret_vl>; };
+        combo_m_lf_ret_vd { timeout-ms = <150>; key-positions = <27 35 41>; bindings = <&m_lf_ret_vd>; };
+        combo_m_lf_pala_vl { timeout-ms = <150>; key-positions = <24 35 41>; bindings = <&m_lf_pala_vl>; };
+        combo_m_lf_pala_vd { timeout-ms = <150>; key-positions = <5 35 41>; bindings = <&m_lf_pala_vd>; };
+        combo_m_lf_vel_vl { timeout-ms = <150>; key-positions = <19 35 41>; bindings = <&m_lf_vel_vl>; };
+        combo_m_lf_vel_vd { timeout-ms = <150>; key-positions = <14 35 41>; bindings = <&m_lf_vel_vd>; };
+
+        combo_m_la_alv_vl { timeout-ms = <150>; key-positions = <11 34 35 41>; bindings = <&m_la_alv_vl>; };
+        combo_m_la_alv_vd { timeout-ms = <150>; key-positions = <22 34 35 41>; bindings = <&m_la_alv_vd>; };
+        combo_m_la_ret_vl { timeout-ms = <150>; key-positions = <20 34 35 41>; bindings = <&m_la_ret_vl>; };
+        combo_m_la_ret_vd { timeout-ms = <150>; key-positions = <27 34 35 41>; bindings = <&m_la_ret_vd>; };
+        combo_m_la_pala_vl { timeout-ms = <150>; key-positions = <24 34 35 41>; bindings = <&m_la_pala_vl>; };
+        combo_m_la_pala_vd { timeout-ms = <150>; key-positions = <5 34 35 41>; bindings = <&m_la_pala_vd>; };
+        combo_m_la_vel_vl { timeout-ms = <150>; key-positions = <19 34 35 41>; bindings = <&m_la_vel_vl>; };
+        combo_m_la_vel_vd { timeout-ms = <150>; key-positions = <14 34 35 41>; bindings = <&m_la_vel_vd>; };
+
+        combo_m_ap_bil_vd { timeout-ms = <150>; key-positions = <26 37>; bindings = <&m_ap_bil_vd>; };
+        combo_m_ap_lab_vd { timeout-ms = <150>; key-positions = <25 37>; bindings = <&m_ap_lab_vd>; };
+        combo_m_ap_den_vd { timeout-ms = <150>; key-positions = <12 37>; bindings = <&m_ap_den_vd>; };
+        combo_m_ap_alv_vd { timeout-ms = <150>; key-positions = <22 37>; bindings = <&m_ap_alv_vd>; };
+        combo_m_ap_palv_vd { timeout-ms = <150>; key-positions = <18 37>; bindings = <&m_ap_palv_vd>; };
+        combo_m_ap_ret_vd { timeout-ms = <150>; key-positions = <27 37>; bindings = <&m_ap_ret_vd>; };
+        combo_m_ap_pala_vd { timeout-ms = <150>; key-positions = <5 37>; bindings = <&m_ap_pala_vd>; };
+        combo_m_ap_vel_vd { timeout-ms = <150>; key-positions = <14 37>; bindings = <&m_ap_vel_vd>; };
+
+        combo_m_lap_den_vd { timeout-ms = <150>; key-positions = <12 37 41>; bindings = <&m_lap_den_vd>; };
+        combo_m_lap_alv_vl { timeout-ms = <150>; key-positions = <11 37 41>; bindings = <&m_lap_alv_vl>; };
+        combo_m_lap_alv_vd { timeout-ms = <150>; key-positions = <22 37 41>; bindings = <&m_lap_alv_vd>; };
+        combo_m_lap_ret_vl { timeout-ms = <150>; key-positions = <20 37 41>; bindings = <&m_lap_ret_vl>; };
+        combo_m_lap_ret_vd { timeout-ms = <150>; key-positions = <27 37 41>; bindings = <&m_lap_ret_vd>; };
+        combo_m_lap_pala_vl { timeout-ms = <150>; key-positions = <24 37 41>; bindings = <&m_lap_pala_vl>; };
+        combo_m_lap_pala_vd { timeout-ms = <150>; key-positions = <5 37 41>; bindings = <&m_lap_pala_vd>; };
+        combo_m_lap_vel_vl { timeout-ms = <150>; key-positions = <19 37 41>; bindings = <&m_lap_vel_vl>; };
+        combo_m_lap_vel_vd { timeout-ms = <150>; key-positions = <14 37 41>; bindings = <&m_lap_vel_vd>; };
+        combo_m_lap_uv_vd { timeout-ms = <150>; key-positions = <3 37 41>; bindings = <&m_lap_uv_vd>; };
+
+        combo_m_tap_lab_vd { timeout-ms = <150>; key-positions = <25 38>; bindings = <&m_tap_lab_vd>; };
+        combo_m_tap_alv_vl { timeout-ms = <150>; key-positions = <11 38>; bindings = <&m_tap_alv_vl>; };
+        combo_m_tap_alv_vd { timeout-ms = <150>; key-positions = <22 38>; bindings = <&m_tap_alv_vd>; };
+        combo_m_tap_ret_vl { timeout-ms = <150>; key-positions = <20 38>; bindings = <&m_tap_ret_vl>; };
+        combo_m_tap_ret_vd { timeout-ms = <150>; key-positions = <27 38>; bindings = <&m_tap_ret_vd>; };
+        combo_m_tap_uv_vd { timeout-ms = <150>; key-positions = <3 38>; bindings = <&m_tap_uv_vd>; };
+        combo_m_tap_epi_vd { timeout-ms = <150>; key-positions = <31 38>; bindings = <&m_tap_epi_vd>; };
+
+        combo_m_ltap_alv_vl { timeout-ms = <150>; key-positions = <11 38 41>; bindings = <&m_ltap_alv_vl>; };
+        combo_m_ltap_alv_vd { timeout-ms = <150>; key-positions = <22 38 41>; bindings = <&m_ltap_alv_vd>; };
+        combo_m_ltap_ret_vl { timeout-ms = <150>; key-positions = <20 38 41>; bindings = <&m_ltap_ret_vl>; };
+        combo_m_ltap_ret_vd { timeout-ms = <150>; key-positions = <27 38 41>; bindings = <&m_ltap_ret_vd>; };
+        combo_m_ltap_pala_vd { timeout-ms = <150>; key-positions = <5 38 41>; bindings = <&m_ltap_pala_vd>; };
+        combo_m_ltap_vel_vd { timeout-ms = <150>; key-positions = <14 38 41>; bindings = <&m_ltap_vel_vd>; };
+
+        combo_m_tr_bil_vl { timeout-ms = <150>; key-positions = <9 39>; bindings = <&m_tr_bil_vl>; };
+        combo_m_tr_bil_vd { timeout-ms = <150>; key-positions = <26 39>; bindings = <&m_tr_bil_vd>; };
+        combo_m_tr_alv_vl { timeout-ms = <150>; key-positions = <11 39>; bindings = <&m_tr_alv_vl>; };
+        combo_m_tr_alv_vd { timeout-ms = <150>; key-positions = <22 39>; bindings = <&m_tr_alv_vd>; };
+        combo_m_tr_palv_vd { timeout-ms = <150>; key-positions = <18 39>; bindings = <&m_tr_palv_vd>; };
+        combo_m_tr_ret_vl { timeout-ms = <150>; key-positions = <20 39>; bindings = <&m_tr_ret_vl>; };
+        combo_m_tr_ret_vd { timeout-ms = <150>; key-positions = <27 39>; bindings = <&m_tr_ret_vd>; };
+        combo_m_tr_uv_vl { timeout-ms = <150>; key-positions = <0 39>; bindings = <&m_tr_uv_vl>; };
+        combo_m_tr_uv_vd { timeout-ms = <150>; key-positions = <3 39>; bindings = <&m_tr_uv_vd>; };
+        combo_m_tr_epi_vl { timeout-ms = <150>; key-positions = <31 39>; bindings = <&m_tr_epi_vl>; };
+        combo_m_tr_epi_vd { timeout-ms = <150>; key-positions = <32 39>; bindings = <&m_tr_epi_vd>; };
+
+        combo_m_im_bil_vl { timeout-ms = <150>; key-positions = <9 30>; bindings = <&m_im_bil_vl>; };
+        combo_m_im_bil_vd { timeout-ms = <150>; key-positions = <26 30>; bindings = <&m_im_bil_vd>; };
+        combo_m_im_den_vl { timeout-ms = <150>; key-positions = <4 30>; bindings = <&m_im_den_vl>; };
+        combo_m_im_alv_vl { timeout-ms = <150>; key-positions = <11 30>; bindings = <&m_im_alv_vl>; };
+        combo_m_im_alv_vd { timeout-ms = <150>; key-positions = <22 30>; bindings = <&m_im_alv_vd>; };
+        combo_m_im_ret_vl { timeout-ms = <150>; key-positions = <20 30>; bindings = <&m_im_ret_vl>; };
+        combo_m_im_ret_vd { timeout-ms = <150>; key-positions = <27 30>; bindings = <&m_im_ret_vd>; };
+        combo_m_im_pala_vl { timeout-ms = <150>; key-positions = <24 30>; bindings = <&m_im_pala_vl>; };
+        combo_m_im_pala_vd { timeout-ms = <150>; key-positions = <5 30>; bindings = <&m_im_pala_vd>; };
+        combo_m_im_vel_vl { timeout-ms = <150>; key-positions = <19 30>; bindings = <&m_im_vel_vl>; };
+        combo_m_im_vel_vd { timeout-ms = <150>; key-positions = <14 30>; bindings = <&m_im_vel_vd>; };
+        combo_m_im_uv_vd { timeout-ms = <150>; key-positions = <3 30>; bindings = <&m_im_uv_vd>; };
+
+        combo_m_lim_den_vl { timeout-ms = <150>; key-positions = <4 30 41>; bindings = <&m_lim_den_vl>; };
+
+        // v_ macros: openness + frontness/roundedness
+        combo_v_cl_fr_un { timeout-ms = <150>; key-positions = <34 7>; bindings = <&v_cl_fr_un>; };
+        combo_v_cl_fr_ro { timeout-ms = <150>; key-positions = <34 8>; bindings = <&v_cl_fr_ro>; };
+        combo_v_cl_ce_un { timeout-ms = <150>; key-positions = <34 10>; bindings = <&v_cl_ce_un>; };
+        combo_v_cl_ce_ro { timeout-ms = <150>; key-positions = <34 1>; bindings = <&v_cl_ce_ro>; };
+        combo_v_cl_ba_un { timeout-ms = <150>; key-positions = <34 2>; bindings = <&v_cl_ba_un>; };
+        combo_v_cl_ba_ro { timeout-ms = <150>; key-positions = <34 6>; bindings = <&v_cl_ba_ro>; };
+
+        combo_v_nc_fr_un { timeout-ms = <150>; key-positions = <35 7>; bindings = <&v_nc_fr_un>; };
+        combo_v_nc_fr_ro { timeout-ms = <150>; key-positions = <35 8>; bindings = <&v_nc_fr_ro>; };
+        combo_v_nc_ce_un { timeout-ms = <150>; key-positions = <35 10>; bindings = <&v_nc_ce_un>; };
+        combo_v_nc_ce_ro { timeout-ms = <150>; key-positions = <35 1>; bindings = <&v_nc_ce_ro>; };
+        combo_v_nc_ba_un { timeout-ms = <150>; key-positions = <35 2>; bindings = <&v_nc_ba_un>; };
+        combo_v_nc_ba_ro { timeout-ms = <150>; key-positions = <35 6>; bindings = <&v_nc_ba_ro>; };
+
+        combo_v_cm_fr_un { timeout-ms = <150>; key-positions = <36 7>; bindings = <&v_cm_fr_un>; };
+        combo_v_cm_fr_ro { timeout-ms = <150>; key-positions = <36 8>; bindings = <&v_cm_fr_ro>; };
+        combo_v_cm_ce_un { timeout-ms = <150>; key-positions = <36 10>; bindings = <&v_cm_ce_un>; };
+        combo_v_cm_ce_ro { timeout-ms = <150>; key-positions = <36 1>; bindings = <&v_cm_ce_ro>; };
+        combo_v_cm_ba_un { timeout-ms = <150>; key-positions = <36 2>; bindings = <&v_cm_ba_un>; };
+        combo_v_cm_ba_ro { timeout-ms = <150>; key-positions = <36 6>; bindings = <&v_cm_ba_ro>; };
+
+        combo_v_mi_fr_un { timeout-ms = <150>; key-positions = <37 7>; bindings = <&v_mi_fr_un>; };
+        combo_v_mi_fr_ro { timeout-ms = <150>; key-positions = <37 8>; bindings = <&v_mi_fr_ro>; };
+        combo_v_mi_ce_un { timeout-ms = <150>; key-positions = <37 10>; bindings = <&v_mi_ce_un>; };
+        combo_v_mi_ce_ro { timeout-ms = <150>; key-positions = <37 1>; bindings = <&v_mi_ce_ro>; };
+        combo_v_mi_ba_un { timeout-ms = <150>; key-positions = <37 2>; bindings = <&v_mi_ba_un>; };
+        combo_v_mi_ba_ro { timeout-ms = <150>; key-positions = <37 6>; bindings = <&v_mi_ba_ro>; };
+
+        combo_v_om_fr_un { timeout-ms = <150>; key-positions = <38 7>; bindings = <&v_om_fr_un>; };
+        combo_v_om_fr_ro { timeout-ms = <150>; key-positions = <38 8>; bindings = <&v_om_fr_ro>; };
+        combo_v_om_ce_un { timeout-ms = <150>; key-positions = <38 10>; bindings = <&v_om_ce_un>; };
+        combo_v_om_ce_ro { timeout-ms = <150>; key-positions = <38 1>; bindings = <&v_om_ce_ro>; };
+        combo_v_om_ba_un { timeout-ms = <150>; key-positions = <38 2>; bindings = <&v_om_ba_un>; };
+        combo_v_om_ba_ro { timeout-ms = <150>; key-positions = <38 6>; bindings = <&v_om_ba_ro>; };
+
+        combo_v_no_fr_un { timeout-ms = <150>; key-positions = <39 7>; bindings = <&v_no_fr_un>; };
+        combo_v_no_fr_ro { timeout-ms = <150>; key-positions = <39 8>; bindings = <&v_no_fr_ro>; };
+        combo_v_no_ce_un { timeout-ms = <150>; key-positions = <39 10>; bindings = <&v_no_ce_un>; };
+        combo_v_no_ce_ro { timeout-ms = <150>; key-positions = <39 1>; bindings = <&v_no_ce_ro>; };
+        combo_v_no_ba_un { timeout-ms = <150>; key-positions = <39 2>; bindings = <&v_no_ba_un>; };
+        combo_v_no_ba_ro { timeout-ms = <150>; key-positions = <39 6>; bindings = <&v_no_ba_ro>; };
+
+        combo_v_op_fr_un { timeout-ms = <150>; key-positions = <28 7>; bindings = <&v_op_fr_un>; };
+        combo_v_op_fr_ro { timeout-ms = <150>; key-positions = <28 8>; bindings = <&v_op_fr_ro>; };
+        combo_v_op_ce_un { timeout-ms = <150>; key-positions = <28 10>; bindings = <&v_op_ce_un>; };
+        combo_v_op_ce_ro { timeout-ms = <150>; key-positions = <28 1>; bindings = <&v_op_ce_ro>; };
+        combo_v_op_ba_un { timeout-ms = <150>; key-positions = <28 2>; bindings = <&v_op_ba_un>; };
+        combo_v_op_ba_ro { timeout-ms = <150>; key-positions = <28 6>; bindings = <&v_op_ba_ro>; };
     };
 
     macros {
@@ -3113,7 +3355,7 @@
             bindings = <
 &kp Q             &kp W               &kp E             &kp R             &kp T                                                      &kp Y                  &kp U         &lt 5 I    &kp O    &kp P
 &kp A             &kp S               &kp D             &kp F             &kp G             &mkp MB1                &lt_NUM 6 EQUAL  &kp H                  &kp J         &kp K      &kp L    &lt 5 ASTRK
-&kp Z             &kp X               &kp C             &kp V             &kp B             &mt LEFT_SHIFT TAB      &ipa_sw 20 BSLH  &ipa_sw 7 N            &ipa_sw 20 M  &mt LEFT_GUI COMMA  &kp DOT  &kp SEMICOLON
+&kp Z             &kp X               &kp C             &kp V             &kp B             &mt LEFT_SHIFT MINUS      &ipa_sw 20 BSLH  &ipa_sw 7 N            &ipa_sw 20 M  &mt LEFT_GUI COMMA  &kp DOT  &kp SEMICOLON
 &ipa_sw 8 K_COPY  &ipa_sw 11 K_PASTE  &ipa_sw 9 K_UNDO  &ipa_sw 15 LANG2  &ipa_sw 17 SPACE  &ipa_sw 19 LANG1        &mt BACKSPACE BACKSPACE    &mt RIGHT_SHIFT ENTER                                    &kp DEL
             >;
 
